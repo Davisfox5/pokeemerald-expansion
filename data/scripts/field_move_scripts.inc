@@ -295,6 +295,39 @@ EventScript_UseWaterfall::
 	callnative FollowerNPC_WarpSetEnd
 	goto EventScript_EndWaterfall
 
+EventScript_UseWhirlpool::
+	lockall
+	checkfieldmove FIELD_MOVE_WHIRLPOOL
+	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantWhirlpool
+	bufferpartymonnick STR_VAR_1, VAR_RESULT
+	setfieldeffectargument 0, VAR_RESULT
+	msgbox Text_WantToWhirlpool, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_EndWhirlpool
+	msgbox Text_MonUsedWhirlpool, MSGBOX_DEFAULT
+	dofieldeffect FLDEFF_USE_WHIRLPOOL
+	goto EventScript_EndWhirlpool
+
+EventScript_CannotUseWhirlpool::
+	lockall
+
+EventScript_CantWhirlpool::
+	msgbox Text_CantWhirlpool, MSGBOX_DEFAULT
+
+EventScript_EndWhirlpool::
+	releaseall
+	end
+
+Text_CantWhirlpool:
+	.string "A fierce whirlpool is blocking the\n"
+	.string "way.$"
+
+Text_WantToWhirlpool:
+	.string "A fierce whirlpool is blocking the\n"
+	.string "way.\pShould {STR_VAR_1} use WHIRLPOOL?$"
+
+Text_MonUsedWhirlpool:
+	.string "{STR_VAR_1} used WHIRLPOOL!$"
+
 EventScript_CannotUseWaterfall::
 	lockall
 

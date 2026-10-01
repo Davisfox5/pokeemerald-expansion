@@ -242,6 +242,7 @@ enum {
     MB_DOWN_RIGHT_STAIR_WARP,
     MB_DOWN_LEFT_STAIR_WARP,
     MB_ROCK_CLIMB,
+    MB_WHIRLPOOL,   // Apocrypha: Johto's Whirl Islands and the Route 41 crossing
     NUM_METATILE_BEHAVIORS
 };
 
