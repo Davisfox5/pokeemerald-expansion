@@ -1,0 +1,71 @@
+name: apocrypha build
+
+# Builds pokeemerald.gba from this branch on every push and PR so map and
+# script changes from any collaborator (Davis, Claude, Codex, Grok) are
+# compile-checked before review. The ROM is not uploaded; only its hash is
+# printed. Same toolchain packages as upstream CI.
+
+on:
+  push:
+    branches: [apocrypha]
+  pull_request:
+    branches: [apocrypha]
+  workflow_dispatch:
+
+env:
+  GAME_REVISION: 0
+  GAME_LANGUAGE: ENGLISH
+  COMPARE: 0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
+
+      - name: Cache build tools
+        uses: actions/cache@v4
+        with:
+          path: |
+            tools/bin2c/bin2c
+            tools/gbafix/gbafix
+            tools/gbagfx/gbagfx
+            tools/jsonproc/jsonproc
+            tools/mapjson/mapjson
+            tools/mid2agb/mid2agb
+            tools/preproc/preproc
+            tools/ramscrgen/ramscrgen
+            tools/rsfont/rsfont
+            tools/scaninc/scaninc
+            tools/aif2pcm/aif2pcm
+            tools/compresSmol/compresSmol
+            tools/trainerproc/trainerproc
+          key: tools-${{ runner.os }}-${{ hashFiles('tools/**/*.c', 'tools/**/*.cpp', 'tools/**/*.h', 'tools/**/Makefile') }}
+
+      - name: Validate map and layout JSON
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          bad = 0
+          for f in glob.glob('data/maps/*/map.json') + ['data/layouts/layouts.json', 'data/maps/map_groups.json', 'src/data/wild_encounters.json']:
+              try:
+                  json.load(open(f))
+              except Exception as e:
+                  print(f'{f}: {e}'); bad += 1
+          sys.exit(1 if bad else 0)
+          PY
+
+      - name: Build
+        run: |
+          make -j1 generated
+          make -j$(nproc)
+
+      - name: Report
+        run: |
+          ls -l pokeemerald.gba
+          sha256sum pokeemerald.gba
