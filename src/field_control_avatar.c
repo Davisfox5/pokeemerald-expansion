@@ -895,6 +895,9 @@ void RestartWildEncounterImmunitySteps(void)
 
 static bool32 ShouldDisableRandomEncounters(void)
 {
+    if (CalculatePlayerPartyCount() == 0) // Apocrypha: no wild battles before the first Pokemon
+        return TRUE;
+
     if (FlagGet(WE_FLAG_NO_ENCOUNTER))
         return TRUE;
 

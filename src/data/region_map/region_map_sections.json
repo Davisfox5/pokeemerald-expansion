@@ -782,7 +782,6 @@
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
       "name": "ROUTE 4",
-      "name_clone": true,
       "x": 8,
       "y": 3,
       "width": 1,
@@ -791,7 +790,6 @@
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
       "name": "ROUTE 10",
-      "name_clone": true,
       "x": 18,
       "y": 3,
       "width": 1,
@@ -1032,7 +1030,6 @@
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
       "name": "UNDERGROUND PATH",
-      "name_clone": true,
       "x": 12,
       "y": 6,
       "width": 1,
@@ -1393,7 +1390,6 @@
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
       "name": "TRAINER TOWER",
-      "name_clone": true,
       "x": 5,
       "y": 6,
       "width": 1,
@@ -1676,6 +1672,70 @@
       "name": "CHERRYGROVE CITY",
       "x": 3,
       "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SANDGEM_TOWN",
+      "name": "SANDGEM TOWN",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_FLOCCESY_TOWN",
+      "name": "FLOCCESY TOWN",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_29",
+      "name": "ROUTE 29",
+      "x": 4,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_30",
+      "name": "ROUTE 30",
+      "x": 3,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_NEW_BARK_TOWN",
+      "name": "NEW BARK TOWN",
+      "x": 5,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_31",
+      "name": "ROUTE 31",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_VIOLET_CITY",
+      "name": "VIOLET CITY",
+      "x": 2,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_DARK_CAVE",
+      "name": "DARK CAVE",
+      "x": 4,
+      "y": 4,
       "width": 1,
       "height": 1
     }

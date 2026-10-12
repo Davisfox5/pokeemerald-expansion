@@ -496,6 +496,19 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 #include "data/object_events/object_event_graphics_info_followers.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_RegionalHoenn, OBJ_EVENT_PAL_TAG_REGIONAL_HOENN},
+    {gObjectEventPal_RegionalKanto, OBJ_EVENT_PAL_TAG_REGIONAL_KANTO},
+    {gObjectEventPal_RegionalJohto, OBJ_EVENT_PAL_TAG_REGIONAL_JOHTO},
+    {gObjectEventPal_RegionalSinnoh, OBJ_EVENT_PAL_TAG_REGIONAL_SINNOH},
+    {gObjectEventPal_RegionalUnova, OBJ_EVENT_PAL_TAG_REGIONAL_UNOVA},
+    {gObjectEventPal_JohtoGold, OBJ_EVENT_PAL_TAG_JOHTO_GOLD},
+    {gObjectEventPal_JohtoSilver, OBJ_EVENT_PAL_TAG_JOHTO_SILVER},
+    {gObjectEventPal_JohtoKestra, OBJ_EVENT_PAL_TAG_JOHTO_KESTRA},
+    {gObjectEventPal_JohtoBoy, OBJ_EVENT_PAL_TAG_JOHTO_BOY},
+    {gObjectEventPal_JohtoGirl, OBJ_EVENT_PAL_TAG_JOHTO_GIRL},
+    {gObjectEventPal_JohtoMan, OBJ_EVENT_PAL_TAG_JOHTO_MAN},
+    {gObjectEventPal_JohtoWoman, OBJ_EVENT_PAL_TAG_JOHTO_WOMAN},
+    {gObjectEventPal_JohtoClerk, OBJ_EVENT_PAL_TAG_JOHTO_CLERK},
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
     {gObjectEventPal_Npc3,                  OBJ_EVENT_PAL_TAG_NPC_3},
@@ -3206,6 +3219,15 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId)
 
     if (graphicsId & OBJ_EVENT_MON)
         return SpeciesToGraphicsInfo(graphicsId & OBJ_EVENT_MON_SPECIES_MASK, graphicsId & OBJ_EVENT_MON_SHINY, graphicsId & OBJ_EVENT_MON_FEMALE);
+
+    if (graphicsId >= OBJ_EVENT_GFX_JOHTO_FIRST && graphicsId < OBJ_EVENT_GFX_JOHTO_END)
+        return gObjectEventGraphicsInfoPointers[graphicsId];
+
+    if (graphicsId >= OBJ_EVENT_GFX_CAST_FIRST && graphicsId < OBJ_EVENT_GFX_CAST_END)
+        return gObjectEventGraphicsInfoPointers[graphicsId];
+
+    if (graphicsId >= OBJ_EVENT_GFX_REGIONAL_FIRST && graphicsId < OBJ_EVENT_GFX_REGIONAL_END)
+        return gObjectEventGraphicsInfoPointers[graphicsId];
 
     if (graphicsId >= NUM_OBJ_EVENT_GFX)
         graphicsId = OBJ_EVENT_GFX_NINJA_BOY;
@@ -12113,3 +12135,18 @@ bool8 MovementType_OverworldWildEncounter_Despawn_Step11(struct ObjectEvent *obj
 }
 
 #undef sDespawnTimer
+
+// BEGIN JOHTO NPC IMPORT
+_Static_assert(OBJ_EVENT_GFX_VAR_F < OBJ_EVENT_GFX_JOHTO_FIRST, "Johto graphics overlap dynamic IDs");
+_Static_assert(OBJ_EVENT_GFX_JOHTO_END < OBJ_EVENT_MON, "Johto graphics overlap follower IDs");
+// END JOHTO NPC IMPORT
+
+// BEGIN JOHTO CAST IMPORT
+_Static_assert(OBJ_EVENT_GFX_VAR_F < OBJ_EVENT_GFX_CAST_FIRST, "Johto graphics overlap dynamic IDs");
+_Static_assert(OBJ_EVENT_GFX_CAST_END < OBJ_EVENT_MON, "Johto graphics overlap follower IDs");
+// END JOHTO CAST IMPORT
+
+// BEGIN REGIONAL COMPARISON IMPORT
+_Static_assert(OBJ_EVENT_GFX_VAR_F < OBJ_EVENT_GFX_REGIONAL_FIRST, "Johto graphics overlap dynamic IDs");
+_Static_assert(OBJ_EVENT_GFX_REGIONAL_END < OBJ_EVENT_MON, "Johto graphics overlap follower IDs");
+// END REGIONAL COMPARISON IMPORT

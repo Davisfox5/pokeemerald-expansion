@@ -1604,7 +1604,11 @@ static const union AffineAnimCmd *const sAffineAnimTable_KyogreGroudon[] = {
 };
 
 // For animations with alternating steps
+static const union AnimCmd *const sAnimTable_JohtoHuman[20];
+static const union AnimCmd *const sAnimTable_JohtoCast[20];
 static const struct StepAnimTable sStepAnimTables[] = {
+    {.anims = sAnimTable_JohtoHuman, .animPos = {1, 3, 0, 2}},
+    {.anims = sAnimTable_JohtoCast, .animPos = {1, 3, 0, 2}},
     {
         .anims = sAnimTable_QuintyPlump,
         .animPos = {1, 3, 0, 2},
@@ -1651,3 +1655,93 @@ static const union AnimCmd *const sAnimTable_RedGreenVSSeeker[] = {
 static const union AnimCmd *const sAnimTable_RedGreenVSSeekerBike[] = {
     sAnim_VSSeekerBike,
 };
+
+// BEGIN JOHTO NPC IMPORT
+static const union AnimCmd sJohto_FACE_SOUTH[] = { ANIMCMD_FRAME(9, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_SOUTH[] = { ANIMCMD_FRAME(10, 8), ANIMCMD_FRAME(9, 8), ANIMCMD_FRAME(11, 8), ANIMCMD_FRAME(9, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FAST_SOUTH[] = { ANIMCMD_FRAME(10, 4), ANIMCMD_FRAME(9, 4), ANIMCMD_FRAME(11, 4), ANIMCMD_FRAME(9, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTER_SOUTH[] = { ANIMCMD_FRAME(10, 2), ANIMCMD_FRAME(9, 2), ANIMCMD_FRAME(11, 2), ANIMCMD_FRAME(9, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTEST_SOUTH[] = { ANIMCMD_FRAME(10, 1), ANIMCMD_FRAME(9, 1), ANIMCMD_FRAME(11, 1), ANIMCMD_FRAME(9, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_FACE_NORTH[] = { ANIMCMD_FRAME(0, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_NORTH[] = { ANIMCMD_FRAME(7, 8), ANIMCMD_FRAME(0, 8), ANIMCMD_FRAME(8, 8), ANIMCMD_FRAME(0, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FAST_NORTH[] = { ANIMCMD_FRAME(7, 4), ANIMCMD_FRAME(0, 4), ANIMCMD_FRAME(8, 4), ANIMCMD_FRAME(0, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTER_NORTH[] = { ANIMCMD_FRAME(7, 2), ANIMCMD_FRAME(0, 2), ANIMCMD_FRAME(8, 2), ANIMCMD_FRAME(0, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTEST_NORTH[] = { ANIMCMD_FRAME(7, 1), ANIMCMD_FRAME(0, 1), ANIMCMD_FRAME(8, 1), ANIMCMD_FRAME(0, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_FACE_WEST[] = { ANIMCMD_FRAME(1, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_WEST[] = { ANIMCMD_FRAME(2, 8), ANIMCMD_FRAME(1, 8), ANIMCMD_FRAME(3, 8), ANIMCMD_FRAME(1, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FAST_WEST[] = { ANIMCMD_FRAME(2, 4), ANIMCMD_FRAME(1, 4), ANIMCMD_FRAME(3, 4), ANIMCMD_FRAME(1, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTER_WEST[] = { ANIMCMD_FRAME(2, 2), ANIMCMD_FRAME(1, 2), ANIMCMD_FRAME(3, 2), ANIMCMD_FRAME(1, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTEST_WEST[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_FRAME(1, 1), ANIMCMD_FRAME(3, 1), ANIMCMD_FRAME(1, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_FACE_EAST[] = { ANIMCMD_FRAME(4, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_EAST[] = { ANIMCMD_FRAME(5, 8), ANIMCMD_FRAME(4, 8), ANIMCMD_FRAME(6, 8), ANIMCMD_FRAME(4, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FAST_EAST[] = { ANIMCMD_FRAME(5, 4), ANIMCMD_FRAME(4, 4), ANIMCMD_FRAME(6, 4), ANIMCMD_FRAME(4, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTER_EAST[] = { ANIMCMD_FRAME(5, 2), ANIMCMD_FRAME(4, 2), ANIMCMD_FRAME(6, 2), ANIMCMD_FRAME(4, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohto_GO_FASTEST_EAST[] = { ANIMCMD_FRAME(5, 1), ANIMCMD_FRAME(4, 1), ANIMCMD_FRAME(6, 1), ANIMCMD_FRAME(4, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd *const sAnimTable_JohtoHuman[] = {
+    [ANIM_STD_FACE_SOUTH] = sJohto_FACE_SOUTH,
+    [ANIM_STD_GO_SOUTH] = sJohto_GO_SOUTH,
+    [ANIM_STD_GO_FAST_SOUTH] = sJohto_GO_FAST_SOUTH,
+    [ANIM_STD_GO_FASTER_SOUTH] = sJohto_GO_FASTER_SOUTH,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sJohto_GO_FASTEST_SOUTH,
+    [ANIM_STD_FACE_NORTH] = sJohto_FACE_NORTH,
+    [ANIM_STD_GO_NORTH] = sJohto_GO_NORTH,
+    [ANIM_STD_GO_FAST_NORTH] = sJohto_GO_FAST_NORTH,
+    [ANIM_STD_GO_FASTER_NORTH] = sJohto_GO_FASTER_NORTH,
+    [ANIM_STD_GO_FASTEST_NORTH] = sJohto_GO_FASTEST_NORTH,
+    [ANIM_STD_FACE_WEST] = sJohto_FACE_WEST,
+    [ANIM_STD_GO_WEST] = sJohto_GO_WEST,
+    [ANIM_STD_GO_FAST_WEST] = sJohto_GO_FAST_WEST,
+    [ANIM_STD_GO_FASTER_WEST] = sJohto_GO_FASTER_WEST,
+    [ANIM_STD_GO_FASTEST_WEST] = sJohto_GO_FASTEST_WEST,
+    [ANIM_STD_FACE_EAST] = sJohto_FACE_EAST,
+    [ANIM_STD_GO_EAST] = sJohto_GO_EAST,
+    [ANIM_STD_GO_FAST_EAST] = sJohto_GO_FAST_EAST,
+    [ANIM_STD_GO_FASTER_EAST] = sJohto_GO_FASTER_EAST,
+    [ANIM_STD_GO_FASTEST_EAST] = sJohto_GO_FASTEST_EAST,
+};
+// END JOHTO NPC IMPORT
+
+// BEGIN JOHTO CAST IMPORT
+static const union AnimCmd sJohtoCast_FACE_SOUTH[] = { ANIMCMD_FRAME(9, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_SOUTH[] = { ANIMCMD_FRAME(10, 8), ANIMCMD_FRAME(9, 8), ANIMCMD_FRAME(11, 8), ANIMCMD_FRAME(9, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FAST_SOUTH[] = { ANIMCMD_FRAME(10, 4), ANIMCMD_FRAME(9, 4), ANIMCMD_FRAME(11, 4), ANIMCMD_FRAME(9, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTER_SOUTH[] = { ANIMCMD_FRAME(10, 2), ANIMCMD_FRAME(9, 2), ANIMCMD_FRAME(11, 2), ANIMCMD_FRAME(9, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTEST_SOUTH[] = { ANIMCMD_FRAME(10, 1), ANIMCMD_FRAME(9, 1), ANIMCMD_FRAME(11, 1), ANIMCMD_FRAME(9, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_FACE_NORTH[] = { ANIMCMD_FRAME(0, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_NORTH[] = { ANIMCMD_FRAME(7, 8), ANIMCMD_FRAME(0, 8), ANIMCMD_FRAME(8, 8), ANIMCMD_FRAME(0, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FAST_NORTH[] = { ANIMCMD_FRAME(7, 4), ANIMCMD_FRAME(0, 4), ANIMCMD_FRAME(8, 4), ANIMCMD_FRAME(0, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTER_NORTH[] = { ANIMCMD_FRAME(7, 2), ANIMCMD_FRAME(0, 2), ANIMCMD_FRAME(8, 2), ANIMCMD_FRAME(0, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTEST_NORTH[] = { ANIMCMD_FRAME(7, 1), ANIMCMD_FRAME(0, 1), ANIMCMD_FRAME(8, 1), ANIMCMD_FRAME(0, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_FACE_WEST[] = { ANIMCMD_FRAME(1, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_WEST[] = { ANIMCMD_FRAME(2, 8), ANIMCMD_FRAME(1, 8), ANIMCMD_FRAME(3, 8), ANIMCMD_FRAME(1, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FAST_WEST[] = { ANIMCMD_FRAME(2, 4), ANIMCMD_FRAME(1, 4), ANIMCMD_FRAME(3, 4), ANIMCMD_FRAME(1, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTER_WEST[] = { ANIMCMD_FRAME(2, 2), ANIMCMD_FRAME(1, 2), ANIMCMD_FRAME(3, 2), ANIMCMD_FRAME(1, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTEST_WEST[] = { ANIMCMD_FRAME(2, 1), ANIMCMD_FRAME(1, 1), ANIMCMD_FRAME(3, 1), ANIMCMD_FRAME(1, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_FACE_EAST[] = { ANIMCMD_FRAME(4, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_EAST[] = { ANIMCMD_FRAME(5, 8), ANIMCMD_FRAME(4, 8), ANIMCMD_FRAME(6, 8), ANIMCMD_FRAME(4, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FAST_EAST[] = { ANIMCMD_FRAME(5, 4), ANIMCMD_FRAME(4, 4), ANIMCMD_FRAME(6, 4), ANIMCMD_FRAME(4, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTER_EAST[] = { ANIMCMD_FRAME(5, 2), ANIMCMD_FRAME(4, 2), ANIMCMD_FRAME(6, 2), ANIMCMD_FRAME(4, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sJohtoCast_GO_FASTEST_EAST[] = { ANIMCMD_FRAME(5, 1), ANIMCMD_FRAME(4, 1), ANIMCMD_FRAME(6, 1), ANIMCMD_FRAME(4, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd *const sAnimTable_JohtoCast[] = {
+    [ANIM_STD_FACE_SOUTH] = sJohtoCast_FACE_SOUTH,
+    [ANIM_STD_GO_SOUTH] = sJohtoCast_GO_SOUTH,
+    [ANIM_STD_GO_FAST_SOUTH] = sJohtoCast_GO_FAST_SOUTH,
+    [ANIM_STD_GO_FASTER_SOUTH] = sJohtoCast_GO_FASTER_SOUTH,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sJohtoCast_GO_FASTEST_SOUTH,
+    [ANIM_STD_FACE_NORTH] = sJohtoCast_FACE_NORTH,
+    [ANIM_STD_GO_NORTH] = sJohtoCast_GO_NORTH,
+    [ANIM_STD_GO_FAST_NORTH] = sJohtoCast_GO_FAST_NORTH,
+    [ANIM_STD_GO_FASTER_NORTH] = sJohtoCast_GO_FASTER_NORTH,
+    [ANIM_STD_GO_FASTEST_NORTH] = sJohtoCast_GO_FASTEST_NORTH,
+    [ANIM_STD_FACE_WEST] = sJohtoCast_FACE_WEST,
+    [ANIM_STD_GO_WEST] = sJohtoCast_GO_WEST,
+    [ANIM_STD_GO_FAST_WEST] = sJohtoCast_GO_FAST_WEST,
+    [ANIM_STD_GO_FASTER_WEST] = sJohtoCast_GO_FASTER_WEST,
+    [ANIM_STD_GO_FASTEST_WEST] = sJohtoCast_GO_FASTEST_WEST,
+    [ANIM_STD_FACE_EAST] = sJohtoCast_FACE_EAST,
+    [ANIM_STD_GO_EAST] = sJohtoCast_GO_EAST,
+    [ANIM_STD_GO_FAST_EAST] = sJohtoCast_GO_FAST_EAST,
+    [ANIM_STD_GO_FASTER_EAST] = sJohtoCast_GO_FASTER_EAST,
+    [ANIM_STD_GO_FASTEST_EAST] = sJohtoCast_GO_FASTEST_EAST,
+};
+// END JOHTO CAST IMPORT

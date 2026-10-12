@@ -401,7 +401,33 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvi
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornTree;
 
-const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoBoy;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoGirl;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoMan;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoWoman;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoClerk;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoGold;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoSilver;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoKestra;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalHoenn;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalKanto;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalJohto;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalSinnoh;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalUnova;
+const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[OBJ_EVENT_GFX_REGIONAL_END] = {
+    [OBJ_EVENT_GFX_REGIONAL_HOENN] = &gObjectEventGraphicsInfo_RegionalHoenn,
+    [OBJ_EVENT_GFX_REGIONAL_KANTO] = &gObjectEventGraphicsInfo_RegionalKanto,
+    [OBJ_EVENT_GFX_REGIONAL_JOHTO] = &gObjectEventGraphicsInfo_RegionalJohto,
+    [OBJ_EVENT_GFX_REGIONAL_SINNOH] = &gObjectEventGraphicsInfo_RegionalSinnoh,
+    [OBJ_EVENT_GFX_REGIONAL_UNOVA] = &gObjectEventGraphicsInfo_RegionalUnova,
+    [OBJ_EVENT_GFX_JOHTO_GOLD] = &gObjectEventGraphicsInfo_JohtoGold,
+    [OBJ_EVENT_GFX_JOHTO_SILVER] = &gObjectEventGraphicsInfo_JohtoSilver,
+    [OBJ_EVENT_GFX_JOHTO_KESTRA] = &gObjectEventGraphicsInfo_JohtoKestra,
+    [OBJ_EVENT_GFX_JOHTO_BOY] = &gObjectEventGraphicsInfo_JohtoBoy,
+    [OBJ_EVENT_GFX_JOHTO_GIRL] = &gObjectEventGraphicsInfo_JohtoGirl,
+    [OBJ_EVENT_GFX_JOHTO_MAN] = &gObjectEventGraphicsInfo_JohtoMan,
+    [OBJ_EVENT_GFX_JOHTO_WOMAN] = &gObjectEventGraphicsInfo_JohtoWoman,
+    [OBJ_EVENT_GFX_JOHTO_CLERK] = &gObjectEventGraphicsInfo_JohtoClerk,
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
     [OBJ_EVENT_GFX_BRENDAN_SURFING] =          &gObjectEventGraphicsInfo_BrendanSurfing,

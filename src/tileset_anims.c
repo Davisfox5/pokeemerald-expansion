@@ -615,6 +615,30 @@ static void _InitSecondaryTilesetAnimation(void)
         gMapHeader.mapLayout->secondaryTileset->callback();
 }
 
+// Claude Cherrygrove sea
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame0[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/0.png", ".4bpp");
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame1[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/1.png", ".4bpp");
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame2[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/2.png", ".4bpp");
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame3[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/3.png", ".4bpp");
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame4[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/4.png", ".4bpp");
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame5[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/5.png", ".4bpp");
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame6[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/6.png", ".4bpp");
+const u16 gTilesetAnims_Cherrygrove_Sea_Frame7[] = INCGFX_U16("data/tilesets/primary/cherrygrove/anim/sea/7.png", ".4bpp");
+const u16 *const gTilesetAnims_Cherrygrove_Sea[] = {gTilesetAnims_Cherrygrove_Sea_Frame0, gTilesetAnims_Cherrygrove_Sea_Frame1, gTilesetAnims_Cherrygrove_Sea_Frame2, gTilesetAnims_Cherrygrove_Sea_Frame3, gTilesetAnims_Cherrygrove_Sea_Frame4, gTilesetAnims_Cherrygrove_Sea_Frame5, gTilesetAnims_Cherrygrove_Sea_Frame6, gTilesetAnims_Cherrygrove_Sea_Frame7};
+static void TilesetAnim_CherrygrovePrimary(u16 timer);
+void InitTilesetAnim_CherrygrovePrimary(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_CherrygrovePrimary;
+}
+static void TilesetAnim_CherrygrovePrimary(u16 timer)
+{
+    if (timer % 16 == 1)
+        AppendTilesetAnimToBuffer(gTilesetAnims_Cherrygrove_Sea[(timer / 16) % 8], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(1)), 92 * TILE_SIZE_4BPP);
+}
+// End Claude Cherrygrove sea
+
 void InitTilesetAnim_General(void)
 {
     sPrimaryTilesetAnimCounter = 0;

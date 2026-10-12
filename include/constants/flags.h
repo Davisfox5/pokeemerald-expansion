@@ -2434,6 +2434,8 @@
 #define FLAG_WORLD_MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY       0
 #define FLAG_WORLD_MAP_BIRTH_ISLAND_EXTERIOR                        0
 
+#define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Apocrypha: Route 29 lookout Potion (design bible: the route's one hidden item)
+#define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Existing Route 29 hidden Potion
 #endif
 
 #if TESTING
@@ -2446,7 +2448,11 @@
 #define TESTING_FLAG_UNUSED_5                   (TESTING_FLAGS_START + 0x5)
 #define TESTING_FLAG_UNUSED_6                   (TESTING_FLAGS_START + 0x6)
 #define TESTING_FLAG_UNUSED_7                   (TESTING_FLAGS_START + 0x7)
+#define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Apocrypha: Route 29 lookout Potion (design bible: the route's one hidden item)
+#define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Existing Route 29 hidden Potion
 #endif // TESTING
 
 
+#define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Apocrypha: Route 29 lookout Potion (design bible: the route's one hidden item)
+#define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Existing Route 29 hidden Potion
 #endif // GUARD_CONSTANTS_FLAGS_H

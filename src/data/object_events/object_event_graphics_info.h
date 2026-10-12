@@ -7225,3 +7225,129 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne = {
 };
 
 #endif // IS_FRLG
+
+// BEGIN JOHTO NPC IMPORT
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoBoy = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_BOY,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoHuman,
+    .images = sPicTable_JohtoBoy,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoGirl = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_GIRL,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoHuman,
+    .images = sPicTable_JohtoGirl,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoMan = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_MAN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoHuman,
+    .images = sPicTable_JohtoMan,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoWoman = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_WOMAN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoHuman,
+    .images = sPicTable_JohtoWoman,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoClerk = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_CLERK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoHuman,
+    .images = sPicTable_JohtoClerk,
+};
+// END JOHTO NPC IMPORT
+
+// BEGIN JOHTO CAST IMPORT
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoGold = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_GOLD,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_JohtoGold,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoSilver = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_SILVER,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_JohtoSilver,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JohtoKestra = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_JOHTO_KESTRA,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_JohtoKestra,
+};
+// END JOHTO CAST IMPORT
+
+// BEGIN REGIONAL COMPARISON IMPORT
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalHoenn = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_REGIONAL_HOENN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_RegionalHoenn,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalKanto = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_REGIONAL_KANTO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_RegionalKanto,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalJohto = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_REGIONAL_JOHTO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_RegionalJohto,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalSinnoh = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_REGIONAL_SINNOH,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_RegionalSinnoh,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalUnova = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_REGIONAL_UNOVA,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = FALSE, .compressed = FALSE,
+    .tracks = TRACKS_FOOT, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32, .anims = sAnimTable_JohtoCast,
+    .images = sPicTable_RegionalUnova,
+};
+// END REGIONAL COMPARISON IMPORT

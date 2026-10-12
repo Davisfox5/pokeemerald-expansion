@@ -9,7 +9,15 @@ enum KantoSubRegion GetKantoSubregion(u32 mapSecId);
 static inline enum Region GetRegionForSectionId(u32 sectionId)
 {
     switch (sectionId) {
+    case MAPSEC_FLOCCESY_TOWN: return REGION_UNOVA;
+    case MAPSEC_SANDGEM_TOWN: return REGION_SINNOH;
     case MAPSEC_CHERRYGROVE_CITY: return REGION_JOHTO;
+    case MAPSEC_DARK_CAVE: return REGION_JOHTO;
+    case MAPSEC_JOHTO_ROUTE_31: return REGION_JOHTO;
+    case MAPSEC_JOHTO_ROUTE_29: return REGION_JOHTO;
+    case MAPSEC_JOHTO_ROUTE_30: return REGION_JOHTO;
+    case MAPSEC_NEW_BARK_TOWN: return REGION_JOHTO;
+    case MAPSEC_VIOLET_CITY: return REGION_JOHTO;
     case MAPSEC_PROOF_HOENN: return REGION_HOENN;
     case MAPSEC_PROOF_JOHTO: return REGION_JOHTO;
     case MAPSEC_PROOF_KANTO: return REGION_KANTO;

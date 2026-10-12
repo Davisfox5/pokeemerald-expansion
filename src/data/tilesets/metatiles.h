@@ -420,3 +420,28 @@ const u16 gMetatileAttributes_CherrygrovePrimary[] = INCBIN_U16("data/tilesets/p
 
 const u16 gMetatiles_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatiles.bin");
 const u16 gMetatileAttributes_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatile_attributes.bin");
+
+const u16 gMetatiles_SandgemPrimary[] = INCBIN_U16("data/tilesets/primary/sandgem/metatiles.bin");
+const u16 gMetatileAttributes_SandgemPrimary[] = INCBIN_U16("data/tilesets/primary/sandgem/metatile_attributes.bin");
+
+const u16 gMetatiles_Sandgem[] = INCBIN_U16("data/tilesets/secondary/sandgem/metatiles.bin");
+const u16 gMetatileAttributes_Sandgem[] = INCBIN_U16("data/tilesets/secondary/sandgem/metatile_attributes.bin");
+
+const u16 gMetatiles_FloccesyPrimary[] = INCBIN_U16("data/tilesets/primary/floccesy/metatiles.bin");
+const u16 gMetatileAttributes_FloccesyPrimary[] = INCBIN_U16("data/tilesets/primary/floccesy/metatile_attributes.bin");
+
+const u16 gMetatiles_Floccesy[] = INCBIN_U16("data/tilesets/secondary/floccesy/metatiles.bin");
+const u16 gMetatileAttributes_Floccesy[] = INCBIN_U16("data/tilesets/secondary/floccesy/metatile_attributes.bin");
+
+// Claude routes
+const u16 gMetatiles_ClaudeRoute29[] = INCBIN_U16("data/tilesets/secondary/claude_route29/metatiles.bin");
+const u16 gMetatileAttributes_ClaudeRoute29[] = INCBIN_U16("data/tilesets/secondary/claude_route29/metatile_attributes.bin");
+const u16 gMetatiles_ClaudeRoute30[] = INCBIN_U16("data/tilesets/secondary/claude_route30/metatiles.bin");
+const u16 gMetatileAttributes_ClaudeRoute30[] = INCBIN_U16("data/tilesets/secondary/claude_route30/metatile_attributes.bin");
+const u16 gMetatiles_NewBark[] = INCBIN_U16("data/tilesets/secondary/new_bark/metatiles.bin");
+const u16 gMetatileAttributes_NewBark[] = INCBIN_U16("data/tilesets/secondary/new_bark/metatile_attributes.bin");
+const u16 gMetatiles_Route31[] = INCBIN_U16("data/tilesets/secondary/route31/metatiles.bin");
+const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/route31/metatile_attributes.bin");
+const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
+const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
+// End Claude routes

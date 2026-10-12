@@ -2494,3 +2494,51 @@ static const struct SpriteFrameImage sPicTable_MomFrlg[] = {
 };
 
 #endif // IS_FRLG
+
+// BEGIN JOHTO NPC IMPORT
+static const struct SpriteFrameImage sPicTable_JohtoBoy[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoBoy, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_JohtoGirl[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoGirl, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_JohtoMan[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoMan, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_JohtoWoman[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoWoman, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_JohtoClerk[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoClerk, 4, 4),
+};
+// END JOHTO NPC IMPORT
+
+// BEGIN JOHTO CAST IMPORT
+static const struct SpriteFrameImage sPicTable_JohtoGold[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoGold, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_JohtoSilver[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoSilver, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_JohtoKestra[] = {
+    overworld_ascending_frames(gObjectEventPic_JohtoKestra, 4, 4),
+};
+// END JOHTO CAST IMPORT
+
+// BEGIN REGIONAL COMPARISON IMPORT
+static const struct SpriteFrameImage sPicTable_RegionalHoenn[] = {
+    overworld_ascending_frames(gObjectEventPic_RegionalHoenn, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_RegionalKanto[] = {
+    overworld_ascending_frames(gObjectEventPic_RegionalKanto, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_RegionalJohto[] = {
+    overworld_ascending_frames(gObjectEventPic_RegionalJohto, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_RegionalSinnoh[] = {
+    overworld_ascending_frames(gObjectEventPic_RegionalSinnoh, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_RegionalUnova[] = {
+    overworld_ascending_frames(gObjectEventPic_RegionalUnova, 4, 4),
+};
+// END REGIONAL COMPARISON IMPORT

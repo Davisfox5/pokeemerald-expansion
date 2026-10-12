@@ -633,3 +633,38 @@ const u16 gObjectEventPic_PidgeyOld[] = INCGFX_U16("graphics/object_events/pics/
 const u16 gObjectEventPic_ClefairyOld[] = INCGFX_U16("graphics/object_events/pics/pokemon_old/clefairy.png", ".4bpp", "-mwidth 2 -mheight 2");
 
 #endif // IS_FRLG
+
+// BEGIN JOHTO NPC IMPORT
+const u32 gObjectEventPic_JohtoBoy[] = INCGFX_U32("graphics/object_events/pics/people/johto/boy.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoBoy[] = INCGFX_U16("graphics/object_events/palettes/johto_boy.pal", ".gbapal");
+const u32 gObjectEventPic_JohtoGirl[] = INCGFX_U32("graphics/object_events/pics/people/johto/girl.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoGirl[] = INCGFX_U16("graphics/object_events/palettes/johto_girl.pal", ".gbapal");
+const u32 gObjectEventPic_JohtoMan[] = INCGFX_U32("graphics/object_events/pics/people/johto/man.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoMan[] = INCGFX_U16("graphics/object_events/palettes/johto_man.pal", ".gbapal");
+const u32 gObjectEventPic_JohtoWoman[] = INCGFX_U32("graphics/object_events/pics/people/johto/woman.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoWoman[] = INCGFX_U16("graphics/object_events/palettes/johto_woman.pal", ".gbapal");
+const u32 gObjectEventPic_JohtoClerk[] = INCGFX_U32("graphics/object_events/pics/people/johto/clerk.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoClerk[] = INCGFX_U16("graphics/object_events/palettes/johto_clerk.pal", ".gbapal");
+// END JOHTO NPC IMPORT
+
+// BEGIN JOHTO CAST IMPORT
+const u32 gObjectEventPic_JohtoGold[] = INCGFX_U32("graphics/object_events/pics/people/johto/gold.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoGold[] = INCGFX_U16("graphics/object_events/palettes/johto_gold.pal", ".gbapal");
+const u32 gObjectEventPic_JohtoSilver[] = INCGFX_U32("graphics/object_events/pics/people/johto/silver.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoSilver[] = INCGFX_U16("graphics/object_events/palettes/johto_silver.pal", ".gbapal");
+const u32 gObjectEventPic_JohtoKestra[] = INCGFX_U32("graphics/object_events/pics/people/johto/kestra.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_JohtoKestra[] = INCGFX_U16("graphics/object_events/palettes/johto_kestra.pal", ".gbapal");
+// END JOHTO CAST IMPORT
+
+// BEGIN REGIONAL COMPARISON IMPORT
+const u32 gObjectEventPic_RegionalHoenn[] = INCGFX_U32("graphics/object_events/pics/people/regional/hoenn.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_RegionalHoenn[] = INCGFX_U16("graphics/object_events/palettes/regional_hoenn.pal", ".gbapal");
+const u32 gObjectEventPic_RegionalKanto[] = INCGFX_U32("graphics/object_events/pics/people/regional/kanto.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_RegionalKanto[] = INCGFX_U16("graphics/object_events/palettes/regional_kanto.pal", ".gbapal");
+const u32 gObjectEventPic_RegionalJohto[] = INCGFX_U32("graphics/object_events/pics/people/regional/johto.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_RegionalJohto[] = INCGFX_U16("graphics/object_events/palettes/regional_johto.pal", ".gbapal");
+const u32 gObjectEventPic_RegionalSinnoh[] = INCGFX_U32("graphics/object_events/pics/people/regional/sinnoh.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_RegionalSinnoh[] = INCGFX_U16("graphics/object_events/palettes/regional_sinnoh.pal", ".gbapal");
+const u32 gObjectEventPic_RegionalUnova[] = INCGFX_U32("graphics/object_events/pics/people/regional/unova.png", ".4bpp", "-mwidth 4 -mheight 4");
+const u16 gObjectEventPal_RegionalUnova[] = INCGFX_U16("graphics/object_events/palettes/regional_unova.pal", ".gbapal");
+// END REGIONAL COMPARISON IMPORT

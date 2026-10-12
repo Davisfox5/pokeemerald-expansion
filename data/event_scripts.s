@@ -1770,3 +1770,67 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/CherrygroveRoute29Approach/scripts.inc"
 
 .include "data/maps/CherrygroveRoute30Approach/scripts.inc"
+
+.include "data/maps/CherrygroveHarborHouse/scripts.inc"
+
+.include "data/maps/CherrygroveGardenHouse/scripts.inc"
+
+.include "data/maps/SandgemTown/scripts.inc"
+
+.include "data/maps/SandgemLab/scripts.inc"
+
+.include "data/maps/SandgemPokemonCenter/scripts.inc"
+
+.include "data/maps/SandgemMart/scripts.inc"
+
+.include "data/maps/SandgemHouseWest/scripts.inc"
+
+.include "data/maps/SandgemHouseSouth/scripts.inc"
+
+.include "data/maps/SandgemCenterUpstairs/scripts.inc"
+
+.include "data/maps/FloccesyTown/scripts.inc"
+
+.include "data/maps/FloccesyPokemonCenter/scripts.inc"
+
+.include "data/maps/FloccesyHouseWest/scripts.inc"
+
+.include "data/maps/FloccesyHouseEast/scripts.inc"
+
+.include "data/maps/FloccesyLodge/scripts.inc"
+
+.include "data/maps/FloccesyShedWest/scripts.inc"
+
+.include "data/maps/FloccesyShedEast/scripts.inc"
+
+.include "data/maps/FloccesyCenterUpstairs/scripts.inc"
+
+.include "data/maps/NewBarkTown/scripts.inc"
+
+.include "data/maps/JohtoRoute31/scripts.inc"
+
+.include "data/maps/VioletCityEntrance/scripts.inc"
+
+.include "data/maps/NewBarkInstitute/scripts.inc"
+
+.include "data/maps/NewBarkStaffHouse/scripts.inc"
+
+.include "data/maps/VioletEastGate/scripts.inc"
+
+.include "data/maps/DarkCaveEntrance/scripts.inc"
+
+.include "data/maps/NewBarkEastHouse/scripts.inc"
+
+.include "data/maps/NewBarkUpperHouse/scripts.inc"
+
+.include "data/maps/NewBarkResidence1/scripts.inc"
+
+.include "data/maps/NewBarkResidence2/scripts.inc"
+
+.include "data/maps/NewBarkResidence3/scripts.inc"
+
+.include "data/maps/NewBarkResidence4/scripts.inc"
+
+.include "data/maps/CherrygroveRegionalPreview29/scripts.inc"
+
+.include "data/maps/CherrygroveRegionalPreview30/scripts.inc"
