@@ -66,3 +66,9 @@ tools/aif2pcm/aif2pcm
 *.smolTM
 __pycache__
 .map_version
+
+# Apocrypha door animations shipped as prebuilt 4bpp (no PNG source yet)
+!graphics/door_anims/floccesy/*.4bpp
+!graphics/door_anims/johto_restart/*.4bpp
+!graphics/door_anims/johto_synthesis/*.4bpp
+!graphics/door_anims/sandgem/*.4bpp
