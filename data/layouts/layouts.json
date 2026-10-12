@@ -9404,7 +9404,7 @@
       "width": 98,
       "height": 48,
       "primary_tileset": "gTileset_CherrygrovePrimary",
-      "secondary_tileset": "gTileset_ClaudeRoute29",
+      "secondary_tileset": "gTileset_ApocRoute29",
       "border_filepath": "data/layouts/CherrygroveRoute29Approach/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveRoute29Approach/map.bin",
       "build_target": "emerald",
