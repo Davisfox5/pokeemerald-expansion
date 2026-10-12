@@ -62,6 +62,7 @@ jobs:
 
       - name: Build
         run: |
+          make -j$(nproc) tools
           make -j1 generated
           make -j$(nproc)
 
