@@ -72,3 +72,8 @@ __pycache__
 !graphics/door_anims/johto_restart/*.4bpp
 !graphics/door_anims/johto_synthesis/*.4bpp
 !graphics/door_anims/sandgem/*.4bpp
+
+# Poryscript compiler binary and release archives (fetched by make tools)
+tools/poryscript/poryscript
+tools/poryscript/poryscript.exe
+tools/poryscript/*.zip

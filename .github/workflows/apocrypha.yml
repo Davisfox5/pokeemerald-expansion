@@ -66,6 +66,13 @@ jobs:
           make -j1 generated
           make -j$(nproc)
 
+      - name: Committed Poryscript outputs are current
+        run: |
+          if git status --porcelain -- data | grep -E '\.inc$'; then
+            echo "A committed .inc differs from its .pory. Run make and commit the regenerated .inc."
+            exit 1
+          fi
+
       - name: Report
         run: |
           ls -l pokeemerald.gba
