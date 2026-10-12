@@ -178,6 +178,20 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .partyMsgID = PARTY_MSG_CANT_USE_HERE,
         .hideIfLocked = TRUE,
     },
+    [FIELD_MOVE_WHIRLPOOL] =
+    {
+        .fieldMoveFunc = SetUpFieldMove_Whirlpool,
+#if OW_WHIRLPOOL_FIELD_MOVE
+        .unlockType = BADGE_UNLOCK,
+#else
+        .unlockType = CANT_UNLOCK,
+#endif
+        .moveID = MOVE_WHIRLPOOL,
+        .partyMsgID = PARTY_MSG_CANT_USE_HERE,
+        .arg = FLAG_TO_BADGE(FLAG_BADGE08_GET),
+        .hideIfLocked = TRUE,
+    },
+
     [FIELD_MOVE_DEFOG] =
     {
         .fieldMoveFunc = SetUpFieldMove_Defog,

@@ -1,16 +1,28 @@
 #ifndef GUARD_CONSTANTS_TMS_HMS_H
 #define GUARD_CONSTANTS_TMS_HMS_H
 
-// Apocrypha M04: 100 TMs, twenty per region, each stocked with generic moves that the
-// region's own generation introduced. Power is capped at 85; the signature high-power
-// moves are deliberately excluded and belong to the regional move tutors instead.
-// Regions appear in story order. Dazzling Gleam is not here: it is Gen 6 and the Fairy
-// teaching route is a tutor, not a TM.
+// Apocrypha M04: 100 TMs and 11 HMs.
+//
+// TMs are the generic toolkit: each region stocks only moves its own generation
+// introduced, capped at 85 power, and the signature high-power moves are excluded
+// and belong to the regional move tutors instead. Regions run in story order.
+// Johto, Kanto and Hoenn carry nineteen each rather than twenty, because the three
+// Fairy TMs close the list: every offensive Fairy move is Gen 6 or later, so under
+// the origin rule no region could stock one. (Charm, Sweet Kiss and Moonlight are
+// Gen 2 moves retyped to Fairy and so are Johto-eligible, but all three are status
+// moves and none was ever a TM.)
+//
+// HMs cover traversal and sit outside the TM power cap. The five regions as
+// originally built need eleven field moves between them, so there are eleven HMs.
+// Defog and Rock Climb are Sinnoh's; Whirlpool is Johto's and was built from
+// nothing, modelled on Waterfall.
+//
+// A block comment placed *inside* either backslash-continued macro truncates it
+// silently and produces errors in unrelated files. Keep comments outside.
 #define FOREACH_TM(F) \
     /* Johto */ \
     F(PROTECT) \
     F(RETURN) \
-    F(FRUSTRATION) \
     F(HIDDEN_POWER) \
     F(SLEEP_TALK) \
     F(ENDURE) \
@@ -18,7 +30,6 @@
     F(RAIN_DANCE) \
     F(SUNNY_DAY) \
     F(SANDSTORM) \
-    F(SAFEGUARD) \
     F(THIEF) \
     F(ICY_WIND) \
     F(SHADOW_BALL) \
@@ -28,10 +39,10 @@
     F(ANCIENT_POWER) \
     F(ENCORE) \
     F(FALSE_SWIPE) \
+    F(DRAGON_BREATH) \
     /* Kanto */ \
     F(TOXIC) \
     F(REST) \
-    F(DOUBLE_TEAM) \
     F(REFLECT) \
     F(LIGHT_SCREEN) \
     F(THUNDER_WAVE) \
@@ -43,15 +54,14 @@
     F(THUNDER_PUNCH) \
     F(ICE_PUNCH) \
     F(FIRE_PUNCH) \
-    F(SWIFT) \
     F(LOW_KICK) \
     F(SEISMIC_TOSS) \
     F(CONFUSE_RAY) \
     F(SCREECH) \
     F(COUNTER) \
+    F(PSYBEAM) \
     /* Hoenn */ \
     F(FACADE) \
-    F(SECRET_POWER) \
     F(ROCK_TOMB) \
     F(AERIAL_ACE) \
     F(BRICK_BREAK) \
@@ -63,13 +73,13 @@
     F(MUD_SHOT) \
     F(CALM_MIND) \
     F(BULK_UP) \
-    F(TORMENT) \
     F(HAIL) \
     F(IRON_DEFENSE) \
     F(WILL_O_WISP) \
     F(BULLET_SEED) \
     F(MAGICAL_LEAF) \
     F(AIR_CUTTER) \
+    F(DRAGON_CLAW) \
     /* Sinnoh */ \
     F(ZEN_HEADBUTT) \
     F(PAYBACK) \
@@ -90,7 +100,7 @@
     F(FLASH_CANNON) \
     F(X_SCISSOR) \
     F(AVALANCHE) \
-    F(GRASS_KNOT) \
+    F(ENERGY_BALL) \
     /* Unova */ \
     F(ROUND) \
     F(BULLDOZE) \
@@ -111,7 +121,11 @@
     F(ELECTROWEB) \
     F(FLAME_CHARGE) \
     F(VOLT_SWITCH) \
-    F(DRILL_RUN)
+    F(DRILL_RUN) \
+    /* Fairy -- belongs to no region's past, so it belongs to none of their sets */ \
+    F(DAZZLING_GLEAM) \
+    F(DISARMING_VOICE) \
+    F(DRAINING_KISS)
 
 #define FOREACH_HM(F) \
     F(CUT) \
@@ -121,7 +135,10 @@
     F(FLASH) \
     F(ROCK_SMASH) \
     F(WATERFALL) \
-    F(DIVE)
+    F(DIVE) \
+    F(DEFOG) \
+    F(ROCK_CLIMB) \
+    F(WHIRLPOOL)
 
 #define FOREACH_TMHM(F) \
     FOREACH_TM(F) \

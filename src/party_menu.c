@@ -487,6 +487,7 @@ static void ShowMoveSelectWindow(u8 slot);
 static void Task_HandleWhichMoveInput(u8 taskId);
 static void Task_HideFollowerNPCForTeleport(u8);
 static void FieldCallback_RockClimb(void);
+static void FieldCallback_Whirlpool(void);
 static void GetPartyAndSlotFromPartyMenuId(s8 menuId, struct Pokemon **party, s8 *partySlot);
 static struct Pokemon *GetPartyMonFromPartyMenuId(s8 menuId);
 static void GetMultiPartyForSummaryScreen(void);
@@ -4335,6 +4336,28 @@ bool32 SetUpFieldMove_Waterfall(void)
     {
         gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
         gPostMenuFieldCallback = FieldCallback_Waterfall;
+        return TRUE;
+    }
+    return FALSE;
+}
+
+static void FieldCallback_Whirlpool(void)
+{
+    gFieldEffectArguments[0] = GetCursorSelectionMonId();
+    FieldEffectStart(FLDEFF_USE_WHIRLPOOL);
+}
+
+bool32 SetUpFieldMove_Whirlpool(void)
+{
+    s16 x, y;
+
+    GetXYCoordsOneStepInFrontOfPlayer(&x, &y);
+    // Surfing only: a whirlpool is crossed from the water, in any direction.
+    if (MetatileBehavior_IsWhirlpool(MapGridGetMetatileBehaviorAt(x, y)) == TRUE
+     && (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING))
+    {
+        gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
+        gPostMenuFieldCallback = FieldCallback_Whirlpool;
         return TRUE;
     }
     return FALSE;

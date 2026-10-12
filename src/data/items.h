@@ -12352,23 +12352,10 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_FRUSTRATION] =
-    {
-        .name = ITEM_NAME("TM03"),
-        .price = 2000,
-        .description = COMPOUND_STRING(
-        "The less the user\n"
-        "likes you, the more\n"
-        "powerful this move."),
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    },
 
     [ITEM_TM_HIDDEN_POWER] =
     {
-        .name = ITEM_NAME("TM04"),
+        .name = ITEM_NAME("TM03"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "The type\n"
@@ -12382,7 +12369,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SLEEP_TALK] =
     {
-        .name = ITEM_NAME("TM05"),
+        .name = ITEM_NAME("TM04"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Uses one of the\n"
@@ -12396,7 +12383,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ENDURE] =
     {
-        .name = ITEM_NAME("TM06"),
+        .name = ITEM_NAME("TM05"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Always leaves at\n"
@@ -12410,7 +12397,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ATTRACT] =
     {
-        .name = ITEM_NAME("TM07"),
+        .name = ITEM_NAME("TM06"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Makes it tough for\n"
@@ -12424,7 +12411,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_RAIN_DANCE] =
     {
-        .name = ITEM_NAME("TM08"),
+        .name = ITEM_NAME("TM07"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Boosts the power\n"
@@ -12438,7 +12425,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SUNNY_DAY] =
     {
-        .name = ITEM_NAME("TM09"),
+        .name = ITEM_NAME("TM08"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Boosts the power\n"
@@ -12452,7 +12439,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SANDSTORM] =
     {
-        .name = ITEM_NAME("TM10"),
+        .name = ITEM_NAME("TM09"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Causes a sandstorm\n"
@@ -12464,23 +12451,10 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_SAFEGUARD] =
-    {
-        .name = ITEM_NAME("TM11"),
-        .price = 1500,
-        .description = COMPOUND_STRING(
-        "Guards allies from\n"
-        "status problems\n"
-        "for 5 turns."),
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    },
 
     [ITEM_TM_THIEF] =
     {
-        .name = ITEM_NAME("TM12"),
+        .name = ITEM_NAME("TM10"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "While attacking,\n"
@@ -12494,7 +12468,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ICY_WIND] =
     {
-        .name = ITEM_NAME("TM13"),
+        .name = ITEM_NAME("TM11"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "A chilling gust that\n"
@@ -12508,7 +12482,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SHADOW_BALL] =
     {
-        .name = ITEM_NAME("TM14"),
+        .name = ITEM_NAME("TM12"),
         .price = 3000,
         .description = COMPOUND_STRING(
         "Hurls a dark lump\n"
@@ -12522,7 +12496,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_GIGA_DRAIN] =
     {
-        .name = ITEM_NAME("TM15"),
+        .name = ITEM_NAME("TM13"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Recovers half the\n"
@@ -12536,7 +12510,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_CRUNCH] =
     {
-        .name = ITEM_NAME("TM16"),
+        .name = ITEM_NAME("TM14"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Bites with sharp\n"
@@ -12550,7 +12524,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_STEEL_WING] =
     {
-        .name = ITEM_NAME("TM17"),
+        .name = ITEM_NAME("TM15"),
         .price = 3000,
         .description = COMPOUND_STRING(
         "Slams into the\n"
@@ -12564,7 +12538,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ANCIENT_POWER] =
     {
-        .name = ITEM_NAME("TM18"),
+        .name = ITEM_NAME("TM16"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "An attack of ancient\n"
@@ -12578,7 +12552,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ENCORE] =
     {
-        .name = ITEM_NAME("TM19"),
+        .name = ITEM_NAME("TM17"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Forces the foe to\n"
@@ -12592,7 +12566,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_FALSE_SWIPE] =
     {
-        .name = ITEM_NAME("TM20"),
+        .name = ITEM_NAME("TM18"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "A restrained blow\n"
@@ -12607,7 +12581,7 @@ const struct ItemInfo gItemsInfo[] =
     // Apocrypha M04: Kanto TMs
     [ITEM_TM_TOXIC] =
     {
-        .name = ITEM_NAME("TM21"),
+        .name = ITEM_NAME("TM20"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Poisons the foe\n"
@@ -12621,7 +12595,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_REST] =
     {
-        .name = ITEM_NAME("TM22"),
+        .name = ITEM_NAME("TM21"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "The user sleeps for\n"
@@ -12633,23 +12607,10 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_DOUBLE_TEAM] =
-    {
-        .name = ITEM_NAME("TM23"),
-        .price = 1500,
-        .description = COMPOUND_STRING(
-        "Creates illusory\n"
-        "copies to raise\n"
-        "evasiveness."),
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    },
 
     [ITEM_TM_REFLECT] =
     {
-        .name = ITEM_NAME("TM24"),
+        .name = ITEM_NAME("TM22"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Creates a wall of\n"
@@ -12663,7 +12624,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_LIGHT_SCREEN] =
     {
-        .name = ITEM_NAME("TM25"),
+        .name = ITEM_NAME("TM23"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Creates a wall of\n"
@@ -12677,7 +12638,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_THUNDER_WAVE] =
     {
-        .name = ITEM_NAME("TM26"),
+        .name = ITEM_NAME("TM24"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A weak jolt of\n"
@@ -12691,7 +12652,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SWORDS_DANCE] =
     {
-        .name = ITEM_NAME("TM27"),
+        .name = ITEM_NAME("TM25"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A frenetic dance\n"
@@ -12705,7 +12666,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_AGILITY] =
     {
-        .name = ITEM_NAME("TM28"),
+        .name = ITEM_NAME("TM26"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Relaxes the body to\n"
@@ -12719,7 +12680,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_BODY_SLAM] =
     {
-        .name = ITEM_NAME("TM29"),
+        .name = ITEM_NAME("TM27"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "A full-body charge.\n"
@@ -12733,7 +12694,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_DIG] =
     {
-        .name = ITEM_NAME("TM30"),
+        .name = ITEM_NAME("TM28"),
         .price = 3000,
         .description = COMPOUND_STRING(
         "Digs underground\n"
@@ -12747,7 +12708,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ROCK_SLIDE] =
     {
-        .name = ITEM_NAME("TM31"),
+        .name = ITEM_NAME("TM29"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Large boulders are\n"
@@ -12761,7 +12722,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_THUNDER_PUNCH] =
     {
-        .name = ITEM_NAME("TM32"),
+        .name = ITEM_NAME("TM30"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "An electrified punch\n"
@@ -12775,7 +12736,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ICE_PUNCH] =
     {
-        .name = ITEM_NAME("TM33"),
+        .name = ITEM_NAME("TM31"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "An icy punch that\n"
@@ -12789,7 +12750,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_FIRE_PUNCH] =
     {
-        .name = ITEM_NAME("TM34"),
+        .name = ITEM_NAME("TM32"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "A fiery punch that\n"
@@ -12801,23 +12762,10 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_SWIFT] =
-    {
-        .name = ITEM_NAME("TM35"),
-        .price = 2000,
-        .description = COMPOUND_STRING(
-            "Fires star-shaped\n"
-            "rays that never\n"
-            "miss the target."),
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    },
 
     [ITEM_TM_LOW_KICK] =
     {
-        .name = ITEM_NAME("TM36"),
+        .name = ITEM_NAME("TM33"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A kick to the legs.\n"
@@ -12831,7 +12779,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SEISMIC_TOSS] =
     {
-        .name = ITEM_NAME("TM37"),
+        .name = ITEM_NAME("TM34"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Throws the foe for\n"
@@ -12845,7 +12793,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_CONFUSE_RAY] =
     {
-        .name = ITEM_NAME("TM38"),
+        .name = ITEM_NAME("TM35"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A sinister ray that\n"
@@ -12859,7 +12807,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SCREECH] =
     {
-        .name = ITEM_NAME("TM39"),
+        .name = ITEM_NAME("TM36"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A horrible screech\n"
@@ -12873,7 +12821,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_COUNTER] =
     {
-        .name = ITEM_NAME("TM40"),
+        .name = ITEM_NAME("TM37"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Strikes back at\n"
@@ -12888,7 +12836,7 @@ const struct ItemInfo gItemsInfo[] =
     // Apocrypha M04: Hoenn TMs
     [ITEM_TM_FACADE] =
     {
-        .name = ITEM_NAME("TM41"),
+        .name = ITEM_NAME("TM39"),
         .price = 3000,
         .description = COMPOUND_STRING(
         "Boosts power when\n"
@@ -12900,23 +12848,10 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_SECRET_POWER] =
-    {
-        .name = ITEM_NAME("TM42"),
-        .price = 3000,
-        .description = COMPOUND_STRING(
-        "Adds an effect to\n"
-        "attack depending\n"
-        "on the location."),
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    },
 
     [ITEM_TM_ROCK_TOMB] =
     {
-        .name = ITEM_NAME("TM43"),
+        .name = ITEM_NAME("TM40"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Stops the foe from\n"
@@ -12930,7 +12865,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_AERIAL_ACE] =
     {
-        .name = ITEM_NAME("TM44"),
+        .name = ITEM_NAME("TM41"),
         .price = 2000,
         .description = COMPOUND_STRING(
         "An extremely fast\n"
@@ -12944,7 +12879,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_BRICK_BREAK] =
     {
-        .name = ITEM_NAME("TM45"),
+        .name = ITEM_NAME("TM42"),
         .price = 3000,
         .description = COMPOUND_STRING(
         "Destroys barriers\n"
@@ -12958,7 +12893,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_KNOCK_OFF] =
     {
-        .name = ITEM_NAME("TM46"),
+        .name = ITEM_NAME("TM43"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Slaps away the\n"
@@ -12972,7 +12907,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SHOCK_WAVE] =
     {
-        .name = ITEM_NAME("TM47"),
+        .name = ITEM_NAME("TM44"),
         .price = 2000,
         .description = COMPOUND_STRING(
         "Zaps the foe with a\n"
@@ -12986,7 +12921,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_TAUNT] =
     {
-        .name = ITEM_NAME("TM48"),
+        .name = ITEM_NAME("TM45"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "The foe can only\n"
@@ -13000,7 +12935,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_WATER_PULSE] =
     {
-        .name = ITEM_NAME("TM49"),
+        .name = ITEM_NAME("TM46"),
         .price = 2000,
         .description = COMPOUND_STRING(
         "Generates an\n"
@@ -13014,7 +12949,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SIGNAL_BEAM] =
     {
-        .name = ITEM_NAME("TM50"),
+        .name = ITEM_NAME("TM47"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "A sinister beam of\n"
@@ -13028,7 +12963,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_MUD_SHOT] =
     {
-        .name = ITEM_NAME("TM51"),
+        .name = ITEM_NAME("TM48"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Hurls mud at the\n"
@@ -13042,7 +12977,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_CALM_MIND] =
     {
-        .name = ITEM_NAME("TM52"),
+        .name = ITEM_NAME("TM49"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Raises Sp. Atk and\n"
@@ -13056,7 +12991,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_BULK_UP] =
     {
-        .name = ITEM_NAME("TM53"),
+        .name = ITEM_NAME("TM50"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Bulks up the body\n"
@@ -13068,23 +13003,10 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_TORMENT] =
-    {
-        .name = ITEM_NAME("TM54"),
-        .price = 1500,
-        .description = COMPOUND_STRING(
-        "Prevents the foe\n"
-        "from using the same\n"
-        "move in a row."),
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    },
 
     [ITEM_TM_HAIL] =
     {
-        .name = ITEM_NAME("TM55"),
+        .name = ITEM_NAME("TM51"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Calls up a bitter\n"
@@ -13098,7 +13020,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_IRON_DEFENSE] =
     {
-        .name = ITEM_NAME("TM56"),
+        .name = ITEM_NAME("TM52"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Hardens the body\n"
@@ -13112,7 +13034,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_WILL_O_WISP] =
     {
-        .name = ITEM_NAME("TM57"),
+        .name = ITEM_NAME("TM53"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A sinister flame\n"
@@ -13126,7 +13048,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_BULLET_SEED] =
     {
-        .name = ITEM_NAME("TM58"),
+        .name = ITEM_NAME("TM54"),
         .price = 1500,
         .description = COMPOUND_STRING(
         "Shoots 2 to 5 seeds\n"
@@ -13140,7 +13062,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_MAGICAL_LEAF] =
     {
-        .name = ITEM_NAME("TM59"),
+        .name = ITEM_NAME("TM55"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Scatters glowing\n"
@@ -13154,7 +13076,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_AIR_CUTTER] =
     {
-        .name = ITEM_NAME("TM60"),
+        .name = ITEM_NAME("TM56"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Razor-like wind\n"
@@ -13169,7 +13091,7 @@ const struct ItemInfo gItemsInfo[] =
     // Apocrypha M04: Sinnoh TMs
     [ITEM_TM_ZEN_HEADBUTT] =
     {
-        .name = ITEM_NAME("TM61"),
+        .name = ITEM_NAME("TM58"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Focuses willpower\n"
@@ -13183,7 +13105,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_PAYBACK] =
     {
-        .name = ITEM_NAME("TM62"),
+        .name = ITEM_NAME("TM59"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Twice as strong if\n"
@@ -13197,7 +13119,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_STEALTH_ROCK] =
     {
-        .name = ITEM_NAME("TM63"),
+        .name = ITEM_NAME("TM60"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Floating stones hurt\n"
@@ -13211,7 +13133,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_CHARGE_BEAM] =
     {
-        .name = ITEM_NAME("TM64"),
+        .name = ITEM_NAME("TM61"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "A beam of current\n"
@@ -13225,7 +13147,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_POISON_JAB] =
     {
-        .name = ITEM_NAME("TM65"),
+        .name = ITEM_NAME("TM62"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Stabs with a\n"
@@ -13239,7 +13161,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SHADOW_CLAW] =
     {
-        .name = ITEM_NAME("TM66"),
+        .name = ITEM_NAME("TM63"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Strikes with a claw\n"
@@ -13253,7 +13175,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_NASTY_PLOT] =
     {
-        .name = ITEM_NAME("TM67"),
+        .name = ITEM_NAME("TM64"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Plots something bad\n"
@@ -13267,7 +13189,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SEED_BOMB] =
     {
-        .name = ITEM_NAME("TM68"),
+        .name = ITEM_NAME("TM65"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Slams a barrage of\n"
@@ -13281,7 +13203,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_IRON_HEAD] =
     {
-        .name = ITEM_NAME("TM69"),
+        .name = ITEM_NAME("TM66"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Slams with a head\n"
@@ -13295,7 +13217,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_DARK_PULSE] =
     {
-        .name = ITEM_NAME("TM70"),
+        .name = ITEM_NAME("TM67"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "A horrible aura of\n"
@@ -13309,7 +13231,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_U_TURN] =
     {
-        .name = ITEM_NAME("TM71"),
+        .name = ITEM_NAME("TM68"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Strikes, then darts\n"
@@ -13323,7 +13245,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_DRAIN_PUNCH] =
     {
-        .name = ITEM_NAME("TM72"),
+        .name = ITEM_NAME("TM69"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A punch that drains\n"
@@ -13337,7 +13259,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ROOST] =
     {
-        .name = ITEM_NAME("TM73"),
+        .name = ITEM_NAME("TM70"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Lands and rests the\n"
@@ -13351,7 +13273,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_AIR_SLASH] =
     {
-        .name = ITEM_NAME("TM74"),
+        .name = ITEM_NAME("TM71"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Slices with a blade\n"
@@ -13365,7 +13287,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_TRICK_ROOM] =
     {
-        .name = ITEM_NAME("TM75"),
+        .name = ITEM_NAME("TM72"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Slower Pokemon get\n"
@@ -13379,7 +13301,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_NIGHT_SLASH] =
     {
-        .name = ITEM_NAME("TM76"),
+        .name = ITEM_NAME("TM73"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Slashes the moment\n"
@@ -13393,7 +13315,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_FLASH_CANNON] =
     {
-        .name = ITEM_NAME("TM77"),
+        .name = ITEM_NAME("TM74"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Fires a blast of\n"
@@ -13407,7 +13329,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_X_SCISSOR] =
     {
-        .name = ITEM_NAME("TM78"),
+        .name = ITEM_NAME("TM75"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Slashes with\n"
@@ -13421,7 +13343,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_AVALANCHE] =
     {
-        .name = ITEM_NAME("TM79"),
+        .name = ITEM_NAME("TM76"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Twice as strong if\n"
@@ -13433,24 +13355,11 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_GRASS_KNOT] =
-    {
-        .name = ITEM_NAME("TM80"),
-        .price = 2000,
-        .description = COMPOUND_STRING(
-            "Trips the foe with\n"
-            "grass. Stronger on\n"
-            "heavier targets."),
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-    },
 
     // Apocrypha M04: Unova TMs
     [ITEM_TM_ROUND] =
     {
-        .name = ITEM_NAME("TM81"),
+        .name = ITEM_NAME("TM78"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "A song. Stronger if\n"
@@ -13464,7 +13373,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_BULLDOZE] =
     {
-        .name = ITEM_NAME("TM82"),
+        .name = ITEM_NAME("TM79"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Stomps the ground.\n"
@@ -13478,7 +13387,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_WORK_UP] =
     {
-        .name = ITEM_NAME("TM83"),
+        .name = ITEM_NAME("TM80"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "The user is roused,\n"
@@ -13492,7 +13401,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_RETALIATE] =
     {
-        .name = ITEM_NAME("TM84"),
+        .name = ITEM_NAME("TM81"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Twice as strong if\n"
@@ -13506,7 +13415,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_INCINERATE] =
     {
-        .name = ITEM_NAME("TM85"),
+        .name = ITEM_NAME("TM82"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Burns up the foe's\n"
@@ -13520,7 +13429,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_HONE_CLAWS] =
     {
-        .name = ITEM_NAME("TM86"),
+        .name = ITEM_NAME("TM83"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Raises Attack and\n"
@@ -13534,7 +13443,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SMACK_DOWN] =
     {
-        .name = ITEM_NAME("TM87"),
+        .name = ITEM_NAME("TM84"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Knocks a flying foe\n"
@@ -13548,7 +13457,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SCALD] =
     {
-        .name = ITEM_NAME("TM88"),
+        .name = ITEM_NAME("TM85"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Shoots boiling\n"
@@ -13562,7 +13471,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ACROBATICS] =
     {
-        .name = ITEM_NAME("TM89"),
+        .name = ITEM_NAME("TM86"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Strikes lightly.\n"
@@ -13576,7 +13485,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_PSYSHOCK] =
     {
-        .name = ITEM_NAME("TM90"),
+        .name = ITEM_NAME("TM87"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "A psychic wave that\n"
@@ -13590,7 +13499,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_LOW_SWEEP] =
     {
-        .name = ITEM_NAME("TM91"),
+        .name = ITEM_NAME("TM88"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "A swift blow to the\n"
@@ -13604,7 +13513,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_VENOSHOCK] =
     {
-        .name = ITEM_NAME("TM92"),
+        .name = ITEM_NAME("TM89"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Double damage if\n"
@@ -13618,7 +13527,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_SNARL] =
     {
-        .name = ITEM_NAME("TM93"),
+        .name = ITEM_NAME("TM90"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Yells and rants to\n"
@@ -13632,7 +13541,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_HEX] =
     {
-        .name = ITEM_NAME("TM94"),
+        .name = ITEM_NAME("TM91"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Deals double damage\n"
@@ -13646,7 +13555,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_STRUGGLE_BUG] =
     {
-        .name = ITEM_NAME("TM95"),
+        .name = ITEM_NAME("TM92"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "Resists with a bug\n"
@@ -13660,7 +13569,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_DRAGON_TAIL] =
     {
-        .name = ITEM_NAME("TM96"),
+        .name = ITEM_NAME("TM93"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Strikes and forces\n"
@@ -13674,7 +13583,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_ELECTROWEB] =
     {
-        .name = ITEM_NAME("TM97"),
+        .name = ITEM_NAME("TM94"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Snares foes in an\n"
@@ -13688,7 +13597,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_FLAME_CHARGE] =
     {
-        .name = ITEM_NAME("TM98"),
+        .name = ITEM_NAME("TM95"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "Attacks cloaked in\n"
@@ -13702,7 +13611,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_VOLT_SWITCH] =
     {
-        .name = ITEM_NAME("TM99"),
+        .name = ITEM_NAME("TM96"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Attacks, then darts\n"
@@ -13716,12 +13625,110 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TM_DRILL_RUN] =
     {
-        .name = ITEM_NAME("TM100"),
+        .name = ITEM_NAME("TM97"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Spins like a drill\n"
             "and charges. High\n"
             "critical-hit rate."),
+        .importance = I_REUSABLE_TMS,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DRAGON_BREATH] =
+    {
+        .name = ITEM_NAME("TM19"),
+        .price = 2000,
+        .description = COMPOUND_STRING(
+        "Blasts the foe with\n"
+        "an intense breath\n"
+        "of draconic fire."),
+        .importance = I_REUSABLE_TMS,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_PSYBEAM] =
+    {
+        .name = ITEM_NAME("TM38"),
+        .price = 2000,
+        .description = COMPOUND_STRING(
+        "Fires a peculiar\n"
+        "ray that may leave\n"
+        "the foe confused."),
+        .importance = I_REUSABLE_TMS,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DRAGON_CLAW] =
+    {
+        .name = ITEM_NAME("TM57"),
+        .price = 3000,
+        .description = COMPOUND_STRING(
+        "Slashes the foe\n"
+        "with sharp claws\n"
+        "of great hardness."),
+        .importance = I_REUSABLE_TMS,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_ENERGY_BALL] =
+    {
+        .name = ITEM_NAME("TM77"),
+        .price = 3000,
+        .description = COMPOUND_STRING(
+        "Draws power from\n"
+        "nature to attack.\n"
+        "May lower Sp. Def."),
+        .importance = I_REUSABLE_TMS,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DAZZLING_GLEAM] =
+    {
+        .name = ITEM_NAME("TM98"),
+        .price = 3000,
+        .description = COMPOUND_STRING(
+        "Damages the foe\n"
+        "with a strong flash\n"
+        "of brilliant light."),
+        .importance = I_REUSABLE_TMS,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DISARMING_VOICE] =
+    {
+        .name = ITEM_NAME("TM99"),
+        .price = 2000,
+        .description = COMPOUND_STRING(
+        "Lets out a charming\n"
+        "cry that always\n"
+        "strikes the foe."),
+        .importance = I_REUSABLE_TMS,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DRAINING_KISS] =
+    {
+        .name = ITEM_NAME("TM100"),
+        .price = 2000,
+        .description = COMPOUND_STRING(
+        "Steals the foe's\n"
+        "energy with a kiss\n"
+        "to restore HP."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -13844,6 +13851,48 @@ const struct ItemInfo gItemsInfo[] =
             "Dives underwater\n"
             "the 1st turn, then\n"
             "attacks next turn."),
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_DEFOG] =
+    {
+        .name = ITEM_NAME("HM09"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Clears away fog\n"
+            "and lowers the\n"
+            "foe's evasiveness."),
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_ROCK_CLIMB] =
+    {
+        .name = ITEM_NAME("HM10"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Scales rock walls\n"
+            "while attacking\n"
+            "with great force."),
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_WHIRLPOOL] =
+    {
+        .name = ITEM_NAME("HM11"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Traps the foe in\n"
+            "a violent, swirling\n"
+            "vortex of water."),
         .importance = 1,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,

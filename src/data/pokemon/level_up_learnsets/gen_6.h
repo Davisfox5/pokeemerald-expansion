@@ -3488,6 +3488,10 @@ static const struct LevelUpMove sMimeJrLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_TRICK),
     LEVEL_UP_MOVE(39, MOVE_PSYCHIC),
     LEVEL_UP_MOVE(43, MOVE_ROLE_PLAY),
+    // Apocrypha M03c exception: Mr. Mime is the only Fairy-typed species on the roster that the
+    // ORAS learnsets leave with no Fairy attacking move, and the TM list has none to teach it.
+    // Level 44 matches where Mr. Mime learns Dazzling Gleam in the present-day games.
+    LEVEL_UP_MOVE(44, MOVE_DAZZLING_GLEAM),
     LEVEL_UP_MOVE(46, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(50, MOVE_SAFEGUARD),
     LEVEL_UP_END

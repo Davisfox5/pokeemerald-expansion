@@ -601,6 +601,14 @@ static const u8 *GetInteractedMetatileScript(struct MapPosition *position, u8 me
     if (IsFieldMoveUnlocked(FIELD_MOVE_ROCK_CLIMB) && MetatileBehavior_IsRockClimbable(metatileBehavior) == TRUE && !IsRockClimbActive())
         return EventScript_UseRockClimb;
 
+    if (MetatileBehavior_IsWhirlpool(metatileBehavior) == TRUE)
+    {
+        if (IsFieldMoveUnlocked(FIELD_MOVE_WHIRLPOOL) && (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING))
+            return EventScript_UseWhirlpool;
+        else
+            return EventScript_CannotUseWhirlpool;
+    }
+
     elevation = position->elevation;
     if (elevation == MapGridGetElevationAt(position->x, position->y))
     {

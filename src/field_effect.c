@@ -120,6 +120,13 @@ static bool8 WaterfallFieldEffect_WaitForShowMon(struct Task *, struct ObjectEve
 static bool8 WaterfallFieldEffect_RideUp(struct Task *, struct ObjectEvent *);
 static bool8 WaterfallFieldEffect_ContinueRideOrEnd(struct Task *, struct ObjectEvent *);
 
+static void Task_UseWhirlpool(u8);
+static bool8 WhirlpoolFieldEffect_Init(struct Task *, struct ObjectEvent *);
+static bool8 WhirlpoolFieldEffect_ShowMon(struct Task *, struct ObjectEvent *);
+static bool8 WhirlpoolFieldEffect_WaitForShowMon(struct Task *, struct ObjectEvent *);
+static bool8 WhirlpoolFieldEffect_RideThrough(struct Task *, struct ObjectEvent *);
+static bool8 WhirlpoolFieldEffect_ContinueRideOrEnd(struct Task *, struct ObjectEvent *);
+
 static void Task_UseDive(u8);
 static bool8 DiveFieldEffect_Init(struct Task *);
 static bool8 DiveFieldEffect_ShowMon(struct Task *);
@@ -727,6 +734,15 @@ static bool8 (*const sWaterfallFieldEffectFuncs[])(struct Task *, struct ObjectE
     WaterfallFieldEffect_WaitForShowMon,
     WaterfallFieldEffect_RideUp,
     WaterfallFieldEffect_ContinueRideOrEnd,
+};
+
+static bool8 (*const sWhirlpoolFieldEffectFuncs[])(struct Task *, struct ObjectEvent *) =
+{
+    WhirlpoolFieldEffect_Init,
+    WhirlpoolFieldEffect_ShowMon,
+    WhirlpoolFieldEffect_WaitForShowMon,
+    WhirlpoolFieldEffect_RideThrough,
+    WhirlpoolFieldEffect_ContinueRideOrEnd,
 };
 
 static bool8 (*const sDiveFieldEffectFuncs[])(struct Task *) =
@@ -2122,6 +2138,79 @@ static bool8 WaterfallFieldEffect_ContinueRideOrEnd(struct Task *task, struct Ob
     gPlayerAvatar.preventStep = FALSE;
     DestroyTask(FindTaskIdByFunc(Task_UseWaterfall));
     FieldEffectActiveListRemove(FLDEFF_USE_WATERFALL);
+    return FALSE;
+}
+
+// Whirlpool follows Waterfall's shape because the situations match: the player is
+// surfing, the obstacle is the tile ahead, and crossing is a slow ride onto it.
+// It differs in having no fixed direction -- a whirlpool is crossed whichever way
+// the player faces -- so the ride uses the player's current facing.
+bool8 FldEff_UseWhirlpool(void)
+{
+    u8 taskId = CreateTask(Task_UseWhirlpool, 0xff);
+    gTasks[taskId].tMonId = gFieldEffectArguments[0];
+    Task_UseWhirlpool(taskId);
+    return FALSE;
+}
+
+static void Task_UseWhirlpool(u8 taskId)
+{
+    while (sWhirlpoolFieldEffectFuncs[gTasks[taskId].tState](&gTasks[taskId], &gObjectEvents[gPlayerAvatar.objectEventId]));
+}
+
+static bool8 WhirlpoolFieldEffect_Init(struct Task *task, struct ObjectEvent *objectEvent)
+{
+    LockPlayerFieldControls();
+    gPlayerAvatar.preventStep = TRUE;
+    task->tState++;
+    return FALSE;
+}
+
+static bool8 WhirlpoolFieldEffect_ShowMon(struct Task *task, struct ObjectEvent *objectEvent)
+{
+    LockPlayerFieldControls();
+    if (!ObjectEventIsMovementOverridden(objectEvent))
+    {
+        ObjectEventClearHeldMovementIfFinished(objectEvent);
+        gFieldEffectArguments[0] = task->tMonId;
+        FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+        task->tState++;
+    }
+    return FALSE;
+}
+
+static bool8 WhirlpoolFieldEffect_WaitForShowMon(struct Task *task, struct ObjectEvent *objectEvent)
+{
+    if (FieldEffectActiveListContains(FLDEFF_FIELD_MOVE_SHOW_MON))
+        return FALSE;
+
+    task->tState++;
+    return TRUE;
+}
+
+static bool8 WhirlpoolFieldEffect_RideThrough(struct Task *task, struct ObjectEvent *objectEvent)
+{
+    ObjectEventSetHeldMovement(objectEvent, GetWalkSlowMovementAction(objectEvent->facingDirection));
+    task->tState++;
+    return FALSE;
+}
+
+static bool8 WhirlpoolFieldEffect_ContinueRideOrEnd(struct Task *task, struct ObjectEvent *objectEvent)
+{
+    if (!ObjectEventClearHeldMovementIfFinished(objectEvent))
+        return FALSE;
+
+    // Whirlpools can be laid in a row; keep riding while still standing on one.
+    if (MetatileBehavior_IsWhirlpool(objectEvent->currentMetatileBehavior))
+    {
+        task->tState = 3;
+        return TRUE;
+    }
+
+    UnlockPlayerFieldControls();
+    gPlayerAvatar.preventStep = FALSE;
+    DestroyTask(FindTaskIdByFunc(Task_UseWhirlpool));
+    FieldEffectActiveListRemove(FLDEFF_USE_WHIRLPOOL);
     return FALSE;
 }
 

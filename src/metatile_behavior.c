@@ -26,6 +26,7 @@ static const u8 sTileBitAttributes[NUM_METATILE_BEHAVIORS] =
     [MB_INTERIOR_DEEP_WATER]                = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_DEEP_WATER]                         = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_WATERFALL]                          = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
+    [MB_WHIRLPOOL]                          = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
     [MB_SOOTOPOLIS_DEEP_WATER]              = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
     [MB_OCEAN_WATER]                        = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_PUDDLE]                             = TILE_FLAG_UNUSED,
@@ -962,6 +963,17 @@ bool8 MetatileBehavior_IsHotSprings(u8 metatileBehavior)
 bool8 MetatileBehavior_IsWaterfall(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_WATERFALL)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+// A whirlpool sits on surfable water and blocks the crossing until dispelled.
+// Unlike a waterfall it has no direction: the player passes through it whichever
+// way they are facing.
+bool8 MetatileBehavior_IsWhirlpool(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_WHIRLPOOL)
         return TRUE;
     else
         return FALSE;
