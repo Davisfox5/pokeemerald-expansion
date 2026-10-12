@@ -1541,3 +1541,29 @@ const struct Tileset gTileset_HallOfFame =
 };
 
 #endif // IS_FRLG
+
+// Isolated qualification: native Kanto art, no donor story scripts.
+const struct Tileset gTileset_ProofKantoGeneral =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_ProofKantoGeneral,
+    .palettes = gTilesetPalettes_ProofKantoGeneral,
+    .metatiles = gMetatiles_ProofKantoGeneral,
+    .metatileAttributes = gMetatileAttributes_ProofKantoGeneral,
+    .callback = NULL,
+};
+const struct Tileset gTileset_ProofKantoPallet =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_ProofKantoPallet,
+    .palettes = gTilesetPalettes_ProofKantoPallet,
+    .metatiles = gMetatiles_ProofKantoPallet,
+    .metatileAttributes = gMetatileAttributes_ProofKantoPallet,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_CherrygrovePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygrovePrimary, .palettes = gTilesetPalettes_CherrygrovePrimary, .metatiles = gMetatiles_CherrygrovePrimary, .metatileAttributes = gMetatileAttributes_CherrygrovePrimary, .callback = InitTilesetAnim_General };
+
+const struct Tileset gTileset_Cherrygrove = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Cherrygrove, .palettes = gTilesetPalettes_Cherrygrove, .metatiles = gMetatiles_Cherrygrove, .metatileAttributes = gMetatileAttributes_Cherrygrove, .callback = NULL };

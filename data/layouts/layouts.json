@@ -9323,6 +9323,104 @@
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_MAP_PROOF_HOENN",
+      "name": "MapProofHoenn_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MapProofHoenn/border.bin",
+      "blockdata_filepath": "data/layouts/MapProofHoenn/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_MAP_PROOF_JOHTO",
+      "name": "MapProofJohto_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MapProofJohto/border.bin",
+      "blockdata_filepath": "data/layouts/MapProofJohto/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_MAP_PROOF_KANTO",
+      "name": "MapProofKanto_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_ProofKantoGeneral",
+      "secondary_tileset": "gTileset_ProofKantoPallet",
+      "border_filepath": "data/layouts/MapProofKanto/border.bin",
+      "blockdata_filepath": "data/layouts/MapProofKanto/map.bin",
+      "layout_version": "frlg",
+      "build_target": "emerald",
+      "border_width": 2,
+      "border_height": 2
+    },
+    {
+      "id": "LAYOUT_MAP_PROOF_SINNOH",
+      "name": "MapProofSinnoh_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MapProofSinnoh/border.bin",
+      "blockdata_filepath": "data/layouts/MapProofSinnoh/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_MAP_PROOF_UNOVA",
+      "name": "MapProofUnova_Layout",
+      "width": 80,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MapProofUnova/border.bin",
+      "blockdata_filepath": "data/layouts/MapProofUnova/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_CITY",
+      "name": "CherrygroveCity_Layout",
+      "width": 44,
+      "height": 40,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/CherrygroveCity/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_ROUTE29_APPROACH",
+      "name": "CherrygroveRoute29Approach_Layout",
+      "width": 16,
+      "height": 40,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/CherrygroveRoute29Approach/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveRoute29Approach/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_ROUTE30_APPROACH",
+      "name": "CherrygroveRoute30Approach_Layout",
+      "width": 44,
+      "height": 12,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/CherrygroveRoute30Approach/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveRoute30Approach/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }

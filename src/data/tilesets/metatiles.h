@@ -408,3 +408,15 @@ const u16 gMetatiles_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_
 const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_fame_frlg/metatile_attributes.bin");
 
 #endif // IS_FRLG
+
+// Isolated qualification: native Kanto art, no donor story scripts.
+const u16 gMetatiles_ProofKantoGeneral[] = INCBIN_U16("data/tilesets/primary/general_frlg/metatiles.bin");
+const u16 gMetatileAttributes_ProofKantoGeneral[] = INCBIN_U16("data/tilesets/primary/general_frlg/metatile_attributes.bin");
+const u16 gMetatiles_ProofKantoPallet[] = INCBIN_U16("data/tilesets/secondary/pallet_town_frlg/metatiles.bin");
+const u16 gMetatileAttributes_ProofKantoPallet[] = INCBIN_U16("data/tilesets/secondary/pallet_town_frlg/metatile_attributes.bin");
+
+const u16 gMetatiles_CherrygrovePrimary[] = INCBIN_U16("data/tilesets/primary/cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_CherrygrovePrimary[] = INCBIN_U16("data/tilesets/primary/cherrygrove/metatile_attributes.bin");
+
+const u16 gMetatiles_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatile_attributes.bin");

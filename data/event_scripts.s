@@ -1738,3 +1738,35 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
 	.include "data/scripts/wild_encounter.inc"
+
+.include "data/maps/MapProofHoenn/scripts.inc"
+
+.include "data/maps/MapProofJohto/scripts.inc"
+
+.include "data/maps/MapProofKanto/scripts.inc"
+
+.include "data/maps/MapProofSinnoh/scripts.inc"
+
+.include "data/maps/MapProofUnova/scripts.inc"
+
+.include "data/maps/CherrygroveCity/scripts.inc"
+
+.include "data/maps/CherrygrovePlayerHouse/scripts.inc"
+
+.include "data/maps/CherrygroveGoldHouse/scripts.inc"
+
+.include "data/maps/CherrygroveNeighborHouse/scripts.inc"
+
+.include "data/maps/CherrygroveTransplantHouse/scripts.inc"
+
+.include "data/maps/CherrygroveMart/scripts.inc"
+
+.include "data/maps/CherrygrovePokemonCenter/scripts.inc"
+
+.include "data/maps/CherrygrovePlayerBedroom/scripts.inc"
+
+.include "data/maps/CherrygroveCenterUpstairs/scripts.inc"
+
+.include "data/maps/CherrygroveRoute29Approach/scripts.inc"
+
+.include "data/maps/CherrygroveRoute30Approach/scripts.inc"

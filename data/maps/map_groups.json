@@ -74,7 +74,13 @@
     "gMapGroup_IndoorFiveIslandRoute_Frlg",
     "gMapGroup_IndoorTwoIslandRoute_Frlg",
     "gMapGroup_IndoorSixIslandRoute_Frlg",
-    "gMapGroup_IndoorSevenIslandRoute_Frlg"
+    "gMapGroup_IndoorSevenIslandRoute_Frlg",
+    "gMapGroup_ProofHoenn",
+    "gMapGroup_ProofJohto",
+    "gMapGroup_ProofKanto",
+    "gMapGroup_ProofSinnoh",
+    "gMapGroup_ProofUnova",
+    "gMapGroup_Cherrygrove"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1160,5 +1166,33 @@
   ],
   "gMapGroup_IndoorSevenIslandRoute_Frlg": [
     "SevenIsland_SevaultCanyon_House_Frlg"
+  ],
+  "gMapGroup_ProofHoenn": [
+    "MapProofHoenn"
+  ],
+  "gMapGroup_ProofJohto": [
+    "MapProofJohto"
+  ],
+  "gMapGroup_ProofKanto": [
+    "MapProofKanto"
+  ],
+  "gMapGroup_ProofSinnoh": [
+    "MapProofSinnoh"
+  ],
+  "gMapGroup_ProofUnova": [
+    "MapProofUnova"
+  ],
+  "gMapGroup_Cherrygrove": [
+    "CherrygroveCity",
+    "CherrygrovePlayerHouse",
+    "CherrygroveGoldHouse",
+    "CherrygroveNeighborHouse",
+    "CherrygroveTransplantHouse",
+    "CherrygroveMart",
+    "CherrygrovePokemonCenter",
+    "CherrygrovePlayerBedroom",
+    "CherrygroveCenterUpstairs",
+    "CherrygroveRoute29Approach",
+    "CherrygroveRoute30Approach"
   ]
 }

@@ -750,8 +750,9 @@ void process_groups(string groups_filepath, vector<string> &map_filepaths, strin
         }
         string map_name = json_to_string(map_data, "name");
 
-        if ((version == "emerald" && region != "REGION_HOENN")
-         || (version == "firered" && region != "REGION_KANTO")) {
+        string build_target = json_to_string(map_data, "build_target", true);
+        if (build_target.empty() ? ((version == "emerald" && region != "REGION_HOENN")
+         || (version == "firered" && region != "REGION_KANTO")) : build_target != version) {
             invalid_maps.push_back(map_name);
         }
     }
@@ -790,8 +791,9 @@ string generate_layout_headers_text(Json layouts_data) {
             else if (version == "firered")
                 layout_version = "frlg";
         }
-        if ((version == "emerald" && layout_version != "emerald")
-         || (version == "firered" && layout_version != "frlg"))
+        if (json_to_string(layout, "build_target", true).empty()
+            ? ((version == "emerald" && layout_version != "emerald") || (version == "firered" && layout_version != "frlg"))
+            : json_to_string(layout, "build_target", true) != version)
             continue;
         string layoutName = json_to_string(layout, "name");
         string border_label = layoutName + "_Border";
@@ -848,7 +850,9 @@ string generate_layouts_table_text(Json layouts_data) {
             else if (version == "firered")
                 layout_version = "frlg";
         }
-        if ((version == "emerald" && layout_version != "emerald") || (version == "firered" && layout_version != "frlg")) {
+        if (json_to_string(layout, "build_target", true).empty()
+            ? ((version == "emerald" && layout_version != "emerald") || (version == "firered" && layout_version != "frlg"))
+            : json_to_string(layout, "build_target", true) != version) {
             text << "\t.4byte NULL\n";
         } else {
             string layout_name = json_to_string(layout, "name", true);

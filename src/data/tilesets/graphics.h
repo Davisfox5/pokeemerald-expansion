@@ -3038,3 +3038,85 @@ const u16 ALIGNED(4) gTilesetPalettes_General_Frlg[][16] =
 const u32 gTilesetTiles_General_Frlg[] = INCGFX_U32("data/tilesets/primary/general_frlg/tiles.png", ".4bpp.smol");
 
 #endif // IS_FRLG
+
+// Isolated qualification: native Kanto art, no donor story scripts.
+const u16 ALIGNED(4) gTilesetPalettes_ProofKantoGeneral[][16] =
+{
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_frlg/palettes/15.pal", ".gbapal"),
+};
+const u32 gTilesetTiles_ProofKantoGeneral[] = INCGFX_U32("data/tilesets/primary/general_frlg/tiles.png", ".4bpp.smol");
+const u16 gTilesetPalettes_ProofKantoPallet[][16] =
+{
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallet_town_frlg/palettes/15.pal", ".gbapal"),
+};
+const u32 gTilesetTiles_ProofKantoPallet[] = INCGFX_U32("data/tilesets/secondary/pallet_town_frlg/tiles.png", ".4bpp.fastSmol");
+
+const u32 gTilesetTiles_CherrygrovePrimary[] = INCGFX_U32("data/tilesets/primary/cherrygrove/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_CherrygrovePrimary[][16] = {
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cherrygrove/palettes/15.pal", ".gbapal"),
+};
+
+const u32 gTilesetTiles_Cherrygrove[] = INCGFX_U32("data/tilesets/secondary/cherrygrove/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_Cherrygrove[][16] = {
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/15.pal", ".gbapal"),
+};

@@ -1,0 +1,28 @@
+{
+  "id": "MAP_CHERRYGROVE_ROUTE30_APPROACH",
+  "name": "CherrygroveRoute30Approach",
+  "layout": "LAYOUT_CHERRYGROVE_ROUTE30_APPROACH",
+  "music": "MUS_LITTLEROOT",
+  "region": "REGION_JOHTO",
+  "region_map_section": "MAPSEC_CHERRYGROVE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "build_target": "emerald",
+  "connections": [
+    {
+      "map": "MAP_CHERRYGROVE_CITY",
+      "offset": 0,
+      "direction": "down"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}
