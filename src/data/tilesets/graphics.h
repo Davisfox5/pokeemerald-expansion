@@ -3298,3 +3298,23 @@ INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/14.pal", ".gbapal")
 INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/15.pal", ".gbapal"),
 };
 // End Claude routes
+
+const u32 gTilesetTiles_ApocRoute29[] = INCGFX_U32("data/tilesets/secondary/apoc_route29/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_ApocRoute29[][16] = {
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/apoc_route29/palettes/15.pal", ".gbapal"),
+};
