@@ -9450,7 +9450,7 @@
       "id": "LAYOUT_NEW_BARK_TOWN",
       "name": "NewBarkTown_Layout",
       "width": 36,
-      "height": 50,
+      "height": 53,
       "primary_tileset": "gTileset_CherrygrovePrimary",
       "secondary_tileset": "gTileset_NewBark",
       "border_filepath": "data/layouts/NewBarkTown/border.bin",
