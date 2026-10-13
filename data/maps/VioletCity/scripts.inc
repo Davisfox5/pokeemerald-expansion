@@ -39,6 +39,18 @@ VioletCity_Practice::
 	end
 
 
+VioletCity_Route36::
+# 36 "data/maps/VioletCity/scripts.pory"
+	msgbox VioletCity_Route36_Text_0, MSGBOX_SIGN
+	end
+
+
+VioletCity_Route32::
+# 41 "data/maps/VioletCity/scripts.pory"
+	msgbox VioletCity_Route32_Text_0, MSGBOX_SIGN
+	end
+
+
 VioletCity_University_Text_0:
 # 6 "data/maps/VioletCity/scripts.pory"
 	.string "VIOLET UNIVERSITY\nMain hall, library and classrooms.$"
@@ -62,3 +74,11 @@ VioletCity_City_Text_0:
 VioletCity_Practice_Text_0:
 # 31 "data/maps/VioletCity/scripts.pory"
 	.string "UNIVERSITY PRACTICE COURT\nObserve. Practice. Discuss.$"
+
+VioletCity_Route36_Text_0:
+# 36 "data/maps/VioletCity/scripts.pory"
+	.string "ROUTE 36\nWest through the gate.$"
+
+VioletCity_Route32_Text_0:
+# 41 "data/maps/VioletCity/scripts.pory"
+	.string "ROUTE 32\nSouth toward UNION CAVE.$"

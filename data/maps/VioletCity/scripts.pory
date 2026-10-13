@@ -31,3 +31,13 @@ script VioletCity_Practice {
     msgbox("UNIVERSITY PRACTICE COURT\nObserve. Practice. Discuss.", MSGBOX_SIGN)
     end
 }
+
+script VioletCity_Route36 {
+    msgbox("ROUTE 36\nWest through the gate.", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Route32 {
+    msgbox("ROUTE 32\nSouth toward UNION CAVE.", MSGBOX_SIGN)
+    end
+}
