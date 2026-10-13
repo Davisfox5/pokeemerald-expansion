@@ -53,7 +53,7 @@ VioletCity_Library_Text_0:
 
 VioletCity_Lecture_Text_0:
 # 21 "data/maps/VioletCity/scripts.pory"
-	.string "LECTURE HALL\nBATTLE PRACTICUM$"
+	.string "LECTURE HALL\nBATTLE PRACTICUM\nFormer VIOLET GYM$"
 
 VioletCity_City_Text_0:
 # 26 "data/maps/VioletCity/scripts.pory"

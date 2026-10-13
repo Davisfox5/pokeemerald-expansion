@@ -18,7 +18,7 @@ script VioletCity_Library {
 }
 
 script VioletCity_Lecture {
-    msgbox("LECTURE HALL\nBATTLE PRACTICUM", MSGBOX_SIGN)
+    msgbox("LECTURE HALL\nBATTLE PRACTICUM\nFormer VIOLET GYM", MSGBOX_SIGN)
     end
 }
 
