@@ -26,7 +26,21 @@
       "offset": -28
     }
   ],
-  "object_events": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "x": 18,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_13"
+    }
+  ],
   "warp_events": [],
   "coord_events": [],
   "bg_events": [
@@ -42,6 +56,14 @@
       "type": "sign",
       "x": 13,
       "y": 58,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CherrygroveRoute30Approach_RouteSign"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 24,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CherrygroveRoute30Approach_RouteSign"
