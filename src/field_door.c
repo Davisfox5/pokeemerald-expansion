@@ -396,7 +396,7 @@ static const u8 sRestartDoorPal_GardenHouse[20] = {6,6,6,6,6,6,6,11,6,6,6,6,6,6,
 // Johto synthesis doors
 extern const struct Tileset gTileset_NewBark;
 static const u8 sJohtoSynthesisDoor_NewBarkTown_0[] = INCBIN_U8("graphics/door_anims/johto_synthesis/NewBarkTown_0.4bpp");
-static const u8 sJohtoSynthesisDoorPal_NewBarkTown_0[20] = {8,8,9,9,8,9,8,9,8,8,8,8,8,8,9,8,0,0,0,0};
+static const u8 sJohtoSynthesisDoorPal_NewBarkTown_0[20] = {8,8,8,12,8,12,8,12,8,8,8,8,8,8,12,8,0,0,0,0};
 static const u8 sJohtoSynthesisDoor_NewBarkTown_1[] = INCBIN_U8("graphics/door_anims/johto_synthesis/NewBarkTown_1.4bpp");
 static const u8 sJohtoSynthesisDoorPal_NewBarkTown_1[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,7,7,0,0,0,0};
 static const u8 sJohtoSynthesisDoor_NewBarkTown_2[] = INCBIN_U8("graphics/door_anims/johto_synthesis/NewBarkTown_2.4bpp");
@@ -410,7 +410,7 @@ static const u8 sJohtoSynthesisDoorPal_NewBarkTown_5[20] = {6,6,6,6,6,6,6,6,6,6,
 static const u8 sJohtoSynthesisDoor_NewBarkTown_6[] = INCBIN_U8("graphics/door_anims/johto_synthesis/NewBarkTown_6.4bpp");
 static const u8 sJohtoSynthesisDoorPal_NewBarkTown_6[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,6,6,0,0,0,0};
 static const u8 sJohtoSynthesisDoor_NewBarkTown_7[] = INCBIN_U8("graphics/door_anims/johto_synthesis/NewBarkTown_7.4bpp");
-static const u8 sJohtoSynthesisDoorPal_NewBarkTown_7[20] = {6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0};
+static const u8 sJohtoSynthesisDoorPal_NewBarkTown_7[20] = {9,9,6,6,6,6,6,6,9,9,6,6,6,6,6,6,0,0,0,0};
 extern const struct Tileset gTileset_Route31;
 static const u8 sJohtoSynthesisDoor_JohtoRoute31_0[] = INCBIN_U8("graphics/door_anims/johto_synthesis/JohtoRoute31_0.4bpp");
 static const u8 sJohtoSynthesisDoorPal_JohtoRoute31_0[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,7,6,0,0,0,0};

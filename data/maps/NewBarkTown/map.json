@@ -24,7 +24,7 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 16,
+      "x": 17,
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_NEW_BARK_INSTITUTE",
@@ -52,29 +52,29 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 10,
-      "y": 30,
+      "x": 9,
+      "y": 28,
       "elevation": 0,
       "dest_map": "MAP_NEW_BARK_RESIDENCE_1",
       "dest_warp_id": "0"
     },
     {
-      "x": 25,
-      "y": 30,
+      "x": 26,
+      "y": 29,
       "elevation": 0,
       "dest_map": "MAP_NEW_BARK_RESIDENCE_2",
       "dest_warp_id": "0"
     },
     {
-      "x": 10,
-      "y": 39,
+      "x": 11,
+      "y": 36,
       "elevation": 0,
       "dest_map": "MAP_NEW_BARK_RESIDENCE_3",
       "dest_warp_id": "0"
     },
     {
-      "x": 25,
-      "y": 39,
+      "x": 24,
+      "y": 38,
       "elevation": 0,
       "dest_map": "MAP_NEW_BARK_RESIDENCE_4",
       "dest_warp_id": "0"
