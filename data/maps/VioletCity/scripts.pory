@@ -3,7 +3,7 @@ raw `VioletCity_MapScripts::
 `
 
 script VioletCity_University {
-    msgbox("VIOLET UNIVERSITY", MSGBOX_SIGN)
+    msgbox("VIOLET UNIVERSITY\nMain hall, library and classrooms.", MSGBOX_SIGN)
     end
 }
 
@@ -13,7 +13,7 @@ script VioletCity_Tower {
 }
 
 script VioletCity_Library {
-    msgbox("UNIVERSITY LIBRARY", MSGBOX_SIGN)
+    msgbox("LIBRARY AND CLASSROOMS\nInside the main university hall.", MSGBOX_SIGN)
     end
 }
 
@@ -24,5 +24,10 @@ script VioletCity_Lecture {
 
 script VioletCity_City {
     msgbox("VIOLET CITY", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Practice {
+    msgbox("UNIVERSITY PRACTICE COURT\nObserve. Practice. Discuss.", MSGBOX_SIGN)
     end
 }
