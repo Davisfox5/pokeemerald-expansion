@@ -445,3 +445,9 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+// Violet City exterior
+const u16 gMetatiles_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/violet_city/metatiles.bin");
+const u16 gMetatileAttributes_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/violet_city/metatile_attributes.bin");
+const u16 gMetatiles_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatiles.bin");
+const u16 gMetatileAttributes_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatile_attributes.bin");

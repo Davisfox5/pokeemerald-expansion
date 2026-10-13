@@ -1834,3 +1834,4 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/CherrygroveRegionalPreview29/scripts.inc"
 
 .include "data/maps/CherrygroveRegionalPreview30/scripts.inc"
+.include "data/maps/VioletCity/scripts.inc"

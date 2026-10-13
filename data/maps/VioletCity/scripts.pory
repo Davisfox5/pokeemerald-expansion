@@ -1,0 +1,28 @@
+raw `VioletCity_MapScripts::
+    .byte 0
+`
+
+script VioletCity_University {
+    msgbox("VIOLET UNIVERSITY", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Tower {
+    msgbox("SPROUT TOWER", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Library {
+    msgbox("UNIVERSITY LIBRARY", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Lecture {
+    msgbox("LECTURE HALL\nBATTLE PRACTICUM", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_City {
+    msgbox("VIOLET CITY", MSGBOX_SIGN)
+    end
+}

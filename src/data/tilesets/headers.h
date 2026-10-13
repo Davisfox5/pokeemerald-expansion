@@ -1583,3 +1583,7 @@ const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
+
+// Violet City exterior
+const struct Tileset gTileset_VioletCityPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_VioletCityPrimary, .palettes = gTilesetPalettes_VioletCityPrimary, .metatiles = gMetatiles_VioletCityPrimary, .metatileAttributes = gMetatileAttributes_VioletCityPrimary, .callback = NULL };
+const struct Tileset gTileset_VioletCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletCity, .palettes = gTilesetPalettes_VioletCity, .metatiles = gMetatiles_VioletCity, .metatileAttributes = gMetatileAttributes_VioletCity, .callback = NULL };
