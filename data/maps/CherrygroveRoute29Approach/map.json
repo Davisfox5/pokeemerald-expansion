@@ -23,7 +23,7 @@
     {
       "map": "MAP_NEW_BARK_TOWN",
       "direction": "right",
-      "offset": 6
+      "offset": 3
     }
   ],
   "object_events": [],
