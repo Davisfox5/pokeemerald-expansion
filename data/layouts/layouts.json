@@ -9539,6 +9539,29 @@
       "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/VioletCity/border.bin",
       "blockdata_filepath": "data/layouts/VioletCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ROUTE36",
+      "name": "JohtoRoute36_Layout",
+      "width": 82,
+      "height": 32,
+      "build_target": "emerald",
+      "primary_tileset": "gTileset_JohtoRoute36Primary",
+      "secondary_tileset": "gTileset_JohtoRoute36",
+      "border_filepath": "data/layouts/JohtoRoute36/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute36/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_WEST_GATE",
+      "name": "VioletWestGate_Layout",
+      "width": 15,
+      "height": 6,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/Route110_SeasideCyclingRoadEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/Route110_SeasideCyclingRoadEntrance/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }

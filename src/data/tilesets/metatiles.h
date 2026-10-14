@@ -451,3 +451,9 @@ const u16 gMetatiles_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/vio
 const u16 gMetatileAttributes_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/violet_city/metatile_attributes.bin");
 const u16 gMetatiles_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatiles.bin");
 const u16 gMetatileAttributes_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatile_attributes.bin");
+
+// Route 36 exterior
+const u16 gMetatiles_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatiles.bin");
+const u16 gMetatileAttributes_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatile_attributes.bin");
+const u16 gMetatiles_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatiles.bin");
+const u16 gMetatileAttributes_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatile_attributes.bin");

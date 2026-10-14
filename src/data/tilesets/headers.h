@@ -1587,3 +1587,7 @@ const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecond
 // Violet City exterior
 const struct Tileset gTileset_VioletCityPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_VioletCityPrimary, .palettes = gTilesetPalettes_VioletCityPrimary, .metatiles = gMetatiles_VioletCityPrimary, .metatileAttributes = gMetatileAttributes_VioletCityPrimary, .callback = NULL };
 const struct Tileset gTileset_VioletCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletCity, .palettes = gTilesetPalettes_VioletCity, .metatiles = gMetatiles_VioletCity, .metatileAttributes = gMetatileAttributes_VioletCity, .callback = NULL };
+
+// Route 36 exterior
+const struct Tileset gTileset_JohtoRoute36Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoRoute36Primary, .palettes = gTilesetPalettes_JohtoRoute36Primary, .metatiles = gMetatiles_JohtoRoute36Primary, .metatileAttributes = gMetatileAttributes_JohtoRoute36Primary, .callback = NULL };
+const struct Tileset gTileset_JohtoRoute36 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoRoute36, .palettes = gTilesetPalettes_JohtoRoute36, .metatiles = gMetatiles_JohtoRoute36, .metatileAttributes = gMetatileAttributes_JohtoRoute36, .callback = NULL };
