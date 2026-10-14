@@ -445,3 +445,11 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+
+
+
+
+// Route32 HGSS reconstruction
+const u16 gMetatiles_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatile_attributes.bin");

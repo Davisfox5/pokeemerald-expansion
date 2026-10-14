@@ -418,8 +418,11 @@ extern const struct Tileset gTileset_VioletEntrance;
 static const u8 sJohtoSynthesisDoor_VioletCityEntrance_0[] = INCBIN_U8("graphics/door_anims/johto_synthesis/VioletCityEntrance_0.4bpp");
 static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,7,6,0,0,0,0};
 // End Johto synthesis doors
+extern const struct Tileset gTileset_Route32;
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
+    // Route32 door
+    {.metatileNum=873, .tileset=&gTileset_Route32, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sRestartDoor_PokemonCenter, .palettes=sRestartDoorPal_PokemonCenter},
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
     {.metatileNum=753, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_1, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_1},
     {.metatileNum=767, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_2, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_2},
