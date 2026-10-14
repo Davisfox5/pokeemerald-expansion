@@ -453,3 +453,7 @@ const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secon
 // Route32 HGSS reconstruction
 const u16 gMetatiles_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatiles.bin");
 const u16 gMetatileAttributes_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatile_attributes.bin");
+
+// Route32 reviewed-grid local primary
+const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
