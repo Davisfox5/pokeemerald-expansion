@@ -1591,3 +1591,7 @@ const struct Tileset gTileset_VioletCity = { .isCompressed = TRUE, .isSecondary 
 // Route 36 exterior
 const struct Tileset gTileset_JohtoRoute36Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoRoute36Primary, .palettes = gTilesetPalettes_JohtoRoute36Primary, .metatiles = gMetatiles_JohtoRoute36Primary, .metatileAttributes = gMetatileAttributes_JohtoRoute36Primary, .callback = NULL };
 const struct Tileset gTileset_JohtoRoute36 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoRoute36, .palettes = gTilesetPalettes_JohtoRoute36, .metatiles = gMetatiles_JohtoRoute36, .metatileAttributes = gMetatileAttributes_JohtoRoute36, .callback = NULL };
+
+// Approved shared Johto service buildings; private Cherrygrove pair.
+const struct Tileset gTileset_JohtoCherrygrovePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoCherrygrovePrimary, .palettes = gTilesetPalettes_JohtoCherrygrovePrimary, .metatiles = gMetatiles_JohtoCherrygrovePrimary, .metatileAttributes = gMetatileAttributes_JohtoCherrygrovePrimary, .callback = InitTilesetAnim_CherrygrovePrimary };
+const struct Tileset gTileset_JohtoCherrygrove = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoCherrygrove, .palettes = gTilesetPalettes_JohtoCherrygrove, .metatiles = gMetatiles_JohtoCherrygrove, .metatileAttributes = gMetatileAttributes_JohtoCherrygrove, .callback = NULL };

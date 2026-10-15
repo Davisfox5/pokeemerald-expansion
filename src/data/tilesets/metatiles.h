@@ -457,3 +457,9 @@ const u16 gMetatiles_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/j
 const u16 gMetatileAttributes_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatile_attributes.bin");
 const u16 gMetatiles_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatiles.bin");
 const u16 gMetatileAttributes_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatile_attributes.bin");
+
+// Approved shared Johto service buildings; private Cherrygrove pair.
+const u16 gMetatiles_JohtoCherrygrovePrimary[] = INCBIN_U16("data/tilesets/primary/johto_cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_JohtoCherrygrovePrimary[] = INCBIN_U16("data/tilesets/primary/johto_cherrygrove/metatile_attributes.bin");
+const u16 gMetatiles_JohtoCherrygrove[] = INCBIN_U16("data/tilesets/secondary/johto_cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_JohtoCherrygrove[] = INCBIN_U16("data/tilesets/secondary/johto_cherrygrove/metatile_attributes.bin");
