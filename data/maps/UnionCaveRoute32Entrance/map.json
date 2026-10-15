@@ -25,14 +25,14 @@
       "dest_warp_id": "1"
     },
     {
-      "x": 5,
+      "x": 4,
       "y": 5,
       "elevation": 3,
       "dest_map": "MAP_UNION_CAVE_B1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 7,
+      "x": 8,
       "y": 57,
       "elevation": 3,
       "dest_map": "MAP_UNION_CAVE_B1F",
