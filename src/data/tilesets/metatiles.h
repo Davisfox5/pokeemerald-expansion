@@ -445,3 +445,39 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+
+
+
+
+// Route32 HGSS reconstruction
+const u16 gMetatiles_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatile_attributes.bin");
+
+// Route32 reviewed-grid local primary
+const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
+
+// Union Cave 1F Primary
+const u16 gMetatiles_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatile_attributes.bin");
+
+// Union Cave 1F Secondary
+const u16 gMetatiles_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatile_attributes.bin");
+
+// Union Cave b1f Primary
+const u16 gMetatiles_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatile_attributes.bin");
+
+// Union Cave b1f Secondary
+const u16 gMetatiles_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatile_attributes.bin");
+
+// Union Cave b2f Primary
+const u16 gMetatiles_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatile_attributes.bin");
+
+// Union Cave b2f Secondary
+const u16 gMetatiles_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatile_attributes.bin");

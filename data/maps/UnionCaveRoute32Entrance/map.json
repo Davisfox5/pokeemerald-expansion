@@ -1,0 +1,44 @@
+{
+  "id": "MAP_UNION_CAVE_ROUTE32_ENTRANCE",
+  "name": "UnionCaveRoute32Entrance",
+  "layout": "LAYOUT_UNION_CAVE_ROUTE32_ENTRANCE",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region": "REGION_JOHTO",
+  "region_map_section": "MAPSEC_UNION_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "build_target": "emerald",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 28,
+      "y": 19,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ROUTE32",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_UNION_CAVE_B1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 57,
+      "elevation": 3,
+      "dest_map": "MAP_UNION_CAVE_B1F",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}
