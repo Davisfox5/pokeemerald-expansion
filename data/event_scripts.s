@@ -1842,3 +1842,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/Route32CenterUpstairs/scripts.inc"
 
 .include "data/maps/UnionCaveRoute32Entrance/scripts.inc"
+
+.include "data/maps/UnionCaveB1F/scripts.inc"
+
+.include "data/maps/UnionCaveB2F/scripts.inc"

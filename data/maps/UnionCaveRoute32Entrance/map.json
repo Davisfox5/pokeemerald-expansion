@@ -23,6 +23,20 @@
       "elevation": 3,
       "dest_map": "MAP_JOHTO_ROUTE32",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_UNION_CAVE_B1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 57,
+      "elevation": 3,
+      "dest_map": "MAP_UNION_CAVE_B1F",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [],

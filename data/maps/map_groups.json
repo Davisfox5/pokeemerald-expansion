@@ -1229,6 +1229,8 @@
     "JohtoRoute32",
     "Route32PokemonCenter",
     "Route32CenterUpstairs",
-    "UnionCaveRoute32Entrance"
+    "UnionCaveRoute32Entrance",
+    "UnionCaveB1F",
+    "UnionCaveB2F"
   ]
 }

@@ -9554,6 +9554,30 @@
       "blockdata_filepath": "data/layouts/UnionCaveRoute32Entrance/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_UNION_CAVE_B1F",
+      "name": "UnionCaveB1F_Layout",
+      "width": 36,
+      "height": 52,
+      "primary_tileset": "gTileset_UnionCaveB1FPrimary",
+      "secondary_tileset": "gTileset_UnionCaveB1FSecondary",
+      "border_filepath": "data/layouts/UnionCaveB1F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCaveB1F/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_UNION_CAVE_B2F",
+      "name": "UnionCaveB2F_Layout",
+      "width": 40,
+      "height": 47,
+      "primary_tileset": "gTileset_UnionCaveB2FPrimary",
+      "secondary_tileset": "gTileset_UnionCaveB2FSecondary",
+      "border_filepath": "data/layouts/UnionCaveB2F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCaveB2F/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }
