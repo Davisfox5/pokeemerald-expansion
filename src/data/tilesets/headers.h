@@ -1611,3 +1611,9 @@ const struct Tileset gTileset_UnionCaveB2FPrimary = { .isCompressed=TRUE, .isSec
 
 // Union Cave b2f Secondary
 const struct Tileset gTileset_UnionCaveB2FSecondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnionCaveB2FSecondary, .palettes=gTilesetPalettes_UnionCaveB2FSecondary, .metatiles=gMetatiles_UnionCaveB2FSecondary, .metatileAttributes=gMetatileAttributes_UnionCaveB2FSecondary, .callback=NULL };
+
+// Route33 HGSS native area
+const struct Tileset gTileset_Route33Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route33Primary, .palettes = gTilesetPalettes_Route33Primary, .metatiles = gMetatiles_Route33Primary, .metatileAttributes = gMetatileAttributes_Route33Primary, .callback = NULL };
+
+// Route33 HGSS native area
+const struct Tileset gTileset_Route33 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route33, .palettes = gTilesetPalettes_Route33, .metatiles = gMetatiles_Route33, .metatileAttributes = gMetatileAttributes_Route33, .callback = NULL };

@@ -481,3 +481,11 @@ const u16 gMetatileAttributes_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/
 // Union Cave b2f Secondary
 const u16 gMetatiles_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatiles.bin");
 const u16 gMetatileAttributes_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatile_attributes.bin");
+
+// Route33 HGSS native area
+const u16 gMetatiles_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatiles.bin");
+const u16 gMetatileAttributes_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatile_attributes.bin");
+
+// Route33 HGSS native area
+const u16 gMetatiles_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatiles.bin");
+const u16 gMetatileAttributes_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatile_attributes.bin");

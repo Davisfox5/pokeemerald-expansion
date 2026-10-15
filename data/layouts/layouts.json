@@ -9578,6 +9578,20 @@
       "blockdata_filepath": "data/layouts/UnionCaveB2F/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ROUTE33",
+      "name": "JohtoRoute33_Layout",
+      "width": 34,
+      "height": 29,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Route33Primary",
+      "secondary_tileset": "gTileset_Route33",
+      "border_filepath": "data/layouts/JohtoRoute33/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute33/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }
