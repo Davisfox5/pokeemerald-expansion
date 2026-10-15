@@ -1583,3 +1583,13 @@ const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
+
+
+
+
+
+// Route32 HGSS reconstruction
+const struct Tileset gTileset_Route32 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route32, .palettes = gTilesetPalettes_Route32, .metatiles = gMetatiles_Route32, .metatileAttributes = gMetatileAttributes_Route32, .callback = NULL };
+
+// Route32 reviewed-grid local primary
+const struct Tileset gTileset_Route32Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route32Primary, .palettes = gTilesetPalettes_Route32Primary, .metatiles = gMetatiles_Route32Primary, .metatileAttributes = gMetatileAttributes_Route32Primary, .callback = InitTilesetAnim_CherrygrovePrimary };
