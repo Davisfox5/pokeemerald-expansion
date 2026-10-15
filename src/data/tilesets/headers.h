@@ -1593,3 +1593,9 @@ const struct Tileset gTileset_Route32 = { .isCompressed = TRUE, .isSecondary = T
 
 // Route32 reviewed-grid local primary
 const struct Tileset gTileset_Route32Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route32Primary, .palettes = gTilesetPalettes_Route32Primary, .metatiles = gMetatiles_Route32Primary, .metatileAttributes = gMetatileAttributes_Route32Primary, .callback = InitTilesetAnim_CherrygrovePrimary };
+
+// Union Cave 1F Primary
+const struct Tileset gTileset_UnionCavePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_UnionCavePrimary, .palettes = gTilesetPalettes_UnionCavePrimary, .metatiles = gMetatiles_UnionCavePrimary, .metatileAttributes = gMetatileAttributes_UnionCavePrimary, .callback = NULL };
+
+// Union Cave 1F Secondary
+const struct Tileset gTileset_UnionCaveSecondary = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_UnionCaveSecondary, .palettes = gTilesetPalettes_UnionCaveSecondary, .metatiles = gMetatiles_UnionCaveSecondary, .metatileAttributes = gMetatileAttributes_UnionCaveSecondary, .callback = NULL };

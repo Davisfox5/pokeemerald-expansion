@@ -457,3 +457,11 @@ const u16 gMetatileAttributes_Route32[] = INCBIN_U16("data/tilesets/secondary/ro
 // Route32 reviewed-grid local primary
 const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
 const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
+
+// Union Cave 1F Primary
+const u16 gMetatiles_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatile_attributes.bin");
+
+// Union Cave 1F Secondary
+const u16 gMetatiles_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatile_attributes.bin");
