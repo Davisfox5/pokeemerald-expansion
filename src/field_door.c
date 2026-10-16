@@ -379,6 +379,7 @@ static const u8 sFloccesyDoor_ShedEast[] = INCBIN_U8("graphics/door_anims/flocce
 static const u8 sFloccesyDoorPal_ShedEast[20] = {11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,0,0,0,0};
 // Fresh custom Johto facade animations.
 extern const struct Tileset gTileset_Cherrygrove;
+extern const struct Tileset gTileset_JohtoCherrygrove;
 static const u8 sRestartDoor_PlayerHouse[] = INCBIN_U8("graphics/door_anims/johto_restart/PlayerHouse.4bpp");
 static const u8 sRestartDoorPal_PlayerHouse[20] = {6,6,6,6,6,6,7,7,6,6,6,7,6,7,7,7,0,0,0,0};
 static const u8 sRestartDoor_GoldHouse[] = INCBIN_U8("graphics/door_anims/johto_restart/GoldHouse.4bpp");
@@ -418,6 +419,20 @@ extern const struct Tileset gTileset_VioletEntrance;
 static const u8 sJohtoSynthesisDoor_VioletCityEntrance_0[] = INCBIN_U8("graphics/door_anims/johto_synthesis/VioletCityEntrance_0.4bpp");
 static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,7,6,0,0,0,0};
 // End Johto synthesis doors
+static const u8 sSharedDoor_PlayerHouse[] = INCBIN_U8("graphics/door_anims/johto_shared/PlayerHouse.4bpp");
+static const u8 sSharedDoorPal_PlayerHouse[20] = {6,6,6,6,6,6,7,7,6,6,6,7,6,7,7,7,0,0,0,0};
+static const u8 sSharedDoor_GoldHouse[] = INCBIN_U8("graphics/door_anims/johto_shared/GoldHouse.4bpp");
+static const u8 sSharedDoorPal_GoldHouse[20] = {6,6,6,6,6,6,6,11,6,6,6,6,6,6,6,6,0,0,0,0};
+static const u8 sSharedDoor_NeighborHouse[] = INCBIN_U8("graphics/door_anims/johto_shared/NeighborHouse.4bpp");
+static const u8 sSharedDoorPal_NeighborHouse[20] = {7,7,7,7,7,7,7,7,6,6,7,6,7,6,7,7,0,0,0,0};
+static const u8 sSharedDoor_Mart[] = INCBIN_U8("graphics/door_anims/johto_shared/Mart.4bpp");
+static const u8 sSharedDoorPal_Mart[20] = {8,8,9,9,9,9,8,8,8,9,9,9,9,8,8,8,0,0,0,0};
+static const u8 sSharedDoor_PokemonCenter[] = INCBIN_U8("graphics/door_anims/johto_shared/PokemonCenter.4bpp");
+static const u8 sSharedDoorPal_PokemonCenter[20] = {11,11,8,8,11,11,5,5,11,11,11,11,11,11,5,5,0,0,0,0};
+static const u8 sSharedDoor_HarborHouse[] = INCBIN_U8("graphics/door_anims/johto_shared/HarborHouse.4bpp");
+static const u8 sSharedDoorPal_HarborHouse[20] = {7,7,7,7,7,7,7,7,6,6,7,6,7,6,7,6,0,0,0,0};
+static const u8 sSharedDoor_GardenHouse[] = INCBIN_U8("graphics/door_anims/johto_shared/GardenHouse.4bpp");
+static const u8 sSharedDoorPal_GardenHouse[20] = {6,6,6,6,6,6,6,11,6,6,6,6,6,6,6,6,0,0,0,0};
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
@@ -430,6 +445,13 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {.metatileNum=837, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_7, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_7},
     {.metatileNum=539, .tileset=&gTileset_Route31, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_JohtoRoute31_0, .palettes=sJohtoSynthesisDoorPal_JohtoRoute31_0},
     {.metatileNum=539, .tileset=&gTileset_VioletEntrance, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_VioletCityEntrance_0, .palettes=sJohtoSynthesisDoorPal_VioletCityEntrance_0},
+    {.metatileNum=325, .tileset=&gTileset_JohtoCherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sSharedDoor_PlayerHouse, .palettes=sSharedDoorPal_PlayerHouse},
+    {.metatileNum=352, .tileset=&gTileset_JohtoCherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sSharedDoor_GoldHouse, .palettes=sSharedDoorPal_GoldHouse},
+    {.metatileNum=456, .tileset=&gTileset_JohtoCherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sSharedDoor_NeighborHouse, .palettes=sSharedDoorPal_NeighborHouse},
+    {.metatileNum=137, .tileset=&gTileset_JohtoCherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sSharedDoor_Mart, .palettes=sSharedDoorPal_Mart},
+    {.metatileNum=144, .tileset=&gTileset_JohtoCherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sSharedDoor_PokemonCenter, .palettes=sSharedDoorPal_PokemonCenter},
+    {.metatileNum=456, .tileset=&gTileset_JohtoCherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sSharedDoor_HarborHouse, .palettes=sSharedDoorPal_HarborHouse},
+    {.metatileNum=542, .tileset=&gTileset_JohtoCherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sSharedDoor_GardenHouse, .palettes=sSharedDoorPal_GardenHouse},
     {.metatileNum=325, .tileset=&gTileset_Cherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sRestartDoor_PlayerHouse, .palettes=sRestartDoorPal_PlayerHouse},
     {.metatileNum=352, .tileset=&gTileset_Cherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sRestartDoor_GoldHouse, .palettes=sRestartDoorPal_GoldHouse},
     {.metatileNum=456, .tileset=&gTileset_Cherrygrove, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sRestartDoor_NeighborHouse, .palettes=sRestartDoorPal_NeighborHouse},
