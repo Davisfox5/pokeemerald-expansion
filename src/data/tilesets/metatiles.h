@@ -445,3 +445,21 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+// Violet City exterior
+const u16 gMetatiles_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/violet_city/metatiles.bin");
+const u16 gMetatileAttributes_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/violet_city/metatile_attributes.bin");
+const u16 gMetatiles_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatiles.bin");
+const u16 gMetatileAttributes_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatile_attributes.bin");
+
+// Route 36 exterior
+const u16 gMetatiles_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatiles.bin");
+const u16 gMetatileAttributes_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatile_attributes.bin");
+const u16 gMetatiles_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatiles.bin");
+const u16 gMetatileAttributes_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatile_attributes.bin");
+
+// Approved shared Johto service buildings; private Cherrygrove pair.
+const u16 gMetatiles_JohtoCherrygrovePrimary[] = INCBIN_U16("data/tilesets/primary/johto_cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_JohtoCherrygrovePrimary[] = INCBIN_U16("data/tilesets/primary/johto_cherrygrove/metatile_attributes.bin");
+const u16 gMetatiles_JohtoCherrygrove[] = INCBIN_U16("data/tilesets/secondary/johto_cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_JohtoCherrygrove[] = INCBIN_U16("data/tilesets/secondary/johto_cherrygrove/metatile_attributes.bin");

@@ -1,0 +1,43 @@
+raw `VioletCity_MapScripts::
+    .byte 0
+`
+
+script VioletCity_University {
+    msgbox("VIOLET UNIVERSITY\nMain hall, library and classrooms.", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Tower {
+    msgbox("SPROUT TOWER", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Library {
+    msgbox("LIBRARY AND CLASSROOMS\nInside the main university hall.", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Lecture {
+    msgbox("LECTURE HALL\nBATTLE PRACTICUM\nFormer VIOLET GYM", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_City {
+    msgbox("VIOLET CITY", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Practice {
+    msgbox("UNIVERSITY PRACTICE COURT\nObserve. Practice. Discuss.", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Route36 {
+    msgbox("ROUTE 36\nWest through the gate.", MSGBOX_SIGN)
+    end
+}
+
+script VioletCity_Route32 {
+    msgbox("ROUTE 32\nSouth toward UNION CAVE.", MSGBOX_SIGN)
+    end
+}
