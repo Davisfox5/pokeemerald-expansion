@@ -36,14 +36,14 @@
       "x": 7,
       "y": 8,
       "elevation": 3,
-      "dest_map": "MAP_JOHTO_ROUTE32",
+      "dest_map": "MAP_JOHTO_ROUTE32_SOUTH",
       "dest_warp_id": "0"
     },
     {
       "x": 6,
       "y": 8,
       "elevation": 3,
-      "dest_map": "MAP_JOHTO_ROUTE32",
+      "dest_map": "MAP_JOHTO_ROUTE32_SOUTH",
       "dest_warp_id": "0"
     },
     {

@@ -14,31 +14,15 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "build_target": "emerald",
-  "connections": null,
-  "object_events": [],
-  "warp_events": [
+  "connections": [
     {
-      "x": 20,
-      "y": 108,
-      "elevation": 0,
-      "dest_map": "MAP_ROUTE32_POKEMON_CENTER",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 14,
-      "y": 117,
-      "elevation": 0,
-      "dest_map": "MAP_UNION_CAVE_ROUTE32_ENTRANCE",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 15,
-      "y": 117,
-      "elevation": 0,
-      "dest_map": "MAP_UNION_CAVE_ROUTE32_ENTRANCE",
-      "dest_warp_id": "0"
+      "map": "MAP_JOHTO_ROUTE32_SOUTH",
+      "offset": 0,
+      "direction": "down"
     }
   ],
+  "object_events": [],
+  "warp_events": [],
   "coord_events": [],
   "bg_events": []
 }
