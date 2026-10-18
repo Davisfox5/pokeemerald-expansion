@@ -489,3 +489,11 @@ const u16 gMetatileAttributes_Route33Primary[] = INCBIN_U16("data/tilesets/prima
 // Route33 HGSS native area
 const u16 gMetatiles_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatiles.bin");
 const u16 gMetatileAttributes_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatile_attributes.bin");
+
+// Azalea native exterior
+const u16 gMetatiles_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primary/azalea/metatile_attributes.bin");
+
+// Azalea native exterior
+const u16 gMetatiles_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatile_attributes.bin");

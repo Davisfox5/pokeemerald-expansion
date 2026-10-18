@@ -1848,3 +1848,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/UnionCaveB2F/scripts.inc"
 
 .include "data/maps/JohtoRoute33/scripts.inc"
+
+.include "data/maps/JohtoAzaleaTown/scripts.inc"

@@ -9592,6 +9592,20 @@
       "blockdata_filepath": "data/layouts/JohtoRoute33/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_AZALEA_TOWN",
+      "name": "JohtoAzaleaTown_Layout",
+      "width": 64,
+      "height": 33,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_AzaleaPrimary",
+      "secondary_tileset": "gTileset_Azalea",
+      "border_filepath": "data/layouts/JohtoAzaleaTown/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoAzaleaTown/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }

@@ -1762,6 +1762,14 @@
       "y": 8,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_AZALEA_TOWN",
+      "name": "AZALEA TOWN",
+      "x": 1,
+      "y": 8,
+      "width": 1,
+      "height": 1
     }
   ]
 }

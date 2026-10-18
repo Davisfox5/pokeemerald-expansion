@@ -1617,3 +1617,9 @@ const struct Tileset gTileset_Route33Primary = { .isCompressed = TRUE, .isSecond
 
 // Route33 HGSS native area
 const struct Tileset gTileset_Route33 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route33, .palettes = gTilesetPalettes_Route33, .metatiles = gMetatiles_Route33, .metatileAttributes = gMetatileAttributes_Route33, .callback = NULL };
+
+// Azalea native exterior
+const struct Tileset gTileset_AzaleaPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_AzaleaPrimary, .palettes = gTilesetPalettes_AzaleaPrimary, .metatiles = gMetatiles_AzaleaPrimary, .metatileAttributes = gMetatileAttributes_AzaleaPrimary, .callback = NULL };
+
+// Azalea native exterior
+const struct Tileset gTileset_Azalea = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Azalea, .palettes = gTilesetPalettes_Azalea, .metatiles = gMetatiles_Azalea, .metatileAttributes = gMetatileAttributes_Azalea, .callback = NULL };
