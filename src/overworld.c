@@ -1,4 +1,5 @@
 #include "global.h"
+#include "goldenrod_view.h"
 #include "overworld.h"
 #include "battle_pyramid.h"
 #include "battle_setup.h"
@@ -900,7 +901,9 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
     InitMap();
-    CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
+    // Goldenrod keeps a single live glyph cache across its native sections.
+    if (!GoldenrodViewActive())
+        CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
     LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
 
     ApplyWeatherColorMapToPals(GetNumPalsInPrimary(gMapHeader.mapLayout), NUM_PALS_TOTAL - GetNumPalsInPrimary(gMapHeader.mapLayout)); // palettes [6,12]
@@ -912,7 +915,12 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     ResetFieldTasksArgs();
     RunOnResumeMapScript();
 
-    if (OW_HIDE_REPEAT_MAP_POPUP)
+    // Internal Goldenrod sections are one city; do not reopen its name banner.
+    if (GoldenrodViewActive() && gMapHeader.regionMapSectionId == sLastMapSectionId)
+    {
+        // Keep the ordinary popup behavior for every other map transition.
+    }
+    else if (OW_HIDE_REPEAT_MAP_POPUP)
     {
         if (gMapHeader.regionMapSectionId != sLastMapSectionId)
             ShowMapNamePopup();

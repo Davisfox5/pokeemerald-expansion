@@ -1850,3 +1850,27 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/JohtoRoute33/scripts.inc"
 
 .include "data/maps/JohtoAzaleaTown/scripts.inc"
+
+.include "data/maps/GoldenrodCity01/scripts.inc"
+
+.include "data/maps/GoldenrodCity02/scripts.inc"
+
+.include "data/maps/GoldenrodCity03/scripts.inc"
+
+.include "data/maps/GoldenrodCity04/scripts.inc"
+
+.include "data/maps/GoldenrodCity05/scripts.inc"
+
+.include "data/maps/GoldenrodCity06/scripts.inc"
+
+.include "data/maps/GoldenrodCity07/scripts.inc"
+
+.include "data/maps/GoldenrodCity08/scripts.inc"
+
+.include "data/maps/GoldenrodCity09/scripts.inc"
+
+.include "data/maps/GoldenrodCity10/scripts.inc"
+
+.include "data/maps/GoldenrodCity11/scripts.inc"
+
+.include "data/maps/GoldenrodCity12/scripts.inc"

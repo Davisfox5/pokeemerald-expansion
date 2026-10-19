@@ -3554,3 +3554,507 @@ INCGFX_U16("data/tilesets/secondary/azalea/palettes/13.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/azalea/palettes/14.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/azalea/palettes/15.pal", ".gbapal"),
 };
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity01Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity01/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity01Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity01/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity01[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity01/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity01[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity01/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity02Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity02/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity02Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity02/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity02[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity02/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity02[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity02/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity03Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity03/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity03Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity03/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity03[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity03/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity03[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity03/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity04Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity04/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity04Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity04/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity04[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity04/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity04[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity04/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity05Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity05/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity05Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity05/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity05[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity05/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity05[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity05/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity06Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity06/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity06Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity06/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity06[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity06/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity06[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity06/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity07Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity07/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity07Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity07/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity07[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity07/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity07[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity07/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity08Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity08/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity08Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity08/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity08[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity08/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity08[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity08/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity09Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity09/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity09Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity09/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity09[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity09/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity09[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity09/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity10Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity10/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity10Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity10/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity10[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity10/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity10[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity10/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity11Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity11/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity11Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity11/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity11[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity11/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity11[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity11/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity12Primary[] = INCGFX_U32("data/tilesets/primary/goldenrodcity12/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity12Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/goldenrodcity12/palettes/15.pal", ".gbapal"),
+};
+
+// Goldenrod native exterior
+const u32 gTilesetTiles_GoldenrodCity12[] = INCGFX_U32("data/tilesets/secondary/goldenrodcity12/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_GoldenrodCity12[][16] = {
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/15.pal", ".gbapal"),
+};
