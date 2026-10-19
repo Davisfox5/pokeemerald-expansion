@@ -1635,3 +1635,21 @@ const struct Tileset gTileset_EcruteakTemplePrimary = { .isCompressed = TRUE, .i
 
 // Ecruteak native exterior
 const struct Tileset gTileset_EcruteakTemple = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_EcruteakTemple, .palettes = gTilesetPalettes_EcruteakTemple, .metatiles = gMetatiles_EcruteakTemple, .metatileAttributes = gMetatileAttributes_EcruteakTemple, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCityPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCityPrimary, .palettes = gTilesetPalettes_OlivineCityPrimary, .metatiles = gMetatiles_OlivineCityPrimary, .metatileAttributes = gMetatileAttributes_OlivineCityPrimary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity, .palettes = gTilesetPalettes_OlivineCity, .metatiles = gMetatiles_OlivineCity, .metatileAttributes = gMetatileAttributes_OlivineCity, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineQuayPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineQuayPrimary, .palettes = gTilesetPalettes_OlivineQuayPrimary, .metatiles = gMetatiles_OlivineQuayPrimary, .metatileAttributes = gMetatileAttributes_OlivineQuayPrimary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineQuay = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineQuay, .palettes = gTilesetPalettes_OlivineQuay, .metatiles = gMetatiles_OlivineQuay, .metatileAttributes = gMetatileAttributes_OlivineQuay, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineHarborPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineHarborPrimary, .palettes = gTilesetPalettes_OlivineHarborPrimary, .metatiles = gMetatiles_OlivineHarborPrimary, .metatileAttributes = gMetatileAttributes_OlivineHarborPrimary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineHarbor = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineHarbor, .palettes = gTilesetPalettes_OlivineHarbor, .metatiles = gMetatiles_OlivineHarbor, .metatileAttributes = gMetatileAttributes_OlivineHarbor, .callback = NULL };

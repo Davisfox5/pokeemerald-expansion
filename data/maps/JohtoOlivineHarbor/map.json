@@ -1,0 +1,77 @@
+{
+  "id": "MAP_JOHTO_OLIVINE_HARBOR",
+  "name": "JohtoOlivineHarbor",
+  "layout": "LAYOUT_JOHTO_OLIVINE_HARBOR",
+  "music": "MUS_LILYCOVE",
+  "region": "REGION_JOHTO",
+  "region_map_section": "MAPSEC_JOHTO_OLIVINE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "build_target": "emerald",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineHarbor_District_0_26"
+    },
+    {
+      "type": "trigger",
+      "x": 27,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineHarbor_District_0_27"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineHarbor_District_0_28"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineHarbor_District_0_29"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineHarbor_District_0_30"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineHarbor_District_0_31"
+    }
+  ],
+  "bg_events": []
+}

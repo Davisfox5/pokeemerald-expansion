@@ -9634,6 +9634,48 @@
       "blockdata_filepath": "data/layouts/JohtoEcruteakTempleDistrict/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_OLIVINE_CITY",
+      "name": "JohtoOlivineCity_Layout",
+      "width": 72,
+      "height": 26,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OlivineCityPrimary",
+      "secondary_tileset": "gTileset_OlivineCity",
+      "border_filepath": "data/layouts/JohtoOlivineCity/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoOlivineCity/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_OLIVINE_QUAY",
+      "name": "JohtoOlivineQuay_Layout",
+      "width": 72,
+      "height": 18,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OlivineQuayPrimary",
+      "secondary_tileset": "gTileset_OlivineQuay",
+      "border_filepath": "data/layouts/JohtoOlivineQuay/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoOlivineQuay/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_OLIVINE_HARBOR",
+      "name": "JohtoOlivineHarbor_Layout",
+      "width": 72,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OlivineHarborPrimary",
+      "secondary_tileset": "gTileset_OlivineHarbor",
+      "border_filepath": "data/layouts/JohtoOlivineHarbor/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoOlivineHarbor/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }

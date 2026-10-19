@@ -1,0 +1,464 @@
+{
+  "id": "MAP_JOHTO_OLIVINE_QUAY",
+  "name": "JohtoOlivineQuay",
+  "layout": "LAYOUT_JOHTO_OLIVINE_QUAY",
+  "music": "MUS_LILYCOVE",
+  "region": "REGION_JOHTO",
+  "region_map_section": "MAPSEC_JOHTO_OLIVINE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "build_target": "emerald",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_8"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_9"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_11"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_12"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_13"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_14"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_15"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_16"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_17"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_18"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_19"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_20"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_21"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_22"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_23"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_24"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_25"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_26"
+    },
+    {
+      "type": "trigger",
+      "x": 27,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_27"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_28"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_29"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_30"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_31"
+    },
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_32"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_33"
+    },
+    {
+      "type": "trigger",
+      "x": 34,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_34"
+    },
+    {
+      "type": "trigger",
+      "x": 37,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_37"
+    },
+    {
+      "type": "trigger",
+      "x": 38,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_38"
+    },
+    {
+      "type": "trigger",
+      "x": 39,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_39"
+    },
+    {
+      "type": "trigger",
+      "x": 40,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_40"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_41"
+    },
+    {
+      "type": "trigger",
+      "x": 42,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_42"
+    },
+    {
+      "type": "trigger",
+      "x": 43,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_43"
+    },
+    {
+      "type": "trigger",
+      "x": 47,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_47"
+    },
+    {
+      "type": "trigger",
+      "x": 48,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_48"
+    },
+    {
+      "type": "trigger",
+      "x": 49,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_49"
+    },
+    {
+      "type": "trigger",
+      "x": 50,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_50"
+    },
+    {
+      "type": "trigger",
+      "x": 51,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_51"
+    },
+    {
+      "type": "trigger",
+      "x": 52,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_52"
+    },
+    {
+      "type": "trigger",
+      "x": 53,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_53"
+    },
+    {
+      "type": "trigger",
+      "x": 54,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_54"
+    },
+    {
+      "type": "trigger",
+      "x": 55,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_55"
+    },
+    {
+      "type": "trigger",
+      "x": 56,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_0_56"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_17_26"
+    },
+    {
+      "type": "trigger",
+      "x": 27,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_17_27"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_17_28"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_17_29"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_17_30"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_1",
+      "var_value": "0",
+      "script": "JohtoOlivineQuay_District_17_31"
+    }
+  ],
+  "bg_events": []
+}

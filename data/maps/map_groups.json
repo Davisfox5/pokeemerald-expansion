@@ -1235,6 +1235,9 @@
     "JohtoRoute33",
     "JohtoAzaleaTown",
     "JohtoEcruteakCity",
-    "JohtoEcruteakTempleDistrict"
+    "JohtoEcruteakTempleDistrict",
+    "JohtoOlivineCity",
+    "JohtoOlivineQuay",
+    "JohtoOlivineHarbor"
   ]
 }
