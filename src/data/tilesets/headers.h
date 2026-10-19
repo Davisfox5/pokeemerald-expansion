@@ -1583,3 +1583,115 @@ const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
+
+
+
+
+
+// Route32 HGSS reconstruction
+const struct Tileset gTileset_Route32 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route32, .palettes = gTilesetPalettes_Route32, .metatiles = gMetatiles_Route32, .metatileAttributes = gMetatileAttributes_Route32, .callback = NULL };
+
+// Route32 reviewed-grid local primary
+const struct Tileset gTileset_Route32Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route32Primary, .palettes = gTilesetPalettes_Route32Primary, .metatiles = gMetatiles_Route32Primary, .metatileAttributes = gMetatileAttributes_Route32Primary, .callback = InitTilesetAnim_CherrygrovePrimary };
+
+// Union Cave 1F Primary
+const struct Tileset gTileset_UnionCavePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_UnionCavePrimary, .palettes = gTilesetPalettes_UnionCavePrimary, .metatiles = gMetatiles_UnionCavePrimary, .metatileAttributes = gMetatileAttributes_UnionCavePrimary, .callback = NULL };
+
+// Union Cave 1F Secondary
+const struct Tileset gTileset_UnionCaveSecondary = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_UnionCaveSecondary, .palettes = gTilesetPalettes_UnionCaveSecondary, .metatiles = gMetatiles_UnionCaveSecondary, .metatileAttributes = gMetatileAttributes_UnionCaveSecondary, .callback = NULL };
+
+// Union Cave b1f Primary
+const struct Tileset gTileset_UnionCaveB1FPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnionCaveB1FPrimary, .palettes=gTilesetPalettes_UnionCaveB1FPrimary, .metatiles=gMetatiles_UnionCaveB1FPrimary, .metatileAttributes=gMetatileAttributes_UnionCaveB1FPrimary, .callback=NULL };
+
+// Union Cave b1f Secondary
+const struct Tileset gTileset_UnionCaveB1FSecondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnionCaveB1FSecondary, .palettes=gTilesetPalettes_UnionCaveB1FSecondary, .metatiles=gMetatiles_UnionCaveB1FSecondary, .metatileAttributes=gMetatileAttributes_UnionCaveB1FSecondary, .callback=NULL };
+
+// Union Cave b2f Primary
+const struct Tileset gTileset_UnionCaveB2FPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnionCaveB2FPrimary, .palettes=gTilesetPalettes_UnionCaveB2FPrimary, .metatiles=gMetatiles_UnionCaveB2FPrimary, .metatileAttributes=gMetatileAttributes_UnionCaveB2FPrimary, .callback=NULL };
+
+// Union Cave b2f Secondary
+const struct Tileset gTileset_UnionCaveB2FSecondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnionCaveB2FSecondary, .palettes=gTilesetPalettes_UnionCaveB2FSecondary, .metatiles=gMetatiles_UnionCaveB2FSecondary, .metatileAttributes=gMetatileAttributes_UnionCaveB2FSecondary, .callback=NULL };
+
+// Route33 HGSS native area
+const struct Tileset gTileset_Route33Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route33Primary, .palettes = gTilesetPalettes_Route33Primary, .metatiles = gMetatiles_Route33Primary, .metatileAttributes = gMetatileAttributes_Route33Primary, .callback = NULL };
+
+// Route33 HGSS native area
+const struct Tileset gTileset_Route33 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route33, .palettes = gTilesetPalettes_Route33, .metatiles = gMetatiles_Route33, .metatileAttributes = gMetatileAttributes_Route33, .callback = NULL };
+
+// Azalea native exterior
+const struct Tileset gTileset_AzaleaPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_AzaleaPrimary, .palettes = gTilesetPalettes_AzaleaPrimary, .metatiles = gMetatiles_AzaleaPrimary, .metatileAttributes = gMetatileAttributes_AzaleaPrimary, .callback = NULL };
+
+// Azalea native exterior
+const struct Tileset gTileset_Azalea = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Azalea, .palettes = gTilesetPalettes_Azalea, .metatiles = gMetatiles_Azalea, .metatileAttributes = gMetatileAttributes_Azalea, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity01Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity01Primary, .palettes = gTilesetPalettes_GoldenrodCity01Primary, .metatiles = gMetatiles_GoldenrodCity01Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity01Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity01 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity01, .palettes = gTilesetPalettes_GoldenrodCity01, .metatiles = gMetatiles_GoldenrodCity01, .metatileAttributes = gMetatileAttributes_GoldenrodCity01, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity02Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity02Primary, .palettes = gTilesetPalettes_GoldenrodCity02Primary, .metatiles = gMetatiles_GoldenrodCity02Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity02Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity02 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity02, .palettes = gTilesetPalettes_GoldenrodCity02, .metatiles = gMetatiles_GoldenrodCity02, .metatileAttributes = gMetatileAttributes_GoldenrodCity02, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity03Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity03Primary, .palettes = gTilesetPalettes_GoldenrodCity03Primary, .metatiles = gMetatiles_GoldenrodCity03Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity03Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity03 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity03, .palettes = gTilesetPalettes_GoldenrodCity03, .metatiles = gMetatiles_GoldenrodCity03, .metatileAttributes = gMetatileAttributes_GoldenrodCity03, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity04Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity04Primary, .palettes = gTilesetPalettes_GoldenrodCity04Primary, .metatiles = gMetatiles_GoldenrodCity04Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity04Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity04 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity04, .palettes = gTilesetPalettes_GoldenrodCity04, .metatiles = gMetatiles_GoldenrodCity04, .metatileAttributes = gMetatileAttributes_GoldenrodCity04, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity05Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity05Primary, .palettes = gTilesetPalettes_GoldenrodCity05Primary, .metatiles = gMetatiles_GoldenrodCity05Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity05Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity05 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity05, .palettes = gTilesetPalettes_GoldenrodCity05, .metatiles = gMetatiles_GoldenrodCity05, .metatileAttributes = gMetatileAttributes_GoldenrodCity05, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity06Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity06Primary, .palettes = gTilesetPalettes_GoldenrodCity06Primary, .metatiles = gMetatiles_GoldenrodCity06Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity06Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity06 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity06, .palettes = gTilesetPalettes_GoldenrodCity06, .metatiles = gMetatiles_GoldenrodCity06, .metatileAttributes = gMetatileAttributes_GoldenrodCity06, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity07Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity07Primary, .palettes = gTilesetPalettes_GoldenrodCity07Primary, .metatiles = gMetatiles_GoldenrodCity07Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity07Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity07 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity07, .palettes = gTilesetPalettes_GoldenrodCity07, .metatiles = gMetatiles_GoldenrodCity07, .metatileAttributes = gMetatileAttributes_GoldenrodCity07, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity08Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity08Primary, .palettes = gTilesetPalettes_GoldenrodCity08Primary, .metatiles = gMetatiles_GoldenrodCity08Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity08Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity08 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity08, .palettes = gTilesetPalettes_GoldenrodCity08, .metatiles = gMetatiles_GoldenrodCity08, .metatileAttributes = gMetatileAttributes_GoldenrodCity08, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity09Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity09Primary, .palettes = gTilesetPalettes_GoldenrodCity09Primary, .metatiles = gMetatiles_GoldenrodCity09Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity09Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity09 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity09, .palettes = gTilesetPalettes_GoldenrodCity09, .metatiles = gMetatiles_GoldenrodCity09, .metatileAttributes = gMetatileAttributes_GoldenrodCity09, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity10Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity10Primary, .palettes = gTilesetPalettes_GoldenrodCity10Primary, .metatiles = gMetatiles_GoldenrodCity10Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity10Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity10 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity10, .palettes = gTilesetPalettes_GoldenrodCity10, .metatiles = gMetatiles_GoldenrodCity10, .metatileAttributes = gMetatileAttributes_GoldenrodCity10, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity11Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity11Primary, .palettes = gTilesetPalettes_GoldenrodCity11Primary, .metatiles = gMetatiles_GoldenrodCity11Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity11Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity11 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity11, .palettes = gTilesetPalettes_GoldenrodCity11, .metatiles = gMetatiles_GoldenrodCity11, .metatileAttributes = gMetatileAttributes_GoldenrodCity11, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity12Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_GoldenrodCity12Primary, .palettes = gTilesetPalettes_GoldenrodCity12Primary, .metatiles = gMetatiles_GoldenrodCity12Primary, .metatileAttributes = gMetatileAttributes_GoldenrodCity12Primary, .callback = NULL };
+
+// Goldenrod native exterior
+const struct Tileset gTileset_GoldenrodCity12 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity12, .palettes = gTilesetPalettes_GoldenrodCity12, .metatiles = gMetatiles_GoldenrodCity12, .metatileAttributes = gMetatileAttributes_GoldenrodCity12, .callback = NULL };

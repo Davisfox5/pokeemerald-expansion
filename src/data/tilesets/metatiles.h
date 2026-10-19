@@ -445,3 +445,151 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+
+
+
+
+// Route32 HGSS reconstruction
+const u16 gMetatiles_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatile_attributes.bin");
+
+// Route32 reviewed-grid local primary
+const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
+
+// Union Cave 1F Primary
+const u16 gMetatiles_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatile_attributes.bin");
+
+// Union Cave 1F Secondary
+const u16 gMetatiles_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatile_attributes.bin");
+
+// Union Cave b1f Primary
+const u16 gMetatiles_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatile_attributes.bin");
+
+// Union Cave b1f Secondary
+const u16 gMetatiles_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatile_attributes.bin");
+
+// Union Cave b2f Primary
+const u16 gMetatiles_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatile_attributes.bin");
+
+// Union Cave b2f Secondary
+const u16 gMetatiles_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatile_attributes.bin");
+
+// Route33 HGSS native area
+const u16 gMetatiles_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatiles.bin");
+const u16 gMetatileAttributes_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatile_attributes.bin");
+
+// Route33 HGSS native area
+const u16 gMetatiles_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatiles.bin");
+const u16 gMetatileAttributes_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatile_attributes.bin");
+
+// Azalea native exterior
+const u16 gMetatiles_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primary/azalea/metatile_attributes.bin");
+
+// Azalea native exterior
+const u16 gMetatiles_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity01Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity01/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity01Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity01/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity01[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity01/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity01[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity01/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity02Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity02/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity02Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity02/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity02[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity02/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity02[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity02/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity03Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity03/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity03Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity03/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity03[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity03/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity03[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity03/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity04Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity04/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity04Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity04/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity04[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity04/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity04[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity04/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity05Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity05/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity05Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity05/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity05[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity05/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity05[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity05/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity06Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity06/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity06Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity06/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity06[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity06/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity06[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity06/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity07Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity07/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity07Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity07/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity07[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity07/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity07[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity07/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity08Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity08/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity08Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity08/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity08[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity08/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity08[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity08/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity09Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity09/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity09Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity09/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity09[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity09/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity09[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity09/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity10Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity10/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity10Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity10/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity10[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity10/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity10[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity10/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity11Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity11/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity11Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity11/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity11[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity11/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity11[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity11/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity12Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity12/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity12Primary[] = INCBIN_U16("data/tilesets/primary/goldenrodcity12/metatile_attributes.bin");
+
+// Goldenrod native exterior
+const u16 gMetatiles_GoldenrodCity12[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity12/metatiles.bin");
+const u16 gMetatileAttributes_GoldenrodCity12[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity12/metatile_attributes.bin");

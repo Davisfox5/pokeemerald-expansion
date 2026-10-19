@@ -1,0 +1,2 @@
+GoldenrodCity05_MapScripts::
+    .byte 0

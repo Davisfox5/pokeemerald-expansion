@@ -605,3 +605,9 @@ leafgreen: all
 # Symbol file (`make syms`)
 $(SYM): $(ELF)
 	$(OBJDUMP) -t $< | sort -u | grep -E "^0[2389]" | $(PERL) -p -e 's/^(\w{8}) (\w).{6} \S+\t(\w{8}) (\S+)$$/\1 \2 \3 \4/g' > $@
+
+# Goldenrod's runtime view is derived from ordinary editable native map source.
+.PHONY: goldenrod-native-check
+goldenrod-native-check:
+	@python3 tools/goldenrod/check.py
+$(C_BUILDDIR)/goldenrod_view.o: | goldenrod-native-check
