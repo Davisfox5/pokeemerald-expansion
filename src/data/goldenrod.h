@@ -1,5 +1,5 @@
 // Generated FROM native Porymap files by goldenrod_city/stream.py.
-#define GOLDENROD_GLYPH_COUNT 8383
+#define GOLDENROD_GLYPH_COUNT 8449
 static const u32 sGoldenrodGlyphs[] = INCBIN_U32("data/goldenrod/glyphs.4bpp");
 static const u32 sGoldenrodEntries[56 * 84 * 8] = INCBIN_U32("data/goldenrod/entries.bin");
 static const u8 sGoldenrodLayers[56 * 84] = INCBIN_U8("data/goldenrod/layers.bin");
