@@ -611,3 +611,8 @@ $(SYM): $(ELF)
 goldenrod-native-check:
 	@python3 tools/goldenrod/check.py
 $(C_BUILDDIR)/goldenrod_view.o: | goldenrod-native-check
+
+.PHONY: olivine-native-check
+olivine-native-check:
+	python3 tools/olivine/check.py
+$(C_BUILDDIR)/olivine_view.o: | olivine-native-check

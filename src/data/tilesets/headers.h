@@ -1695,3 +1695,81 @@ const struct Tileset gTileset_GoldenrodCity12Primary = { .isCompressed = TRUE, .
 
 // Goldenrod native exterior
 const struct Tileset gTileset_GoldenrodCity12 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_GoldenrodCity12, .palettes = gTilesetPalettes_GoldenrodCity12, .metatiles = gMetatiles_GoldenrodCity12, .metatileAttributes = gMetatileAttributes_GoldenrodCity12, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity01Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity01Primary, .palettes = gTilesetPalettes_OlivineCity01Primary, .metatiles = gMetatiles_OlivineCity01Primary, .metatileAttributes = gMetatileAttributes_OlivineCity01Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity01 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity01, .palettes = gTilesetPalettes_OlivineCity01, .metatiles = gMetatiles_OlivineCity01, .metatileAttributes = gMetatileAttributes_OlivineCity01, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity02Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity02Primary, .palettes = gTilesetPalettes_OlivineCity02Primary, .metatiles = gMetatiles_OlivineCity02Primary, .metatileAttributes = gMetatileAttributes_OlivineCity02Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity02 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity02, .palettes = gTilesetPalettes_OlivineCity02, .metatiles = gMetatiles_OlivineCity02, .metatileAttributes = gMetatileAttributes_OlivineCity02, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity03Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity03Primary, .palettes = gTilesetPalettes_OlivineCity03Primary, .metatiles = gMetatiles_OlivineCity03Primary, .metatileAttributes = gMetatileAttributes_OlivineCity03Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity03 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity03, .palettes = gTilesetPalettes_OlivineCity03, .metatiles = gMetatiles_OlivineCity03, .metatileAttributes = gMetatileAttributes_OlivineCity03, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity04Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity04Primary, .palettes = gTilesetPalettes_OlivineCity04Primary, .metatiles = gMetatiles_OlivineCity04Primary, .metatileAttributes = gMetatileAttributes_OlivineCity04Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity04 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity04, .palettes = gTilesetPalettes_OlivineCity04, .metatiles = gMetatiles_OlivineCity04, .metatileAttributes = gMetatileAttributes_OlivineCity04, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity05Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity05Primary, .palettes = gTilesetPalettes_OlivineCity05Primary, .metatiles = gMetatiles_OlivineCity05Primary, .metatileAttributes = gMetatileAttributes_OlivineCity05Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity05 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity05, .palettes = gTilesetPalettes_OlivineCity05, .metatiles = gMetatiles_OlivineCity05, .metatileAttributes = gMetatileAttributes_OlivineCity05, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity06Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity06Primary, .palettes = gTilesetPalettes_OlivineCity06Primary, .metatiles = gMetatiles_OlivineCity06Primary, .metatileAttributes = gMetatileAttributes_OlivineCity06Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity06 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity06, .palettes = gTilesetPalettes_OlivineCity06, .metatiles = gMetatiles_OlivineCity06, .metatileAttributes = gMetatileAttributes_OlivineCity06, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity07Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity07Primary, .palettes = gTilesetPalettes_OlivineCity07Primary, .metatiles = gMetatiles_OlivineCity07Primary, .metatileAttributes = gMetatileAttributes_OlivineCity07Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity07 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity07, .palettes = gTilesetPalettes_OlivineCity07, .metatiles = gMetatiles_OlivineCity07, .metatileAttributes = gMetatileAttributes_OlivineCity07, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity08Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity08Primary, .palettes = gTilesetPalettes_OlivineCity08Primary, .metatiles = gMetatiles_OlivineCity08Primary, .metatileAttributes = gMetatileAttributes_OlivineCity08Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity08 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity08, .palettes = gTilesetPalettes_OlivineCity08, .metatiles = gMetatiles_OlivineCity08, .metatileAttributes = gMetatileAttributes_OlivineCity08, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity09Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity09Primary, .palettes = gTilesetPalettes_OlivineCity09Primary, .metatiles = gMetatiles_OlivineCity09Primary, .metatileAttributes = gMetatileAttributes_OlivineCity09Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity09 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity09, .palettes = gTilesetPalettes_OlivineCity09, .metatiles = gMetatiles_OlivineCity09, .metatileAttributes = gMetatileAttributes_OlivineCity09, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity10Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity10Primary, .palettes = gTilesetPalettes_OlivineCity10Primary, .metatiles = gMetatiles_OlivineCity10Primary, .metatileAttributes = gMetatileAttributes_OlivineCity10Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity10 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity10, .palettes = gTilesetPalettes_OlivineCity10, .metatiles = gMetatiles_OlivineCity10, .metatileAttributes = gMetatileAttributes_OlivineCity10, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity11Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity11Primary, .palettes = gTilesetPalettes_OlivineCity11Primary, .metatiles = gMetatiles_OlivineCity11Primary, .metatileAttributes = gMetatileAttributes_OlivineCity11Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity11 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity11, .palettes = gTilesetPalettes_OlivineCity11, .metatiles = gMetatiles_OlivineCity11, .metatileAttributes = gMetatileAttributes_OlivineCity11, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity12Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity12Primary, .palettes = gTilesetPalettes_OlivineCity12Primary, .metatiles = gMetatiles_OlivineCity12Primary, .metatileAttributes = gMetatileAttributes_OlivineCity12Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity12 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity12, .palettes = gTilesetPalettes_OlivineCity12, .metatiles = gMetatiles_OlivineCity12, .metatileAttributes = gMetatileAttributes_OlivineCity12, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity13Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivineCity13Primary, .palettes = gTilesetPalettes_OlivineCity13Primary, .metatiles = gMetatiles_OlivineCity13Primary, .metatileAttributes = gMetatileAttributes_OlivineCity13Primary, .callback = NULL };
+
+// Olivine native exterior
+const struct Tileset gTileset_OlivineCity13 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity13, .palettes = gTilesetPalettes_OlivineCity13, .metatiles = gMetatiles_OlivineCity13, .metatileAttributes = gMetatileAttributes_OlivineCity13, .callback = NULL };

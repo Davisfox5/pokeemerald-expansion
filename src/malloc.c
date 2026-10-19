@@ -1,5 +1,6 @@
 #include "global.h"
 #include "goldenrod_view.h"
+#include "olivine_view.h"
 #include "malloc.h"
 #if TESTING
 #include "test/test.h"
@@ -151,6 +152,7 @@ static void *AllocZeroedInternal(void *heapStart, u32 size, const char *location
 void InitHeap(void *heapStart, u32 heapSize)
 {
     GoldenrodViewForget();
+    OlivineViewForget();
     sHeapStart = heapStart;
     sHeapSize = heapSize;
     PutFirstMemBlockHeader(heapStart, heapSize);

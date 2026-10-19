@@ -1,4 +1,5 @@
 #include "global.h"
+#include "olivine_view.h"
 #include "battle_pyramid.h"
 #include "bg.h"
 #include "fieldmap.h"
@@ -773,7 +774,12 @@ bool8 CameraMove(s32 x, s32 y)
         gCamera.y = old_y - gSaveBlock1Ptr->pos.y;
         gSaveBlock1Ptr->pos.x += x;
         gSaveBlock1Ptr->pos.y += y;
-        MoveMapViewToBackup(direction);
+        // Olivine sections have private metatile IDs. A retained viewport from
+        // the previous section may contain diagonal void cells and foreign IDs;
+        // InitMap already loaded the correct new native collision grid. There
+        // are no mutable map tiles in this exterior to carry across sections.
+        if (!OlivineViewActive())
+            MoveMapViewToBackup(direction);
     }
 
     return gCamera.active;

@@ -1,0 +1,43 @@
+{
+  "id": "MAP_OLIVINECITY03",
+  "name": "OlivineCity03",
+  "layout": "LAYOUT_OLIVINECITY03",
+  "music": "MUS_SLATEPORT",
+  "region": "REGION_JOHTO",
+  "region_map_section": "MAPSEC_OLIVINE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "build_target": "emerald",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": -13,
+      "map": "MAP_OLIVINECITY01"
+    },
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_OLIVINECITY02"
+    },
+    {
+      "direction": "down",
+      "offset": 0,
+      "map": "MAP_OLIVINECITY06"
+    },
+    {
+      "direction": "right",
+      "offset": -13,
+      "map": "MAP_OLIVINECITY08"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

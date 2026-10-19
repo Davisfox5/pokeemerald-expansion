@@ -593,3 +593,107 @@ const u16 gMetatileAttributes_GoldenrodCity12Primary[] = INCBIN_U16("data/tilese
 // Goldenrod native exterior
 const u16 gMetatiles_GoldenrodCity12[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity12/metatiles.bin");
 const u16 gMetatileAttributes_GoldenrodCity12[] = INCBIN_U16("data/tilesets/secondary/goldenrodcity12/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity01Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity01/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity01Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity01/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity01[] = INCBIN_U16("data/tilesets/secondary/olivinecity01/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity01[] = INCBIN_U16("data/tilesets/secondary/olivinecity01/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity02Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity02/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity02Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity02/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity02[] = INCBIN_U16("data/tilesets/secondary/olivinecity02/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity02[] = INCBIN_U16("data/tilesets/secondary/olivinecity02/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity03Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity03/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity03Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity03/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity03[] = INCBIN_U16("data/tilesets/secondary/olivinecity03/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity03[] = INCBIN_U16("data/tilesets/secondary/olivinecity03/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity04Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity04/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity04Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity04/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity04[] = INCBIN_U16("data/tilesets/secondary/olivinecity04/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity04[] = INCBIN_U16("data/tilesets/secondary/olivinecity04/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity05Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity05/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity05Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity05/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity05[] = INCBIN_U16("data/tilesets/secondary/olivinecity05/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity05[] = INCBIN_U16("data/tilesets/secondary/olivinecity05/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity06Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity06/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity06Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity06/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity06[] = INCBIN_U16("data/tilesets/secondary/olivinecity06/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity06[] = INCBIN_U16("data/tilesets/secondary/olivinecity06/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity07Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity07/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity07Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity07/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity07[] = INCBIN_U16("data/tilesets/secondary/olivinecity07/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity07[] = INCBIN_U16("data/tilesets/secondary/olivinecity07/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity08Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity08/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity08Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity08/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity08[] = INCBIN_U16("data/tilesets/secondary/olivinecity08/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity08[] = INCBIN_U16("data/tilesets/secondary/olivinecity08/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity09Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity09/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity09Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity09/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity09[] = INCBIN_U16("data/tilesets/secondary/olivinecity09/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity09[] = INCBIN_U16("data/tilesets/secondary/olivinecity09/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity10Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity10/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity10Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity10/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity10[] = INCBIN_U16("data/tilesets/secondary/olivinecity10/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity10[] = INCBIN_U16("data/tilesets/secondary/olivinecity10/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity11Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity11/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity11Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity11/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity11[] = INCBIN_U16("data/tilesets/secondary/olivinecity11/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity11[] = INCBIN_U16("data/tilesets/secondary/olivinecity11/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity12Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity12/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity12Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity12/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity12[] = INCBIN_U16("data/tilesets/secondary/olivinecity12/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity12[] = INCBIN_U16("data/tilesets/secondary/olivinecity12/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity13Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity13/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity13Primary[] = INCBIN_U16("data/tilesets/primary/olivinecity13/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity13[] = INCBIN_U16("data/tilesets/secondary/olivinecity13/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity13[] = INCBIN_U16("data/tilesets/secondary/olivinecity13/metatile_attributes.bin");

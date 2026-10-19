@@ -1874,3 +1874,29 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/GoldenrodCity11/scripts.inc"
 
 .include "data/maps/GoldenrodCity12/scripts.inc"
+
+.include "data/maps/OlivineCity01/scripts.inc"
+
+.include "data/maps/OlivineCity02/scripts.inc"
+
+.include "data/maps/OlivineCity03/scripts.inc"
+
+.include "data/maps/OlivineCity04/scripts.inc"
+
+.include "data/maps/OlivineCity05/scripts.inc"
+
+.include "data/maps/OlivineCity06/scripts.inc"
+
+.include "data/maps/OlivineCity07/scripts.inc"
+
+.include "data/maps/OlivineCity08/scripts.inc"
+
+.include "data/maps/OlivineCity09/scripts.inc"
+
+.include "data/maps/OlivineCity10/scripts.inc"
+
+.include "data/maps/OlivineCity11/scripts.inc"
+
+.include "data/maps/OlivineCity12/scripts.inc"
+
+.include "data/maps/OlivineCity13/scripts.inc"
