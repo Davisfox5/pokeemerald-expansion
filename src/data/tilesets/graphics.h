@@ -3554,3 +3554,87 @@ INCGFX_U16("data/tilesets/secondary/azalea/palettes/13.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/azalea/palettes/14.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/azalea/palettes/15.pal", ".gbapal"),
 };
+
+// Ecruteak native exterior
+const u32 gTilesetTiles_EcruteakCityPrimary[] = INCGFX_U32("data/tilesets/primary/ecruteak_city/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_EcruteakCityPrimary[][16] = {
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_city/palettes/15.pal", ".gbapal"),
+};
+
+// Ecruteak native exterior
+const u32 gTilesetTiles_EcruteakCity[] = INCGFX_U32("data/tilesets/secondary/ecruteak_city/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_EcruteakCity[][16] = {
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_city/palettes/15.pal", ".gbapal"),
+};
+
+// Ecruteak native exterior
+const u32 gTilesetTiles_EcruteakTemplePrimary[] = INCGFX_U32("data/tilesets/primary/ecruteak_temple/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_EcruteakTemplePrimary[][16] = {
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/ecruteak_temple/palettes/15.pal", ".gbapal"),
+};
+
+// Ecruteak native exterior
+const u32 gTilesetTiles_EcruteakTemple[] = INCGFX_U32("data/tilesets/secondary/ecruteak_temple/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_EcruteakTemple[][16] = {
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/ecruteak_temple/palettes/15.pal", ".gbapal"),
+};

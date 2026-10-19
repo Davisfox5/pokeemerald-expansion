@@ -9606,6 +9606,34 @@
       "blockdata_filepath": "data/layouts/JohtoAzaleaTown/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ECRUTEAK_CITY",
+      "name": "JohtoEcruteakCity_Layout",
+      "width": 72,
+      "height": 25,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_EcruteakCityPrimary",
+      "secondary_tileset": "gTileset_EcruteakCity",
+      "border_filepath": "data/layouts/JohtoEcruteakCity/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoEcruteakCity/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "name": "JohtoEcruteakTempleDistrict_Layout",
+      "width": 72,
+      "height": 27,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_EcruteakTemplePrimary",
+      "secondary_tileset": "gTileset_EcruteakTemple",
+      "border_filepath": "data/layouts/JohtoEcruteakTempleDistrict/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoEcruteakTempleDistrict/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }

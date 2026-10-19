@@ -1623,3 +1623,15 @@ const struct Tileset gTileset_AzaleaPrimary = { .isCompressed = TRUE, .isSeconda
 
 // Azalea native exterior
 const struct Tileset gTileset_Azalea = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Azalea, .palettes = gTilesetPalettes_Azalea, .metatiles = gMetatiles_Azalea, .metatileAttributes = gMetatileAttributes_Azalea, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakCityPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_EcruteakCityPrimary, .palettes = gTilesetPalettes_EcruteakCityPrimary, .metatiles = gMetatiles_EcruteakCityPrimary, .metatileAttributes = gMetatileAttributes_EcruteakCityPrimary, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_EcruteakCity, .palettes = gTilesetPalettes_EcruteakCity, .metatiles = gMetatiles_EcruteakCity, .metatileAttributes = gMetatileAttributes_EcruteakCity, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakTemplePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_EcruteakTemplePrimary, .palettes = gTilesetPalettes_EcruteakTemplePrimary, .metatiles = gMetatiles_EcruteakTemplePrimary, .metatileAttributes = gMetatileAttributes_EcruteakTemplePrimary, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakTemple = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_EcruteakTemple, .palettes = gTilesetPalettes_EcruteakTemple, .metatiles = gMetatiles_EcruteakTemple, .metatileAttributes = gMetatileAttributes_EcruteakTemple, .callback = NULL };

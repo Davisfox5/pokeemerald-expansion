@@ -1770,6 +1770,14 @@
       "y": 8,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ECRUTEAK_CITY",
+      "name": "ECRUTEAK CITY",
+      "x": 5,
+      "y": 5,
+      "width": 1,
+      "height": 1
     }
   ]
 }

@@ -497,3 +497,19 @@ const u16 gMetatileAttributes_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primar
 // Azalea native exterior
 const u16 gMetatiles_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatiles.bin");
 const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakCityPrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_city/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakCityPrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_city/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/ecruteak_city/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/ecruteak_city/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakTemplePrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_temple/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakTemplePrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_temple/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakTemple[] = INCBIN_U16("data/tilesets/secondary/ecruteak_temple/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakTemple[] = INCBIN_U16("data/tilesets/secondary/ecruteak_temple/metatile_attributes.bin");
