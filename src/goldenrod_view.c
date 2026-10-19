@@ -84,19 +84,33 @@ bool32 GoldenrodViewMetatile(u16 offset, s32 x, s32 y, u16 *tiles, s32 *layer)
     const u32 *entries;
     u16 *ring;
     u32 i;
-    static const u32 blank[8] = {0};
+
     if (section == NULL) return FALSE;
     if (sCache == NULL) GoldenrodViewBegin();
     if (sCache == NULL) return FALSE;
     x += section->x - 7;
     y += section->y - 7;
-    entries = blank;
-    *layer = 1;
-    if (x >= 0 && x < 84 && y >= 0 && y < 56)
+    // Directional native borders complete the camera margin, without opening
+    // traversal beyond the authored city. Reuse ordinary editable source cells:
+    // periodic ocean, complete conifers, lawn, east cliff and southern paving.
+    if (x < 0) { x = (u32)x & 1; y = (u32)y & 1; }
+    else if (x >= 84) { x = 83; y = (y % 56 + 56) % 56; }
+    else if (y < 0)
     {
-        entries = sGoldenrodEntries + (y * 84 + x) * 8;
-        *layer = sGoldenrodLayers[y * 84 + x];
+        if (x >= 20 && x < 56) { x = 20 + ((x - 20) & 1); y = (y % 3 + 3) % 3; }
+        else if (x >= 65 && x < 77) { x = 65 + ((x - 65) & 1); y = (y % 3 + 3) % 3; }
+        else { x = 63; y = 4; }
     }
+    else if (y >= 56)
+    {
+        if (x < 51) { x &= 1; y &= 1; }
+        else if (x < 55) { x = 51 + ((x - 51) & 3); y = 53 + (y - 53) % 3; }
+        else if (x < 62) { y = 55; }
+        else if (x < 82) { x = 62 + (x & 1); y = 54; }
+        else { x = 83; y %= 56; }
+    }
+    entries = sGoldenrodEntries + (y * 84 + x) * 8;
+    *layer = sGoldenrodLayers[y * 84 + x];
     ring = sCache->ring[(offset >> 6) * 16 + (offset & 31) / 2];
     // Release the outgoing ring cell before assigning replacement glyphs.
     for (i = 0; i < 8; i++)

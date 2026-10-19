@@ -29,3 +29,10 @@ Original map geography and game artwork: Game Freak / Nintendo / Creatures,
 HeartGold/SoulSilver. The hub retains the original reference, canonical shared
 Center/tree/lawn provenance, editable construction layers and review evidence:
 https://github.com/Davisfox5/pokemon-apocrypha/tree/codex/goldenrod-city-evidence/gba/art/goldenrod-city
+
+The camera margin uses directional decorative borders derived from native cells:
+periodic ocean to the west, full conifers/lawn to the north, the existing cliff
+face to the east, and ocean/forest/street/paving to the south. These extend the
+cropped reference for camera coverage, without adding traversable geography.
+Capacity checks include the margin. The original northern picket fence, gate
+footprint and the eastern partial cliff column block their visible barriers.
