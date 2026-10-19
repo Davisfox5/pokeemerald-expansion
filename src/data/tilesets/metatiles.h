@@ -445,3 +445,95 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+
+
+
+
+// Route32 HGSS reconstruction
+const u16 gMetatiles_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatile_attributes.bin");
+
+// Route32 reviewed-grid local primary
+const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
+
+// Union Cave 1F Primary
+const u16 gMetatiles_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatile_attributes.bin");
+
+// Union Cave 1F Secondary
+const u16 gMetatiles_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatile_attributes.bin");
+
+// Union Cave b1f Primary
+const u16 gMetatiles_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatile_attributes.bin");
+
+// Union Cave b1f Secondary
+const u16 gMetatiles_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatile_attributes.bin");
+
+// Union Cave b2f Primary
+const u16 gMetatiles_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatile_attributes.bin");
+
+// Union Cave b2f Secondary
+const u16 gMetatiles_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatiles.bin");
+const u16 gMetatileAttributes_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatile_attributes.bin");
+
+// Route33 HGSS native area
+const u16 gMetatiles_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatiles.bin");
+const u16 gMetatileAttributes_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatile_attributes.bin");
+
+// Route33 HGSS native area
+const u16 gMetatiles_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatiles.bin");
+const u16 gMetatileAttributes_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatile_attributes.bin");
+
+// Azalea native exterior
+const u16 gMetatiles_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primary/azalea/metatile_attributes.bin");
+
+// Azalea native exterior
+const u16 gMetatiles_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakCityPrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_city/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakCityPrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_city/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/ecruteak_city/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakCity[] = INCBIN_U16("data/tilesets/secondary/ecruteak_city/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakTemplePrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_temple/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakTemplePrimary[] = INCBIN_U16("data/tilesets/primary/ecruteak_temple/metatile_attributes.bin");
+
+// Ecruteak native exterior
+const u16 gMetatiles_EcruteakTemple[] = INCBIN_U16("data/tilesets/secondary/ecruteak_temple/metatiles.bin");
+const u16 gMetatileAttributes_EcruteakTemple[] = INCBIN_U16("data/tilesets/secondary/ecruteak_temple/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCityPrimary[] = INCBIN_U16("data/tilesets/primary/olivine_city/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCityPrimary[] = INCBIN_U16("data/tilesets/primary/olivine_city/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/olivine_city/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/olivine_city/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineQuayPrimary[] = INCBIN_U16("data/tilesets/primary/olivine_quay/metatiles.bin");
+const u16 gMetatileAttributes_OlivineQuayPrimary[] = INCBIN_U16("data/tilesets/primary/olivine_quay/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineQuay[] = INCBIN_U16("data/tilesets/secondary/olivine_quay/metatiles.bin");
+const u16 gMetatileAttributes_OlivineQuay[] = INCBIN_U16("data/tilesets/secondary/olivine_quay/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineHarborPrimary[] = INCBIN_U16("data/tilesets/primary/olivine_harbor/metatiles.bin");
+const u16 gMetatileAttributes_OlivineHarborPrimary[] = INCBIN_U16("data/tilesets/primary/olivine_harbor/metatile_attributes.bin");
+
+// Olivine native exterior
+const u16 gMetatiles_OlivineHarbor[] = INCBIN_U16("data/tilesets/secondary/olivine_harbor/metatiles.bin");
+const u16 gMetatileAttributes_OlivineHarbor[] = INCBIN_U16("data/tilesets/secondary/olivine_harbor/metatile_attributes.bin");

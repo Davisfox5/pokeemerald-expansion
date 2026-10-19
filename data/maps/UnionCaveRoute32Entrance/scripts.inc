@@ -1,0 +1,2 @@
+UnionCaveRoute32Entrance_MapScripts::
+    .byte 0
