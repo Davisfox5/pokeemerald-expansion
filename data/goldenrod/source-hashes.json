@@ -1,7 +1,7 @@
 {
-  "data/goldenrod/entries.bin": "ec102663a6d9c69e50d3c7e9147c0e6ad38ea83f54e8baccb77e96ecdb0144dc",
-  "data/goldenrod/glyphs.4bpp": "dbe3780239f6029f3fd003c707458d5b56e589b0f2c042535abf58b39dd159f0",
-  "data/goldenrod/layers.bin": "dc4de9ef961471162d80fda662d1f0f74946e3670fe56c64ae2a96b084b1a8e5",
+  "data/goldenrod/entries.bin": "d2499091e15d3895e85e731229f6d3f846be0851bb16316cf2e9ca01b65c80ef",
+  "data/goldenrod/glyphs.4bpp": "3eb719ed07b35a5652aecf9a2286e69d3cc8d44e1f2f49aabcde9cca8795bc03",
+  "data/goldenrod/layers.bin": "24f740d6b8d2480e13de410dd92bbe01dc56c73619071079f9e1f85e0da82396",
   "data/layouts/GoldenrodCity01/border.bin": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848",
   "data/layouts/GoldenrodCity01/map.bin": "15a85b5cbd906754663fb555fb63e70885b625dce72ed6684cf6cad5b2d564d8",
   "data/layouts/GoldenrodCity02/border.bin": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848",
@@ -21,7 +21,7 @@
   "data/layouts/GoldenrodCity09/border.bin": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848",
   "data/layouts/GoldenrodCity09/map.bin": "f2bb66fea6c23f245207cd668ed8d7e1f52ad43c7846b79e8946c93102e603b4",
   "data/layouts/GoldenrodCity10/border.bin": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848",
-  "data/layouts/GoldenrodCity10/map.bin": "86128d88bf3200e92d0cdb253c161109ee3bb210a656bf8c666853ccf84a334d",
+  "data/layouts/GoldenrodCity10/map.bin": "520121e9dbf62ae907d33403fa2011ab6109a725ee4e49aba9e37e80bdd6b255",
   "data/layouts/GoldenrodCity11/border.bin": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848",
   "data/layouts/GoldenrodCity11/map.bin": "79ce6e4f8eb33606a95d3f96d66714ab2eab8abffa1d6966fa66878797f2b6ba",
   "data/layouts/GoldenrodCity12/border.bin": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848",
@@ -209,8 +209,8 @@
   "data/tilesets/primary/goldenrodcity09/palettes/14.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/primary/goldenrodcity09/palettes/15.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/primary/goldenrodcity09/tiles.png": "b7464677d333580e6e3be9400885c90a2c6d8dce708bb660ce4a4419f5b91262",
-  "data/tilesets/primary/goldenrodcity10/metatile_attributes.bin": "f7d240f754b09f251a519e6e621b22c838751792d39868b15169ccd086d0c7c2",
-  "data/tilesets/primary/goldenrodcity10/metatiles.bin": "4cc5c88c764057c7949d75b68ff19e45d3fc93aef618615908a01834c76988e8",
+  "data/tilesets/primary/goldenrodcity10/metatile_attributes.bin": "26099c202501fb437805fb7d1d9ea33145ce79be46fa0c189a16833521ac12dc",
+  "data/tilesets/primary/goldenrodcity10/metatiles.bin": "24ab259e86b27e50b9787281cc2f5425ed1267a384e0a32ddf90c18bdc1aa2ee",
   "data/tilesets/primary/goldenrodcity10/palettes/00.pal": "05a3a129d113d45ed0f750d98a858ee248fe61e1998a3913be21e3f37c677279",
   "data/tilesets/primary/goldenrodcity10/palettes/01.pal": "ddc30c009276ea517ffde9b886ba45a4cb3cc4b79c7c943da3e0ea65fde65080",
   "data/tilesets/primary/goldenrodcity10/palettes/02.pal": "5b7f350dbfb390eb6c11adc860559d3d79f99a84364d761b93bb586858844e3b",
@@ -455,7 +455,7 @@
   "data/tilesets/secondary/goldenrodcity10/palettes/13.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/secondary/goldenrodcity10/palettes/14.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/secondary/goldenrodcity10/palettes/15.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
-  "data/tilesets/secondary/goldenrodcity10/tiles.png": "d2e3079871579372559403e2de0f6ba81a30e07509380e67d577a9ba31e24c50",
+  "data/tilesets/secondary/goldenrodcity10/tiles.png": "7d853a5117ed634f473d4ba750558d7345f8df31693d5364bb98d62b12019ee8",
   "data/tilesets/secondary/goldenrodcity11/metatile_attributes.bin": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
   "data/tilesets/secondary/goldenrodcity11/metatiles.bin": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
   "data/tilesets/secondary/goldenrodcity11/palettes/00.pal": "05a3a129d113d45ed0f750d98a858ee248fe61e1998a3913be21e3f37c677279",
@@ -494,5 +494,5 @@
   "data/tilesets/secondary/goldenrodcity12/palettes/14.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/secondary/goldenrodcity12/palettes/15.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/secondary/goldenrodcity12/tiles.png": "86cd1ada4c7314ca6c986e7fc74ea74422f1f8b1188a983eda3ee46344cb5b77",
-  "src/data/goldenrod.h": "356a35990fb5426e3d925c53d10400f84e12ae09a71c71dfcecef13753ea0795"
+  "src/data/goldenrod.h": "c181ebf8a69851ca585c5cab898efc4d0c745dc7b7b416637425c6c762c22819"
 }
