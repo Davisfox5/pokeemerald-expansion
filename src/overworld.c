@@ -607,7 +607,11 @@ void SetObjEventTemplateMovementType(u8 localId, u8 movementType)
 static void InitMapView(void)
 {
     ResetFieldCamera();
-    CopyMapTilesetsToVram(gMapHeader.mapLayout);
+    // The fast return/Continue path does not wait for queued static tile DMA.
+    // Olivine's native view uploads its own complete visible glyph set below;
+    // a later static copy would overwrite those cache slots after drawing.
+    if (!OlivineViewActive())
+        CopyMapTilesetsToVram(gMapHeader.mapLayout);
     LoadMapTilesetPalettes(gMapHeader.mapLayout);
     DrawWholeMapView();
     InitTilesetAnimations();
