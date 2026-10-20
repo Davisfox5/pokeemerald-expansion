@@ -1,4 +1,5 @@
 JohtoEcruteakCity_MapScripts::
+    map_script MAP_SCRIPT_ON_RETURN_TO_FIELD, JohtoEcruteakCity_RefreshHeritage
     .byte 0
 
 JohtoEcruteakCity_District_1::
@@ -264,4 +265,53 @@ JohtoEcruteakCity_District_57::
 JohtoEcruteakCity_District_63::
     warp MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT, 63, 25
     waitstate
+    end
+
+JohtoEcruteakCity_Heritage_WaysideShrine::
+    lockall
+    msgbox JohtoEcruteakCity_Heritage_WaysideShrine_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakCity_Heritage_WaysideShrine_Text:
+    .string "A small shrine tended by the city.\nIts wooden panel depicts the\ltwo towers above ECRUTEAK.\pA place to pause and remember\nthose who cared for them.$"
+
+JohtoEcruteakCity_Heritage_OfferingCounter::
+    lockall
+    msgbox JohtoEcruteakCity_Heritage_OfferingCounter_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakCity_Heritage_OfferingCounter_Text:
+    .string "Neatly wrapped shrine offerings\nrest on the wooden counter.\pThe stall is unattended.\nPlease leave the parcels here.$"
+
+JohtoEcruteakCity_Heritage_HeritageBoard::
+    lockall
+    msgbox JohtoEcruteakCity_Heritage_HeritageBoard_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakCity_Heritage_HeritageBoard_Text:
+    .string "ECRUTEAK HERITAGE COURT\nThe shrine and offering stall\lkeep local traditions close\lto everyday city life.$"
+
+JohtoEcruteakCity_Heritage_Gym::
+    lockall
+    msgbox JohtoEcruteakCity_Heritage_Gym_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakCity_Heritage_Gym_Text:
+    .string "ECRUTEAK CITY GYM\nLEADER: WILL\lA student of Psychic discipline\land spiritual meditation.$"
+
+JohtoEcruteakCity_Heritage_Theater::
+    lockall
+    msgbox JohtoEcruteakCity_Heritage_Theater_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakCity_Heritage_Theater_Text:
+    .string "ECRUTEAK DANCE THEATER\nTraditional dance and music\lcontinue here, passed from\lone generation to the next.$"
+
+JohtoEcruteakCity_RefreshHeritage:
+    callnative Ecruteak_EnsureHeritageObjects
     end

@@ -15,486 +15,450 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "build_target": "emerald",
   "connections": null,
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [
+  "object_events": [
     {
-      "type": "trigger",
-      "x": 1,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_1"
-    },
-    {
-      "type": "trigger",
-      "x": 2,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_2"
-    },
-    {
-      "type": "trigger",
-      "x": 3,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_3"
-    },
-    {
-      "type": "trigger",
-      "x": 4,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_4"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_5"
-    },
-    {
-      "type": "trigger",
-      "x": 6,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_6"
-    },
-    {
-      "type": "trigger",
-      "x": 7,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_7"
-    },
-    {
-      "type": "trigger",
-      "x": 8,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_8"
-    },
-    {
-      "type": "trigger",
-      "x": 9,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_9"
-    },
-    {
-      "type": "trigger",
-      "x": 10,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_10"
-    },
-    {
-      "type": "trigger",
-      "x": 11,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_11"
-    },
-    {
-      "type": "trigger",
-      "x": 12,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_12"
-    },
-    {
-      "type": "trigger",
-      "x": 18,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_18"
-    },
-    {
-      "type": "trigger",
-      "x": 19,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_19"
-    },
-    {
-      "type": "trigger",
-      "x": 20,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_20"
-    },
-    {
-      "type": "trigger",
-      "x": 21,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_21"
-    },
-    {
-      "type": "trigger",
-      "x": 22,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_22"
-    },
-    {
-      "type": "trigger",
-      "x": 23,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_23"
-    },
-    {
-      "type": "trigger",
-      "x": 24,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_24"
-    },
-    {
-      "type": "trigger",
-      "x": 25,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_25"
-    },
-    {
-      "type": "trigger",
-      "x": 26,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_26"
-    },
-    {
-      "type": "trigger",
-      "x": 27,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_27"
-    },
-    {
-      "type": "trigger",
-      "x": 28,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_28"
-    },
-    {
-      "type": "trigger",
-      "x": 29,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_29"
-    },
-    {
-      "type": "trigger",
-      "x": 30,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_30"
-    },
-    {
-      "type": "trigger",
-      "x": 31,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_31"
-    },
-    {
-      "type": "trigger",
-      "x": 32,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_32"
-    },
-    {
-      "type": "trigger",
-      "x": 33,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_33"
-    },
-    {
-      "type": "trigger",
-      "x": 34,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_34"
-    },
-    {
-      "type": "trigger",
+      "local_id": "LOCALID_ECRUTEAK_HERITAGE_SHRINE",
+      "graphics_id": "OBJ_EVENT_GFX_ECRUTEAK_SHRINE",
       "x": 35,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_35"
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JohtoEcruteakCity_Heritage_WaysideShrine",
+      "flag": "0"
     },
     {
-      "type": "trigger",
-      "x": 36,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_36"
-    },
-    {
-      "type": "trigger",
-      "x": 37,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_37"
-    },
-    {
-      "type": "trigger",
-      "x": 38,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_38"
-    },
-    {
-      "type": "trigger",
-      "x": 39,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_39"
-    },
-    {
-      "type": "trigger",
-      "x": 40,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_40"
-    },
-    {
-      "type": "trigger",
-      "x": 41,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_41"
-    },
-    {
-      "type": "trigger",
-      "x": 42,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_42"
-    },
-    {
-      "type": "trigger",
-      "x": 43,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_43"
-    },
-    {
-      "type": "trigger",
-      "x": 44,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_44"
-    },
-    {
-      "type": "trigger",
-      "x": 45,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_45"
-    },
-    {
-      "type": "trigger",
-      "x": 46,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_46"
-    },
-    {
-      "type": "trigger",
-      "x": 47,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_47"
-    },
-    {
-      "type": "trigger",
-      "x": 48,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_48"
-    },
-    {
-      "type": "trigger",
-      "x": 49,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_49"
-    },
-    {
-      "type": "trigger",
-      "x": 50,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_50"
-    },
-    {
-      "type": "trigger",
-      "x": 51,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_51"
-    },
-    {
-      "type": "trigger",
-      "x": 52,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_52"
-    },
-    {
-      "type": "trigger",
-      "x": 53,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_53"
-    },
-    {
-      "type": "trigger",
-      "x": 54,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_54"
-    },
-    {
-      "type": "trigger",
-      "x": 55,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_55"
-    },
-    {
-      "type": "trigger",
-      "x": 56,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_56"
-    },
-    {
-      "type": "trigger",
-      "x": 57,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_57"
-    },
-    {
-      "type": "trigger",
-      "x": 63,
-      "y": 0,
-      "elevation": 0,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "JohtoEcruteakCity_District_63"
+      "local_id": "LOCALID_ECRUTEAK_HERITAGE_COUNTER",
+      "graphics_id": "OBJ_EVENT_GFX_ECRUTEAK_COUNTER",
+      "x": 33,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JohtoEcruteakCity_Heritage_OfferingCounter",
+      "flag": "0"
     }
   ],
-  "bg_events": []
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 17,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 18,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "11"
+    },
+    {
+      "x": 19,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "12"
+    },
+    {
+      "x": 20,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "13"
+    },
+    {
+      "x": 21,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "14"
+    },
+    {
+      "x": 22,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "15"
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "16"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "17"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "18"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "19"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "20"
+    },
+    {
+      "x": 30,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "21"
+    },
+    {
+      "x": 31,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "22"
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "23"
+    },
+    {
+      "x": 33,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "24"
+    },
+    {
+      "x": 34,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "25"
+    },
+    {
+      "x": 35,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "26"
+    },
+    {
+      "x": 36,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "27"
+    },
+    {
+      "x": 37,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "28"
+    },
+    {
+      "x": 40,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "29"
+    },
+    {
+      "x": 41,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "30"
+    },
+    {
+      "x": 42,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "31"
+    },
+    {
+      "x": 43,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "32"
+    },
+    {
+      "x": 44,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "33"
+    },
+    {
+      "x": 45,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "34"
+    },
+    {
+      "x": 46,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "35"
+    },
+    {
+      "x": 47,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "36"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "37"
+    },
+    {
+      "x": 49,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "38"
+    },
+    {
+      "x": 50,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "39"
+    },
+    {
+      "x": 51,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "40"
+    },
+    {
+      "x": 52,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "41"
+    },
+    {
+      "x": 53,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "42"
+    },
+    {
+      "x": 54,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "43"
+    },
+    {
+      "x": 55,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "44"
+    },
+    {
+      "x": 56,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "45"
+    },
+    {
+      "x": 57,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "46"
+    },
+    {
+      "x": 58,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "47"
+    },
+    {
+      "x": 59,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "48"
+    },
+    {
+      "x": 60,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "49"
+    },
+    {
+      "x": 61,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "50"
+    },
+    {
+      "x": 62,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "51"
+    },
+    {
+      "x": 63,
+      "y": 0,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+      "dest_warp_id": "52"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 35,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakCity_Heritage_WaysideShrine"
+    },
+    {
+      "type": "sign",
+      "x": 32,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakCity_Heritage_OfferingCounter"
+    },
+    {
+      "type": "sign",
+      "x": 38,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakCity_Heritage_HeritageBoard"
+    },
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakCity_Heritage_Gym"
+    },
+    {
+      "type": "sign",
+      "x": 45,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakCity_Heritage_Theater"
+    }
+  ]
 }

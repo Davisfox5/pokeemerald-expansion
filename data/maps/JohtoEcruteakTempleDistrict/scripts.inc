@@ -265,3 +265,48 @@ JohtoEcruteakTempleDistrict_District_63::
     warp MAP_JOHTO_ECRUTEAK_CITY, 63, 1
     waitstate
     end
+
+JohtoEcruteakTempleDistrict_Heritage_Restoration::
+    lockall
+    msgbox JohtoEcruteakTempleDistrict_Heritage_Restoration_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakTempleDistrict_Heritage_Restoration_Text:
+    .string "BURNED TOWER RESTORATION\nThe city and the tower sages are\lrepairing the old timberwork.\pThe surviving beams are being\nreinforced before rebuilding.\lPlease keep clear of the scaffold.$"
+
+JohtoEcruteakTempleDistrict_Heritage_BellRecords::
+    lockall
+    msgbox JohtoEcruteakTempleDistrict_Heritage_BellRecords_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakTempleDistrict_Heritage_BellRecords_Text:
+    .string "BELL TOWER APPROACH\nThe sages preserve the city's\lrecords and sacred traditions.\pVisitors seeking historical texts\nshould ask at the archive.$"
+
+JohtoEcruteakTempleDistrict_Heritage_Archive::
+    lockall
+    msgbox JohtoEcruteakTempleDistrict_Heritage_Archive_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakTempleDistrict_Heritage_Archive_Text:
+    .string "ECRUTEAK HISTORICAL ARCHIVE\nRecords of the towers and the\lcity's traditions are kept here.\pVisits to the reading room are\narranged with the tower sages.$"
+
+JohtoEcruteakTempleDistrict_Heritage_PondShrine::
+    lockall
+    msgbox JohtoEcruteakTempleDistrict_Heritage_PondShrine_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakTempleDistrict_Heritage_PondShrine_Text:
+    .string "A quiet shrine beside the spring.\nWater glimmers beneath its\lweathered offering shelf.\pThe path and lanterns have been\nrenewed by the city's caretakers.$"
+
+JohtoEcruteakTempleDistrict_Heritage_PondBoard::
+    lockall
+    msgbox JohtoEcruteakTempleDistrict_Heritage_PondBoard_Text, MSGBOX_DEFAULT
+    releaseall
+    end
+
+JohtoEcruteakTempleDistrict_Heritage_PondBoard_Text:
+    .string "SPRING SHRINE\nA quiet place for reflection.\pPlease stay on the stone approach\nand keep the spring clear.$"
