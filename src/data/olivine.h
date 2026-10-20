@@ -1,5 +1,5 @@
 // Generated FROM native Porymap files by olivine_city/stream.py.
-#define OLIVINE_GLYPH_COUNT 8152
+#define OLIVINE_GLYPH_COUNT 8085
 static const u32 sOlivineGlyphs[] = INCBIN_U32("data/olivine/glyphs.4bpp");
 static const u32 sOlivineEntries[54 * 65 * 8] = INCBIN_U32("data/olivine/entries.bin");
 static const u8 sOlivineLayers[54 * 65] = INCBIN_U8("data/olivine/layers.bin");
