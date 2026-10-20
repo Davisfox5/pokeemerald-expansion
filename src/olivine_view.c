@@ -78,6 +78,26 @@ static u16 Glyph(u16 glyph)
     gOlivineCacheOverflows++;
     return 0;
 }
+// A camera slice is replaced as one batch before its BG tilemap is published.
+// Release the entire outgoing slice first: keeping its other fifteen old cells
+// alive while loading the first new cell can exceed the final view's budget.
+void OlivineViewReleaseSlice(u16 offset, bool32 vertical)
+{
+    u32 row, col, i, q;
+    if (sCache == NULL || !OlivineViewActive()) return;
+    row = offset >> 6;
+    col = (offset & 31) / 2;
+    for (i = 0; i < 16; i++)
+    {
+        u16 *ring = sCache->ring[((row + (vertical ? i : 0)) & 15) * 16
+                              + ((col + (vertical ? 0 : i)) & 15)];
+        for (q = 0; q < 8; q++)
+        {
+            if (ring[q] != 0) sCache->references[ring[q]]--;
+            ring[q] = 0;
+        }
+    }
+}
 bool32 OlivineViewMetatile(u16 offset, s32 x, s32 y, u16 *tiles, s32 *layer)
 {
     const struct OlivineSection *section = Section();
