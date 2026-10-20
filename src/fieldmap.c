@@ -576,6 +576,15 @@ static void LoadSavedMapView(void)
     u16 *mapView;
     s32 width;
     mapView = gSaveBlock1Ptr->mapView;
+    // This static exterior is reconstructed from current native source. Old
+    // saves can contain viewport metatile IDs/collision from a prior art pass;
+    // retain player/save state, but rebuild this disposable view from InitMap.
+    if (OlivineViewActive())
+    {
+        ClearSavedMapView();
+        return;
+    }
+
     if (SavedMapViewIsEmpty())
         return;
 
