@@ -1,3 +1,4 @@
+#include "constants/map_groups.h"
 #include "global.h"
 #include "malloc.h"
 #include "battle_anim.h"
@@ -496,6 +497,7 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 #include "data/object_events/object_event_graphics_info_followers.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_EcruteakHeritage, OBJ_EVENT_PAL_TAG_ECRUTEAK_HERITAGE},
     {gObjectEventPal_RegionalHoenn, OBJ_EVENT_PAL_TAG_REGIONAL_HOENN},
     {gObjectEventPal_RegionalKanto, OBJ_EVENT_PAL_TAG_REGIONAL_KANTO},
     {gObjectEventPal_RegionalJohto, OBJ_EVENT_PAL_TAG_REGIONAL_JOHTO},
@@ -3227,6 +3229,9 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId)
         return gObjectEventGraphicsInfoPointers[graphicsId];
 
     if (graphicsId >= OBJ_EVENT_GFX_REGIONAL_FIRST && graphicsId < OBJ_EVENT_GFX_REGIONAL_END)
+        return gObjectEventGraphicsInfoPointers[graphicsId];
+
+    if (graphicsId >= OBJ_EVENT_GFX_ECRUTEAK_FIRST && graphicsId < OBJ_EVENT_GFX_ECRUTEAK_END)
         return gObjectEventGraphicsInfoPointers[graphicsId];
 
     if (graphicsId >= NUM_OBJ_EVENT_GFX)
@@ -12150,3 +12155,34 @@ _Static_assert(OBJ_EVENT_GFX_CAST_END < OBJ_EVENT_MON, "Johto graphics overlap f
 _Static_assert(OBJ_EVENT_GFX_VAR_F < OBJ_EVENT_GFX_REGIONAL_FIRST, "Johto graphics overlap dynamic IDs");
 _Static_assert(OBJ_EVENT_GFX_REGIONAL_END < OBJ_EVENT_MON, "Johto graphics overlap follower IDs");
 // END REGIONAL COMPARISON IMPORT
+
+_Static_assert(OBJ_EVENT_GFX_ECRUTEAK_FIRST == OBJ_EVENT_GFX_REGIONAL_END, "Heritage IDs must append");
+_Static_assert(OBJ_EVENT_GFX_ECRUTEAK_END < OBJ_EVENT_MON, "Heritage IDs overlap follower IDs");
+
+// Older Ecruteak previews cached an empty object-template list. Restore only
+// the two appended inanimate fixtures on return to field; preserve all other
+// objects, flags, party, inventory, player coordinates and save layout.
+void Ecruteak_EnsureHeritageObjects(struct ScriptContext *ctx)
+{
+    u32 i;
+    u8 objectEventId;
+    const struct ObjectEventTemplate *template;
+    (void)ctx;
+    if (gSaveBlock1Ptr->location.mapGroup != MAP_GROUP(MAP_JOHTO_ECRUTEAK_CITY)
+     || gSaveBlock1Ptr->location.mapNum != MAP_NUM(MAP_JOHTO_ECRUTEAK_CITY))
+        return;
+    for (i = 0; i < gMapHeader.events->objectEventCount; i++)
+    {
+        template = &gMapHeader.events->objectEvents[i];
+        if (template->graphicsId < OBJ_EVENT_GFX_ECRUTEAK_FIRST
+         || template->graphicsId >= OBJ_EVENT_GFX_ECRUTEAK_END)
+            continue;
+        if (gSaveBlock1Ptr->objectEventTemplates[i].localId != template->localId
+         || gSaveBlock1Ptr->objectEventTemplates[i].graphicsId != template->graphicsId)
+            gSaveBlock1Ptr->objectEventTemplates[i] = *template;
+        if (TryGetObjectEventIdByLocalIdAndMap(template->localId,
+                gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup, &objectEventId))
+            TrySpawnObjectEvent(template->localId,
+                gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup);
+    }
+}

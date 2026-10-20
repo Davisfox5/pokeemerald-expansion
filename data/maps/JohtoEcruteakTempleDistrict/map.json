@@ -1,0 +1,435 @@
+{
+  "id": "MAP_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+  "name": "JohtoEcruteakTempleDistrict",
+  "layout": "LAYOUT_JOHTO_ECRUTEAK_TEMPLE_DISTRICT",
+  "music": "MUS_FALLARBOR",
+  "region": "REGION_JOHTO",
+  "region_map_section": "MAPSEC_JOHTO_ECRUTEAK_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "build_target": "emerald",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 11,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 12,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 13,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 16,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 18,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "11"
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "12"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "13"
+    },
+    {
+      "x": 21,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "14"
+    },
+    {
+      "x": 22,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "15"
+    },
+    {
+      "x": 23,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "16"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "17"
+    },
+    {
+      "x": 25,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "18"
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "19"
+    },
+    {
+      "x": 27,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "20"
+    },
+    {
+      "x": 30,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "21"
+    },
+    {
+      "x": 31,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "22"
+    },
+    {
+      "x": 32,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "23"
+    },
+    {
+      "x": 33,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "24"
+    },
+    {
+      "x": 34,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "25"
+    },
+    {
+      "x": 35,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "26"
+    },
+    {
+      "x": 36,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "27"
+    },
+    {
+      "x": 37,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "28"
+    },
+    {
+      "x": 40,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "29"
+    },
+    {
+      "x": 41,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "30"
+    },
+    {
+      "x": 42,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "31"
+    },
+    {
+      "x": 43,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "32"
+    },
+    {
+      "x": 44,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "33"
+    },
+    {
+      "x": 45,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "34"
+    },
+    {
+      "x": 46,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "35"
+    },
+    {
+      "x": 47,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "36"
+    },
+    {
+      "x": 48,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "37"
+    },
+    {
+      "x": 49,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "38"
+    },
+    {
+      "x": 50,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "39"
+    },
+    {
+      "x": 51,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "40"
+    },
+    {
+      "x": 52,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "41"
+    },
+    {
+      "x": 53,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "42"
+    },
+    {
+      "x": 54,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "43"
+    },
+    {
+      "x": 55,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "44"
+    },
+    {
+      "x": 56,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "45"
+    },
+    {
+      "x": 57,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "46"
+    },
+    {
+      "x": 58,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "47"
+    },
+    {
+      "x": 59,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "48"
+    },
+    {
+      "x": 60,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "49"
+    },
+    {
+      "x": 61,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "50"
+    },
+    {
+      "x": 62,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "51"
+    },
+    {
+      "x": 63,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_JOHTO_ECRUTEAK_CITY",
+      "dest_warp_id": "52"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakTempleDistrict_Heritage_Restoration"
+    },
+    {
+      "type": "sign",
+      "x": 44,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakTempleDistrict_Heritage_BellRecords"
+    },
+    {
+      "type": "sign",
+      "x": 35,
+      "y": 25,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakTempleDistrict_Heritage_Archive"
+    },
+    {
+      "type": "sign",
+      "x": 59,
+      "y": 18,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakTempleDistrict_Heritage_PondShrine"
+    },
+    {
+      "type": "sign",
+      "x": 61,
+      "y": 22,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JohtoEcruteakTempleDistrict_Heritage_PondBoard"
+    }
+  ]
+}
