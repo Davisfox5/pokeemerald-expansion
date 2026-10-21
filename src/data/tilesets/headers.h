@@ -1583,3 +1583,7 @@ const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
+
+const struct Tileset gTileset_CianwoodPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CianwoodPrimary, .palettes = gTilesetPalettes_CianwoodPrimary, .metatiles = gMetatiles_CianwoodPrimary, .metatileAttributes = gMetatileAttributes_CianwoodPrimary, .callback = NULL };
+
+const struct Tileset gTileset_Cianwood = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Cianwood, .palettes = gTilesetPalettes_Cianwood, .metatiles = gMetatiles_Cianwood, .metatileAttributes = gMetatileAttributes_Cianwood, .callback = NULL };

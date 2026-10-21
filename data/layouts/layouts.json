@@ -9528,6 +9528,18 @@
       "blockdata_filepath": "data/layouts/CherrygroveRegionalPreview30/map.bin",
       "build_target": "emerald",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_CIANWOOD_CITY",
+      "name": "CianwoodCity_Layout",
+      "width": 35,
+      "height": 42,
+      "primary_tileset": "gTileset_CianwoodPrimary",
+      "secondary_tileset": "gTileset_Cianwood",
+      "border_filepath": "data/layouts/CianwoodCity/border.bin",
+      "blockdata_filepath": "data/layouts/CianwoodCity/map.bin",
+      "build_target": "emerald",
+      "layout_version": "emerald"
     }
   ]
 }
