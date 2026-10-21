@@ -3298,3 +3298,45 @@ INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/14.pal", ".gbapal")
 INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/15.pal", ".gbapal"),
 };
 // End Claude routes
+
+// Cianwood City: local tiles and palette banks.
+const u32 gTilesetTiles_CianwoodPrimary[] = INCGFX_U32("data/tilesets/primary/cianwood/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_CianwoodPrimary[][16] = {
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/cianwood/palettes/15.pal", ".gbapal"),
+};
+
+// Cianwood City: local tiles and palette banks.
+const u32 gTilesetTiles_Cianwood[] = INCGFX_U32("data/tilesets/secondary/cianwood/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_Cianwood[][16] = {
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/cianwood/palettes/15.pal", ".gbapal"),
+};
