@@ -846,6 +846,12 @@ static bool8 IsCoordInIncomingConnectingMap(s32 coord, s32 srcMax, s32 destMax, 
     else
         max = srcMax;
 
+    // Olivine's adjacent rectangular sections can share one incoming edge.
+    // The destination size is exclusive: inclusive max selects the preceding
+    // section at a T-junction and leaves the player one row outside its map.
+    if (OlivineViewActive())
+        return min <= coord && coord < max;
+
     if (min <= coord && coord <= max)
         return TRUE;
 

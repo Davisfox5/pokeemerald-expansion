@@ -110,15 +110,28 @@ bool32 OlivineViewMetatile(u16 offset, s32 x, s32 y, u16 *tiles, s32 *layer)
     if (sCache == NULL) return FALSE;
     x += section->x - 7;
     y += section->y - 7;
-    // Olivine geography: complete forest core north/west; ocean east/south.
-    if (x < 0)
+    // Continue the same native cliff courses/materials across camera borders.
+    // Routes are still closed; this is visual padding, not a map connection.
+    if (y < 0)
     {
-        if (y < 28) { x = (u32)x & 1; y = ((y % 2 + 2) % 2) + 2; }
-        else if (y < 34) { x = 0; y = 31; }
-        else { x = 2 + ((u32)x & 1); y = 42 + ((u32)y & 1); }
+        x = x < 0 ? 0 : x >= 65 ? 64 : x;
+        y = (y % 2 + 2) % 2;
     }
-    else if (y < 0) { x = 2 + (x & 1); y = 2 + ((y % 2 + 2) % 2); }
-    else if (x >= 65 || y >= 54) { x = 2 + (x & 1); y = 42 + (y & 1); }
+    else if (y >= 54)
+    {
+        if (x >= 22 && x < 27) y = 52 + (y & 1);
+        else { x = 2 + ((u32)x & 1); y = 42 + (y & 1); }
+    }
+    else if (x < 0)
+    {
+        if (y < 40) x = 0;
+        else { x = 2 + ((u32)x & 1); y = 42 + (y & 1); }
+    }
+    else if (x >= 65)
+    {
+        if (y < 19) x = 64;
+        else { x = 2 + (x & 1); y = 42 + (y & 1); }
+    }
     entries = sOlivineEntries + (y * 65 + x) * 8;
     *layer = sOlivineLayers[y * 65 + x];
     ring = sCache->ring[(offset >> 6) * 16 + (offset & 31) / 2];
