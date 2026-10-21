@@ -1,0 +1,1938 @@
+{
+  "base": "1643f58a48",
+  "imported_maps": [
+    {
+      "map": "CherrygroveRoute29Approach",
+      "source": "ca8781c07c",
+      "layout": {
+        "id": "LAYOUT_CHERRYGROVE_ROUTE29_APPROACH",
+        "name": "CherrygroveRoute29Approach_Layout",
+        "width": 98,
+        "height": 48,
+        "primary_tileset": "gTileset_EditorRoute29Primary",
+        "secondary_tileset": "gTileset_ClaudeRoute29",
+        "border_filepath": "data/layouts/CherrygroveRoute29Approach/border.bin",
+        "blockdata_filepath": "data/layouts/CherrygroveRoute29Approach/map.bin",
+        "build_target": "emerald",
+        "layout_version": "emerald"
+      }
+    },
+    {
+      "map": "CherrygroveRoute30Approach",
+      "source": "4f01430776",
+      "layout": {
+        "id": "LAYOUT_CHERRYGROVE_ROUTE30_APPROACH",
+        "name": "CherrygroveRoute30Approach_Layout",
+        "width": 35,
+        "height": 86,
+        "primary_tileset": "gTileset_EditorRoute30Primary",
+        "secondary_tileset": "gTileset_ClaudeRoute30",
+        "border_filepath": "data/layouts/CherrygroveRoute30Approach/border.bin",
+        "blockdata_filepath": "data/layouts/CherrygroveRoute30Approach/map.bin",
+        "build_target": "emerald",
+        "layout_version": "emerald"
+      }
+    },
+    {
+      "map": "JohtoRoute32",
+      "source": "6a5fbb19cf",
+      "layout": {
+        "id": "LAYOUT_JOHTO_ROUTE32",
+        "name": "JohtoRoute32_Layout",
+        "width": 32,
+        "height": 128,
+        "border_width": 2,
+        "border_height": 2,
+        "primary_tileset": "gTileset_Route32Primary",
+        "secondary_tileset": "gTileset_Route32",
+        "border_filepath": "data/layouts/JohtoRoute32/border.bin",
+        "blockdata_filepath": "data/layouts/JohtoRoute32/map.bin",
+        "layout_version": "emerald",
+        "build_target": "emerald"
+      }
+    },
+    {
+      "map": "Route32PokemonCenter",
+      "source": "6a5fbb19cf",
+      "layout": {
+        "id": "LAYOUT_POKEMON_CENTER_1F",
+        "name": "PokemonCenter_1F_Layout",
+        "width": 14,
+        "height": 9,
+        "primary_tileset": "gTileset_Building",
+        "secondary_tileset": "gTileset_PokemonCenter",
+        "border_filepath": "data/layouts/PokemonCenter_1F/border.bin",
+        "blockdata_filepath": "data/layouts/PokemonCenter_1F/map.bin",
+        "layout_version": "emerald"
+      }
+    },
+    {
+      "map": "Route32CenterUpstairs",
+      "source": "6a5fbb19cf",
+      "layout": {
+        "id": "LAYOUT_POKEMON_CENTER_2F",
+        "name": "PokemonCenter_2F_Layout",
+        "width": 14,
+        "height": 10,
+        "primary_tileset": "gTileset_Building",
+        "secondary_tileset": "gTileset_PokemonCenter",
+        "border_filepath": "data/layouts/PokemonCenter_2F/border.bin",
+        "blockdata_filepath": "data/layouts/PokemonCenter_2F/map.bin",
+        "layout_version": "emerald"
+      }
+    },
+    {
+      "map": "JohtoRoute33",
+      "source": "eb15d89234",
+      "layout": {
+        "id": "LAYOUT_JOHTO_ROUTE33",
+        "name": "JohtoRoute33_Layout",
+        "width": 34,
+        "height": 29,
+        "border_width": 2,
+        "border_height": 2,
+        "primary_tileset": "gTileset_Route33Primary",
+        "secondary_tileset": "gTileset_Route33",
+        "border_filepath": "data/layouts/JohtoRoute33/border.bin",
+        "blockdata_filepath": "data/layouts/JohtoRoute33/map.bin",
+        "layout_version": "emerald",
+        "build_target": "emerald"
+      }
+    },
+    {
+      "map": "UnionCaveRoute32Entrance",
+      "source": "eb15d89234",
+      "layout": {
+        "id": "LAYOUT_UNION_CAVE_ROUTE32_ENTRANCE",
+        "name": "UnionCaveRoute32Entrance_Layout",
+        "width": 34,
+        "height": 60,
+        "primary_tileset": "gTileset_UnionCavePrimary",
+        "secondary_tileset": "gTileset_UnionCaveSecondary",
+        "border_filepath": "data/layouts/UnionCaveRoute32Entrance/border.bin",
+        "blockdata_filepath": "data/layouts/UnionCaveRoute32Entrance/map.bin",
+        "layout_version": "emerald",
+        "build_target": "emerald"
+      }
+    },
+    {
+      "map": "UnionCaveB1F",
+      "source": "eb15d89234",
+      "layout": {
+        "id": "LAYOUT_UNION_CAVE_B1F",
+        "name": "UnionCaveB1F_Layout",
+        "width": 36,
+        "height": 52,
+        "primary_tileset": "gTileset_UnionCaveB1FPrimary",
+        "secondary_tileset": "gTileset_UnionCaveB1FSecondary",
+        "border_filepath": "data/layouts/UnionCaveB1F/border.bin",
+        "blockdata_filepath": "data/layouts/UnionCaveB1F/map.bin",
+        "layout_version": "emerald",
+        "build_target": "emerald"
+      }
+    },
+    {
+      "map": "UnionCaveB2F",
+      "source": "eb15d89234",
+      "layout": {
+        "id": "LAYOUT_UNION_CAVE_B2F",
+        "name": "UnionCaveB2F_Layout",
+        "width": 40,
+        "height": 47,
+        "primary_tileset": "gTileset_UnionCaveB2FPrimary",
+        "secondary_tileset": "gTileset_UnionCaveB2FSecondary",
+        "border_filepath": "data/layouts/UnionCaveB2F/border.bin",
+        "blockdata_filepath": "data/layouts/UnionCaveB2F/map.bin",
+        "layout_version": "emerald",
+        "build_target": "emerald"
+      }
+    }
+  ],
+  "source_files": {
+    "data/maps/CherrygroveRoute29Approach/map.json": {
+      "source": "ca8781c07c:data/maps/CherrygroveRoute29Approach/map.json",
+      "sha256": "2a3b26c67119eb69fe3064bafd31a8286c47974494c1b9a20dd68040ffdcf04a"
+    },
+    "data/maps/CherrygroveRoute29Approach/scripts.inc": {
+      "source": "ca8781c07c:data/maps/CherrygroveRoute29Approach/scripts.inc",
+      "sha256": "15385ce699b319cbe98b030030dbd4d0ec0a6df86acfd19ccf069619c4c053b2"
+    },
+    "data/layouts/CherrygroveRoute29Approach/map.bin": {
+      "source": "ca8781c07c:data/layouts/CherrygroveRoute29Approach/map.bin",
+      "sha256": "730f891d6f7639c1c17463f12c03a8a4738657a221a78d4ca305d8cb09590345"
+    },
+    "data/layouts/CherrygroveRoute29Approach/border.bin": {
+      "source": "ca8781c07c:data/layouts/CherrygroveRoute29Approach/border.bin",
+      "sha256": "250c872ab59db073b42398921bfd3663de76e65722482920c5e1455f36de20ce"
+    },
+    "data/tilesets/primary/editor_route29/anim/flower/0.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/flower/0.png",
+      "sha256": "c033e523bb99488b27561957185cf0413a744ce4c994df9cec20f43367639143"
+    },
+    "data/tilesets/primary/editor_route29/anim/flower/1.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/flower/1.png",
+      "sha256": "3423723ca6d73e793c8c62bb6d500b21a22533dc5cadb769571f3aad8033c300"
+    },
+    "data/tilesets/primary/editor_route29/anim/flower/2.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/flower/2.png",
+      "sha256": "0bacd2807bd601c49a817090e40cef95ee0865b8be8c75712cc4422a8e194525"
+    },
+    "data/tilesets/primary/editor_route29/anim/land_water_edge/0.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/land_water_edge/0.png",
+      "sha256": "383e42baf2aba145ae459b238d15b3747fbea283accef89fc698d79ed69b0ddc"
+    },
+    "data/tilesets/primary/editor_route29/anim/land_water_edge/1.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/land_water_edge/1.png",
+      "sha256": "405241ce8c58ff1a8b9aa4713b071a6c8c7840308bc251ea125b42cc3044c8ba"
+    },
+    "data/tilesets/primary/editor_route29/anim/land_water_edge/2.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/land_water_edge/2.png",
+      "sha256": "5e39979a6ea36f95b3821f7e8dc4727146e16567f3403ed4d501c0283e8e1188"
+    },
+    "data/tilesets/primary/editor_route29/anim/land_water_edge/3.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/land_water_edge/3.png",
+      "sha256": "e102556af2f57da88e718a94124d19b8d7345c3974152860c743e5404cc6277b"
+    },
+    "data/tilesets/primary/editor_route29/anim/sand_water_edge/0.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sand_water_edge/0.png",
+      "sha256": "7ecf06c81c515f47a5afe765ee2364204af2fae3a34ed70274bb483d44021b7b"
+    },
+    "data/tilesets/primary/editor_route29/anim/sand_water_edge/1.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sand_water_edge/1.png",
+      "sha256": "a5d2b701edc733e79a9c2b6d40269633aeb02906a1aa97099cccd394ac784231"
+    },
+    "data/tilesets/primary/editor_route29/anim/sand_water_edge/2.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sand_water_edge/2.png",
+      "sha256": "a6bbd09708d3b024a2c5ca6d527892c4bb7c5ac90ab57f8c873f2cf9389c4253"
+    },
+    "data/tilesets/primary/editor_route29/anim/sand_water_edge/3.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sand_water_edge/3.png",
+      "sha256": "9d8583767550c917b537680de03d2b69d0239c9c3fb195f83933e458c70af59c"
+    },
+    "data/tilesets/primary/editor_route29/anim/sand_water_edge/4.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sand_water_edge/4.png",
+      "sha256": "3c6cce3b44aeb276cd9bc8f8df7f502dc3519b5d0556ad757369dc9cbb195812"
+    },
+    "data/tilesets/primary/editor_route29/anim/sand_water_edge/5.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sand_water_edge/5.png",
+      "sha256": "8f623a5e3fa1ff32e3b3782128aba926392f44e522b0d2fb777b87a2ca315d52"
+    },
+    "data/tilesets/primary/editor_route29/anim/sand_water_edge/6.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sand_water_edge/6.png",
+      "sha256": "9d81b6a78aa3a5fb33ec2f759e0c9a4c882564f0dc355b6e8595a9ebca299c88"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/0.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/0.png",
+      "sha256": "313041e4149c48c35155275ad3f6a69c28c3f85adb76645ccc91c475a23f103a"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/1.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/1.png",
+      "sha256": "f3e2468048db7f496bc6242ecb4cb0cab794c0aa803785de3ddaaed73b9154c7"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/2.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/2.png",
+      "sha256": "f2db07e13b7071baf8a667a988b978d9cbbc9e1b4385f68ff214a6ae40fb3d9b"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/3.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/3.png",
+      "sha256": "4b0728a77c8a5f5663ca25385776d9cc20a981a60ef022493a0fb7e43b0fd6a8"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/4.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/4.png",
+      "sha256": "669012d08baa1ac3ce5c98b36d8cc85a26df68e1dcb41fdf3674823e6769aa79"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/5.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/5.png",
+      "sha256": "92778db0d471c5ab854996d7750cabc4de303a10cb33cf35036d3eaee7f1329d"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/6.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/6.png",
+      "sha256": "e3a3721f89cc742feaa3aecaee13dcb4f8721ac5da21f1e8b9ded76b0122da1b"
+    },
+    "data/tilesets/primary/editor_route29/anim/sea/7.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/sea/7.png",
+      "sha256": "c99095000307af7ce3056170d30348fa22f2e85e58744adc0904a57de21ee4b2"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/0.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/0.png",
+      "sha256": "7d23d5c4d44119df9a8d248fcff6b9e49f86328329cb98eee7bd1cf3efb4574a"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/1.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/1.png",
+      "sha256": "3ed22a92529680b3811a3f43e5b72ed802b4f04ddf1faa60d7ed40c034a5de8a"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/2.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/2.png",
+      "sha256": "c43d46c8ce945d3ed6eebb4c83f488a4d72c0973437aa4835e113ba2a19d3050"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/3.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/3.png",
+      "sha256": "25421553a13ee038e4c558afa6efaa5c0cea2553ac5b927d7a931973fcc16312"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/4.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/4.png",
+      "sha256": "5c4ab93485037d92822ba90261daa500509d8e758422636a22032f47ef9506e0"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/5.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/5.png",
+      "sha256": "acba6be3824304d780403ab09272a44553ff3343dd9507a052355fdba84d2f39"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/6.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/6.png",
+      "sha256": "e5b6fe8a0dad6e6f384dcde8ddb1b5f8333205bac27dc0e97340741b917aa22d"
+    },
+    "data/tilesets/primary/editor_route29/anim/water/7.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/water/7.png",
+      "sha256": "b0fee407e725786bc62c24b3d6ec97db2ead2b00451bcb2d91c59c2eec3f8d38"
+    },
+    "data/tilesets/primary/editor_route29/anim/waterfall/0.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/waterfall/0.png",
+      "sha256": "a16b6d7b104a15552d43b002486f53a14488a058577d58179411c6d55db7e5ab"
+    },
+    "data/tilesets/primary/editor_route29/anim/waterfall/1.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/waterfall/1.png",
+      "sha256": "dd492aed02b437f39eba0458045595b69d1fd1aa66f45224b5228e8a2557b05b"
+    },
+    "data/tilesets/primary/editor_route29/anim/waterfall/2.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/waterfall/2.png",
+      "sha256": "1feb817ca15b57fbac9cc1b8ed2ce86a2d82ce5f54a2ee7bf694d68482588172"
+    },
+    "data/tilesets/primary/editor_route29/anim/waterfall/3.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/anim/waterfall/3.png",
+      "sha256": "7aa7255d79f5f2c9e4a1d6abb8d4830ef2df64bca738531110c1dcc294177379"
+    },
+    "data/tilesets/primary/editor_route29/metatile_attributes.bin": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/metatile_attributes.bin",
+      "sha256": "fcabda2cafd651ea8789140b45661de57ab54409a68530389e4ccb920d5e471e"
+    },
+    "data/tilesets/primary/editor_route29/metatiles.bin": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/metatiles.bin",
+      "sha256": "3a8e10357ea72fbff89ea488a82d2a83f7d6320a353f2426465ebafcb932f731"
+    },
+    "data/tilesets/primary/editor_route29/palettes/00.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/00.pal",
+      "sha256": "7955f2595cff933f9a15fc1215d42eb170ae73786b8d3a0667ebc43f3eca51ef"
+    },
+    "data/tilesets/primary/editor_route29/palettes/01.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/01.pal",
+      "sha256": "872deb54e67c77053d58bf791c1323d4667af610f911b23a4cee3bc9135bb28f"
+    },
+    "data/tilesets/primary/editor_route29/palettes/02.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/02.pal",
+      "sha256": "26e2378410af015dd0d4b4397ff078f3001e0efb443a842dd467d2a21e81efd0"
+    },
+    "data/tilesets/primary/editor_route29/palettes/03.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/03.pal",
+      "sha256": "8947f358da05a0e0e9e13fe922c4e628a9edca89ceaa8a80bedb93b7d1fb198c"
+    },
+    "data/tilesets/primary/editor_route29/palettes/04.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/04.pal",
+      "sha256": "e4e85332ff0d8ca7aec2d6be12cf8a1c3c37c4ace583051827a550b721bc5252"
+    },
+    "data/tilesets/primary/editor_route29/palettes/05.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/05.pal",
+      "sha256": "df43e94d4a0b03a74a772c96cd211ae4f5387fc7d50dd4f6da0ddb4062548ace"
+    },
+    "data/tilesets/primary/editor_route29/palettes/06.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/06.pal",
+      "sha256": "5805f12b6af96c99af3b7de61d888d932ea217f66a59288cfde2f3d3df2fe8ff"
+    },
+    "data/tilesets/primary/editor_route29/palettes/07.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/07.pal",
+      "sha256": "602bcff7dd9b83b09874cb52c94a355ccfa8c8ca877516f95ef82c2e77b74e1f"
+    },
+    "data/tilesets/primary/editor_route29/palettes/08.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/08.pal",
+      "sha256": "a3dc3742a017136fe7cbec02d740f9d1b4ce1bea9c9bee21791ba480168d0afb"
+    },
+    "data/tilesets/primary/editor_route29/palettes/09.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/09.pal",
+      "sha256": "39abe0fc3af01be3d983a624130e229ae5890f79737bd3f90ef972c3b6302aaa"
+    },
+    "data/tilesets/primary/editor_route29/palettes/10.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/10.pal",
+      "sha256": "6b950b4829cc6a8a243ea3322d9a43e10bcb1e1619590f9ec91324a499bef93d"
+    },
+    "data/tilesets/primary/editor_route29/palettes/11.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/11.pal",
+      "sha256": "82add0c31a7fbef4f3ed725b20142383ea3b36ffd367919efef9b068824620b8"
+    },
+    "data/tilesets/primary/editor_route29/palettes/12.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/12.pal",
+      "sha256": "136ef4ac8c72d2cc13c42b84b283da2d0e5ffbf8649951e4078ca4baeb89ad0c"
+    },
+    "data/tilesets/primary/editor_route29/palettes/13.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/13.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/primary/editor_route29/palettes/14.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/14.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/primary/editor_route29/palettes/15.pal": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/palettes/15.pal",
+      "sha256": "27df05d1a28f6700a7f3b4f2d4d1f1a3820e9d2973756316cbe9244d75359644"
+    },
+    "data/tilesets/primary/editor_route29/tiles.png": {
+      "source": "ca8781c07c:data/tilesets/primary/cherrygrove/tiles.png",
+      "sha256": "8501a5afd1c3aed91f9985d6b81ca9a7e392110e985f97fced608088454c7b5e"
+    },
+    "data/tilesets/secondary/claude_route29/metatile_attributes.bin": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/metatile_attributes.bin",
+      "sha256": "50d2540a131c54045e965c099dbaa6a4f6b98039f2188682641ae3f8eb2e1ce3"
+    },
+    "data/tilesets/secondary/claude_route29/metatiles.bin": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/metatiles.bin",
+      "sha256": "66b1db866d37c07bc8ffae71de2f05cd637445fc5bb7336f796c0a2c70c03209"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/00.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/00.pal",
+      "sha256": "7955f2595cff933f9a15fc1215d42eb170ae73786b8d3a0667ebc43f3eca51ef"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/01.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/01.pal",
+      "sha256": "872deb54e67c77053d58bf791c1323d4667af610f911b23a4cee3bc9135bb28f"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/02.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/02.pal",
+      "sha256": "26e2378410af015dd0d4b4397ff078f3001e0efb443a842dd467d2a21e81efd0"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/03.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/03.pal",
+      "sha256": "8947f358da05a0e0e9e13fe922c4e628a9edca89ceaa8a80bedb93b7d1fb198c"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/04.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/04.pal",
+      "sha256": "e4e85332ff0d8ca7aec2d6be12cf8a1c3c37c4ace583051827a550b721bc5252"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/05.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/05.pal",
+      "sha256": "df43e94d4a0b03a74a772c96cd211ae4f5387fc7d50dd4f6da0ddb4062548ace"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/06.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/06.pal",
+      "sha256": "5dd53845d99f5b740a5d7fe545345a867c78ef9aaedf61889f689365173a9019"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/07.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/07.pal",
+      "sha256": "602bcff7dd9b83b09874cb52c94a355ccfa8c8ca877516f95ef82c2e77b74e1f"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/08.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/08.pal",
+      "sha256": "8584b60b60ebd4cbb335102b9c4c0876b67d8d2261c8b943e26126b3902e7658"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/09.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/09.pal",
+      "sha256": "39abe0fc3af01be3d983a624130e229ae5890f79737bd3f90ef972c3b6302aaa"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/10.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/10.pal",
+      "sha256": "6b950b4829cc6a8a243ea3322d9a43e10bcb1e1619590f9ec91324a499bef93d"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/11.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/11.pal",
+      "sha256": "24e98c267b4d04e8041d4b2f9e27cca6b89ab296600280c762817bcdb822c9b5"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/12.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/12.pal",
+      "sha256": "edb21160cccf2737acd27be02fe550dec7022bd03efc17f331b7deae67c17c1f"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/13.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/13.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/14.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/14.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/claude_route29/palettes/15.pal": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/palettes/15.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/claude_route29/tiles.png": {
+      "source": "ca8781c07c:data/tilesets/secondary/claude_route29/tiles.png",
+      "sha256": "97b81ec1feeb3ef226e91a8d318e46110168bd4ff859ae26740907393614b8fd"
+    },
+    "data/maps/CherrygroveRoute30Approach/map.json": {
+      "source": "4f01430776:data/maps/CherrygroveRoute30Approach/map.json",
+      "sha256": "4ca9eedc1d8673823545b1eac6c59a397965309ec6762e74f02fbd7f43999dce"
+    },
+    "data/maps/CherrygroveRoute30Approach/scripts.inc": {
+      "source": "4f01430776:data/maps/CherrygroveRoute30Approach/scripts.inc",
+      "sha256": "3c712a6338873c130476cc6831ad8bcfeffce74f933b074fb115acf8669a053a"
+    },
+    "data/layouts/CherrygroveRoute30Approach/map.bin": {
+      "source": "4f01430776:data/layouts/CherrygroveRoute30Approach/map.bin",
+      "sha256": "8edd07738776a123cdc5a088d90f3b264ea04fd1f1b2c0994399e9cb2602c4c4"
+    },
+    "data/layouts/CherrygroveRoute30Approach/border.bin": {
+      "source": "4f01430776:data/layouts/CherrygroveRoute30Approach/border.bin",
+      "sha256": "38d9fb9d170e1814937e053a87fc19bf5f04f9177183bb9a3a7e00cc0316df7f"
+    },
+    "data/tilesets/primary/editor_route30/anim/flower/0.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/flower/0.png",
+      "sha256": "c033e523bb99488b27561957185cf0413a744ce4c994df9cec20f43367639143"
+    },
+    "data/tilesets/primary/editor_route30/anim/flower/1.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/flower/1.png",
+      "sha256": "3423723ca6d73e793c8c62bb6d500b21a22533dc5cadb769571f3aad8033c300"
+    },
+    "data/tilesets/primary/editor_route30/anim/flower/2.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/flower/2.png",
+      "sha256": "0bacd2807bd601c49a817090e40cef95ee0865b8be8c75712cc4422a8e194525"
+    },
+    "data/tilesets/primary/editor_route30/anim/land_water_edge/0.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/land_water_edge/0.png",
+      "sha256": "383e42baf2aba145ae459b238d15b3747fbea283accef89fc698d79ed69b0ddc"
+    },
+    "data/tilesets/primary/editor_route30/anim/land_water_edge/1.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/land_water_edge/1.png",
+      "sha256": "405241ce8c58ff1a8b9aa4713b071a6c8c7840308bc251ea125b42cc3044c8ba"
+    },
+    "data/tilesets/primary/editor_route30/anim/land_water_edge/2.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/land_water_edge/2.png",
+      "sha256": "5e39979a6ea36f95b3821f7e8dc4727146e16567f3403ed4d501c0283e8e1188"
+    },
+    "data/tilesets/primary/editor_route30/anim/land_water_edge/3.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/land_water_edge/3.png",
+      "sha256": "e102556af2f57da88e718a94124d19b8d7345c3974152860c743e5404cc6277b"
+    },
+    "data/tilesets/primary/editor_route30/anim/sand_water_edge/0.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sand_water_edge/0.png",
+      "sha256": "7ecf06c81c515f47a5afe765ee2364204af2fae3a34ed70274bb483d44021b7b"
+    },
+    "data/tilesets/primary/editor_route30/anim/sand_water_edge/1.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sand_water_edge/1.png",
+      "sha256": "a5d2b701edc733e79a9c2b6d40269633aeb02906a1aa97099cccd394ac784231"
+    },
+    "data/tilesets/primary/editor_route30/anim/sand_water_edge/2.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sand_water_edge/2.png",
+      "sha256": "a6bbd09708d3b024a2c5ca6d527892c4bb7c5ac90ab57f8c873f2cf9389c4253"
+    },
+    "data/tilesets/primary/editor_route30/anim/sand_water_edge/3.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sand_water_edge/3.png",
+      "sha256": "9d8583767550c917b537680de03d2b69d0239c9c3fb195f83933e458c70af59c"
+    },
+    "data/tilesets/primary/editor_route30/anim/sand_water_edge/4.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sand_water_edge/4.png",
+      "sha256": "3c6cce3b44aeb276cd9bc8f8df7f502dc3519b5d0556ad757369dc9cbb195812"
+    },
+    "data/tilesets/primary/editor_route30/anim/sand_water_edge/5.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sand_water_edge/5.png",
+      "sha256": "8f623a5e3fa1ff32e3b3782128aba926392f44e522b0d2fb777b87a2ca315d52"
+    },
+    "data/tilesets/primary/editor_route30/anim/sand_water_edge/6.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sand_water_edge/6.png",
+      "sha256": "9d81b6a78aa3a5fb33ec2f759e0c9a4c882564f0dc355b6e8595a9ebca299c88"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/0.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/0.png",
+      "sha256": "313041e4149c48c35155275ad3f6a69c28c3f85adb76645ccc91c475a23f103a"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/1.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/1.png",
+      "sha256": "f3e2468048db7f496bc6242ecb4cb0cab794c0aa803785de3ddaaed73b9154c7"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/2.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/2.png",
+      "sha256": "f2db07e13b7071baf8a667a988b978d9cbbc9e1b4385f68ff214a6ae40fb3d9b"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/3.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/3.png",
+      "sha256": "4b0728a77c8a5f5663ca25385776d9cc20a981a60ef022493a0fb7e43b0fd6a8"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/4.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/4.png",
+      "sha256": "669012d08baa1ac3ce5c98b36d8cc85a26df68e1dcb41fdf3674823e6769aa79"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/5.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/5.png",
+      "sha256": "92778db0d471c5ab854996d7750cabc4de303a10cb33cf35036d3eaee7f1329d"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/6.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/6.png",
+      "sha256": "e3a3721f89cc742feaa3aecaee13dcb4f8721ac5da21f1e8b9ded76b0122da1b"
+    },
+    "data/tilesets/primary/editor_route30/anim/sea/7.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/sea/7.png",
+      "sha256": "c99095000307af7ce3056170d30348fa22f2e85e58744adc0904a57de21ee4b2"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/0.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/0.png",
+      "sha256": "7d23d5c4d44119df9a8d248fcff6b9e49f86328329cb98eee7bd1cf3efb4574a"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/1.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/1.png",
+      "sha256": "3ed22a92529680b3811a3f43e5b72ed802b4f04ddf1faa60d7ed40c034a5de8a"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/2.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/2.png",
+      "sha256": "c43d46c8ce945d3ed6eebb4c83f488a4d72c0973437aa4835e113ba2a19d3050"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/3.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/3.png",
+      "sha256": "25421553a13ee038e4c558afa6efaa5c0cea2553ac5b927d7a931973fcc16312"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/4.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/4.png",
+      "sha256": "5c4ab93485037d92822ba90261daa500509d8e758422636a22032f47ef9506e0"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/5.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/5.png",
+      "sha256": "acba6be3824304d780403ab09272a44553ff3343dd9507a052355fdba84d2f39"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/6.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/6.png",
+      "sha256": "e5b6fe8a0dad6e6f384dcde8ddb1b5f8333205bac27dc0e97340741b917aa22d"
+    },
+    "data/tilesets/primary/editor_route30/anim/water/7.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/water/7.png",
+      "sha256": "b0fee407e725786bc62c24b3d6ec97db2ead2b00451bcb2d91c59c2eec3f8d38"
+    },
+    "data/tilesets/primary/editor_route30/anim/waterfall/0.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/waterfall/0.png",
+      "sha256": "a16b6d7b104a15552d43b002486f53a14488a058577d58179411c6d55db7e5ab"
+    },
+    "data/tilesets/primary/editor_route30/anim/waterfall/1.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/waterfall/1.png",
+      "sha256": "dd492aed02b437f39eba0458045595b69d1fd1aa66f45224b5228e8a2557b05b"
+    },
+    "data/tilesets/primary/editor_route30/anim/waterfall/2.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/waterfall/2.png",
+      "sha256": "1feb817ca15b57fbac9cc1b8ed2ce86a2d82ce5f54a2ee7bf694d68482588172"
+    },
+    "data/tilesets/primary/editor_route30/anim/waterfall/3.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/anim/waterfall/3.png",
+      "sha256": "7aa7255d79f5f2c9e4a1d6abb8d4830ef2df64bca738531110c1dcc294177379"
+    },
+    "data/tilesets/primary/editor_route30/metatile_attributes.bin": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/metatile_attributes.bin",
+      "sha256": "fcabda2cafd651ea8789140b45661de57ab54409a68530389e4ccb920d5e471e"
+    },
+    "data/tilesets/primary/editor_route30/metatiles.bin": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/metatiles.bin",
+      "sha256": "3a8e10357ea72fbff89ea488a82d2a83f7d6320a353f2426465ebafcb932f731"
+    },
+    "data/tilesets/primary/editor_route30/palettes/00.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/00.pal",
+      "sha256": "7955f2595cff933f9a15fc1215d42eb170ae73786b8d3a0667ebc43f3eca51ef"
+    },
+    "data/tilesets/primary/editor_route30/palettes/01.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/01.pal",
+      "sha256": "872deb54e67c77053d58bf791c1323d4667af610f911b23a4cee3bc9135bb28f"
+    },
+    "data/tilesets/primary/editor_route30/palettes/02.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/02.pal",
+      "sha256": "26e2378410af015dd0d4b4397ff078f3001e0efb443a842dd467d2a21e81efd0"
+    },
+    "data/tilesets/primary/editor_route30/palettes/03.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/03.pal",
+      "sha256": "8947f358da05a0e0e9e13fe922c4e628a9edca89ceaa8a80bedb93b7d1fb198c"
+    },
+    "data/tilesets/primary/editor_route30/palettes/04.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/04.pal",
+      "sha256": "e4e85332ff0d8ca7aec2d6be12cf8a1c3c37c4ace583051827a550b721bc5252"
+    },
+    "data/tilesets/primary/editor_route30/palettes/05.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/05.pal",
+      "sha256": "df43e94d4a0b03a74a772c96cd211ae4f5387fc7d50dd4f6da0ddb4062548ace"
+    },
+    "data/tilesets/primary/editor_route30/palettes/06.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/06.pal",
+      "sha256": "5805f12b6af96c99af3b7de61d888d932ea217f66a59288cfde2f3d3df2fe8ff"
+    },
+    "data/tilesets/primary/editor_route30/palettes/07.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/07.pal",
+      "sha256": "602bcff7dd9b83b09874cb52c94a355ccfa8c8ca877516f95ef82c2e77b74e1f"
+    },
+    "data/tilesets/primary/editor_route30/palettes/08.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/08.pal",
+      "sha256": "a3dc3742a017136fe7cbec02d740f9d1b4ce1bea9c9bee21791ba480168d0afb"
+    },
+    "data/tilesets/primary/editor_route30/palettes/09.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/09.pal",
+      "sha256": "39abe0fc3af01be3d983a624130e229ae5890f79737bd3f90ef972c3b6302aaa"
+    },
+    "data/tilesets/primary/editor_route30/palettes/10.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/10.pal",
+      "sha256": "6b950b4829cc6a8a243ea3322d9a43e10bcb1e1619590f9ec91324a499bef93d"
+    },
+    "data/tilesets/primary/editor_route30/palettes/11.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/11.pal",
+      "sha256": "82add0c31a7fbef4f3ed725b20142383ea3b36ffd367919efef9b068824620b8"
+    },
+    "data/tilesets/primary/editor_route30/palettes/12.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/12.pal",
+      "sha256": "136ef4ac8c72d2cc13c42b84b283da2d0e5ffbf8649951e4078ca4baeb89ad0c"
+    },
+    "data/tilesets/primary/editor_route30/palettes/13.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/13.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/primary/editor_route30/palettes/14.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/14.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/primary/editor_route30/palettes/15.pal": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/palettes/15.pal",
+      "sha256": "27df05d1a28f6700a7f3b4f2d4d1f1a3820e9d2973756316cbe9244d75359644"
+    },
+    "data/tilesets/primary/editor_route30/tiles.png": {
+      "source": "4f01430776:data/tilesets/primary/cherrygrove/tiles.png",
+      "sha256": "8501a5afd1c3aed91f9985d6b81ca9a7e392110e985f97fced608088454c7b5e"
+    },
+    "data/tilesets/secondary/claude_route30/metatile_attributes.bin": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/metatile_attributes.bin",
+      "sha256": "31d07a12dd9ab2444cb9741c55c9a234891a3f095106dd695cd031039fe45371"
+    },
+    "data/tilesets/secondary/claude_route30/metatiles.bin": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/metatiles.bin",
+      "sha256": "1019839ff5f8e8d2cbdc51eff7d742648c093ce40a561c79cd0a37d85d9a3a27"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/00.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/00.pal",
+      "sha256": "7955f2595cff933f9a15fc1215d42eb170ae73786b8d3a0667ebc43f3eca51ef"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/01.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/01.pal",
+      "sha256": "872deb54e67c77053d58bf791c1323d4667af610f911b23a4cee3bc9135bb28f"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/02.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/02.pal",
+      "sha256": "26e2378410af015dd0d4b4397ff078f3001e0efb443a842dd467d2a21e81efd0"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/03.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/03.pal",
+      "sha256": "8947f358da05a0e0e9e13fe922c4e628a9edca89ceaa8a80bedb93b7d1fb198c"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/04.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/04.pal",
+      "sha256": "e4e85332ff0d8ca7aec2d6be12cf8a1c3c37c4ace583051827a550b721bc5252"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/05.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/05.pal",
+      "sha256": "df43e94d4a0b03a74a772c96cd211ae4f5387fc7d50dd4f6da0ddb4062548ace"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/06.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/06.pal",
+      "sha256": "5805f12b6af96c99af3b7de61d888d932ea217f66a59288cfde2f3d3df2fe8ff"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/07.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/07.pal",
+      "sha256": "53be0acbf0946997e299d28f700fdea30fda6682107ceadc599581e41c743e61"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/08.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/08.pal",
+      "sha256": "8584b60b60ebd4cbb335102b9c4c0876b67d8d2261c8b943e26126b3902e7658"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/09.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/09.pal",
+      "sha256": "39abe0fc3af01be3d983a624130e229ae5890f79737bd3f90ef972c3b6302aaa"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/10.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/10.pal",
+      "sha256": "6b950b4829cc6a8a243ea3322d9a43e10bcb1e1619590f9ec91324a499bef93d"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/11.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/11.pal",
+      "sha256": "ebcb32e98fcb1913bef461c86c4c2c8ace74755768e9d90f09858e8c25f7b6f6"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/12.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/12.pal",
+      "sha256": "bfa4d95877dabe58dcae4ea49750e92b1c41eb453062b93800d64f2d786510bd"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/13.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/13.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/14.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/14.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/claude_route30/palettes/15.pal": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/palettes/15.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/claude_route30/tiles.png": {
+      "source": "4f01430776:data/tilesets/secondary/claude_route30/tiles.png",
+      "sha256": "a59e34481fe54b62fde515b0cda181eb13ef22e0ece8a2c35b8d774b8a16d4b8"
+    },
+    "data/maps/JohtoRoute32/map.json": {
+      "source": "6a5fbb19cf:data/maps/JohtoRoute32/map.json",
+      "sha256": "fccb86cabf2dcdd47ce555c7f7de2108f47c17ae5ad64c9feffbae12c9d20ce0"
+    },
+    "data/maps/JohtoRoute32/scripts.inc": {
+      "source": "6a5fbb19cf:data/maps/JohtoRoute32/scripts.inc",
+      "sha256": "ba3b84f30b6bd5fd06d790426899df21be516598a625c224ba0ebfc85127dad0"
+    },
+    "data/layouts/JohtoRoute32/map.bin": {
+      "source": "6a5fbb19cf:data/layouts/JohtoRoute32/map.bin",
+      "sha256": "d4d6897623e18d9087e90965e5bfe093cab4fab1b09e53628bdfa4a9e74d3585"
+    },
+    "data/layouts/JohtoRoute32/border.bin": {
+      "source": "6a5fbb19cf:data/layouts/JohtoRoute32/border.bin",
+      "sha256": "bda8b422734dd0e7f2ef8bcc8eb9100116706309d268f737de1b209a42666ae6"
+    },
+    "data/tilesets/primary/route32/anim/flower/0.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/flower/0.png",
+      "sha256": "c033e523bb99488b27561957185cf0413a744ce4c994df9cec20f43367639143"
+    },
+    "data/tilesets/primary/route32/anim/flower/1.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/flower/1.png",
+      "sha256": "3423723ca6d73e793c8c62bb6d500b21a22533dc5cadb769571f3aad8033c300"
+    },
+    "data/tilesets/primary/route32/anim/flower/2.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/flower/2.png",
+      "sha256": "0bacd2807bd601c49a817090e40cef95ee0865b8be8c75712cc4422a8e194525"
+    },
+    "data/tilesets/primary/route32/anim/land_water_edge/0.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/land_water_edge/0.png",
+      "sha256": "383e42baf2aba145ae459b238d15b3747fbea283accef89fc698d79ed69b0ddc"
+    },
+    "data/tilesets/primary/route32/anim/land_water_edge/1.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/land_water_edge/1.png",
+      "sha256": "405241ce8c58ff1a8b9aa4713b071a6c8c7840308bc251ea125b42cc3044c8ba"
+    },
+    "data/tilesets/primary/route32/anim/land_water_edge/2.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/land_water_edge/2.png",
+      "sha256": "5e39979a6ea36f95b3821f7e8dc4727146e16567f3403ed4d501c0283e8e1188"
+    },
+    "data/tilesets/primary/route32/anim/land_water_edge/3.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/land_water_edge/3.png",
+      "sha256": "e102556af2f57da88e718a94124d19b8d7345c3974152860c743e5404cc6277b"
+    },
+    "data/tilesets/primary/route32/anim/sand_water_edge/0.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sand_water_edge/0.png",
+      "sha256": "7ecf06c81c515f47a5afe765ee2364204af2fae3a34ed70274bb483d44021b7b"
+    },
+    "data/tilesets/primary/route32/anim/sand_water_edge/1.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sand_water_edge/1.png",
+      "sha256": "a5d2b701edc733e79a9c2b6d40269633aeb02906a1aa97099cccd394ac784231"
+    },
+    "data/tilesets/primary/route32/anim/sand_water_edge/2.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sand_water_edge/2.png",
+      "sha256": "a6bbd09708d3b024a2c5ca6d527892c4bb7c5ac90ab57f8c873f2cf9389c4253"
+    },
+    "data/tilesets/primary/route32/anim/sand_water_edge/3.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sand_water_edge/3.png",
+      "sha256": "9d8583767550c917b537680de03d2b69d0239c9c3fb195f83933e458c70af59c"
+    },
+    "data/tilesets/primary/route32/anim/sand_water_edge/4.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sand_water_edge/4.png",
+      "sha256": "3c6cce3b44aeb276cd9bc8f8df7f502dc3519b5d0556ad757369dc9cbb195812"
+    },
+    "data/tilesets/primary/route32/anim/sand_water_edge/5.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sand_water_edge/5.png",
+      "sha256": "8f623a5e3fa1ff32e3b3782128aba926392f44e522b0d2fb777b87a2ca315d52"
+    },
+    "data/tilesets/primary/route32/anim/sand_water_edge/6.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sand_water_edge/6.png",
+      "sha256": "9d81b6a78aa3a5fb33ec2f759e0c9a4c882564f0dc355b6e8595a9ebca299c88"
+    },
+    "data/tilesets/primary/route32/anim/sea/0.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/0.png",
+      "sha256": "313041e4149c48c35155275ad3f6a69c28c3f85adb76645ccc91c475a23f103a"
+    },
+    "data/tilesets/primary/route32/anim/sea/1.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/1.png",
+      "sha256": "f3e2468048db7f496bc6242ecb4cb0cab794c0aa803785de3ddaaed73b9154c7"
+    },
+    "data/tilesets/primary/route32/anim/sea/2.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/2.png",
+      "sha256": "f2db07e13b7071baf8a667a988b978d9cbbc9e1b4385f68ff214a6ae40fb3d9b"
+    },
+    "data/tilesets/primary/route32/anim/sea/3.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/3.png",
+      "sha256": "4b0728a77c8a5f5663ca25385776d9cc20a981a60ef022493a0fb7e43b0fd6a8"
+    },
+    "data/tilesets/primary/route32/anim/sea/4.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/4.png",
+      "sha256": "669012d08baa1ac3ce5c98b36d8cc85a26df68e1dcb41fdf3674823e6769aa79"
+    },
+    "data/tilesets/primary/route32/anim/sea/5.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/5.png",
+      "sha256": "92778db0d471c5ab854996d7750cabc4de303a10cb33cf35036d3eaee7f1329d"
+    },
+    "data/tilesets/primary/route32/anim/sea/6.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/6.png",
+      "sha256": "e3a3721f89cc742feaa3aecaee13dcb4f8721ac5da21f1e8b9ded76b0122da1b"
+    },
+    "data/tilesets/primary/route32/anim/sea/7.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/sea/7.png",
+      "sha256": "c99095000307af7ce3056170d30348fa22f2e85e58744adc0904a57de21ee4b2"
+    },
+    "data/tilesets/primary/route32/anim/water/0.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/0.png",
+      "sha256": "7d23d5c4d44119df9a8d248fcff6b9e49f86328329cb98eee7bd1cf3efb4574a"
+    },
+    "data/tilesets/primary/route32/anim/water/1.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/1.png",
+      "sha256": "3ed22a92529680b3811a3f43e5b72ed802b4f04ddf1faa60d7ed40c034a5de8a"
+    },
+    "data/tilesets/primary/route32/anim/water/2.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/2.png",
+      "sha256": "c43d46c8ce945d3ed6eebb4c83f488a4d72c0973437aa4835e113ba2a19d3050"
+    },
+    "data/tilesets/primary/route32/anim/water/3.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/3.png",
+      "sha256": "25421553a13ee038e4c558afa6efaa5c0cea2553ac5b927d7a931973fcc16312"
+    },
+    "data/tilesets/primary/route32/anim/water/4.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/4.png",
+      "sha256": "5c4ab93485037d92822ba90261daa500509d8e758422636a22032f47ef9506e0"
+    },
+    "data/tilesets/primary/route32/anim/water/5.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/5.png",
+      "sha256": "acba6be3824304d780403ab09272a44553ff3343dd9507a052355fdba84d2f39"
+    },
+    "data/tilesets/primary/route32/anim/water/6.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/6.png",
+      "sha256": "e5b6fe8a0dad6e6f384dcde8ddb1b5f8333205bac27dc0e97340741b917aa22d"
+    },
+    "data/tilesets/primary/route32/anim/water/7.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/water/7.png",
+      "sha256": "b0fee407e725786bc62c24b3d6ec97db2ead2b00451bcb2d91c59c2eec3f8d38"
+    },
+    "data/tilesets/primary/route32/anim/waterfall/0.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/waterfall/0.png",
+      "sha256": "a16b6d7b104a15552d43b002486f53a14488a058577d58179411c6d55db7e5ab"
+    },
+    "data/tilesets/primary/route32/anim/waterfall/1.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/waterfall/1.png",
+      "sha256": "dd492aed02b437f39eba0458045595b69d1fd1aa66f45224b5228e8a2557b05b"
+    },
+    "data/tilesets/primary/route32/anim/waterfall/2.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/waterfall/2.png",
+      "sha256": "1feb817ca15b57fbac9cc1b8ed2ce86a2d82ce5f54a2ee7bf694d68482588172"
+    },
+    "data/tilesets/primary/route32/anim/waterfall/3.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/anim/waterfall/3.png",
+      "sha256": "7aa7255d79f5f2c9e4a1d6abb8d4830ef2df64bca738531110c1dcc294177379"
+    },
+    "data/tilesets/primary/route32/metatile_attributes.bin": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/metatile_attributes.bin",
+      "sha256": "4b0a27cfbed5b771eebcd847d86a5e2b76512e0a7361d34212fba31729371675"
+    },
+    "data/tilesets/primary/route32/metatiles.bin": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/metatiles.bin",
+      "sha256": "b26aab6a7becb4b04f8587c7e1a1babcdcecff88a6394790f2dcdb1ae4efb1d9"
+    },
+    "data/tilesets/primary/route32/palettes/00.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/00.pal",
+      "sha256": "7955f2595cff933f9a15fc1215d42eb170ae73786b8d3a0667ebc43f3eca51ef"
+    },
+    "data/tilesets/primary/route32/palettes/01.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/01.pal",
+      "sha256": "872deb54e67c77053d58bf791c1323d4667af610f911b23a4cee3bc9135bb28f"
+    },
+    "data/tilesets/primary/route32/palettes/02.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/02.pal",
+      "sha256": "08c9625072aefb926d253667f5a42cfe2ecf680941bd16e3d56c5b5b873acf6f"
+    },
+    "data/tilesets/primary/route32/palettes/03.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/03.pal",
+      "sha256": "1fcb93597b06374a15fd3bcbe147e3d70480aac0109bbbb2be8c658e889e4440"
+    },
+    "data/tilesets/primary/route32/palettes/04.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/04.pal",
+      "sha256": "2a1009bbe446b182ae7d12dbe33b32dd47183135bb79d0981d21075f5f41f883"
+    },
+    "data/tilesets/primary/route32/palettes/05.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/05.pal",
+      "sha256": "1e2281b2ddfeac65ea066a56e6afa464f3f878b5cdecb7142f70363d19c86420"
+    },
+    "data/tilesets/primary/route32/palettes/06.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/06.pal",
+      "sha256": "5805f12b6af96c99af3b7de61d888d932ea217f66a59288cfde2f3d3df2fe8ff"
+    },
+    "data/tilesets/primary/route32/palettes/07.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/07.pal",
+      "sha256": "602bcff7dd9b83b09874cb52c94a355ccfa8c8ca877516f95ef82c2e77b74e1f"
+    },
+    "data/tilesets/primary/route32/palettes/08.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/08.pal",
+      "sha256": "a3dc3742a017136fe7cbec02d740f9d1b4ce1bea9c9bee21791ba480168d0afb"
+    },
+    "data/tilesets/primary/route32/palettes/09.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/09.pal",
+      "sha256": "39abe0fc3af01be3d983a624130e229ae5890f79737bd3f90ef972c3b6302aaa"
+    },
+    "data/tilesets/primary/route32/palettes/10.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/10.pal",
+      "sha256": "6b950b4829cc6a8a243ea3322d9a43e10bcb1e1619590f9ec91324a499bef93d"
+    },
+    "data/tilesets/primary/route32/palettes/11.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/11.pal",
+      "sha256": "82add0c31a7fbef4f3ed725b20142383ea3b36ffd367919efef9b068824620b8"
+    },
+    "data/tilesets/primary/route32/palettes/12.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/12.pal",
+      "sha256": "136ef4ac8c72d2cc13c42b84b283da2d0e5ffbf8649951e4078ca4baeb89ad0c"
+    },
+    "data/tilesets/primary/route32/palettes/13.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/13.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/primary/route32/palettes/14.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/14.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/primary/route32/palettes/15.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/palettes/15.pal",
+      "sha256": "27df05d1a28f6700a7f3b4f2d4d1f1a3820e9d2973756316cbe9244d75359644"
+    },
+    "data/tilesets/primary/route32/tiles.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/route32/tiles.png",
+      "sha256": "53bd16c6c0ae76ba4a2cd2fe5ec5ac203fe4e4ce4ee453909866abe8133b3f7d"
+    },
+    "data/tilesets/secondary/route32/metatile_attributes.bin": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/metatile_attributes.bin",
+      "sha256": "8be6c6c3a0c50bcf824f7128b442a5ed5feed9c84692c0766c370249240f1da8"
+    },
+    "data/tilesets/secondary/route32/metatiles.bin": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/metatiles.bin",
+      "sha256": "237c977dc6053c38664e3aebfd15b92a386abadda6f7c47dd117150aebcc19cc"
+    },
+    "data/tilesets/secondary/route32/palettes/00.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/00.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/route32/palettes/01.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/01.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/route32/palettes/02.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/02.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/route32/palettes/03.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/03.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/route32/palettes/04.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/04.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/route32/palettes/05.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/05.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/route32/palettes/06.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/06.pal",
+      "sha256": "5dd53845d99f5b740a5d7fe545345a867c78ef9aaedf61889f689365173a9019"
+    },
+    "data/tilesets/secondary/route32/palettes/07.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/07.pal",
+      "sha256": "f79cc4efd4f7af265d05a1eb3def8b8258e9625f5e1d21e64fe3a47df9fca200"
+    },
+    "data/tilesets/secondary/route32/palettes/08.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/08.pal",
+      "sha256": "a3dc3742a017136fe7cbec02d740f9d1b4ce1bea9c9bee21791ba480168d0afb"
+    },
+    "data/tilesets/secondary/route32/palettes/09.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/09.pal",
+      "sha256": "6f53d54918427f1844fdaebf7f112eaf402986f075dac91c7a4e89a55cdc78da"
+    },
+    "data/tilesets/secondary/route32/palettes/10.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/10.pal",
+      "sha256": "71109d236de8e68304cd4f8774b0061ef0dd8ea8b5c071390a97306a4729f8c8"
+    },
+    "data/tilesets/secondary/route32/palettes/11.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/11.pal",
+      "sha256": "3f72e5cb4136b423108835b3aae407df24d14c9dd68fac457cfeb6ff26324454"
+    },
+    "data/tilesets/secondary/route32/palettes/12.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/12.pal",
+      "sha256": "0a81b0154f6fcea71ae3421ba07b2259a6e72659945a9f8622bf01b0aaf54337"
+    },
+    "data/tilesets/secondary/route32/palettes/13.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/13.pal",
+      "sha256": "6714c9d85ca11b5f6770459ccc2b126551a0c67c2cc91a6a26a9dc51d8428734"
+    },
+    "data/tilesets/secondary/route32/palettes/14.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/14.pal",
+      "sha256": "ca4fe7d33ac98e58fe47e190e50407f8fb77a78e6fe2c5dad98b0298e48e8577"
+    },
+    "data/tilesets/secondary/route32/palettes/15.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/palettes/15.pal",
+      "sha256": "ea99681939efd208abdbdee3f44fb1cd57668c9c98750d6b9a73a941f7dbf421"
+    },
+    "data/tilesets/secondary/route32/tiles.png": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/route32/tiles.png",
+      "sha256": "58512d5b186a162178cca5567bd2e267450e8bdd36228a940b8bd3c189e28864"
+    },
+    "data/maps/Route32PokemonCenter/map.json": {
+      "source": "6a5fbb19cf:data/maps/Route32PokemonCenter/map.json",
+      "sha256": "f3b95a31427a818bd1b725318b9045dc0a6eb246b5eb6abf055e71fb95ba778f"
+    },
+    "data/maps/Route32PokemonCenter/scripts.inc": {
+      "source": "6a5fbb19cf:data/maps/Route32PokemonCenter/scripts.inc",
+      "sha256": "653ea83841a2e54a8e9af45ab11106e0c58aa7fad4f665daad537e4ec0fb3d9c"
+    },
+    "data/layouts/PokemonCenter_1F/map.bin": {
+      "source": "6a5fbb19cf:data/layouts/PokemonCenter_1F/map.bin",
+      "sha256": "e17f23a18cd85fe575d260eac560469e860217dec9d3c5b3cae3232cab0be005"
+    },
+    "data/layouts/PokemonCenter_1F/border.bin": {
+      "source": "6a5fbb19cf:data/layouts/PokemonCenter_1F/border.bin",
+      "sha256": "9ff63640fa3b4682056532b7924b03250ccc7a832f64ccec3dea79ea8595a24d"
+    },
+    "data/tilesets/primary/building/anim/tv_turned_on/0.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/anim/tv_turned_on/0.png",
+      "sha256": "745a8ae797ca71698a7a56646a44e40541249a36fc853377b9d75f749d4c3915"
+    },
+    "data/tilesets/primary/building/anim/tv_turned_on/1.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/anim/tv_turned_on/1.png",
+      "sha256": "b58584493c106f3e146e258939d2e4ce5823fbc2fae680f4e699a8f61647a779"
+    },
+    "data/tilesets/primary/building/metatile_attributes.bin": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/metatile_attributes.bin",
+      "sha256": "7a153a1748dc4bd03e621acad6c6b7e90c2d3acfc467a928ad23d21f34e73128"
+    },
+    "data/tilesets/primary/building/metatiles.bin": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/metatiles.bin",
+      "sha256": "65e40fece49f8ed09a82b33c3d590716d9740581f087acd1359665331e4683f1"
+    },
+    "data/tilesets/primary/building/palettes/00.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/00.pal",
+      "sha256": "6008920965897f0fe9e901ab795aacb4c6a6869ea300db6cfb6411da42f750ee"
+    },
+    "data/tilesets/primary/building/palettes/01.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/01.pal",
+      "sha256": "88bf97cf6eca47f21bbf0859fccc60172fc09fd715eb3d9266b8a9d4af715e72"
+    },
+    "data/tilesets/primary/building/palettes/02.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/02.pal",
+      "sha256": "b2290ff85f9e19b2b55cf306b381c1e5a927d6efa3de416bcc02132ba78dc8c1"
+    },
+    "data/tilesets/primary/building/palettes/03.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/03.pal",
+      "sha256": "b2290ff85f9e19b2b55cf306b381c1e5a927d6efa3de416bcc02132ba78dc8c1"
+    },
+    "data/tilesets/primary/building/palettes/04.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/04.pal",
+      "sha256": "b2290ff85f9e19b2b55cf306b381c1e5a927d6efa3de416bcc02132ba78dc8c1"
+    },
+    "data/tilesets/primary/building/palettes/05.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/05.pal",
+      "sha256": "b81a37f041aeb04428ce37ad1f7a7a476cdc822f534a4cda12f360c4ca5d0a58"
+    },
+    "data/tilesets/primary/building/palettes/06.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/06.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/07.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/07.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/08.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/08.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/09.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/09.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/10.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/10.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/11.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/11.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/12.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/12.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/13.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/13.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/14.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/14.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/palettes/15.pal": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/palettes/15.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/primary/building/tiles.png": {
+      "source": "6a5fbb19cf:data/tilesets/primary/building/tiles.png",
+      "sha256": "355d5dc8625e332ceb34cbe685092d96540ece0b7a39293e493d27c02b6db300"
+    },
+    "data/tilesets/secondary/pokemon_center/metatile_attributes.bin": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/metatile_attributes.bin",
+      "sha256": "7c6373eced25fba8b046b61779d60b16755250aedb8945ff84c1a9c3f50b9110"
+    },
+    "data/tilesets/secondary/pokemon_center/metatiles.bin": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/metatiles.bin",
+      "sha256": "22e260e7dff89e25402c76392e37efdd8593abda9dcbda2a879caf522ebb2e05"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/00.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/00.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/01.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/01.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/02.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/02.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/03.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/03.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/04.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/04.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/05.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/05.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/06.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/06.pal",
+      "sha256": "b41d246ba76add796e583ce5a961212c0f24219ffb00ddee6bbb4426057c1c96"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/07.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/07.pal",
+      "sha256": "dd2da15de7299827706b895a2518e0752651ceefa30ddd14028a8a5ea525dd56"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/08.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/08.pal",
+      "sha256": "71560cea7b2102a71f4f2196d85648cdd2b2e15037cf4fdb3e7bbefb0e4ddbbc"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/09.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/09.pal",
+      "sha256": "572f4c2694d479122adecbf39b6085af25fe330193f32a9963f120f879610dd8"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/10.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/10.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/11.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/11.pal",
+      "sha256": "590f6158fec170545f20e03c95e7a9482516f7993f414b89b1eac53c749a94e0"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/12.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/12.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/13.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/13.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/14.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/14.pal",
+      "sha256": "eb00ab288b8de900d0aab548d9b483f62295296e2dd838338595235b8e0e4559"
+    },
+    "data/tilesets/secondary/pokemon_center/palettes/15.pal": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/palettes/15.pal",
+      "sha256": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675"
+    },
+    "data/tilesets/secondary/pokemon_center/tiles.png": {
+      "source": "6a5fbb19cf:data/tilesets/secondary/pokemon_center/tiles.png",
+      "sha256": "c7d0da06a04b3ecb28494b48f933034388dea850de910d3303e6770d2a6a12fd"
+    },
+    "data/maps/Route32CenterUpstairs/map.json": {
+      "source": "6a5fbb19cf:data/maps/Route32CenterUpstairs/map.json",
+      "sha256": "5771011b538a67a1747bbb14e602db176a16c95aa9eb00c55d86ab32a66bbea1"
+    },
+    "data/maps/Route32CenterUpstairs/scripts.inc": {
+      "source": "6a5fbb19cf:data/maps/Route32CenterUpstairs/scripts.inc",
+      "sha256": "e5187c336088c377b3f598e625b345fb24122aa2fad9f2a1f12d7f2d8ddca361"
+    },
+    "data/layouts/PokemonCenter_2F/map.bin": {
+      "source": "6a5fbb19cf:data/layouts/PokemonCenter_2F/map.bin",
+      "sha256": "a0c9ecf69e7faa2d66fd719bc2d1167bd520d78ef7660b858f950d68a0b108f5"
+    },
+    "data/layouts/PokemonCenter_2F/border.bin": {
+      "source": "6a5fbb19cf:data/layouts/PokemonCenter_2F/border.bin",
+      "sha256": "9ff63640fa3b4682056532b7924b03250ccc7a832f64ccec3dea79ea8595a24d"
+    },
+    "data/maps/JohtoRoute33/map.json": {
+      "source": "eb15d89234:data/maps/JohtoRoute33/map.json",
+      "sha256": "6b5d39bb3038738409fb9b082a1c4ad9b82ed68a5563988fac0e71ca5988e628"
+    },
+    "data/maps/JohtoRoute33/scripts.inc": {
+      "source": "eb15d89234:data/maps/JohtoRoute33/scripts.inc",
+      "sha256": "e165f5bef30c4e4310b181e0b51aa91087dbf9f9fd4efbf8ea3e4ea5882df45c"
+    },
+    "data/layouts/JohtoRoute33/map.bin": {
+      "source": "eb15d89234:data/layouts/JohtoRoute33/map.bin",
+      "sha256": "62e74be3556c6e6c969cb88587528a16f81fe6cc19fb4167ccf554c6e6312985"
+    },
+    "data/layouts/JohtoRoute33/border.bin": {
+      "source": "eb15d89234:data/layouts/JohtoRoute33/border.bin",
+      "sha256": "512af84fff05f9fe7e617c89bc43fcbdfd180a8b7b70feb9caf2913b839289f7"
+    },
+    "data/tilesets/primary/route33/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/primary/route33/metatile_attributes.bin",
+      "sha256": "b74e8d57e74264671a86463547109f67a78a69da1c4ef0598fda581951e74ca5"
+    },
+    "data/tilesets/primary/route33/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/primary/route33/metatiles.bin",
+      "sha256": "9f99b4ce5015253c53d11bb9cd7694c81d6e9a3162fd96ad7744f46511168762"
+    },
+    "data/tilesets/primary/route33/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/00.pal",
+      "sha256": "7955f2595cff933f9a15fc1215d42eb170ae73786b8d3a0667ebc43f3eca51ef"
+    },
+    "data/tilesets/primary/route33/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/01.pal",
+      "sha256": "36bb649dff054c9e6e37616efca42cc6fde5d06832e890e41f14de49f8734b02"
+    },
+    "data/tilesets/primary/route33/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/02.pal",
+      "sha256": "c1fd3eb202e1318bcc059ef159a8fdadd25f5939f13236bba1ac91421ebfda3e"
+    },
+    "data/tilesets/primary/route33/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/03.pal",
+      "sha256": "7e60a56d20f7a2fb309e218d261ad498fff874f0f3a67088c94b0800854ad7a0"
+    },
+    "data/tilesets/primary/route33/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/04.pal",
+      "sha256": "8da41dac41d02bb2bb0257eeb8370d8d0e0f658f4a02feb1336d849a6032106b"
+    },
+    "data/tilesets/primary/route33/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/05.pal",
+      "sha256": "b2fce2914561c93ceae093ea2f2c2526631beb00ef83a2bc35a52d059f4c5de0"
+    },
+    "data/tilesets/primary/route33/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/06.pal",
+      "sha256": "5cfe856158086d4c5ec155f2e6847c29ff7591e11109e17fb50a470ca07c8f0b"
+    },
+    "data/tilesets/primary/route33/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/07.pal",
+      "sha256": "a8e17438c1ff35fb3f44041b31b1e5e1c07156f8f4859fc67f784adf8238b8ce"
+    },
+    "data/tilesets/primary/route33/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/08.pal",
+      "sha256": "e30a8d98a43503a3aa6b19b08179ecd5a1a975d8bbffa5d48ef390feb673a0ac"
+    },
+    "data/tilesets/primary/route33/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/09.pal",
+      "sha256": "bdee9220a9442d6128373263c43f714bc7a2cca01f9a349acd13fdf79591cad7"
+    },
+    "data/tilesets/primary/route33/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/10.pal",
+      "sha256": "71870b3b247726791048a9415aa6a489eeeeb1cd12755698adcf3c34186e8071"
+    },
+    "data/tilesets/primary/route33/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/11.pal",
+      "sha256": "7836205cf4de45cb669d06d7dfb6f4bb472a98136edf0e2f083e617d4bcc7876"
+    },
+    "data/tilesets/primary/route33/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/12.pal",
+      "sha256": "0a81b0154f6fcea71ae3421ba07b2259a6e72659945a9f8622bf01b0aaf54337"
+    },
+    "data/tilesets/primary/route33/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/13.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/primary/route33/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/14.pal",
+      "sha256": "81a8ab21ba9e620ba33a8646c35220934842b6841df7185ca0bf8012c6dbbf27"
+    },
+    "data/tilesets/primary/route33/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/primary/route33/palettes/15.pal",
+      "sha256": "27df05d1a28f6700a7f3b4f2d4d1f1a3820e9d2973756316cbe9244d75359644"
+    },
+    "data/tilesets/primary/route33/tiles.png": {
+      "source": "eb15d89234:data/tilesets/primary/route33/tiles.png",
+      "sha256": "64b47b1e52fc7aa7027096b297ec4242ea10caf599ce311249a13241573a75b4"
+    },
+    "data/tilesets/secondary/route33/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/metatile_attributes.bin",
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7"
+    },
+    "data/tilesets/secondary/route33/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/metatiles.bin",
+      "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+    },
+    "data/tilesets/secondary/route33/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/00.pal",
+      "sha256": "7955f2595cff933f9a15fc1215d42eb170ae73786b8d3a0667ebc43f3eca51ef"
+    },
+    "data/tilesets/secondary/route33/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/01.pal",
+      "sha256": "36bb649dff054c9e6e37616efca42cc6fde5d06832e890e41f14de49f8734b02"
+    },
+    "data/tilesets/secondary/route33/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/02.pal",
+      "sha256": "c1fd3eb202e1318bcc059ef159a8fdadd25f5939f13236bba1ac91421ebfda3e"
+    },
+    "data/tilesets/secondary/route33/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/03.pal",
+      "sha256": "7e60a56d20f7a2fb309e218d261ad498fff874f0f3a67088c94b0800854ad7a0"
+    },
+    "data/tilesets/secondary/route33/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/04.pal",
+      "sha256": "8da41dac41d02bb2bb0257eeb8370d8d0e0f658f4a02feb1336d849a6032106b"
+    },
+    "data/tilesets/secondary/route33/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/05.pal",
+      "sha256": "b2fce2914561c93ceae093ea2f2c2526631beb00ef83a2bc35a52d059f4c5de0"
+    },
+    "data/tilesets/secondary/route33/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/06.pal",
+      "sha256": "5cfe856158086d4c5ec155f2e6847c29ff7591e11109e17fb50a470ca07c8f0b"
+    },
+    "data/tilesets/secondary/route33/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/07.pal",
+      "sha256": "a8e17438c1ff35fb3f44041b31b1e5e1c07156f8f4859fc67f784adf8238b8ce"
+    },
+    "data/tilesets/secondary/route33/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/08.pal",
+      "sha256": "e30a8d98a43503a3aa6b19b08179ecd5a1a975d8bbffa5d48ef390feb673a0ac"
+    },
+    "data/tilesets/secondary/route33/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/09.pal",
+      "sha256": "bdee9220a9442d6128373263c43f714bc7a2cca01f9a349acd13fdf79591cad7"
+    },
+    "data/tilesets/secondary/route33/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/10.pal",
+      "sha256": "71870b3b247726791048a9415aa6a489eeeeb1cd12755698adcf3c34186e8071"
+    },
+    "data/tilesets/secondary/route33/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/11.pal",
+      "sha256": "7836205cf4de45cb669d06d7dfb6f4bb472a98136edf0e2f083e617d4bcc7876"
+    },
+    "data/tilesets/secondary/route33/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/12.pal",
+      "sha256": "0a81b0154f6fcea71ae3421ba07b2259a6e72659945a9f8622bf01b0aaf54337"
+    },
+    "data/tilesets/secondary/route33/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/13.pal",
+      "sha256": "b7b9c7fcfef9d7662801a419a3fef7a01e9802e4e6e3c1eb03825b75b63e85ff"
+    },
+    "data/tilesets/secondary/route33/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/14.pal",
+      "sha256": "81a8ab21ba9e620ba33a8646c35220934842b6841df7185ca0bf8012c6dbbf27"
+    },
+    "data/tilesets/secondary/route33/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/palettes/15.pal",
+      "sha256": "27df05d1a28f6700a7f3b4f2d4d1f1a3820e9d2973756316cbe9244d75359644"
+    },
+    "data/tilesets/secondary/route33/tiles.png": {
+      "source": "eb15d89234:data/tilesets/secondary/route33/tiles.png",
+      "sha256": "d88ef4f82055bab21fb6e3263f5d12fefe504652e4f5a7ce9a11cc9e6f7dd6c5"
+    },
+    "data/maps/UnionCaveRoute32Entrance/map.json": {
+      "source": "eb15d89234:data/maps/UnionCaveRoute32Entrance/map.json",
+      "sha256": "d09b6cc6916e65fc94e9bf46f143f7a2fe58ecb1dc21289fb721fdaf3ba51e73"
+    },
+    "data/maps/UnionCaveRoute32Entrance/scripts.inc": {
+      "source": "eb15d89234:data/maps/UnionCaveRoute32Entrance/scripts.inc",
+      "sha256": "75cbc72c6e6a6a2a78b920d88e3e58b23e64f1d3863cbdf55c57eb7838545f4c"
+    },
+    "data/layouts/UnionCaveRoute32Entrance/map.bin": {
+      "source": "eb15d89234:data/layouts/UnionCaveRoute32Entrance/map.bin",
+      "sha256": "499991819055871e54dd61058744d6b645fc171586aa28a2c54e6064cd724de6"
+    },
+    "data/layouts/UnionCaveRoute32Entrance/border.bin": {
+      "source": "eb15d89234:data/layouts/UnionCaveRoute32Entrance/border.bin",
+      "sha256": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848"
+    },
+    "data/tilesets/primary/union_cave/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/metatile_attributes.bin",
+      "sha256": "9807348e6592ecd30851be12d28eddc37969203883a3c3853ba9901914510bc2"
+    },
+    "data/tilesets/primary/union_cave/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/metatiles.bin",
+      "sha256": "6c3a9e96e71ccaaca67b205f2439c40ea409502a0904f22a16f4349e6d10cfc1"
+    },
+    "data/tilesets/primary/union_cave/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/00.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/primary/union_cave/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/01.pal",
+      "sha256": "244c1b274601c7087629988485a7bfcf6830c63b7960d1b0efa7e7155f8cbf26"
+    },
+    "data/tilesets/primary/union_cave/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/02.pal",
+      "sha256": "444eef202833e1d1445b34ceb91b7591ed5aaf4c886e363f1dc03745f9bb7d55"
+    },
+    "data/tilesets/primary/union_cave/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/03.pal",
+      "sha256": "52fabc85da133f26e138674a2a9b3d4ae3c6c8ebcd9cac50712a5e47a70c37ff"
+    },
+    "data/tilesets/primary/union_cave/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/04.pal",
+      "sha256": "f55aaebd70c6d0fa2a527c4a4b936c04c09262c93fe6eeaef2a4edd1ee5054a6"
+    },
+    "data/tilesets/primary/union_cave/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/05.pal",
+      "sha256": "30a470e2a10fdd0d9b599f4e16c5d76c0e89d6cb11cfbba8c5c86bcc2946d7a5"
+    },
+    "data/tilesets/primary/union_cave/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/06.pal",
+      "sha256": "94d708956a8d2e25b241fa2cd0e089cc5791ca8d89519c4381a990e715bb5f8f"
+    },
+    "data/tilesets/primary/union_cave/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/07.pal",
+      "sha256": "a49d0a4255d94d7d329953b7504664f503b66d1542fc1a71abb3df6c8d0304c8"
+    },
+    "data/tilesets/primary/union_cave/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/08.pal",
+      "sha256": "012e596916509a201855f581b8d098fff8f1f911676b3ed43aa313866072a76e"
+    },
+    "data/tilesets/primary/union_cave/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/09.pal",
+      "sha256": "4c980f980ae9c915cda1a6b52b49f5633abd42a7d4b2a2d1d334f2fb1d0739ef"
+    },
+    "data/tilesets/primary/union_cave/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/10.pal",
+      "sha256": "856ec9849c3fb86717007d08a5ea3886a34315c3357626c97703e02b3fa0e094"
+    },
+    "data/tilesets/primary/union_cave/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/11.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/primary/union_cave/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/12.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/primary/union_cave/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/13.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/primary/union_cave/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/14.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/primary/union_cave/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/palettes/15.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/primary/union_cave/tiles.png": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave/tiles.png",
+      "sha256": "88c9ad8840a3614e4478dc35c0d7fd5a8af0618a17d42732aa2ad82d7a2953fc"
+    },
+    "data/tilesets/secondary/union_cave/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/metatile_attributes.bin",
+      "sha256": "6aeb0adb6eb16cb3787d35434e6f2c9fadecaae89ddd89c0266db5a28a35006b"
+    },
+    "data/tilesets/secondary/union_cave/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/metatiles.bin",
+      "sha256": "927f51fcc63cb846d338d7401aff483c284ce5341f4e022713a4721403d65d48"
+    },
+    "data/tilesets/secondary/union_cave/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/00.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/secondary/union_cave/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/01.pal",
+      "sha256": "244c1b274601c7087629988485a7bfcf6830c63b7960d1b0efa7e7155f8cbf26"
+    },
+    "data/tilesets/secondary/union_cave/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/02.pal",
+      "sha256": "444eef202833e1d1445b34ceb91b7591ed5aaf4c886e363f1dc03745f9bb7d55"
+    },
+    "data/tilesets/secondary/union_cave/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/03.pal",
+      "sha256": "52fabc85da133f26e138674a2a9b3d4ae3c6c8ebcd9cac50712a5e47a70c37ff"
+    },
+    "data/tilesets/secondary/union_cave/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/04.pal",
+      "sha256": "f55aaebd70c6d0fa2a527c4a4b936c04c09262c93fe6eeaef2a4edd1ee5054a6"
+    },
+    "data/tilesets/secondary/union_cave/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/05.pal",
+      "sha256": "30a470e2a10fdd0d9b599f4e16c5d76c0e89d6cb11cfbba8c5c86bcc2946d7a5"
+    },
+    "data/tilesets/secondary/union_cave/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/06.pal",
+      "sha256": "94d708956a8d2e25b241fa2cd0e089cc5791ca8d89519c4381a990e715bb5f8f"
+    },
+    "data/tilesets/secondary/union_cave/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/07.pal",
+      "sha256": "a49d0a4255d94d7d329953b7504664f503b66d1542fc1a71abb3df6c8d0304c8"
+    },
+    "data/tilesets/secondary/union_cave/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/08.pal",
+      "sha256": "012e596916509a201855f581b8d098fff8f1f911676b3ed43aa313866072a76e"
+    },
+    "data/tilesets/secondary/union_cave/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/09.pal",
+      "sha256": "4c980f980ae9c915cda1a6b52b49f5633abd42a7d4b2a2d1d334f2fb1d0739ef"
+    },
+    "data/tilesets/secondary/union_cave/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/10.pal",
+      "sha256": "856ec9849c3fb86717007d08a5ea3886a34315c3357626c97703e02b3fa0e094"
+    },
+    "data/tilesets/secondary/union_cave/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/11.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/secondary/union_cave/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/12.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/secondary/union_cave/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/13.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/secondary/union_cave/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/14.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/secondary/union_cave/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/palettes/15.pal",
+      "sha256": "5c35f29de48e94d853d1ff139e460f0380274dec6c289751608a6df69817e436"
+    },
+    "data/tilesets/secondary/union_cave/tiles.png": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave/tiles.png",
+      "sha256": "38c5e1f381b406df613f5ac701b64c873e9c180cae8539d180a104991819953d"
+    },
+    "data/maps/UnionCaveB1F/map.json": {
+      "source": "eb15d89234:data/maps/UnionCaveB1F/map.json",
+      "sha256": "1e1dcf5fa3f61a88015c63c76c8ca4433b3519d8f4ccefcb586e30c9f1a04957"
+    },
+    "data/maps/UnionCaveB1F/scripts.inc": {
+      "source": "eb15d89234:data/maps/UnionCaveB1F/scripts.inc",
+      "sha256": "2b0d7817c02bfd0e7f8694767d280ac0339e5ddb281aae3d32465e5d65fb6d8a"
+    },
+    "data/layouts/UnionCaveB1F/map.bin": {
+      "source": "eb15d89234:data/layouts/UnionCaveB1F/map.bin",
+      "sha256": "9a2fd2703a01f3b24b2c8d9ecb6c0fbab892511413c0493453b19d2be2c3f030"
+    },
+    "data/layouts/UnionCaveB1F/border.bin": {
+      "source": "eb15d89234:data/layouts/UnionCaveB1F/border.bin",
+      "sha256": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848"
+    },
+    "data/tilesets/primary/union_cave_b1f/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/metatile_attributes.bin",
+      "sha256": "a7ed991b5e3858dfb6b687e39ba0340f39654c19cf7c3c26cca0aba30290c795"
+    },
+    "data/tilesets/primary/union_cave_b1f/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/metatiles.bin",
+      "sha256": "e03d2b03276291c71a890eeaaf80af2dfbac0aaf5565418e7138dd69f4c97c7a"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/00.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/01.pal",
+      "sha256": "219b5647503e08fb6209b6fffe94ba500b7d60281b5a8997c555a3bdd68eebb3"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/02.pal",
+      "sha256": "0cb0d68074b2952177b43e48b262541885888f0fecfe4577b817082d56d4f515"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/03.pal",
+      "sha256": "52fabc85da133f26e138674a2a9b3d4ae3c6c8ebcd9cac50712a5e47a70c37ff"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/04.pal",
+      "sha256": "77a7be138b700f5307661070ebce05743824bf712dd2c15669bed39a8dc07394"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/05.pal",
+      "sha256": "7ccfa69711e8d4c70df3c360ff82fc1bc3942f048b9b289b400f3e5fce5d309e"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/06.pal",
+      "sha256": "5b5074947eb5e3cb9969744f3be1ed113a60761d749da2cfa1581f5b0bf57b66"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/07.pal",
+      "sha256": "66f4c481282e4462e4c2ee623217bb9ae1d364ef0c2758da2de1a44ec4ec1d6e"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/08.pal",
+      "sha256": "2c3d58ea02b445c91118f9f051776828266bc2a5b45ebb3c284d7e4d5b01e1cd"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/09.pal",
+      "sha256": "58da0509c1905af7d4bda14c613db7041232f3876739aa77264c6bd8aa308ed8"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/10.pal",
+      "sha256": "2807dc620500bf787cd81516341582f47ba413c978d8312bf85d433fcb97d326"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/11.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/12.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/13.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/14.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/primary/union_cave_b1f/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/palettes/15.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/primary/union_cave_b1f/tiles.png": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b1f/tiles.png",
+      "sha256": "aa124661ecd8dfae62bb13c2004e8ac8750bf6272c59a00922ba4ff84056de3b"
+    },
+    "data/tilesets/secondary/union_cave_b1f/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/metatile_attributes.bin",
+      "sha256": "edca0919acb27ce97cced61f6fae5eec29b02519f99fadb1f807ff5437ff1da8"
+    },
+    "data/tilesets/secondary/union_cave_b1f/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/metatiles.bin",
+      "sha256": "8249fc78db862f087aeb5a793816d18130faebcbc7b96a0ab8919afad486acf6"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/00.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/01.pal",
+      "sha256": "219b5647503e08fb6209b6fffe94ba500b7d60281b5a8997c555a3bdd68eebb3"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/02.pal",
+      "sha256": "0cb0d68074b2952177b43e48b262541885888f0fecfe4577b817082d56d4f515"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/03.pal",
+      "sha256": "52fabc85da133f26e138674a2a9b3d4ae3c6c8ebcd9cac50712a5e47a70c37ff"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/04.pal",
+      "sha256": "77a7be138b700f5307661070ebce05743824bf712dd2c15669bed39a8dc07394"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/05.pal",
+      "sha256": "7ccfa69711e8d4c70df3c360ff82fc1bc3942f048b9b289b400f3e5fce5d309e"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/06.pal",
+      "sha256": "5b5074947eb5e3cb9969744f3be1ed113a60761d749da2cfa1581f5b0bf57b66"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/07.pal",
+      "sha256": "66f4c481282e4462e4c2ee623217bb9ae1d364ef0c2758da2de1a44ec4ec1d6e"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/08.pal",
+      "sha256": "2c3d58ea02b445c91118f9f051776828266bc2a5b45ebb3c284d7e4d5b01e1cd"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/09.pal",
+      "sha256": "58da0509c1905af7d4bda14c613db7041232f3876739aa77264c6bd8aa308ed8"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/10.pal",
+      "sha256": "2807dc620500bf787cd81516341582f47ba413c978d8312bf85d433fcb97d326"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/11.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/12.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/13.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/14.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/secondary/union_cave_b1f/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/palettes/15.pal",
+      "sha256": "7136ec76e863bedd95faf5638fb920e042b99378d92709896cbbc93baf5ba178"
+    },
+    "data/tilesets/secondary/union_cave_b1f/tiles.png": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b1f/tiles.png",
+      "sha256": "a89d484af62b0d85da0bfa1b139d0a8fc76d7ced24769a4f7ef778c4e967e832"
+    },
+    "data/maps/UnionCaveB2F/map.json": {
+      "source": "eb15d89234:data/maps/UnionCaveB2F/map.json",
+      "sha256": "09949556023e74b965bb995a44eb2072f24ba4ac2bfd5aa9986469135fe0d418"
+    },
+    "data/maps/UnionCaveB2F/scripts.inc": {
+      "source": "eb15d89234:data/maps/UnionCaveB2F/scripts.inc",
+      "sha256": "34e0648f3f9e0c44445e959da8eb6fbad1a3509fcc94014aed349e69432200f1"
+    },
+    "data/layouts/UnionCaveB2F/map.bin": {
+      "source": "eb15d89234:data/layouts/UnionCaveB2F/map.bin",
+      "sha256": "91baaf67a7fe89526c8a4bee02ad961e0419d3629f82cc66459077bfcc6220e0"
+    },
+    "data/layouts/UnionCaveB2F/border.bin": {
+      "source": "eb15d89234:data/layouts/UnionCaveB2F/border.bin",
+      "sha256": "deedf0014cc4c691390c525d65c2d22d4cdb4cd65f6b50b9727499975a21c848"
+    },
+    "data/tilesets/primary/union_cave_b2f/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/metatile_attributes.bin",
+      "sha256": "0aefb596496a04baeb52f99d5930e55397b7eafebd9d92ef3446cccd27e557fd"
+    },
+    "data/tilesets/primary/union_cave_b2f/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/metatiles.bin",
+      "sha256": "ed29bcc27c7520fcf32527f379129fc955c62c96f1edf12f30677c1dbd5af20b"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/00.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/01.pal",
+      "sha256": "26d7da5a7cec65132650d3c82141a7667f62e3f94b94ae931acb85f7b5c88296"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/02.pal",
+      "sha256": "e7fc3c5ac21d638ec95b02eb06af170bc4c99983513128a6526479a203b0b4a5"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/03.pal",
+      "sha256": "52fabc85da133f26e138674a2a9b3d4ae3c6c8ebcd9cac50712a5e47a70c37ff"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/04.pal",
+      "sha256": "77a7be138b700f5307661070ebce05743824bf712dd2c15669bed39a8dc07394"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/05.pal",
+      "sha256": "c782b03ccc011d44dcba181563bcea703ef23ddfd3089b508998aba527270a66"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/06.pal",
+      "sha256": "ba5f9100c9e4302b188bebb5d141e15358e02145a46ee00d9a2b3014528b1ebe"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/07.pal",
+      "sha256": "a33bc8ed55654c370da60cf0f4dc29e1a7128c4f872821d3feea63f3c05975c1"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/08.pal",
+      "sha256": "e36de236407b6390fee4114b262c2572f90edbf012eb624b3ea121b890dd49c4"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/09.pal",
+      "sha256": "ebdef38384b5d4b7e5833725ddea7fdbfe0728a00b846edc3b9bc05420136eea"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/10.pal",
+      "sha256": "9cff3138570111393bac5487d76433d2d6c5acb3e308a379db0d644a973d689f"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/11.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/12.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/13.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/14.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/primary/union_cave_b2f/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/palettes/15.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/primary/union_cave_b2f/tiles.png": {
+      "source": "eb15d89234:data/tilesets/primary/union_cave_b2f/tiles.png",
+      "sha256": "a279ea24d2f522de8ca6dd67a19b19198b661ac68aed64f1ed173c4f4619bbc7"
+    },
+    "data/tilesets/secondary/union_cave_b2f/metatile_attributes.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/metatile_attributes.bin",
+      "sha256": "b30a51cfcb523124c9534cc9e4b8de9c54184a9bab110ccb74e907dd331401c0"
+    },
+    "data/tilesets/secondary/union_cave_b2f/metatiles.bin": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/metatiles.bin",
+      "sha256": "098fededd1b29932fa9fada429dac4a193869e4e2189ce2f4c398ccf40d00f1b"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/00.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/00.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/01.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/01.pal",
+      "sha256": "26d7da5a7cec65132650d3c82141a7667f62e3f94b94ae931acb85f7b5c88296"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/02.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/02.pal",
+      "sha256": "e7fc3c5ac21d638ec95b02eb06af170bc4c99983513128a6526479a203b0b4a5"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/03.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/03.pal",
+      "sha256": "52fabc85da133f26e138674a2a9b3d4ae3c6c8ebcd9cac50712a5e47a70c37ff"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/04.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/04.pal",
+      "sha256": "77a7be138b700f5307661070ebce05743824bf712dd2c15669bed39a8dc07394"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/05.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/05.pal",
+      "sha256": "c782b03ccc011d44dcba181563bcea703ef23ddfd3089b508998aba527270a66"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/06.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/06.pal",
+      "sha256": "ba5f9100c9e4302b188bebb5d141e15358e02145a46ee00d9a2b3014528b1ebe"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/07.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/07.pal",
+      "sha256": "a33bc8ed55654c370da60cf0f4dc29e1a7128c4f872821d3feea63f3c05975c1"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/08.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/08.pal",
+      "sha256": "e36de236407b6390fee4114b262c2572f90edbf012eb624b3ea121b890dd49c4"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/09.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/09.pal",
+      "sha256": "ebdef38384b5d4b7e5833725ddea7fdbfe0728a00b846edc3b9bc05420136eea"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/10.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/10.pal",
+      "sha256": "9cff3138570111393bac5487d76433d2d6c5acb3e308a379db0d644a973d689f"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/11.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/11.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/12.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/12.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/13.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/13.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/14.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/14.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/secondary/union_cave_b2f/palettes/15.pal": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/palettes/15.pal",
+      "sha256": "d9b99af4603c5eb9854b8d100e807abc35c44358971824885ec542c4d5e25411"
+    },
+    "data/tilesets/secondary/union_cave_b2f/tiles.png": {
+      "source": "eb15d89234:data/tilesets/secondary/union_cave_b2f/tiles.png",
+      "sha256": "c4917022ff6801fca1421c7032fc49887a79f8d369af7b9af0f4aecb7270a226"
+    }
+  },
+  "owner_edits": {
+    "base": "aa8ea35eea",
+    "previously_integrated": 34,
+    "new_exact_cells_carried": 47,
+    "conflicting_cells_pending": 5,
+    "snapshot": "editor-owner-review/route30-owner-saved.map.bin",
+    "audit": "editor-owner-review/owner-edit-carry.json"
+  },
+  "status": "editor consolidation; not campaign release"
+}

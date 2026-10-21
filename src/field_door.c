@@ -433,8 +433,10 @@ static const u8 sSharedDoor_HarborHouse[] = INCBIN_U8("graphics/door_anims/johto
 static const u8 sSharedDoorPal_HarborHouse[20] = {7,7,7,7,7,7,7,7,6,6,7,6,7,6,7,6,0,0,0,0};
 static const u8 sSharedDoor_GardenHouse[] = INCBIN_U8("graphics/door_anims/johto_shared/GardenHouse.4bpp");
 static const u8 sSharedDoorPal_GardenHouse[20] = {6,6,6,6,6,6,6,11,6,6,6,6,6,6,6,6,0,0,0,0};
+extern const struct Tileset gTileset_Route32;
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
+    {.metatileNum=950, .tileset=&gTileset_Route32, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sRestartDoor_PokemonCenter, .palettes=sRestartDoorPal_PokemonCenter},
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
     {.metatileNum=753, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_1, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_1},
     {.metatileNum=767, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_2, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_2},

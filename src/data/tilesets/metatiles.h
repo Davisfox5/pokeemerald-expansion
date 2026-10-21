@@ -463,3 +463,75 @@ const u16 gMetatiles_JohtoCherrygrovePrimary[] = INCBIN_U16("data/tilesets/prima
 const u16 gMetatileAttributes_JohtoCherrygrovePrimary[] = INCBIN_U16("data/tilesets/primary/johto_cherrygrove/metatile_attributes.bin");
 const u16 gMetatiles_JohtoCherrygrove[] = INCBIN_U16("data/tilesets/secondary/johto_cherrygrove/metatiles.bin");
 const u16 gMetatileAttributes_JohtoCherrygrove[] = INCBIN_U16("data/tilesets/secondary/johto_cherrygrove/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_EditorRoute29Primary[] = INCBIN_U16("data/tilesets/primary/editor_route29/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_EditorRoute29Primary[] = INCBIN_U16("data/tilesets/primary/editor_route29/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_EditorRoute30Primary[] = INCBIN_U16("data/tilesets/primary/editor_route30/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_EditorRoute30Primary[] = INCBIN_U16("data/tilesets/primary/editor_route30/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_Route32[] = INCBIN_U16("data/tilesets/secondary/route32/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_Route33Primary[] = INCBIN_U16("data/tilesets/primary/route33/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_Route33[] = INCBIN_U16("data/tilesets/secondary/route33/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_UnionCavePrimary[] = INCBIN_U16("data/tilesets/primary/union_cave/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_UnionCaveSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_UnionCaveB1FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b1f/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_UnionCaveB1FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b1f/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_UnionCaveB2FPrimary[] = INCBIN_U16("data/tilesets/primary/union_cave_b2f/metatile_attributes.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatiles_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatiles.bin");
+
+// Consolidated editor: pinned native declaration.
+const u16 gMetatileAttributes_UnionCaveB2FSecondary[] = INCBIN_U16("data/tilesets/secondary/union_cave_b2f/metatile_attributes.bin");

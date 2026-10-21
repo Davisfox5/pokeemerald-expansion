@@ -1595,3 +1595,39 @@ const struct Tileset gTileset_JohtoRoute36 = { .isCompressed = TRUE, .isSecondar
 // Approved shared Johto service buildings; private Cherrygrove pair.
 const struct Tileset gTileset_JohtoCherrygrovePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoCherrygrovePrimary, .palettes = gTilesetPalettes_JohtoCherrygrovePrimary, .metatiles = gMetatiles_JohtoCherrygrovePrimary, .metatileAttributes = gMetatileAttributes_JohtoCherrygrovePrimary, .callback = InitTilesetAnim_CherrygrovePrimary };
 const struct Tileset gTileset_JohtoCherrygrove = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoCherrygrove, .palettes = gTilesetPalettes_JohtoCherrygrove, .metatiles = gMetatiles_JohtoCherrygrove, .metatileAttributes = gMetatileAttributes_JohtoCherrygrove, .callback = NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_EditorRoute29Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_EditorRoute29Primary, .palettes = gTilesetPalettes_EditorRoute29Primary, .metatiles = gMetatiles_EditorRoute29Primary, .metatileAttributes = gMetatileAttributes_EditorRoute29Primary, .callback = InitTilesetAnim_CherrygrovePrimary };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_EditorRoute30Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_EditorRoute30Primary, .palettes = gTilesetPalettes_EditorRoute30Primary, .metatiles = gMetatiles_EditorRoute30Primary, .metatileAttributes = gMetatileAttributes_EditorRoute30Primary, .callback = InitTilesetAnim_CherrygrovePrimary };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_Route32Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route32Primary, .palettes = gTilesetPalettes_Route32Primary, .metatiles = gMetatiles_Route32Primary, .metatileAttributes = gMetatileAttributes_Route32Primary, .callback = InitTilesetAnim_CherrygrovePrimary };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_Route32 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route32, .palettes = gTilesetPalettes_Route32, .metatiles = gMetatiles_Route32, .metatileAttributes = gMetatileAttributes_Route32, .callback = NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_Route33Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route33Primary, .palettes = gTilesetPalettes_Route33Primary, .metatiles = gMetatiles_Route33Primary, .metatileAttributes = gMetatileAttributes_Route33Primary, .callback = NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_Route33 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route33, .palettes = gTilesetPalettes_Route33, .metatiles = gMetatiles_Route33, .metatileAttributes = gMetatileAttributes_Route33, .callback = NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_UnionCavePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_UnionCavePrimary, .palettes = gTilesetPalettes_UnionCavePrimary, .metatiles = gMetatiles_UnionCavePrimary, .metatileAttributes = gMetatileAttributes_UnionCavePrimary, .callback = NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_UnionCaveSecondary = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_UnionCaveSecondary, .palettes = gTilesetPalettes_UnionCaveSecondary, .metatiles = gMetatiles_UnionCaveSecondary, .metatileAttributes = gMetatileAttributes_UnionCaveSecondary, .callback = NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_UnionCaveB1FPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnionCaveB1FPrimary, .palettes=gTilesetPalettes_UnionCaveB1FPrimary, .metatiles=gMetatiles_UnionCaveB1FPrimary, .metatileAttributes=gMetatileAttributes_UnionCaveB1FPrimary, .callback=NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_UnionCaveB1FSecondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnionCaveB1FSecondary, .palettes=gTilesetPalettes_UnionCaveB1FSecondary, .metatiles=gMetatiles_UnionCaveB1FSecondary, .metatileAttributes=gMetatileAttributes_UnionCaveB1FSecondary, .callback=NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_UnionCaveB2FPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnionCaveB2FPrimary, .palettes=gTilesetPalettes_UnionCaveB2FPrimary, .metatiles=gMetatiles_UnionCaveB2FPrimary, .metatileAttributes=gMetatileAttributes_UnionCaveB2FPrimary, .callback=NULL };
+
+// Consolidated editor: pinned native declaration.
+const struct Tileset gTileset_UnionCaveB2FSecondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnionCaveB2FSecondary, .palettes=gTilesetPalettes_UnionCaveB2FSecondary, .metatiles=gMetatiles_UnionCaveB2FSecondary, .metatileAttributes=gMetatileAttributes_UnionCaveB2FSecondary, .callback=NULL };
