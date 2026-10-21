@@ -1635,3 +1635,9 @@ const struct Tileset gTileset_EcruteakTemplePrimary = { .isCompressed = TRUE, .i
 
 // Ecruteak native exterior
 const struct Tileset gTileset_EcruteakTemple = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_EcruteakTemple, .palettes = gTilesetPalettes_EcruteakTemple, .metatiles = gMetatiles_EcruteakTemple, .metatileAttributes = gMetatileAttributes_EcruteakTemple, .callback = NULL };
+
+// Routes 38/39 terrain review
+const struct Tileset gTileset_JohtoRoute3839Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoRoute3839Primary, .palettes = gTilesetPalettes_JohtoRoute3839Primary, .metatiles = gMetatiles_JohtoRoute3839Primary, .metatileAttributes = gMetatileAttributes_JohtoRoute3839Primary, .callback = NULL };
+
+// Routes 38/39 terrain review
+const struct Tileset gTileset_JohtoRoute3839 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoRoute3839, .palettes = gTilesetPalettes_JohtoRoute3839, .metatiles = gMetatiles_JohtoRoute3839, .metatileAttributes = gMetatileAttributes_JohtoRoute3839, .callback = NULL };

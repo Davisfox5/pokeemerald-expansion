@@ -1854,3 +1854,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/JohtoEcruteakCity/scripts.inc"
 
 .include "data/maps/JohtoEcruteakTempleDistrict/scripts.inc"
+
+.include "data/maps/JohtoRoute38/scripts.inc"
+
+.include "data/maps/JohtoRoute39/scripts.inc"

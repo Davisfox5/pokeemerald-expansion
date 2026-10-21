@@ -9634,6 +9634,34 @@
       "blockdata_filepath": "data/layouts/JohtoEcruteakTempleDistrict/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ROUTE38",
+      "name": "JohtoRoute38_Layout",
+      "width": 68,
+      "height": 33,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_JohtoRoute3839Primary",
+      "secondary_tileset": "gTileset_JohtoRoute3839",
+      "border_filepath": "data/layouts/JohtoRoute38/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute38/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ROUTE39",
+      "name": "JohtoRoute39_Layout",
+      "width": 38,
+      "height": 56,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_JohtoRoute3839Primary",
+      "secondary_tileset": "gTileset_JohtoRoute3839",
+      "border_filepath": "data/layouts/JohtoRoute39/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute39/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }
