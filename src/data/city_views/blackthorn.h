@@ -1,6 +1,6 @@
 // Generated FROM native Porymap files by the hub's tools/gba/maps/blackthorn/stream.py. Do not edit.
 #define BLACKTHORN_GLYPH_COUNT 1884
-static const u32 sBlackthornGlyphs[] = INCBIN_U32("data/city_views/blackthorn/glyphs.4bpp");
+static const u32 sBlackthornGlyphs[] = INCBIN_U32("data/city_views/blackthorn/glyphs.bin");
 static const u32 sBlackthornEntries[64 * 64 * 8] = INCBIN_U32("data/city_views/blackthorn/entries.bin");
 static const u8 sBlackthornLayers[64 * 64] = INCBIN_U8("data/city_views/blackthorn/layers.bin");
 static const u8 sBlackthornMarginNorth[64] = INCBIN_U8("data/city_views/blackthorn/margin-north.bin");

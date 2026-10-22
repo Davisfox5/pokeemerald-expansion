@@ -1,6 +1,6 @@
 {
   "data/city_views/blackthorn/entries.bin": "32935ec77c498b7d8d50daa52680d8b2088273b64ac8346c0186d6dd64b3c605",
-  "data/city_views/blackthorn/glyphs.4bpp": "ae2e788a3bf6f71bd919ede4e0ca3a34b2fb6ae32eb5a2e24e8551dc8cd56800",
+  "data/city_views/blackthorn/glyphs.bin": "ae2e788a3bf6f71bd919ede4e0ca3a34b2fb6ae32eb5a2e24e8551dc8cd56800",
   "data/city_views/blackthorn/layers.bin": "1c7a0246c65e143756de44f9f25232c359f1718317d25cb01faf04e05c665781",
   "data/city_views/blackthorn/margin-east.bin": "d1b99b7f1e0b006af5cc97180c05b792e4ef92e32cc20ba3fe07d8ebe83f2219",
   "data/city_views/blackthorn/margin-north.bin": "8667e718294e9e0df1d30600ba3eeb201f764aad2dad72748643e4a285e1d1f7",
@@ -129,5 +129,5 @@
   "data/tilesets/secondary/blackthorn_city03/palettes/14.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/secondary/blackthorn_city03/palettes/15.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
   "data/tilesets/secondary/blackthorn_city03/tiles.png": "badf0f8b19a540ef3a6d560fd02f129361ba1682f2a8f59932d3887a3d25670e",
-  "src/data/city_views/blackthorn.h": "6016c92b128e504f807b740d0c87c63a1fcacf3ab61ceef700320bce62e36f9e"
+  "src/data/city_views/blackthorn.h": "d8ded3e855647e8d3e818a948178ce9e000e66de84d56e76e70d34bdf03c217d"
 }
