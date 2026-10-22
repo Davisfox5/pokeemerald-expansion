@@ -3,7 +3,6 @@
   "name": "BlackthornPokemonCenter",
   "layout": "LAYOUT_POKEMON_CENTER_1F",
   "music": "MUS_POKE_CENTER",
-  "region": "REGION_JOHTO",
   "region_map_section": "MAPSEC_BLACKTHORN_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +12,6 @@
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "build_target": "emerald",
   "connections": null,
   "object_events": [
     {
@@ -55,5 +53,7 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "build_target": "emerald",
+  "region": "REGION_JOHTO"
 }
