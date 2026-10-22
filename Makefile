@@ -605,3 +605,9 @@ leafgreen: all
 # Symbol file (`make syms`)
 $(SYM): $(ELF)
 	$(OBJDUMP) -t $< | sort -u | grep -E "^0[2389]" | $(PERL) -p -e 's/^(\w{8}) (\w).{6} \S+\t(\w{8}) (\S+)$$/\1 \2 \3 \4/g' > $@
+
+# Sectioned cities draw from tables derived from their native Porymap source.
+.PHONY: city-view-native-check
+city-view-native-check:
+	@python3 tools/city_view/check.py
+$(C_BUILDDIR)/apocrypha_city_view.o: | city-view-native-check

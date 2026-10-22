@@ -1,4 +1,5 @@
 #include "global.h"
+#include "apocrypha_city_view.h"
 #include "overworld.h"
 #include "battle_pyramid.h"
 #include "battle_setup.h"
@@ -872,6 +873,8 @@ bool8 SetDiveWarpDive(u16 x, u16 y)
 
 void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
 {
+    bool32 fromCityView = CityView_IsActive();
+
     SetWarpDestination(mapGroup, mapNum, WARP_ID_NONE, -1, -1);
 
     // Dont transition map music between BF Outside West/East
@@ -900,7 +903,11 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
     InitMap();
-    CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
+    // Between sections of one city the view keeps its streamed tiles. No
+    // sectioned city connects to an ordinary map yet; such a connection would
+    // also need the primary tiles, palettes and BG buffers reloaded.
+    if (!CityView_IsActive())
+        CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
     LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
 
     ApplyWeatherColorMapToPals(GetNumPalsInPrimary(gMapHeader.mapLayout), NUM_PALS_TOTAL - GetNumPalsInPrimary(gMapHeader.mapLayout)); // palettes [6,12]
@@ -912,7 +919,11 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     ResetFieldTasksArgs();
     RunOnResumeMapScript();
 
-    if (OW_HIDE_REPEAT_MAP_POPUP)
+    if (fromCityView && CityView_IsActive() && gMapHeader.regionMapSectionId == sLastMapSectionId)
+    {
+        // Sections of one city share its name; do not reopen the banner.
+    }
+    else if (OW_HIDE_REPEAT_MAP_POPUP)
     {
         if (gMapHeader.regionMapSectionId != sLastMapSectionId)
             ShowMapNamePopup();

@@ -1834,3 +1834,15 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/CherrygroveRegionalPreview29/scripts.inc"
 
 .include "data/maps/CherrygroveRegionalPreview30/scripts.inc"
+
+.include "data/maps/BlackthornCity01/scripts.inc"
+
+.include "data/maps/BlackthornCity02/scripts.inc"
+
+.include "data/maps/BlackthornCity03/scripts.inc"
+
+.include "data/maps/BlackthornPokemonCenter/scripts.inc"
+
+.include "data/maps/BlackthornCenterUpstairs/scripts.inc"
+
+.include "data/maps/BlackthornMart/scripts.inc"
