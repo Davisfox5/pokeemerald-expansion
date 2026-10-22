@@ -1,5 +1,4 @@
 #include "global.h"
-#include "apocrypha_city_view.h"
 #include "malloc.h"
 #if TESTING
 #include "test/test.h"
@@ -150,7 +149,6 @@ static void *AllocZeroedInternal(void *heapStart, u32 size, const char *location
 
 void InitHeap(void *heapStart, u32 heapSize)
 {
-    CityView_Forget();
     sHeapStart = heapStart;
     sHeapSize = heapSize;
     PutFirstMemBlockHeader(heapStart, heapSize);

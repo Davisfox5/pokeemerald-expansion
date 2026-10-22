@@ -1,5 +1,4 @@
 #include "global.h"
-#include "apocrypha_city_view.h"
 #include "berry.h"
 #include "bike.h"
 #include "field_camera.h"
@@ -105,7 +104,6 @@ static void DrawWholeMapViewInternal(int x, int y, const struct MapLayout *mapLa
     u32 r6;
     u8 temp;
 
-    CityView_Begin();
     for (i = 0; i < 32; i += 2)
     {
         temp = sFieldCameraOffset.yTileOffset + i;
@@ -227,18 +225,8 @@ void DrawDoorMetatileAt(int x, int y, u16 *tiles)
 
 static void DrawMetatileAt(const struct MapLayout *mapLayout, u16 offset, int x, int y)
 {
-    u16 streamed[NUM_TILES_PER_METATILE];
-    s32 streamedLayerType;
-    u16 metatileId;
+    u16 metatileId = MapGridGetMetatileIdAt(x, y);
     const u16 *metatiles;
-
-    // Sectioned cities draw from their own streamed native tiles.
-    if (CityView_DrawMetatile(offset, x, y, streamed, &streamedLayerType))
-    {
-        DrawMetatile(streamedLayerType, streamed, offset);
-        return;
-    }
-    metatileId = MapGridGetMetatileIdAt(x, y);
 
     if (metatileId > NUM_METATILES_TOTAL)
         metatileId = 0;

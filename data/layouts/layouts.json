@@ -9530,36 +9530,14 @@
       "layout_version": "emerald"
     },
     {
-      "id": "LAYOUT_BLACKTHORN_CITY01",
-      "name": "BlackthornCity01_Layout",
+      "id": "LAYOUT_BLACKTHORN_CITY",
+      "name": "BlackthornCity_Layout",
       "width": 64,
-      "height": 24,
-      "primary_tileset": "gTileset_BlackthornCity01Primary",
-      "secondary_tileset": "gTileset_BlackthornCity01",
-      "border_filepath": "data/layouts/BlackthornCity01/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity01/map.bin",
-      "layout_version": "emerald"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY02",
-      "name": "BlackthornCity02_Layout",
-      "width": 64,
-      "height": 20,
-      "primary_tileset": "gTileset_BlackthornCity02Primary",
-      "secondary_tileset": "gTileset_BlackthornCity02",
-      "border_filepath": "data/layouts/BlackthornCity02/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity02/map.bin",
-      "layout_version": "emerald"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY03",
-      "name": "BlackthornCity03_Layout",
-      "width": 64,
-      "height": 20,
-      "primary_tileset": "gTileset_BlackthornCity03Primary",
-      "secondary_tileset": "gTileset_BlackthornCity03",
-      "border_filepath": "data/layouts/BlackthornCity03/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity03/map.bin",
+      "height": 64,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_BlackthornCity",
+      "border_filepath": "data/layouts/BlackthornCity/border.bin",
+      "blockdata_filepath": "data/layouts/BlackthornCity/map.bin",
       "layout_version": "emerald"
     }
   ]

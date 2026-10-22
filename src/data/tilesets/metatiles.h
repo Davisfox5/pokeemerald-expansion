@@ -446,21 +446,6 @@ const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/viol
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
 
-// Blackthorn City: three native sections, private tileset pairs, one shared palette set.
-const u16 gMetatiles_BlackthornCity01Primary[] = INCBIN_U16("data/tilesets/primary/blackthorn_city01/metatiles.bin");
-const u16 gMetatileAttributes_BlackthornCity01Primary[] = INCBIN_U16("data/tilesets/primary/blackthorn_city01/metatile_attributes.bin");
-
-const u16 gMetatiles_BlackthornCity01[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city01/metatiles.bin");
-const u16 gMetatileAttributes_BlackthornCity01[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city01/metatile_attributes.bin");
-
-const u16 gMetatiles_BlackthornCity02Primary[] = INCBIN_U16("data/tilesets/primary/blackthorn_city02/metatiles.bin");
-const u16 gMetatileAttributes_BlackthornCity02Primary[] = INCBIN_U16("data/tilesets/primary/blackthorn_city02/metatile_attributes.bin");
-
-const u16 gMetatiles_BlackthornCity02[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city02/metatiles.bin");
-const u16 gMetatileAttributes_BlackthornCity02[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city02/metatile_attributes.bin");
-
-const u16 gMetatiles_BlackthornCity03Primary[] = INCBIN_U16("data/tilesets/primary/blackthorn_city03/metatiles.bin");
-const u16 gMetatileAttributes_BlackthornCity03Primary[] = INCBIN_U16("data/tilesets/primary/blackthorn_city03/metatile_attributes.bin");
-
-const u16 gMetatiles_BlackthornCity03[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city03/metatiles.bin");
-const u16 gMetatileAttributes_BlackthornCity03[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city03/metatile_attributes.bin");
+// Blackthorn City
+const u16 gMetatiles_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city/metatiles.bin");
+const u16 gMetatileAttributes_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city/metatile_attributes.bin");

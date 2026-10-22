@@ -1584,15 +1584,5 @@ const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
 
-// Blackthorn City: three native sections, private tileset pairs, one shared palette set.
-const struct Tileset gTileset_BlackthornCity01Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_BlackthornCity01Primary, .palettes = gTilesetPalettes_BlackthornCity01Primary, .metatiles = gMetatiles_BlackthornCity01Primary, .metatileAttributes = gMetatileAttributes_BlackthornCity01Primary, .callback = NULL };
-
-const struct Tileset gTileset_BlackthornCity01 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_BlackthornCity01, .palettes = gTilesetPalettes_BlackthornCity01, .metatiles = gMetatiles_BlackthornCity01, .metatileAttributes = gMetatileAttributes_BlackthornCity01, .callback = NULL };
-
-const struct Tileset gTileset_BlackthornCity02Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_BlackthornCity02Primary, .palettes = gTilesetPalettes_BlackthornCity02Primary, .metatiles = gMetatiles_BlackthornCity02Primary, .metatileAttributes = gMetatileAttributes_BlackthornCity02Primary, .callback = NULL };
-
-const struct Tileset gTileset_BlackthornCity02 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_BlackthornCity02, .palettes = gTilesetPalettes_BlackthornCity02, .metatiles = gMetatiles_BlackthornCity02, .metatileAttributes = gMetatileAttributes_BlackthornCity02, .callback = NULL };
-
-const struct Tileset gTileset_BlackthornCity03Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_BlackthornCity03Primary, .palettes = gTilesetPalettes_BlackthornCity03Primary, .metatiles = gMetatiles_BlackthornCity03Primary, .metatileAttributes = gMetatileAttributes_BlackthornCity03Primary, .callback = NULL };
-
-const struct Tileset gTileset_BlackthornCity03 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_BlackthornCity03, .palettes = gTilesetPalettes_BlackthornCity03, .metatiles = gMetatiles_BlackthornCity03, .metatileAttributes = gMetatileAttributes_BlackthornCity03, .callback = NULL };
+// Blackthorn City
+const struct Tileset gTileset_BlackthornCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_BlackthornCity, .palettes = gTilesetPalettes_BlackthornCity, .metatiles = gMetatiles_BlackthornCity, .metatileAttributes = gMetatileAttributes_BlackthornCity, .callback = NULL };
