@@ -9534,7 +9534,7 @@
       "name": "MahoganyTown_Layout",
       "width": 32,
       "height": 32,
-      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "primary_tileset": "gTileset_MahoganyPrimary",
       "secondary_tileset": "gTileset_MahoganyTown",
       "border_filepath": "data/layouts/MahoganyTown/border.bin",
       "blockdata_filepath": "data/layouts/MahoganyTown/map.bin",

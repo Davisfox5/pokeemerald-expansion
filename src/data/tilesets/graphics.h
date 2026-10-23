@@ -3299,7 +3299,28 @@ INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/15.pal", ".gbapal")
 };
 // End Claude routes
 
-// Mahogany Town: one native map; primary gTileset_CherrygrovePrimary, element-built secondary.
+// Mahogany Town (primary): HGSS Mahogany converted.
+const u32 gTilesetTiles_MahoganyPrimary[] = INCGFX_U32("data/tilesets/primary/mahogany/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_MahoganyPrimary[][16] = {
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany/palettes/15.pal", ".gbapal"),
+};
+
+// Mahogany Town (secondary): HGSS Mahogany converted.
 const u32 gTilesetTiles_MahoganyTown[] = INCGFX_U32("data/tilesets/secondary/mahogany_town/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_MahoganyTown[][16] = {
     INCGFX_U16("data/tilesets/secondary/mahogany_town/palettes/00.pal", ".gbapal"),
