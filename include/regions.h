@@ -11,7 +11,6 @@ static inline enum Region GetRegionForSectionId(u32 sectionId)
     switch (sectionId) {
     case MAPSEC_FLOCCESY_TOWN: return REGION_UNOVA;
     case MAPSEC_SANDGEM_TOWN: return REGION_SINNOH;
-    case MAPSEC_BLACKTHORN_CITY: return REGION_JOHTO;
     case MAPSEC_CHERRYGROVE_CITY: return REGION_JOHTO;
     case MAPSEC_DARK_CAVE: return REGION_JOHTO;
     case MAPSEC_JOHTO_ROUTE_31: return REGION_JOHTO;

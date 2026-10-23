@@ -445,7 +445,3 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
-
-// Blackthorn City
-const u16 gMetatiles_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city/metatiles.bin");
-const u16 gMetatileAttributes_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city/metatile_attributes.bin");

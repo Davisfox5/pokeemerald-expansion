@@ -9528,17 +9528,6 @@
       "blockdata_filepath": "data/layouts/CherrygroveRegionalPreview30/map.bin",
       "build_target": "emerald",
       "layout_version": "emerald"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY",
-      "name": "BlackthornCity_Layout",
-      "width": 64,
-      "height": 64,
-      "primary_tileset": "gTileset_CherrygrovePrimary",
-      "secondary_tileset": "gTileset_BlackthornCity",
-      "border_filepath": "data/layouts/BlackthornCity/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity/map.bin",
-      "layout_version": "emerald"
     }
   ]
 }
