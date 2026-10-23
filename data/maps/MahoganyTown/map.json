@@ -21,6 +21,41 @@
       "elevation": 0,
       "dest_map": "MAP_MAHOGANY_POKEMON_CENTER",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_SOUVENIR_SHOP",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_EAST_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_GYM_LOBBY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_ROUTE43_GATE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_ROUTE43_GATE",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [],

@@ -1840,3 +1840,11 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/MahoganyPokemonCenter/scripts.inc"
 
 .include "data/maps/MahoganyCenterUpstairs/scripts.inc"
+
+.include "data/maps/MahoganySouvenirShop/scripts.inc"
+
+.include "data/maps/MahoganyEastHouse/scripts.inc"
+
+.include "data/maps/MahoganyGymLobby/scripts.inc"
+
+.include "data/maps/MahoganyRoute43Gate/scripts.inc"

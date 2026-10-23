@@ -9539,6 +9539,30 @@
       "border_filepath": "data/layouts/MahoganyTown/border.bin",
       "blockdata_filepath": "data/layouts/MahoganyTown/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MAHOGANY_GYM_LOBBY",
+      "name": "MahoganyGymLobby_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SootopolisGym",
+      "border_filepath": "data/layouts/MahoganyGymLobby/border.bin",
+      "blockdata_filepath": "data/layouts/MahoganyGymLobby/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_MAHOGANY_ROUTE43_GATE",
+      "name": "MahoganyRoute43Gate_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/MahoganyRoute43Gate/border.bin",
+      "blockdata_filepath": "data/layouts/MahoganyRoute43Gate/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     }
   ]
 }
