@@ -1586,3 +1586,6 @@ const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecond
 
 // Blackthorn City
 const struct Tileset gTileset_BlackthornCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_BlackthornCity, .palettes = gTilesetPalettes_BlackthornCity, .metatiles = gMetatiles_BlackthornCity, .metatileAttributes = gMetatileAttributes_BlackthornCity, .callback = NULL };
+
+// Cianwood City
+const struct Tileset gTileset_CianwoodCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_CianwoodCity, .palettes = gTilesetPalettes_CianwoodCity, .metatiles = gMetatiles_CianwoodCity, .metatileAttributes = gMetatileAttributes_CianwoodCity, .callback = NULL };

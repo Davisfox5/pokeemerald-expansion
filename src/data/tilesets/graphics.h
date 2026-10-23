@@ -3319,3 +3319,24 @@ const u16 gTilesetPalettes_BlackthornCity[][16] = {
     INCGFX_U16("data/tilesets/secondary/blackthorn_city/palettes/14.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/blackthorn_city/palettes/15.pal", ".gbapal"),
 };
+
+// Cianwood City: one native map; primary gTileset_CherrygrovePrimary, element-built secondary.
+const u32 gTilesetTiles_CianwoodCity[] = INCGFX_U32("data/tilesets/secondary/cianwood_city/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_CianwoodCity[][16] = {
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/15.pal", ".gbapal"),
+};

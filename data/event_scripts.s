@@ -1842,3 +1842,9 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/BlackthornCenterUpstairs/scripts.inc"
 
 .include "data/maps/BlackthornMart/scripts.inc"
+
+.include "data/maps/CianwoodCity/scripts.inc"
+
+.include "data/maps/CianwoodPokemonCenter/scripts.inc"
+
+.include "data/maps/CianwoodCenterUpstairs/scripts.inc"
