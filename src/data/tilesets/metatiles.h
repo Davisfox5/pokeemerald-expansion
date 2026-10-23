@@ -453,3 +453,11 @@ const u16 gMetatileAttributes_BlackthornCity[] = INCBIN_U16("data/tilesets/secon
 // Cianwood City
 const u16 gMetatiles_CianwoodCity[] = INCBIN_U16("data/tilesets/secondary/cianwood_city/metatiles.bin");
 const u16 gMetatileAttributes_CianwoodCity[] = INCBIN_U16("data/tilesets/secondary/cianwood_city/metatile_attributes.bin");
+
+// Olivine City
+const u16 gMetatiles_OlivinePrimary[] = INCBIN_U16("data/tilesets/primary/olivine/metatiles.bin");
+const u16 gMetatileAttributes_OlivinePrimary[] = INCBIN_U16("data/tilesets/primary/olivine/metatile_attributes.bin");
+
+// Olivine City
+const u16 gMetatiles_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/olivine_city/metatiles.bin");
+const u16 gMetatileAttributes_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/olivine_city/metatile_attributes.bin");

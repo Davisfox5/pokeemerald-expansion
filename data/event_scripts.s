@@ -1848,3 +1848,11 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/CianwoodPokemonCenter/scripts.inc"
 
 .include "data/maps/CianwoodCenterUpstairs/scripts.inc"
+
+.include "data/maps/OlivineCity/scripts.inc"
+
+.include "data/maps/OlivinePokemonCenter/scripts.inc"
+
+.include "data/maps/OlivineCenterUpstairs/scripts.inc"
+
+.include "data/maps/OlivineMart/scripts.inc"
