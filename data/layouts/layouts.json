@@ -9528,6 +9528,17 @@
       "blockdata_filepath": "data/layouts/CherrygroveRegionalPreview30/map.bin",
       "build_target": "emerald",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MAHOGANY_TOWN",
+      "name": "MahoganyTown_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_MahoganyTown",
+      "border_filepath": "data/layouts/MahoganyTown/border.bin",
+      "blockdata_filepath": "data/layouts/MahoganyTown/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

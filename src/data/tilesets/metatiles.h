@@ -445,3 +445,7 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+// Mahogany Town
+const u16 gMetatiles_MahoganyTown[] = INCBIN_U16("data/tilesets/secondary/mahogany_town/metatiles.bin");
+const u16 gMetatileAttributes_MahoganyTown[] = INCBIN_U16("data/tilesets/secondary/mahogany_town/metatile_attributes.bin");
