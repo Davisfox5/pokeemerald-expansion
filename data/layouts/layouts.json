@@ -9550,6 +9550,17 @@
       "border_filepath": "data/layouts/CianwoodCity/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY",
+      "name": "OlivineCity_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_OlivinePrimary",
+      "secondary_tileset": "gTileset_OlivineCity",
+      "border_filepath": "data/layouts/OlivineCity/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

@@ -1589,3 +1589,7 @@ const struct Tileset gTileset_BlackthornCity = { .isCompressed = TRUE, .isSecond
 
 // Cianwood City
 const struct Tileset gTileset_CianwoodCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_CianwoodCity, .palettes = gTilesetPalettes_CianwoodCity, .metatiles = gMetatiles_CianwoodCity, .metatileAttributes = gMetatileAttributes_CianwoodCity, .callback = NULL };
+
+// Olivine City
+const struct Tileset gTileset_OlivinePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_OlivinePrimary, .palettes = gTilesetPalettes_OlivinePrimary, .metatiles = gMetatiles_OlivinePrimary, .metatileAttributes = gMetatileAttributes_OlivinePrimary, .callback = InitTilesetAnim_CherrygrovePrimary };
+const struct Tileset gTileset_OlivineCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_OlivineCity, .palettes = gTilesetPalettes_OlivineCity, .metatiles = gMetatiles_OlivineCity, .metatileAttributes = gMetatileAttributes_OlivineCity, .callback = NULL };
