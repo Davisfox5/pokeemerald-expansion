@@ -1746,6 +1746,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_CIANWOOD_CITY",
+      "name": "CIANWOOD CITY",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
     }
   ]
 }
