@@ -3341,7 +3341,7 @@ const u16 gTilesetPalettes_CianwoodCity[][16] = {
     INCGFX_U16("data/tilesets/secondary/cianwood_city/palettes/15.pal", ".gbapal"),
 };
 
-// Olivine City: one native map; primary tileset, derived from CherrygrovePrimary (its sea animation kept).
+// Olivine City: one native map; primary tileset, derived from CherrygrovePrimary (its open sea animated).
 const u32 gTilesetTiles_OlivinePrimary[] = INCGFX_U32("data/tilesets/primary/olivine/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_OlivinePrimary[][16] = {
     INCGFX_U16("data/tilesets/primary/olivine/palettes/00.pal", ".gbapal"),

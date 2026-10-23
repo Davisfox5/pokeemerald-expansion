@@ -639,6 +639,21 @@ static void TilesetAnim_CherrygrovePrimary(u16 timer)
 }
 // End Claude Cherrygrove sea
 
+// Claude Olivine sea
+static void TilesetAnim_OlivinePrimary(u16 timer);
+void InitTilesetAnim_OlivinePrimary(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_OlivinePrimary;
+}
+static void TilesetAnim_OlivinePrimary(u16 timer)
+{
+    if (timer % 16 == 1)
+        AppendTilesetAnimToBuffer(gTilesetAnims_Cherrygrove_Sea[(timer / 16) % 8], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(1)), 16 * TILE_SIZE_4BPP);
+}
+// End Claude Olivine sea
+
 void InitTilesetAnim_General(void)
 {
     sPrimaryTilesetAnimCounter = 0;
