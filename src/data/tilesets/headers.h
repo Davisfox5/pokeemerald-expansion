@@ -1583,3 +1583,9 @@ const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
+
+// Mahogany Town (primary)
+const struct Tileset gTileset_MahoganyPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_MahoganyPrimary, .palettes = gTilesetPalettes_MahoganyPrimary, .metatiles = gMetatiles_MahoganyPrimary, .metatileAttributes = gMetatileAttributes_MahoganyPrimary, .callback = NULL };
+
+// Mahogany Town (secondary)
+const struct Tileset gTileset_MahoganyTown = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_MahoganyTown, .palettes = gTilesetPalettes_MahoganyTown, .metatiles = gMetatiles_MahoganyTown, .metatileAttributes = gMetatileAttributes_MahoganyTown, .callback = NULL };
