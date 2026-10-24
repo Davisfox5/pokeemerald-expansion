@@ -418,14 +418,8 @@ extern const struct Tileset gTileset_VioletEntrance;
 static const u8 sJohtoSynthesisDoor_VioletCityEntrance_0[] = INCBIN_U8("graphics/door_anims/johto_synthesis/VioletCityEntrance_0.4bpp");
 static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,7,6,0,0,0,0};
 // End Johto synthesis doors
-// Kanto Saffron doors: FireRed's sliding door, on the Center and the Mart
-extern const struct Tileset gTileset_KantoSaffronPrimary;
-static const u8 sKantoSaffronDoor_Sliding[] = INCGFX_U8("graphics/door_anims/sliding_single.png", ".4bpp");
-static const u8 sKantoSaffronDoorPal_Sliding[] = {3, 3, 3, 3, 3, 3, 3, 3};
-// End Kanto Saffron doors
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
-    {.metatileNum=191, .tileset=&gTileset_KantoSaffronPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_1x1, .tiles=sKantoSaffronDoor_Sliding, .palettes=sKantoSaffronDoorPal_Sliding},
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
     {.metatileNum=753, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_1, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_1},
     {.metatileNum=767, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_2, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_2},
