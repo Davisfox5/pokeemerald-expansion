@@ -1738,6 +1738,62 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_ROUTE32",
+      "name": "ROUTE 32",
+      "x": 2,
+      "y": 5,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "id": "MAPSEC_UNION_CAVE",
+      "name": "UNION CAVE",
+      "x": 2,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_ROUTE33",
+      "name": "ROUTE 33",
+      "x": 2,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_AZALEA_TOWN",
+      "name": "AZALEA TOWN",
+      "x": 1,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ECRUTEAK_CITY",
+      "name": "ECRUTEAK CITY",
+      "x": 5,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE38",
+      "name": "ROUTE 38",
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE39",
+      "name": "ROUTE 39",
+      "x": 3,
+      "y": 6,
+      "width": 1,
+      "height": 1
     }
   ]
 }
