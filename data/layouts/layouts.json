@@ -9638,8 +9638,8 @@
     {
       "id": "LAYOUT_JOHTO_ROUTE38",
       "name": "JohtoRoute38_Layout",
-      "width": 68,
-      "height": 33,
+      "width": 64,
+      "height": 32,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_JohtoRoute3839Primary",
@@ -9652,8 +9652,8 @@
     {
       "id": "LAYOUT_JOHTO_ROUTE39",
       "name": "JohtoRoute39_Layout",
-      "width": 38,
-      "height": 56,
+      "width": 32,
+      "height": 64,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_JohtoRoute3839Primary",

@@ -18,7 +18,7 @@
     {
       "map": "MAP_JOHTO_ROUTE38",
       "direction": "right",
-      "offset": 2
+      "offset": 0
     }
   ],
   "object_events": [],
