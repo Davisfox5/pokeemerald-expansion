@@ -3299,7 +3299,7 @@ INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/15.pal", ".gbapal")
 };
 // End Claude routes
 
-// Mahogany Town (primary): HGSS Mahogany converted.
+// Mahogany Town (primary).
 const u32 gTilesetTiles_MahoganyPrimary[] = INCGFX_U32("data/tilesets/primary/mahogany/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_MahoganyPrimary[][16] = {
     INCGFX_U16("data/tilesets/primary/mahogany/palettes/00.pal", ".gbapal"),
@@ -3320,7 +3320,7 @@ const u16 gTilesetPalettes_MahoganyPrimary[][16] = {
     INCGFX_U16("data/tilesets/primary/mahogany/palettes/15.pal", ".gbapal"),
 };
 
-// Mahogany Town (secondary): HGSS Mahogany converted.
+// Mahogany Town (secondary).
 const u32 gTilesetTiles_MahoganyTown[] = INCGFX_U32("data/tilesets/secondary/mahogany_town/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_MahoganyTown[][16] = {
     INCGFX_U16("data/tilesets/secondary/mahogany_town/palettes/00.pal", ".gbapal"),
