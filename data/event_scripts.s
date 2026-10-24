@@ -1846,3 +1846,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/Route43Gatehouse/scripts.inc"
 
 .include "data/maps/Route43MahoganyGatehouse/scripts.inc"
+
+.include "data/maps/LakeOfRage/scripts.inc"
