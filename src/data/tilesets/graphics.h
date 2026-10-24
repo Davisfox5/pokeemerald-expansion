@@ -3382,3 +3382,45 @@ const u16 gTilesetPalettes_OlivineCity[][16] = {
     INCGFX_U16("data/tilesets/secondary/olivine_city/palettes/14.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/olivine_city/palettes/15.pal", ".gbapal"),
 };
+
+// Kanto Saffron City: one native map; primary tileset, FireRed's Saffron, repacked.
+const u32 gTilesetTiles_KantoSaffronPrimary[] = INCGFX_U32("data/tilesets/primary/kanto_saffron/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoSaffronPrimary[][16] = {
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Saffron City: one native map; secondary tileset, the station and the Psychic Dojo plate.
+const u32 gTilesetTiles_KantoSaffronCity[] = INCGFX_U32("data/tilesets/secondary/kanto_saffron_city/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoSaffronCity[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/15.pal", ".gbapal"),
+};

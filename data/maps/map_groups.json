@@ -80,7 +80,8 @@
     "gMapGroup_ProofKanto",
     "gMapGroup_ProofSinnoh",
     "gMapGroup_ProofUnova",
-    "gMapGroup_Cherrygrove"
+    "gMapGroup_Cherrygrove",
+    "gMapGroup_Kanto"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1237,5 +1238,11 @@
     "OlivinePokemonCenter",
     "OlivineCenterUpstairs",
     "OlivineMart"
+  ],
+  "gMapGroup_Kanto": [
+    "KantoSaffronCity",
+    "KantoSaffronPokemonCenter",
+    "KantoSaffronCenterUpstairs",
+    "KantoSaffronMart"
   ]
 }

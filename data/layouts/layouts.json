@@ -9561,6 +9561,17 @@
       "border_filepath": "data/layouts/OlivineCity/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_SAFFRON_CITY",
+      "name": "KantoSaffronCity_Layout",
+      "width": 66,
+      "height": 55,
+      "primary_tileset": "gTileset_KantoSaffronPrimary",
+      "secondary_tileset": "gTileset_KantoSaffronCity",
+      "border_filepath": "data/layouts/KantoSaffronCity/border.bin",
+      "blockdata_filepath": "data/layouts/KantoSaffronCity/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
