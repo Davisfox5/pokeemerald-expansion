@@ -469,11 +469,3 @@ const u16 gMetatileAttributes_KantoSaffronPrimary[] = INCBIN_U16("data/tilesets/
 // Kanto Saffron City
 const u16 gMetatiles_KantoSaffronCity[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_city/metatiles.bin");
 const u16 gMetatileAttributes_KantoSaffronCity[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_city/metatile_attributes.bin");
-
-// Kanto Saffron: the Dojo's one hall (FireRed's Fighting Dojo and Sabrina's Gym)
-const u16 gMetatiles_KantoSaffronDojo[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_dojo/metatiles.bin");
-const u16 gMetatileAttributes_KantoSaffronDojo[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_dojo/metatile_attributes.bin");
-
-// Kanto Saffron: Silph's research lab (FireRed's Cinnabar Lab experiment room)
-const u16 gMetatiles_KantoSaffronSilphLab[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_silph_lab/metatiles.bin");
-const u16 gMetatileAttributes_KantoSaffronSilphLab[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_silph_lab/metatile_attributes.bin");

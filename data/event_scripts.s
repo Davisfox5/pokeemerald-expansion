@@ -1864,7 +1864,3 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/KantoSaffronCenterUpstairs/scripts.inc"
 
 .include "data/maps/KantoSaffronMart/scripts.inc"
-
-.include "data/maps/KantoSaffronDojo/scripts.inc"
-
-.include "data/maps/KantoSaffronSilphLab/scripts.inc"
