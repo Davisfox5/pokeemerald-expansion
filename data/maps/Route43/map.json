@@ -1,0 +1,90 @@
+{
+  "id": "MAP_ROUTE43",
+  "name": "Route43",
+  "layout": "LAYOUT_ROUTE43",
+  "music": "MUS_ROUTE101",
+  "region_map_section": "MAPSEC_JOHTO_ROUTE_43",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 61,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_MAHOGANY_GATEHOUSE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 61,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_MAHOGANY_GATEHOUSE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 47,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
+      "y": 47,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_GATEHOUSE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 26,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_GATEHOUSE",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route43_NorthSign"
+    },
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 50,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route43_TrainerTips"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 58,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route43_SouthSign"
+    }
+  ],
+  "build_target": "emerald",
+  "region": "REGION_JOHTO"
+}

@@ -9539,6 +9539,17 @@
       "border_filepath": "data/layouts/MahoganyTown/border.bin",
       "blockdata_filepath": "data/layouts/MahoganyTown/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE43",
+      "name": "Route43_Layout",
+      "width": 32,
+      "height": 64,
+      "primary_tileset": "gTileset_Route43Primary",
+      "secondary_tileset": "gTileset_Route43",
+      "border_filepath": "data/layouts/Route43/border.bin",
+      "blockdata_filepath": "data/layouts/Route43/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
