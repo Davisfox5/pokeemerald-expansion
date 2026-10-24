@@ -4058,3 +4058,549 @@ INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/13.pal", ".gbapal")
 INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/14.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/goldenrodcity12/palettes/15.pal", ".gbapal"),
 };
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity01Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity01/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity01Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity01/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity01[] = INCGFX_U32("data/tilesets/secondary/olivinecity01/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity01[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity01/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity02Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity02/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity02Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity02/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity02[] = INCGFX_U32("data/tilesets/secondary/olivinecity02/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity02[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity02/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity03Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity03/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity03Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity03/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity03[] = INCGFX_U32("data/tilesets/secondary/olivinecity03/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity03[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity03/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity04Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity04/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity04Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity04/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity04[] = INCGFX_U32("data/tilesets/secondary/olivinecity04/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity04[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity04/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity05Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity05/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity05Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity05/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity05[] = INCGFX_U32("data/tilesets/secondary/olivinecity05/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity05[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity05/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity06Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity06/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity06Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity06/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity06[] = INCGFX_U32("data/tilesets/secondary/olivinecity06/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity06[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity06/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity07Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity07/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity07Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity07/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity07[] = INCGFX_U32("data/tilesets/secondary/olivinecity07/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity07[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity07/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity08Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity08/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity08Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity08/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity08[] = INCGFX_U32("data/tilesets/secondary/olivinecity08/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity08[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity08/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity09Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity09/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity09Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity09/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity09[] = INCGFX_U32("data/tilesets/secondary/olivinecity09/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity09[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity09/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity10Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity10/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity10Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity10/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity10[] = INCGFX_U32("data/tilesets/secondary/olivinecity10/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity10[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity10/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity11Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity11/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity11Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity11/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity11[] = INCGFX_U32("data/tilesets/secondary/olivinecity11/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity11[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity11/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity12Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity12/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity12Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity12/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity12[] = INCGFX_U32("data/tilesets/secondary/olivinecity12/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity12[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity12/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity13Primary[] = INCGFX_U32("data/tilesets/primary/olivinecity13/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity13Primary[][16] = {
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/olivinecity13/palettes/15.pal", ".gbapal"),
+};
+
+// Olivine native exterior
+const u32 gTilesetTiles_OlivineCity13[] = INCGFX_U32("data/tilesets/secondary/olivinecity13/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_OlivineCity13[][16] = {
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/olivinecity13/palettes/15.pal", ".gbapal"),
+};

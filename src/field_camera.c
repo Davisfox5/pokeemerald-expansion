@@ -1,5 +1,6 @@
 #include "global.h"
 #include "goldenrod_view.h"
+#include "olivine_view.h"
 #include "berry.h"
 #include "bike.h"
 #include "field_camera.h"
@@ -106,6 +107,7 @@ static void DrawWholeMapViewInternal(int x, int y, const struct MapLayout *mapLa
     u8 temp;
 
     GoldenrodViewBegin();
+    OlivineViewBegin();
     for (i = 0; i < 32; i += 2)
     {
         temp = sFieldCameraOffset.yTileOffset + i;
@@ -147,6 +149,7 @@ static void RedrawMapSliceNorth(struct FieldCameraOffset *cameraOffset, const st
     if (temp >= 32)
         temp -= 32;
     r7 = temp * 32;
+    OlivineViewReleaseSlice(r7, FALSE);
     for (i = 0; i < 32; i += 2)
     {
         temp = cameraOffset->xTileOffset + i;
@@ -162,6 +165,7 @@ static void RedrawMapSliceSouth(struct FieldCameraOffset *cameraOffset, const st
     u8 temp;
     u32 r7 = cameraOffset->yTileOffset * 32;
 
+    OlivineViewReleaseSlice(r7, FALSE);
     for (i = 0; i < 32; i += 2)
     {
         temp = cameraOffset->xTileOffset + i;
@@ -177,6 +181,7 @@ static void RedrawMapSliceEast(struct FieldCameraOffset *cameraOffset, const str
     u8 temp;
     u32 r6 = cameraOffset->xTileOffset;
 
+    OlivineViewReleaseSlice(r6, TRUE);
     for (i = 0; i < 32; i += 2)
     {
         temp = cameraOffset->yTileOffset + i;
@@ -194,6 +199,7 @@ static void RedrawMapSliceWest(struct FieldCameraOffset *cameraOffset, const str
 
     if (r5 >= 32)
         r5 -= 32;
+    OlivineViewReleaseSlice(r5, TRUE);
     for (i = 0; i < 32; i += 2)
     {
         temp = cameraOffset->yTileOffset + i;
@@ -229,7 +235,8 @@ static void DrawMetatileAt(const struct MapLayout *mapLayout, u16 offset, int x,
 {
     u16 streamed[8];
     s32 streamedLayer;
-    if (GoldenrodViewMetatile(offset, x, y, streamed, &streamedLayer))
+    if (GoldenrodViewMetatile(offset, x, y, streamed, &streamedLayer)
+     || OlivineViewMetatile(offset, x, y, streamed, &streamedLayer))
     {
         DrawMetatile(streamedLayer, streamed, offset);
         return;

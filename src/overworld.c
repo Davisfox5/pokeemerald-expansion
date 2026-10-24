@@ -1,5 +1,6 @@
 #include "global.h"
 #include "goldenrod_view.h"
+#include "olivine_view.h"
 #include "overworld.h"
 #include "battle_pyramid.h"
 #include "battle_setup.h"
@@ -606,7 +607,11 @@ void SetObjEventTemplateMovementType(u8 localId, u8 movementType)
 static void InitMapView(void)
 {
     ResetFieldCamera();
-    CopyMapTilesetsToVram(gMapHeader.mapLayout);
+    // The fast return/Continue path does not wait for queued static tile DMA.
+    // Olivine's native view uploads its own complete visible glyph set below;
+    // a later static copy would overwrite those cache slots after drawing.
+    if (!OlivineViewActive())
+        CopyMapTilesetsToVram(gMapHeader.mapLayout);
     LoadMapTilesetPalettes(gMapHeader.mapLayout);
     DrawWholeMapView();
     InitTilesetAnimations();
@@ -901,8 +906,8 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
     InitMap();
-    // Goldenrod keeps a single live glyph cache across its native sections.
-    if (!GoldenrodViewActive())
+    // Each streamed city keeps one live glyph cache across its native sections.
+    if (!(GoldenrodViewActive() || OlivineViewActive()))
         CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
     LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
 
@@ -915,8 +920,8 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     ResetFieldTasksArgs();
     RunOnResumeMapScript();
 
-    // Internal Goldenrod sections are one city; do not reopen its name banner.
-    if (GoldenrodViewActive() && gMapHeader.regionMapSectionId == sLastMapSectionId)
+    // Internal city sections share a region; do not reopen the same name banner.
+    if ((GoldenrodViewActive() || OlivineViewActive()) && gMapHeader.regionMapSectionId == sLastMapSectionId)
     {
         // Keep the ordinary popup behavior for every other map transition.
     }

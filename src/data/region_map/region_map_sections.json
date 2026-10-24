@@ -1778,6 +1778,14 @@
       "y": 6,
       "width": 2,
       "height": 2
+    },
+    {
+      "id": "MAPSEC_OLIVINE_CITY",
+      "name": "OLIVINE CITY",
+      "x": 1,
+      "y": 6,
+      "width": 2,
+      "height": 2
     }
   ]
 }
