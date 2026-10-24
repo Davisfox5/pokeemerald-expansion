@@ -3298,3 +3298,43 @@ INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/14.pal", ".gbapal")
 INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/15.pal", ".gbapal"),
 };
 // End Claude routes
+
+const u32 gTilesetTiles_MahoganyRebuildPrimary[] = INCGFX_U32("data/tilesets/primary/mahogany_rebuild/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_MahoganyRebuildPrimary[][16] = {
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mahogany_rebuild/palettes/15.pal", ".gbapal"),
+};
+
+const u32 gTilesetTiles_MahoganyRebuild[] = INCGFX_U32("data/tilesets/secondary/mahogany_rebuild/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_MahoganyRebuild[][16] = {
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mahogany_rebuild/palettes/15.pal", ".gbapal"),
+};

@@ -445,3 +445,9 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+const u16 gMetatiles_MahoganyRebuildPrimary[] = INCBIN_U16("data/tilesets/primary/mahogany_rebuild/metatiles.bin");
+const u16 gMetatileAttributes_MahoganyRebuildPrimary[] = INCBIN_U16("data/tilesets/primary/mahogany_rebuild/metatile_attributes.bin");
+
+const u16 gMetatiles_MahoganyRebuild[] = INCBIN_U16("data/tilesets/secondary/mahogany_rebuild/metatiles.bin");
+const u16 gMetatileAttributes_MahoganyRebuild[] = INCBIN_U16("data/tilesets/secondary/mahogany_rebuild/metatile_attributes.bin");
