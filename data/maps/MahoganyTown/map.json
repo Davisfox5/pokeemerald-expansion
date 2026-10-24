@@ -1,0 +1,55 @@
+{
+  "id": "MAP_MAHOGANY_TOWN",
+  "name": "MahoganyTown",
+  "layout": "LAYOUT_MAHOGANY_TOWN",
+  "music": "MUS_VERDANTURF",
+  "region_map_section": "MAPSEC_MAHOGANY_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 24,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "MahoganyTown_TownSign"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "MahoganyTown_ShopSign"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "MahoganyTown_GymSign"
+    }
+  ],
+  "build_target": "emerald",
+  "region": "REGION_JOHTO"
+}

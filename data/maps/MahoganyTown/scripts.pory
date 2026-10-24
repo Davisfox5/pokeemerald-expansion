@@ -1,0 +1,25 @@
+mapscripts MahoganyTown_MapScripts {}
+
+script MahoganyTown_TownSign {
+    msgbox(MahoganyTown_TownSign_Text, MSGBOX_SIGN)
+    end
+}
+text MahoganyTown_TownSign_Text {
+    "MAHOGANY TOWN\nHome of the Ninja"
+}
+
+script MahoganyTown_ShopSign {
+    msgbox(MahoganyTown_ShopSign_Text, MSGBOX_SIGN)
+    end
+}
+text MahoganyTown_ShopSign_Text {
+    "MAHOGANY SOUVENIR SHOP"
+}
+
+script MahoganyTown_GymSign {
+    msgbox(MahoganyTown_GymSign_Text, MSGBOX_SIGN)
+    end
+}
+text MahoganyTown_GymSign_Text {
+    "MAHOGANY POKEMON GYM"
+}
