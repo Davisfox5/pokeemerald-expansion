@@ -1746,6 +1746,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_43",
+      "name": "ROUTE 43",
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
     }
   ]
 }

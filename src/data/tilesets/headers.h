@@ -1589,3 +1589,9 @@ const struct Tileset gTileset_MahoganyPrimary = { .isCompressed = TRUE, .isSecon
 
 // Mahogany Town (secondary)
 const struct Tileset gTileset_MahoganyTown = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_MahoganyTown, .palettes = gTilesetPalettes_MahoganyTown, .metatiles = gMetatiles_MahoganyTown, .metatileAttributes = gMetatileAttributes_MahoganyTown, .callback = NULL };
+
+// Route 43 (primary)
+const struct Tileset gTileset_Route43Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route43Primary, .palettes = gTilesetPalettes_Route43Primary, .metatiles = gMetatiles_Route43Primary, .metatileAttributes = gMetatileAttributes_Route43Primary, .callback = NULL };
+
+// Route 43 (secondary)
+const struct Tileset gTileset_Route43 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route43, .palettes = gTilesetPalettes_Route43, .metatiles = gMetatiles_Route43, .metatileAttributes = gMetatileAttributes_Route43, .callback = NULL };

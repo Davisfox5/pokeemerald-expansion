@@ -453,3 +453,11 @@ const u16 gMetatileAttributes_MahoganyPrimary[] = INCBIN_U16("data/tilesets/prim
 // Mahogany Town (secondary)
 const u16 gMetatiles_MahoganyTown[] = INCBIN_U16("data/tilesets/secondary/mahogany_town/metatiles.bin");
 const u16 gMetatileAttributes_MahoganyTown[] = INCBIN_U16("data/tilesets/secondary/mahogany_town/metatile_attributes.bin");
+
+// Route 43 (primary)
+const u16 gMetatiles_Route43Primary[] = INCBIN_U16("data/tilesets/primary/route43/metatiles.bin");
+const u16 gMetatileAttributes_Route43Primary[] = INCBIN_U16("data/tilesets/primary/route43/metatile_attributes.bin");
+
+// Route 43 (secondary)
+const u16 gMetatiles_Route43[] = INCBIN_U16("data/tilesets/secondary/route_43/metatiles.bin");
+const u16 gMetatileAttributes_Route43[] = INCBIN_U16("data/tilesets/secondary/route_43/metatile_attributes.bin");

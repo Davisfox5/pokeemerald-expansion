@@ -21,6 +21,20 @@
       "elevation": 0,
       "dest_map": "MAP_MAHOGANY_POKEMON_CENTER",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_MAHOGANY_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE43_MAHOGANY_GATEHOUSE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],
