@@ -20,14 +20,14 @@ KantoSaffronCity_FightingDojoSign::
     end
 
 KantoSaffronCity_FightingDojoSign_Text:
-    .string "FIGHTING DOJO\nChallengers welcome.$"
+    .string "SAFFRON DOJO - FIGHTING\nChallengers welcome.$"
 
 KantoSaffronCity_PsychicDojoSign::
     msgbox KantoSaffronCity_PsychicDojoSign_Text, MSGBOX_SIGN
     end
 
 KantoSaffronCity_PsychicDojoSign_Text:
-    .string "PSYCHIC DOJO\nChallengers welcome.$"
+    .string "SAFFRON DOJO - PSYCHIC\nChallengers welcome.$"
 
 KantoSaffronCity_LeagueOfficeSign::
     msgbox KantoSaffronCity_LeagueOfficeSign_Text, MSGBOX_SIGN
@@ -41,7 +41,7 @@ KantoSaffronCity_SilphCoSign::
     end
 
 KantoSaffronCity_SilphCoSign_Text:
-    .string "SILPH CO. HEADQUARTERS\nThe lobby is open to visitors.$"
+    .string "SILPH CO. HEADQUARTERS\pThe lobby is open to visitors.\nRESEARCH LAB entrance to the east.$"
 
 KantoSaffronCity_SilphMagnetTrainSign::
     msgbox KantoSaffronCity_SilphMagnetTrainSign_Text, MSGBOX_SIGN

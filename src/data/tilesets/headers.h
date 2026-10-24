@@ -1597,3 +1597,9 @@ const struct Tileset gTileset_OlivineCity = { .isCompressed = TRUE, .isSecondary
 // Kanto Saffron City
 const struct Tileset gTileset_KantoSaffronPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_KantoSaffronPrimary, .palettes = gTilesetPalettes_KantoSaffronPrimary, .metatiles = gMetatiles_KantoSaffronPrimary, .metatileAttributes = gMetatileAttributes_KantoSaffronPrimary, .callback = NULL };
 const struct Tileset gTileset_KantoSaffronCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoSaffronCity, .palettes = gTilesetPalettes_KantoSaffronCity, .metatiles = gMetatiles_KantoSaffronCity, .metatileAttributes = gMetatileAttributes_KantoSaffronCity, .callback = NULL };
+
+// Kanto Saffron: the Saffron Dojo's one hall (FireRed's Fighting Dojo, built out, with Sabrina's Gym in its east end)
+const struct Tileset gTileset_KantoSaffronDojo = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoSaffronDojo, .palettes = gTilesetPalettes_KantoSaffronDojo, .metatiles = gMetatiles_KantoSaffronDojo, .metatileAttributes = gMetatileAttributes_KantoSaffronDojo, .callback = NULL };
+
+// Kanto Saffron: Silph's research lab (FireRed's Cinnabar Lab experiment room)
+const struct Tileset gTileset_KantoSaffronSilphLab = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoSaffronSilphLab, .palettes = gTilesetPalettes_KantoSaffronSilphLab, .metatiles = gMetatiles_KantoSaffronSilphLab, .metatileAttributes = gMetatileAttributes_KantoSaffronSilphLab, .callback = NULL };

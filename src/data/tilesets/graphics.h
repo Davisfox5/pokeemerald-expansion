@@ -3404,7 +3404,7 @@ const u16 gTilesetPalettes_KantoSaffronPrimary[][16] = {
     INCGFX_U16("data/tilesets/primary/kanto_saffron/palettes/15.pal", ".gbapal"),
 };
 
-// Kanto Saffron City: one native map; secondary tileset, the station and the Psychic Dojo plate.
+// Kanto Saffron City: one native map; secondary tileset, its new buildings, props and lawns.
 const u32 gTilesetTiles_KantoSaffronCity[] = INCGFX_U32("data/tilesets/secondary/kanto_saffron_city/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_KantoSaffronCity[][16] = {
     INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/00.pal", ".gbapal"),
@@ -3423,4 +3423,46 @@ const u16 gTilesetPalettes_KantoSaffronCity[][16] = {
     INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/13.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/14.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/kanto_saffron_city/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Saffron: the Saffron Dojo's one hall (FireRed's Fighting Dojo, built out, with Sabrina's Gym in its east end); secondary tileset.
+const u32 gTilesetTiles_KantoSaffronDojo[] = INCGFX_U32("data/tilesets/secondary/kanto_saffron_dojo/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoSaffronDojo[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_dojo/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Saffron: Silph's research lab (FireRed's Cinnabar Lab experiment room); secondary tileset.
+const u32 gTilesetTiles_KantoSaffronSilphLab[] = INCGFX_U32("data/tilesets/secondary/kanto_saffron_silph_lab/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoSaffronSilphLab[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/15.pal", ".gbapal"),
 };
