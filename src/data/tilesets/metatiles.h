@@ -461,3 +461,11 @@ const u16 gMetatileAttributes_OlivinePrimary[] = INCBIN_U16("data/tilesets/prima
 // Olivine City
 const u16 gMetatiles_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/olivine_city/metatiles.bin");
 const u16 gMetatileAttributes_OlivineCity[] = INCBIN_U16("data/tilesets/secondary/olivine_city/metatile_attributes.bin");
+
+// Kanto Saffron City
+const u16 gMetatiles_KantoSaffronPrimary[] = INCBIN_U16("data/tilesets/primary/kanto_saffron/metatiles.bin");
+const u16 gMetatileAttributes_KantoSaffronPrimary[] = INCBIN_U16("data/tilesets/primary/kanto_saffron/metatile_attributes.bin");
+
+// Kanto Saffron City
+const u16 gMetatiles_KantoSaffronCity[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_city/metatiles.bin");
+const u16 gMetatileAttributes_KantoSaffronCity[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_city/metatile_attributes.bin");

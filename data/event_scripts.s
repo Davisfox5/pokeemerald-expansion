@@ -1856,3 +1856,11 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/OlivineCenterUpstairs/scripts.inc"
 
 .include "data/maps/OlivineMart/scripts.inc"
+
+.include "data/maps/KantoSaffronCity/scripts.inc"
+
+.include "data/maps/KantoSaffronPokemonCenter/scripts.inc"
+
+.include "data/maps/KantoSaffronCenterUpstairs/scripts.inc"
+
+.include "data/maps/KantoSaffronMart/scripts.inc"
