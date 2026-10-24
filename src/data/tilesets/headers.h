@@ -1595,3 +1595,6 @@ const struct Tileset gTileset_Route43Primary = { .isCompressed = TRUE, .isSecond
 
 // Route 43 (secondary)
 const struct Tileset gTileset_Route43 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route43, .palettes = gTilesetPalettes_Route43, .metatiles = gMetatiles_Route43, .metatileAttributes = gMetatileAttributes_Route43, .callback = NULL };
+
+// Lake of Rage (secondary)
+const struct Tileset gTileset_LakeOfRage = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_LakeOfRage, .palettes = gTilesetPalettes_LakeOfRage, .metatiles = gMetatiles_LakeOfRage, .metatileAttributes = gMetatileAttributes_LakeOfRage, .callback = NULL };

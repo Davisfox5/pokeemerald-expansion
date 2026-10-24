@@ -461,3 +461,7 @@ const u16 gMetatileAttributes_Route43Primary[] = INCBIN_U16("data/tilesets/prima
 // Route 43 (secondary)
 const u16 gMetatiles_Route43[] = INCBIN_U16("data/tilesets/secondary/route_43/metatiles.bin");
 const u16 gMetatileAttributes_Route43[] = INCBIN_U16("data/tilesets/secondary/route_43/metatile_attributes.bin");
+
+// Lake of Rage (secondary)
+const u16 gMetatiles_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/lake_of_rage/metatiles.bin");
+const u16 gMetatileAttributes_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/lake_of_rage/metatile_attributes.bin");

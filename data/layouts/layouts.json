@@ -9550,6 +9550,17 @@
       "border_filepath": "data/layouts/Route43/border.bin",
       "blockdata_filepath": "data/layouts/Route43/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LAKE_OF_RAGE",
+      "name": "LakeOfRage_Layout",
+      "width": 96,
+      "height": 64,
+      "primary_tileset": "gTileset_Route43Primary",
+      "secondary_tileset": "gTileset_LakeOfRage",
+      "border_filepath": "data/layouts/LakeOfRage/border.bin",
+      "blockdata_filepath": "data/layouts/LakeOfRage/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
