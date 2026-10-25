@@ -1850,3 +1850,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/LakeOfRage/scripts.inc"
 
 .include "data/maps/Route44/scripts.inc"
+
+.include "data/maps/Route42/scripts.inc"
