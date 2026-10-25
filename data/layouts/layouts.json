@@ -9413,7 +9413,7 @@
     {
       "id": "LAYOUT_CHERRYGROVE_ROUTE30_APPROACH",
       "name": "CherrygroveRoute30Approach_Layout",
-      "width": 36,
+      "width": 37,
       "height": 104,
       "primary_tileset": "gTileset_CherrygroveRoute30Primary",
       "secondary_tileset": "gTileset_Route30Hgss",
