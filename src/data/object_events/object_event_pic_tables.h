@@ -2542,3 +2542,6 @@ static const struct SpriteFrameImage sPicTable_RegionalUnova[] = {
     overworld_ascending_frames(gObjectEventPic_RegionalUnova, 4, 4),
 };
 // END REGIONAL COMPARISON IMPORT
+
+static const struct SpriteFrameImage sPicTable_EcruteakHeritageShrine[] = { obj_frame_tiles(gObjectEventPic_EcruteakHeritageShrine) };
+static const struct SpriteFrameImage sPicTable_EcruteakHeritageCounter[] = { obj_frame_tiles(gObjectEventPic_EcruteakHeritageCounter) };
