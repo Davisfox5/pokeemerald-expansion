@@ -9401,10 +9401,10 @@
     {
       "id": "LAYOUT_CHERRYGROVE_ROUTE29_APPROACH",
       "name": "CherrygroveRoute29Approach_Layout",
-      "width": 98,
-      "height": 48,
+      "width": 102,
+      "height": 35,
       "primary_tileset": "gTileset_CherrygrovePrimary",
-      "secondary_tileset": "gTileset_ClaudeRoute29",
+      "secondary_tileset": "gTileset_Route29Hgss",
       "border_filepath": "data/layouts/CherrygroveRoute29Approach/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveRoute29Approach/map.bin",
       "build_target": "emerald",
