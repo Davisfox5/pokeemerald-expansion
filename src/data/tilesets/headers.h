@@ -1582,6 +1582,8 @@ const struct Tileset gTileset_ClaudeRoute30 = { .isCompressed = TRUE, .isSeconda
 const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_NewBark, .palettes = gTilesetPalettes_NewBark, .metatiles = gMetatiles_NewBark, .metatileAttributes = gMetatileAttributes_NewBark, .callback = NULL };
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
+const struct Tileset gTileset_Routes3839CompletePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Routes3839CompletePrimary, .palettes = gTilesetPalettes_Routes3839CompletePrimary, .metatiles = gMetatiles_Routes3839CompletePrimary, .metatileAttributes = gMetatileAttributes_Routes3839CompletePrimary, .callback = NULL };
+const struct Tileset gTileset_Routes3839Complete = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Routes3839Complete, .palettes = gTilesetPalettes_Routes3839Complete, .metatiles = gMetatiles_Routes3839Complete, .metatileAttributes = gMetatileAttributes_Routes3839Complete, .callback = NULL };
 // End Claude routes
 
 

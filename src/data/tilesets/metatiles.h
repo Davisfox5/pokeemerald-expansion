@@ -513,3 +513,7 @@ const u16 gMetatileAttributes_EcruteakTemplePrimary[] = INCBIN_U16("data/tileset
 // Ecruteak native exterior
 const u16 gMetatiles_EcruteakTemple[] = INCBIN_U16("data/tilesets/secondary/ecruteak_temple/metatiles.bin");
 const u16 gMetatileAttributes_EcruteakTemple[] = INCBIN_U16("data/tilesets/secondary/ecruteak_temple/metatile_attributes.bin");
+const u16 gMetatiles_Routes3839CompletePrimary[] = INCBIN_U16("data/tilesets/primary/routes3839_complete/metatiles.bin");
+const u16 gMetatileAttributes_Routes3839CompletePrimary[] = INCBIN_U16("data/tilesets/primary/routes3839_complete/metatile_attributes.bin");
+const u16 gMetatiles_Routes3839Complete[] = INCBIN_U16("data/tilesets/secondary/routes3839_complete/metatiles.bin");
+const u16 gMetatileAttributes_Routes3839Complete[] = INCBIN_U16("data/tilesets/secondary/routes3839_complete/metatile_attributes.bin");
