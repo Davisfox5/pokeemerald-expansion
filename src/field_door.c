@@ -427,6 +427,7 @@ static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7
 
 
 
+
 // HGSS Pallet doors: fitted to the receiving facade, including its actual ground.
 extern const struct Tileset gTileset_ApocPallet;
 static const u8 sPalletHgssDoor0[] = INCBIN_U8("graphics/door_anims/pallet_hgss/0.4bpp");
