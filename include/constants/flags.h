@@ -2455,4 +2455,5 @@
 
 #define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Apocrypha: Route 29 lookout Potion (design bible: the route's one hidden item)
 #define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Existing Route 29 hidden Potion
+#define FLAG_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Route 29 Potion: HGSS item ball (obj_R29_monstarball); the same flag as the former hidden Potion
 #endif // GUARD_CONSTANTS_FLAGS_H
