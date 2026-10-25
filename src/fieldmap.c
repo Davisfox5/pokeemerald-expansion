@@ -50,9 +50,19 @@ static const struct MapConnection *GetIncomingConnection(enum Connection directi
 static bool8 IsPosInIncomingConnectingMap(enum Connection direction, s32 x, s32 y, const struct MapConnection *connection);
 static bool8 IsCoordInIncomingConnectingMap(s32 coord, s32 srcMax, s32 destMax, s32 offset);
 
+// Pallet has a southern inlet; its camera border preserves the coastline.
+static const u16 sPalletCameraBorder[] = INCBIN_U16("data/layouts/ApocPalletTown/camera_border.bin");
+
 static inline u16 GetBorderBlockAt(int x, int y)
 {
     const struct MapLayout *mapLayout = gMapHeader.mapLayout;
+
+    if (gMapHeader.mapLayoutId == LAYOUT_APOC_PALLET_TOWN)
+    {
+        u32 bx = (x - MAP_OFFSET + 64) % 64;
+        u32 by = (y - MAP_OFFSET + 64) % 64;
+        return sPalletCameraBorder[by * 64 + bx] | MAPGRID_IMPASSABLE;
+    }
 
     if (mapLayout->isFrlg)
     {
