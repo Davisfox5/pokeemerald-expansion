@@ -425,7 +425,7 @@ static const u8 sKantoSaffronDoorPal_Sliding[] = {10, 10, 11, 11, 10, 10, 11, 11
 // End Kanto Saffron doors
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
-    {.metatileNum=131, .tileset=&gTileset_KantoSaffronPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_1x1, .tiles=sKantoSaffronDoor_Sliding, .palettes=sKantoSaffronDoorPal_Sliding},
+    {.metatileNum=133, .tileset=&gTileset_KantoSaffronPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_1x1, .tiles=sKantoSaffronDoor_Sliding, .palettes=sKantoSaffronDoorPal_Sliding},
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
     {.metatileNum=753, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_1, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_1},
     {.metatileNum=767, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_2, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_2},
