@@ -668,3 +668,7 @@ const u16 gObjectEventPal_RegionalSinnoh[] = INCGFX_U16("graphics/object_events/
 const u32 gObjectEventPic_RegionalUnova[] = INCGFX_U32("graphics/object_events/pics/people/regional/unova.png", ".4bpp", "-mwidth 4 -mheight 4");
 const u16 gObjectEventPal_RegionalUnova[] = INCGFX_U16("graphics/object_events/palettes/regional_unova.pal", ".gbapal");
 // END REGIONAL COMPARISON IMPORT
+
+const u32 gObjectEventPic_EcruteakHeritageShrine[] = INCGFX_U32("graphics/object_events/pics/ecruteak/heritage-shrine.png", ".4bpp");
+const u32 gObjectEventPic_EcruteakHeritageCounter[] = INCGFX_U32("graphics/object_events/pics/ecruteak/offering-counter.png", ".4bpp");
+const u16 gObjectEventPal_EcruteakHeritage[] = INCGFX_U16("graphics/object_events/palettes/ecruteak_heritage.pal", ".gbapal");
