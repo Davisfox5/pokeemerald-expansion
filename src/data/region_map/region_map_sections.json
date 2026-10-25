@@ -1770,6 +1770,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_42",
+      "name": "ROUTE 42",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1
     }
   ]
 }

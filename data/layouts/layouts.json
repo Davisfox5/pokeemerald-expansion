@@ -9572,6 +9572,17 @@
       "border_filepath": "data/layouts/Route44/border.bin",
       "blockdata_filepath": "data/layouts/Route44/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE42",
+      "name": "Route42_Layout",
+      "width": 96,
+      "height": 32,
+      "primary_tileset": "gTileset_MahoganyPrimary",
+      "secondary_tileset": "gTileset_Route42",
+      "border_filepath": "data/layouts/Route42/border.bin",
+      "blockdata_filepath": "data/layouts/Route42/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

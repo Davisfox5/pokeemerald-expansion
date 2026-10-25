@@ -15,6 +15,7 @@ static inline enum Region GetRegionForSectionId(u32 sectionId)
     case MAPSEC_JOHTO_ROUTE_43: return REGION_JOHTO;
     case MAPSEC_LAKE_OF_RAGE: return REGION_JOHTO;
     case MAPSEC_JOHTO_ROUTE_44: return REGION_JOHTO;
+    case MAPSEC_JOHTO_ROUTE_42: return REGION_JOHTO;
     case MAPSEC_CHERRYGROVE_CITY: return REGION_JOHTO;
     case MAPSEC_DARK_CAVE: return REGION_JOHTO;
     case MAPSEC_JOHTO_ROUTE_31: return REGION_JOHTO;
