@@ -1583,3 +1583,45 @@ const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
+
+const struct Tileset gTileset_PalletOutdoor = {
+    .isCompressed = TRUE, .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PalletOutdoor, .palettes = gTilesetPalettes_PalletOutdoor,
+    .metatiles = gMetatiles_PalletOutdoor, .metatileAttributes = gMetatileAttributes_PalletOutdoor,
+    .callback = InitTilesetAnim_General_Frlg,
+};
+
+const struct Tileset gTileset_ApocPallet = {
+    .isCompressed = TRUE, .isSecondary = TRUE,
+    .tiles = gTilesetTiles_ApocPallet, .palettes = gTilesetPalettes_ApocPallet,
+    .metatiles = gMetatiles_ApocPallet, .metatileAttributes = gMetatileAttributes_ApocPallet,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PalletIndoor = {
+    .isCompressed = TRUE, .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PalletIndoor, .palettes = gTilesetPalettes_PalletIndoor,
+    .metatiles = gMetatiles_PalletIndoor, .metatileAttributes = gMetatileAttributes_PalletIndoor,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PalletRedHouse = {
+    .isCompressed = TRUE, .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PalletRedHouse, .palettes = gTilesetPalettes_PalletRedHouse,
+    .metatiles = gMetatiles_PalletRedHouse, .metatileAttributes = gMetatileAttributes_PalletRedHouse,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PalletOakHouse = {
+    .isCompressed = TRUE, .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PalletOakHouse, .palettes = gTilesetPalettes_PalletOakHouse,
+    .metatiles = gMetatiles_PalletOakHouse, .metatileAttributes = gMetatileAttributes_PalletOakHouse,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PalletLab = {
+    .isCompressed = TRUE, .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PalletLab, .palettes = gTilesetPalettes_PalletLab,
+    .metatiles = gMetatiles_PalletLab, .metatileAttributes = gMetatileAttributes_PalletLab,
+    .callback = NULL,
+};

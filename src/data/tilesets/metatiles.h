@@ -445,3 +445,21 @@ const u16 gMetatileAttributes_Route31[] = INCBIN_U16("data/tilesets/secondary/ro
 const u16 gMetatiles_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatiles.bin");
 const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secondary/violet_entrance/metatile_attributes.bin");
 // End Claude routes
+
+const u16 gMetatiles_PalletOutdoor[] = INCBIN_U16("data/tilesets/primary/palletoutdoor/metatiles.bin");
+const u16 gMetatileAttributes_PalletOutdoor[] = INCBIN_U16("data/tilesets/primary/palletoutdoor/metatile_attributes.bin");
+
+const u16 gMetatiles_ApocPallet[] = INCBIN_U16("data/tilesets/secondary/pallettown/metatiles.bin");
+const u16 gMetatileAttributes_ApocPallet[] = INCBIN_U16("data/tilesets/secondary/pallettown/metatile_attributes.bin");
+
+const u16 gMetatiles_PalletIndoor[] = INCBIN_U16("data/tilesets/primary/palletindoor/metatiles.bin");
+const u16 gMetatileAttributes_PalletIndoor[] = INCBIN_U16("data/tilesets/primary/palletindoor/metatile_attributes.bin");
+
+const u16 gMetatiles_PalletRedHouse[] = INCBIN_U16("data/tilesets/secondary/palletredhouse/metatiles.bin");
+const u16 gMetatileAttributes_PalletRedHouse[] = INCBIN_U16("data/tilesets/secondary/palletredhouse/metatile_attributes.bin");
+
+const u16 gMetatiles_PalletOakHouse[] = INCBIN_U16("data/tilesets/secondary/palletoakhouse/metatiles.bin");
+const u16 gMetatileAttributes_PalletOakHouse[] = INCBIN_U16("data/tilesets/secondary/palletoakhouse/metatile_attributes.bin");
+
+const u16 gMetatiles_PalletLab[] = INCBIN_U16("data/tilesets/secondary/palletlab/metatiles.bin");
+const u16 gMetatileAttributes_PalletLab[] = INCBIN_U16("data/tilesets/secondary/palletlab/metatile_attributes.bin");

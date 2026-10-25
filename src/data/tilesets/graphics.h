@@ -3298,3 +3298,129 @@ INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/14.pal", ".gbapal")
 INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/15.pal", ".gbapal"),
 };
 // End Claude routes
+
+// Pallet: lossless FRLG native assets, Emerald bank ownership.
+const u32 gTilesetTiles_PalletOutdoor[] = INCGFX_U32("data/tilesets/primary/palletoutdoor/tiles.png", ".4bpp.smol");
+const u16 gTilesetPalettes_PalletOutdoor[][16] = {
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletoutdoor/palettes/15.pal", ".gbapal"),
+};
+
+// Pallet: lossless FRLG native assets, Emerald bank ownership.
+const u32 gTilesetTiles_ApocPallet[] = INCGFX_U32("data/tilesets/secondary/pallettown/tiles.png", ".4bpp.smol");
+const u16 gTilesetPalettes_ApocPallet[][16] = {
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/pallettown/palettes/15.pal", ".gbapal"),
+};
+
+// Pallet: lossless FRLG native assets, Emerald bank ownership.
+const u32 gTilesetTiles_PalletIndoor[] = INCGFX_U32("data/tilesets/primary/palletindoor/tiles.png", ".4bpp.smol");
+const u16 gTilesetPalettes_PalletIndoor[][16] = {
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/palletindoor/palettes/15.pal", ".gbapal"),
+};
+
+// Pallet: lossless FRLG native assets, Emerald bank ownership.
+const u32 gTilesetTiles_PalletRedHouse[] = INCGFX_U32("data/tilesets/secondary/palletredhouse/tiles.png", ".4bpp.smol");
+const u16 gTilesetPalettes_PalletRedHouse[][16] = {
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletredhouse/palettes/15.pal", ".gbapal"),
+};
+
+// Pallet: lossless FRLG native assets, Emerald bank ownership.
+const u32 gTilesetTiles_PalletOakHouse[] = INCGFX_U32("data/tilesets/secondary/palletoakhouse/tiles.png", ".4bpp.smol");
+const u16 gTilesetPalettes_PalletOakHouse[][16] = {
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletoakhouse/palettes/15.pal", ".gbapal"),
+};
+
+// Pallet: lossless FRLG native assets, Emerald bank ownership.
+const u32 gTilesetTiles_PalletLab[] = INCGFX_U32("data/tilesets/secondary/palletlab/tiles.png", ".4bpp.smol");
+const u16 gTilesetPalettes_PalletLab[][16] = {
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/palletlab/palettes/15.pal", ".gbapal"),
+};

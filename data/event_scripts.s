@@ -1834,3 +1834,10 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/CherrygroveRegionalPreview29/scripts.inc"
 
 .include "data/maps/CherrygroveRegionalPreview30/scripts.inc"
+
+@ Pallet Town: fresh Apocrypha events, no FRLG campaign triggers.
+.include "data/maps/ApocPalletTown/scripts.inc"
+.include "data/maps/ApocPalletRedHouse1F/scripts.inc"
+.include "data/maps/ApocPalletRedHouse2F/scripts.inc"
+.include "data/maps/ApocPalletOakHouse/scripts.inc"
+.include "data/maps/ApocPalletLab/scripts.inc"

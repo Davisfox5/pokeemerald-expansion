@@ -418,8 +418,15 @@ extern const struct Tileset gTileset_VioletEntrance;
 static const u8 sJohtoSynthesisDoor_VioletCityEntrance_0[] = INCBIN_U8("graphics/door_anims/johto_synthesis/VioletCityEntrance_0.4bpp");
 static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,7,6,0,0,0,0};
 // End Johto synthesis doors
+extern const struct Tileset gTileset_ApocPallet;
+static const u8 sApocPalletDoorTiles[] = INCGFX_U8("graphics/door_anims/pallet.png", ".4bpp");
+static const u8 sApocPalletLabDoorTiles[] = INCGFX_U8("graphics/door_anims/oaks_lab.png", ".4bpp");
+static const u8 sApocPalletDoorPal[] = {8,8,8,8,8,8,8,8};
+static const u8 sApocPalletLabDoorPal[] = {10,10,10,10,10,10,10,10};
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
+    {.metatileNum=0x2a3, .tileset=&gTileset_ApocPallet, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_1x1, .tiles=sApocPalletDoorTiles, .palettes=sApocPalletDoorPal},
+    {.metatileNum=0x2ac, .tileset=&gTileset_ApocPallet, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_1x1, .tiles=sApocPalletLabDoorTiles, .palettes=sApocPalletLabDoorPal},
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
     {.metatileNum=753, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_1, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_1},
     {.metatileNum=767, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_2, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_2},
