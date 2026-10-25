@@ -9561,6 +9561,39 @@
       "border_filepath": "data/layouts/OlivineCity/border.bin",
       "blockdata_filepath": "data/layouts/OlivineCity/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_SAFFRON_CITY",
+      "name": "KantoSaffronCity_Layout",
+      "width": 66,
+      "height": 55,
+      "primary_tileset": "gTileset_KantoSaffronPrimary",
+      "secondary_tileset": "gTileset_KantoSaffronCity",
+      "border_filepath": "data/layouts/KantoSaffronCity/border.bin",
+      "blockdata_filepath": "data/layouts/KantoSaffronCity/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_SAFFRON_DOJO",
+      "name": "KantoSaffronDojo_Layout",
+      "width": 25,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoSaffronDojo",
+      "border_filepath": "data/layouts/KantoSaffronDojo/border.bin",
+      "blockdata_filepath": "data/layouts/KantoSaffronDojo/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_SAFFRON_SILPH_LAB",
+      "name": "KantoSaffronSilphLab_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoSaffronSilphLab",
+      "border_filepath": "data/layouts/KantoSaffronSilphLab/border.bin",
+      "blockdata_filepath": "data/layouts/KantoSaffronSilphLab/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
