@@ -415,6 +415,8 @@ void CameraUpdateNoObjectRefresh(void)
         CameraMove(deltaX, deltaY);
         AddCameraTileOffset(&sFieldCameraOffset, deltaX * 2, deltaY * 2);
         RedrawMapSlicesForCameraUpdate(&sFieldCameraOffset, deltaX * 2, deltaY * 2);
+        if (TakeTransitionRedraw())
+            DrawWholeMapView();
     }
 
     AddCameraPixelOffset(&sFieldCameraOffset, movementSpeedX, movementSpeedY);
@@ -481,6 +483,8 @@ void CameraUpdate(void)
         SetBerryTreesSeen();
         AddCameraTileOffset(&sFieldCameraOffset, deltaX * 2, deltaY * 2);
         RedrawMapSlicesForCameraUpdate(&sFieldCameraOffset, deltaX * 2, deltaY * 2);
+        if (TakeTransitionRedraw())
+            DrawWholeMapView();
         TryDespawnOWEsCrossingMapConnection();
     }
 

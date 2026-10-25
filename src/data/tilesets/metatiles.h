@@ -447,5 +447,9 @@ const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secon
 // End Claude routes
 const u16 gMetatiles_Route30Hgss[] = INCBIN_U16("data/tilesets/secondary/route30_hgss/metatiles.bin");
 const u16 gMetatileAttributes_Route30Hgss[] = INCBIN_U16("data/tilesets/secondary/route30_hgss/metatile_attributes.bin");
-const u16 gMetatiles_Route30Route31Primary[] = INCBIN_U16("data/tilesets/primary/route30_31/metatiles.bin");
-const u16 gMetatileAttributes_Route30Route31Primary[] = INCBIN_U16("data/tilesets/primary/route30_31/metatile_attributes.bin");
+const u16 gMetatiles_CherrygroveRoute30Primary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_route30/metatiles.bin");
+const u16 gMetatileAttributes_CherrygroveRoute30Primary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_route30/metatile_attributes.bin");
+const u16 gMetatiles_CherrygroveRoute31Primary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_route31/metatiles.bin");
+const u16 gMetatileAttributes_CherrygroveRoute31Primary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_route31/metatile_attributes.bin");
+const u16 gMetatiles_Route31Hgss[] = INCBIN_U16("data/tilesets/secondary/route31_hgss/metatiles.bin");
+const u16 gMetatileAttributes_Route31Hgss[] = INCBIN_U16("data/tilesets/secondary/route31_hgss/metatile_attributes.bin");
