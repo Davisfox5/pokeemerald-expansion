@@ -421,7 +421,7 @@ static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7
 // Kanto Saffron doors: FireRed's sliding door, on the Center and the Mart
 extern const struct Tileset gTileset_KantoSaffronPrimary;
 static const u8 sKantoSaffronDoor_Sliding[] = INCGFX_U8("graphics/door_anims/kanto_saffron_sliding.png", ".4bpp");
-static const u8 sKantoSaffronDoorPal_Sliding[] = {6, 6, 6, 6, 6, 6, 6, 6};
+static const u8 sKantoSaffronDoorPal_Sliding[] = {8, 8, 8, 8, 8, 8, 8, 8};
 // End Kanto Saffron doors
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
