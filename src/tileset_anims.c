@@ -583,6 +583,12 @@ void InitSecondaryTilesetAnimation(void)
     _InitSecondaryTilesetAnimation();
 }
 
+// Apocrypha: a connected map on another primary tileset starts that tileset's animation.
+void InitPrimaryTilesetAnimation(void)
+{
+    _InitPrimaryTilesetAnimation();
+}
+
 void UpdateTilesetAnimations(void)
 {
     ResetTilesetAnimBuffer();

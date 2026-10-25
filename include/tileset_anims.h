@@ -3,6 +3,7 @@
 
 void InitTilesetAnimations(void);
 void InitSecondaryTilesetAnimation(void);
+void InitPrimaryTilesetAnimation(void);
 void UpdateTilesetAnimations(void);
 void TransferTilesetAnimsBuffer(void);
 

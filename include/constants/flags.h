@@ -2435,6 +2435,9 @@
 #define FLAG_WORLD_MAP_BIRTH_ISLAND_EXTERIOR                        0
 
 #define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Apocrypha: Route 29 lookout Potion (design bible: the route's one hidden item)
+#define FLAG_ITEM_APOC_ROUTE30_ANTIDOTE FLAG_UNUSED_0x265 // Route 30: ITEM_ANTIDOTE (JOHTO_ITEMS.md, HGSS item ball)
+#define FLAG_ITEM_APOC_ROUTE30_POTION FLAG_UNUSED_0x266 // Route 30: ITEM_POTION (JOHTO_ITEMS.md, HGSS item ball)
+#define FLAG_HIDDEN_ITEM_APOC_ROUTE30_POTION FLAG_UNUSED_0x267 // Route 30: ITEM_POTION (JOHTO_ITEMS.md, HGSS hidden item)
 #define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Existing Route 29 hidden Potion
 #endif
 

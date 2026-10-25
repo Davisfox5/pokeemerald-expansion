@@ -872,6 +872,8 @@ bool8 SetDiveWarpDive(u16 x, u16 y)
 
 void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
 {
+    const struct Tileset *prevPrimary = gMapHeader.mapLayout->primaryTileset;
+
     SetWarpDestination(mapGroup, mapNum, WARP_ID_NONE, -1, -1);
 
     // Dont transition map music between BF Outside West/East
@@ -900,6 +902,14 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
     InitMap();
+    // Apocrypha: a map on another primary tileset brings its own primary tiles and palettes.
+    if (gMapHeader.mapLayout->primaryTileset != prevPrimary)
+    {
+        CopyPrimaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
+        LoadPrimaryTilesetPaletteSkipFaded(gMapHeader.mapLayout);
+        ApplyWeatherColorMapToPals(0, GetNumPalsInPrimary(gMapHeader.mapLayout));
+        InitPrimaryTilesetAnimation();
+    }
     CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
     LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
 
