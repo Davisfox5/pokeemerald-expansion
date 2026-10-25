@@ -1584,11 +1584,12 @@ const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
 
+void InitTilesetAnim_PalletOutdoor(void);
 const struct Tileset gTileset_PalletOutdoor = {
     .isCompressed = TRUE, .isSecondary = FALSE,
     .tiles = gTilesetTiles_PalletOutdoor, .palettes = gTilesetPalettes_PalletOutdoor,
     .metatiles = gMetatiles_PalletOutdoor, .metatileAttributes = gMetatileAttributes_PalletOutdoor,
-    .callback = NULL,
+    .callback = InitTilesetAnim_PalletOutdoor,
 };
 
 const struct Tileset gTileset_ApocPallet = {
@@ -1629,3 +1630,7 @@ const struct Tileset gTileset_PalletLab = {
 const struct Tileset gTileset_PalletBedroom = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_PalletBedroom, .palettes = gTilesetPalettes_PalletBedroom, .metatiles = gMetatiles_PalletBedroom, .metatileAttributes = gMetatileAttributes_PalletBedroom, .callback = NULL };
 
 const struct Tileset gTileset_PalletLabPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_PalletLabPrimary, .palettes = gTilesetPalettes_PalletLabPrimary, .metatiles = gMetatiles_PalletLabPrimary, .metatileAttributes = gMetatileAttributes_PalletLabPrimary, .callback = NULL };
+
+const struct Tileset gTileset_PalletBedroomPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_PalletBedroomPrimary, .palettes=gTilesetPalettes_PalletBedroomPrimary, .metatiles=gMetatiles_PalletBedroomPrimary, .metatileAttributes=gMetatileAttributes_PalletBedroomPrimary, .callback=NULL };
+
+const struct Tileset gTileset_PalletOakPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_PalletOakPrimary, .palettes=gTilesetPalettes_PalletOakPrimary, .metatiles=gMetatiles_PalletOakPrimary, .metatileAttributes=gMetatileAttributes_PalletOakPrimary, .callback=NULL };

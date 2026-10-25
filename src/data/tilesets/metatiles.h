@@ -469,3 +469,9 @@ const u16 gMetatileAttributes_PalletBedroom[] = INCBIN_U16("data/tilesets/second
 
 const u16 gMetatiles_PalletLabPrimary[] = INCBIN_U16("data/tilesets/primary/palletlabprimary/metatiles.bin");
 const u16 gMetatileAttributes_PalletLabPrimary[] = INCBIN_U16("data/tilesets/primary/palletlabprimary/metatile_attributes.bin");
+
+const u16 gMetatiles_PalletBedroomPrimary[] = INCBIN_U16("data/tilesets/primary/palletbedroomprimary/metatiles.bin");
+const u16 gMetatileAttributes_PalletBedroomPrimary[] = INCBIN_U16("data/tilesets/primary/palletbedroomprimary/metatile_attributes.bin");
+
+const u16 gMetatiles_PalletOakPrimary[] = INCBIN_U16("data/tilesets/primary/palletoakprimary/metatiles.bin");
+const u16 gMetatileAttributes_PalletOakPrimary[] = INCBIN_U16("data/tilesets/primary/palletoakprimary/metatile_attributes.bin");

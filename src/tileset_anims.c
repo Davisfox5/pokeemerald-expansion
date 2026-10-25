@@ -1456,3 +1456,33 @@ void InitTilesetAnim_CeladonGym(void)
     sSecondaryTilesetAnimCallback = TilesetAnim_CeladonGym;
 }
 
+// BEGIN PALLET WATER
+#include "../data/tilesets/primary/palletoutdoor/water_animation.inc"
+static void TilesetAnim_PalletOutdoor(u16 timer)
+{
+    u16 frame = (timer / 8) % 8;
+    if (timer % 8 != 0) return;
+    AppendTilesetAnimToBuffer(sPalletWater54[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(54)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater55[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(55)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater56[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(56)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater57[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(57)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater58[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(58)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater59[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(59)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater60[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(60)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater61[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(61)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater837[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(837)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater840[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(840)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater841[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(841)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater843[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(843)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater852[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(852)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater853[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(853)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater854[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(854)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater855[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(855)), TILE_SIZE_4BPP);
+}
+void InitTilesetAnim_PalletOutdoor(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 64;
+    sPrimaryTilesetAnimCallback = TilesetAnim_PalletOutdoor;
+}
+// END PALLET WATER
