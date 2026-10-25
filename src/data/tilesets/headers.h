@@ -1588,7 +1588,7 @@ const struct Tileset gTileset_PalletOutdoor = {
     .isCompressed = TRUE, .isSecondary = FALSE,
     .tiles = gTilesetTiles_PalletOutdoor, .palettes = gTilesetPalettes_PalletOutdoor,
     .metatiles = gMetatiles_PalletOutdoor, .metatileAttributes = gMetatileAttributes_PalletOutdoor,
-    .callback = InitTilesetAnim_General_Frlg,
+    .callback = NULL,
 };
 
 const struct Tileset gTileset_ApocPallet = {
@@ -1625,3 +1625,7 @@ const struct Tileset gTileset_PalletLab = {
     .metatiles = gMetatiles_PalletLab, .metatileAttributes = gMetatileAttributes_PalletLab,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_PalletBedroom = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_PalletBedroom, .palettes = gTilesetPalettes_PalletBedroom, .metatiles = gMetatiles_PalletBedroom, .metatileAttributes = gMetatileAttributes_PalletBedroom, .callback = NULL };
+
+const struct Tileset gTileset_PalletLabPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_PalletLabPrimary, .palettes = gTilesetPalettes_PalletLabPrimary, .metatiles = gMetatiles_PalletLabPrimary, .metatileAttributes = gMetatileAttributes_PalletLabPrimary, .callback = NULL };
