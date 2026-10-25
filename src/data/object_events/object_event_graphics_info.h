@@ -7351,3 +7351,20 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalUnova = {
     .images = sPicTable_RegionalUnova,
 };
 // END REGIONAL COMPARISON IMPORT
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EcruteakHeritageShrine = {
+ .tileTag=TAG_NONE, .paletteTag=OBJ_EVENT_PAL_TAG_ECRUTEAK_HERITAGE,
+ .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE, .size=2048, .width=64, .height=64,
+ .paletteSlot=PALSLOT_NPC_1, .shadowSize=SHADOW_SIZE_S, .inanimate=TRUE,
+ .compressed=FALSE, .tracks=TRACKS_NONE, .oam=&gObjectEventBaseOam_64x64,
+ .subspriteTables=NULL, .anims=sAnimTable_Inanimate, .images=sPicTable_EcruteakHeritageShrine,
+ .affineAnims=gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EcruteakHeritageCounter = {
+ .tileTag=TAG_NONE, .paletteTag=OBJ_EVENT_PAL_TAG_ECRUTEAK_HERITAGE,
+ .reflectionPaletteTag=OBJ_EVENT_PAL_TAG_NONE, .size=256, .width=32, .height=16,
+ .paletteSlot=PALSLOT_NPC_1, .shadowSize=SHADOW_SIZE_S, .inanimate=TRUE,
+ .compressed=FALSE, .tracks=TRACKS_NONE, .oam=&gObjectEventBaseOam_32x16,
+ .subspriteTables=NULL, .anims=sAnimTable_Inanimate, .images=sPicTable_EcruteakHeritageCounter,
+ .affineAnims=gDummySpriteAffineAnimTable,
+};

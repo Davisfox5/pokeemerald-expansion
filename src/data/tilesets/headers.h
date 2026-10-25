@@ -1583,3 +1583,73 @@ const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = T
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
 // End Claude routes
+
+
+
+
+
+// Route32 HGSS reconstruction
+const struct Tileset gTileset_Route32 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route32, .palettes = gTilesetPalettes_Route32, .metatiles = gMetatiles_Route32, .metatileAttributes = gMetatileAttributes_Route32, .callback = NULL };
+
+// Route32 reviewed-grid local primary
+const struct Tileset gTileset_Route32Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route32Primary, .palettes = gTilesetPalettes_Route32Primary, .metatiles = gMetatiles_Route32Primary, .metatileAttributes = gMetatileAttributes_Route32Primary, .callback = InitTilesetAnim_CherrygrovePrimary };
+
+// Union Cave 1F Primary
+const struct Tileset gTileset_UnionCavePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_UnionCavePrimary, .palettes = gTilesetPalettes_UnionCavePrimary, .metatiles = gMetatiles_UnionCavePrimary, .metatileAttributes = gMetatileAttributes_UnionCavePrimary, .callback = NULL };
+
+// Union Cave 1F Secondary
+const struct Tileset gTileset_UnionCaveSecondary = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_UnionCaveSecondary, .palettes = gTilesetPalettes_UnionCaveSecondary, .metatiles = gMetatiles_UnionCaveSecondary, .metatileAttributes = gMetatileAttributes_UnionCaveSecondary, .callback = NULL };
+
+// Union Cave b1f Primary
+const struct Tileset gTileset_UnionCaveB1FPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnionCaveB1FPrimary, .palettes=gTilesetPalettes_UnionCaveB1FPrimary, .metatiles=gMetatiles_UnionCaveB1FPrimary, .metatileAttributes=gMetatileAttributes_UnionCaveB1FPrimary, .callback=NULL };
+
+// Union Cave b1f Secondary
+const struct Tileset gTileset_UnionCaveB1FSecondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnionCaveB1FSecondary, .palettes=gTilesetPalettes_UnionCaveB1FSecondary, .metatiles=gMetatiles_UnionCaveB1FSecondary, .metatileAttributes=gMetatileAttributes_UnionCaveB1FSecondary, .callback=NULL };
+
+// Union Cave b2f Primary
+const struct Tileset gTileset_UnionCaveB2FPrimary = { .isCompressed=TRUE, .isSecondary=FALSE, .tiles=gTilesetTiles_UnionCaveB2FPrimary, .palettes=gTilesetPalettes_UnionCaveB2FPrimary, .metatiles=gMetatiles_UnionCaveB2FPrimary, .metatileAttributes=gMetatileAttributes_UnionCaveB2FPrimary, .callback=NULL };
+
+// Union Cave b2f Secondary
+const struct Tileset gTileset_UnionCaveB2FSecondary = { .isCompressed=TRUE, .isSecondary=TRUE, .tiles=gTilesetTiles_UnionCaveB2FSecondary, .palettes=gTilesetPalettes_UnionCaveB2FSecondary, .metatiles=gMetatiles_UnionCaveB2FSecondary, .metatileAttributes=gMetatileAttributes_UnionCaveB2FSecondary, .callback=NULL };
+
+// Route33 HGSS native area
+const struct Tileset gTileset_Route33Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route33Primary, .palettes = gTilesetPalettes_Route33Primary, .metatiles = gMetatiles_Route33Primary, .metatileAttributes = gMetatileAttributes_Route33Primary, .callback = NULL };
+
+// Route33 HGSS native area
+const struct Tileset gTileset_Route33 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route33, .palettes = gTilesetPalettes_Route33, .metatiles = gMetatiles_Route33, .metatileAttributes = gMetatileAttributes_Route33, .callback = NULL };
+
+// Azalea native exterior
+const struct Tileset gTileset_AzaleaPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_AzaleaPrimary, .palettes = gTilesetPalettes_AzaleaPrimary, .metatiles = gMetatiles_AzaleaPrimary, .metatileAttributes = gMetatileAttributes_AzaleaPrimary, .callback = NULL };
+
+// Azalea native exterior
+const struct Tileset gTileset_Azalea = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Azalea, .palettes = gTilesetPalettes_Azalea, .metatiles = gMetatiles_Azalea, .metatileAttributes = gMetatileAttributes_Azalea, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakCityPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_EcruteakCityPrimary, .palettes = gTilesetPalettes_EcruteakCityPrimary, .metatiles = gMetatiles_EcruteakCityPrimary, .metatileAttributes = gMetatileAttributes_EcruteakCityPrimary, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_EcruteakCity, .palettes = gTilesetPalettes_EcruteakCity, .metatiles = gMetatiles_EcruteakCity, .metatileAttributes = gMetatileAttributes_EcruteakCity, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakTemplePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_EcruteakTemplePrimary, .palettes = gTilesetPalettes_EcruteakTemplePrimary, .metatiles = gMetatiles_EcruteakTemplePrimary, .metatileAttributes = gMetatileAttributes_EcruteakTemplePrimary, .callback = NULL };
+
+// Ecruteak native exterior
+const struct Tileset gTileset_EcruteakTemple = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_EcruteakTemple, .palettes = gTilesetPalettes_EcruteakTemple, .metatiles = gMetatiles_EcruteakTemple, .metatileAttributes = gMetatileAttributes_EcruteakTemple, .callback = NULL };
+
+// Routes 38/39 terrain review
+const struct Tileset gTileset_JohtoRoute3839Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoRoute3839Primary, .palettes = gTilesetPalettes_JohtoRoute3839Primary, .metatiles = gMetatiles_JohtoRoute3839Primary, .metatileAttributes = gMetatileAttributes_JohtoRoute3839Primary, .callback = NULL };
+
+// Routes 38/39 terrain review
+const struct Tileset gTileset_JohtoRoute3839 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoRoute3839, .palettes = gTilesetPalettes_JohtoRoute3839, .metatiles = gMetatiles_JohtoRoute3839, .metatileAttributes = gMetatileAttributes_JohtoRoute3839, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839RebuildPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route3839RebuildPrimary, .palettes = gTilesetPalettes_Route3839RebuildPrimary, .metatiles = gMetatiles_Route3839RebuildPrimary, .metatileAttributes = gMetatileAttributes_Route3839RebuildPrimary, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839Rebuild = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route3839Rebuild, .palettes = gTilesetPalettes_Route3839Rebuild, .metatiles = gMetatiles_Route3839Rebuild, .metatileAttributes = gMetatileAttributes_Route3839Rebuild, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839NativePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route3839NativePrimary, .palettes = gTilesetPalettes_Route3839NativePrimary, .metatiles = gMetatiles_Route3839NativePrimary, .metatileAttributes = gMetatileAttributes_Route3839NativePrimary, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839Native = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route3839Native, .palettes = gTilesetPalettes_Route3839Native, .metatiles = gMetatiles_Route3839Native, .metatileAttributes = gMetatileAttributes_Route3839Native, .callback = NULL };

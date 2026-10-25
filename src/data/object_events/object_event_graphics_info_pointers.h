@@ -1,3 +1,5 @@
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EcruteakHeritageShrine;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EcruteakHeritageCounter;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanSurfing;
@@ -414,7 +416,9 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalKan
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalJohto;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalSinnoh;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegionalUnova;
-const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[OBJ_EVENT_GFX_REGIONAL_END] = {
+const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[OBJ_EVENT_GFX_ECRUTEAK_END] = {
+    [OBJ_EVENT_GFX_ECRUTEAK_SHRINE] = &gObjectEventGraphicsInfo_EcruteakHeritageShrine,
+    [OBJ_EVENT_GFX_ECRUTEAK_COUNTER] = &gObjectEventGraphicsInfo_EcruteakHeritageCounter,
     [OBJ_EVENT_GFX_REGIONAL_HOENN] = &gObjectEventGraphicsInfo_RegionalHoenn,
     [OBJ_EVENT_GFX_REGIONAL_KANTO] = &gObjectEventGraphicsInfo_RegionalKanto,
     [OBJ_EVENT_GFX_REGIONAL_JOHTO] = &gObjectEventGraphicsInfo_RegionalJohto,
