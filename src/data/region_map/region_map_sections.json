@@ -1762,6 +1762,14 @@
       "y": 2,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_44",
+      "name": "ROUTE 44",
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1
     }
   ]
 }
