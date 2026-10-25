@@ -1647,3 +1647,9 @@ const struct Tileset gTileset_Route3839RebuildPrimary = { .isCompressed = TRUE, 
 
 // Routes38/39 terrain rebuild
 const struct Tileset gTileset_Route3839Rebuild = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route3839Rebuild, .palettes = gTilesetPalettes_Route3839Rebuild, .metatiles = gMetatiles_Route3839Rebuild, .metatileAttributes = gMetatileAttributes_Route3839Rebuild, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839NativePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route3839NativePrimary, .palettes = gTilesetPalettes_Route3839NativePrimary, .metatiles = gMetatiles_Route3839NativePrimary, .metatileAttributes = gMetatileAttributes_Route3839NativePrimary, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839Native = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route3839Native, .palettes = gTilesetPalettes_Route3839Native, .metatiles = gMetatiles_Route3839Native, .metatileAttributes = gMetatileAttributes_Route3839Native, .callback = NULL };

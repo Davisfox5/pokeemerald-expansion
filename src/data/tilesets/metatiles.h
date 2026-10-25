@@ -529,3 +529,11 @@ const u16 gMetatileAttributes_Route3839RebuildPrimary[] = INCBIN_U16("data/tiles
 // Routes38/39 terrain rebuild
 const u16 gMetatiles_Route3839Rebuild[] = INCBIN_U16("data/tilesets/secondary/route3839_rebuild/metatiles.bin");
 const u16 gMetatileAttributes_Route3839Rebuild[] = INCBIN_U16("data/tilesets/secondary/route3839_rebuild/metatile_attributes.bin");
+
+// Routes38/39 terrain rebuild
+const u16 gMetatiles_Route3839NativePrimary[] = INCBIN_U16("data/tilesets/primary/route3839_native/metatiles.bin");
+const u16 gMetatileAttributes_Route3839NativePrimary[] = INCBIN_U16("data/tilesets/primary/route3839_native/metatile_attributes.bin");
+
+// Routes38/39 terrain rebuild
+const u16 gMetatiles_Route3839Native[] = INCBIN_U16("data/tilesets/secondary/route3839_native/metatiles.bin");
+const u16 gMetatileAttributes_Route3839Native[] = INCBIN_U16("data/tilesets/secondary/route3839_native/metatile_attributes.bin");
