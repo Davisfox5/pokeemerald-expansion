@@ -1641,3 +1641,9 @@ const struct Tileset gTileset_JohtoRoute3839Primary = { .isCompressed = TRUE, .i
 
 // Routes 38/39 terrain review
 const struct Tileset gTileset_JohtoRoute3839 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoRoute3839, .palettes = gTilesetPalettes_JohtoRoute3839, .metatiles = gMetatiles_JohtoRoute3839, .metatileAttributes = gMetatileAttributes_JohtoRoute3839, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839RebuildPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route3839RebuildPrimary, .palettes = gTilesetPalettes_Route3839RebuildPrimary, .metatiles = gMetatiles_Route3839RebuildPrimary, .metatileAttributes = gMetatileAttributes_Route3839RebuildPrimary, .callback = NULL };
+
+// Routes38/39 terrain rebuild
+const struct Tileset gTileset_Route3839Rebuild = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route3839Rebuild, .palettes = gTilesetPalettes_Route3839Rebuild, .metatiles = gMetatiles_Route3839Rebuild, .metatileAttributes = gMetatileAttributes_Route3839Rebuild, .callback = NULL };
