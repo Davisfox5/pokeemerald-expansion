@@ -1462,22 +1462,22 @@ static void TilesetAnim_PalletOutdoor(u16 timer)
 {
     u16 frame = (timer / 8) % 8;
     if (timer % 8 != 0) return;
-    AppendTilesetAnimToBuffer(sPalletWater54[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(54)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater55[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(55)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater56[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(56)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater57[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(57)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater58[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(58)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater59[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(59)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater60[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(60)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater61[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(61)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater837[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(837)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater840[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(840)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater841[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(841)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater843[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(843)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater852[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(852)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater853[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(853)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater854[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(854)), TILE_SIZE_4BPP);
-    AppendTilesetAnimToBuffer(sPalletWater855[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(855)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater162[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(162)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater163[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(163)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater164[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(164)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater165[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(165)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater166[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(166)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater167[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(167)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater168[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(168)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater169[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(169)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater177[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(177)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater178[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(178)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater179[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(179)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater180[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(180)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater181[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(181)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater182[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(182)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater183[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(183)), TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(sPalletWater184[frame], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(184)), TILE_SIZE_4BPP);
 }
 void InitTilesetAnim_PalletOutdoor(void)
 {
