@@ -9561,6 +9561,17 @@
       "border_filepath": "data/layouts/LakeOfRage/border.bin",
       "blockdata_filepath": "data/layouts/LakeOfRage/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE44",
+      "name": "Route44_Layout",
+      "width": 96,
+      "height": 32,
+      "primary_tileset": "gTileset_MahoganyPrimary",
+      "secondary_tileset": "gTileset_Route44",
+      "border_filepath": "data/layouts/Route44/border.bin",
+      "blockdata_filepath": "data/layouts/Route44/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
