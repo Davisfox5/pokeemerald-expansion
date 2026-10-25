@@ -1355,6 +1355,14 @@ static const struct SpriteFrameImage sPicTable_ApricornTree[] = {
     overworld_frame(gObjectEventPic_ApricornTree, 2, 2, 0),
 };
 
+// Pallet actors are used in the Emerald campaign.
+static const struct SpriteFrameImage sPicTable_ProfOak[] = {
+    overworld_ascending_frames(gObjectEventPic_ProfOak, 2, 4),
+};
+static const struct SpriteFrameImage sPicTable_Blue[] = {
+    overworld_ascending_frames(gObjectEventPic_Blue, 2, 4),
+};
+
 #if IS_FRLG
 
 static const struct SpriteFrameImage sPicTable_RedNormal[] = {
@@ -1687,9 +1695,6 @@ static const struct SpriteFrameImage sPicTable_NurseFrlg[] = {
     overworld_frame(gObjectEventPic_NurseFrlg, 2, 4, 3),
 };
 
-static const struct SpriteFrameImage sPicTable_ProfOak[] = {
-    overworld_ascending_frames(gObjectEventPic_ProfOak, 2, 4),
-};
 
 static const struct SpriteFrameImage sPicTable_Man[] = {
     overworld_ascending_frames(gObjectEventPic_Man, 2, 4),
@@ -1925,9 +1930,6 @@ static const struct SpriteFrameImage sPicTable_Lance[] = {
     overworld_frame(gObjectEventPic_Lance, 2, 4, 2),
 };
 
-static const struct SpriteFrameImage sPicTable_Blue[] = {
-    overworld_ascending_frames(gObjectEventPic_Blue, 2, 4),
-};
 
 static const struct SpriteFrameImage sPicTable_TownMap[] = {
     overworld_frame(gObjectEventPic_TownMap, 2, 4, 0),
