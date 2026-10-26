@@ -1868,3 +1868,23 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/KantoSaffronDojo/scripts.inc"
 
 .include "data/maps/KantoSaffronSilphLab/scripts.inc"
+
+.include "data/maps/KantoCeladonCity/scripts.inc"
+
+.include "data/maps/KantoCeladonPokemonCenter/scripts.inc"
+
+.include "data/maps/KantoCeladonCenterUpstairs/scripts.inc"
+
+.include "data/maps/KantoCeladonMarketServices/scripts.inc"
+
+.include "data/maps/KantoCeladonHotelLobby/scripts.inc"
+
+.include "data/maps/KantoCeladonHotelUpstairs/scripts.inc"
+
+.include "data/maps/KantoCeladonGameCorner/scripts.inc"
+
+.include "data/maps/KantoCeladonPrizeRoom/scripts.inc"
+
+.include "data/maps/KantoCeladonGardens/scripts.inc"
+
+.include "data/maps/KantoCeladonCafe/scripts.inc"
