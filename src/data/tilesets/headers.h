@@ -1589,3 +1589,6 @@ const struct Tileset gTileset_BlackthornCity = { .isCompressed = TRUE, .isSecond
 
 // Route 45 (secondary)
 const struct Tileset gTileset_Route45 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route45, .palettes = gTilesetPalettes_Route45, .metatiles = gMetatiles_Route45, .metatileAttributes = gMetatileAttributes_Route45, .callback = NULL };
+
+// Route 46 (secondary)
+const struct Tileset gTileset_Route46 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route46, .palettes = gTilesetPalettes_Route46, .metatiles = gMetatiles_Route46, .metatileAttributes = gMetatileAttributes_Route46, .callback = NULL };

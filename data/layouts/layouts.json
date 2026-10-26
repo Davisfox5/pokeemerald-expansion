@@ -9550,6 +9550,17 @@
       "border_filepath": "data/layouts/Route45/border.bin",
       "blockdata_filepath": "data/layouts/Route45/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE46",
+      "name": "Route46_Layout",
+      "width": 32,
+      "height": 64,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_Route46",
+      "border_filepath": "data/layouts/Route46/border.bin",
+      "blockdata_filepath": "data/layouts/Route46/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
