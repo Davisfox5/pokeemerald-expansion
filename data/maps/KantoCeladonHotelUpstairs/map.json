@@ -1,0 +1,37 @@
+{
+  "id": "MAP_KANTO_CELADON_HOTEL_UPSTAIRS",
+  "name": "KantoCeladonHotelUpstairs",
+  "layout": "LAYOUT_KANTO_CELADON_HOTEL_UPSTAIRS",
+  "music": "MUS_RG_CELADON",
+  "region_map_section": "MAPSEC_CELADON_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 2,
+      "elevation": 3,
+      "dest_map": "MAP_KANTO_CELADON_HOTEL_LOBBY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "elevation": 3,
+      "dest_map": "MAP_KANTO_CELADON_HOTEL_LOBBY",
+      "dest_warp_id": "4"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "build_target": "emerald",
+  "region": "REGION_KANTO"
+}

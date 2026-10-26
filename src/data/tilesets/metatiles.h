@@ -477,3 +477,43 @@ const u16 gMetatileAttributes_KantoSaffronDojo[] = INCBIN_U16("data/tilesets/sec
 // Kanto Saffron: Silph's research lab (FireRed's Cinnabar Lab experiment room)
 const u16 gMetatiles_KantoSaffronSilphLab[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_silph_lab/metatiles.bin");
 const u16 gMetatileAttributes_KantoSaffronSilphLab[] = INCBIN_U16("data/tilesets/secondary/kanto_saffron_silph_lab/metatile_attributes.bin");
+
+// Kanto Celadon: FireRed's Celadon, repacked
+const u16 gMetatiles_KantoCeladonPrimary[] = INCBIN_U16("data/tilesets/primary/kanto_celadon/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonPrimary[] = INCBIN_U16("data/tilesets/primary/kanto_celadon/metatile_attributes.bin");
+
+// Kanto Celadon: its new buildings, stalls, canal bridge and bike lane
+const u16 gMetatiles_KantoCeladonCity[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_city/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonCity[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_city/metatile_attributes.bin");
+
+// Kanto Celadon: the market's services (FireRed's Dept Store 1F)
+const u16 gMetatiles_KantoCeladonServices[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_services/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonServices[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_services/metatile_attributes.bin");
+
+// Kanto Celadon: a residence (FireRed's Pokemon Hotel room)
+const u16 gMetatiles_KantoCeladonResidents[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_residents/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonResidents[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_residents/metatile_attributes.bin");
+
+// Kanto Celadon: the Game Corner (FireRed's)
+const u16 gMetatiles_KantoCeladonGameCorner[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_game_corner/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonGameCorner[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_game_corner/metatile_attributes.bin");
+
+// Kanto Celadon: the Game Corner's prize room (FireRed's)
+const u16 gMetatiles_KantoCeladonPrizeRoom[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_prize_room/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonPrizeRoom[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_prize_room/metatile_attributes.bin");
+
+// Kanto Celadon: the Botanical Gardens' glasshouse (FireRed's Celadon Gym)
+const u16 gMetatiles_KantoCeladonGardens[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_gardens/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonGardens[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_gardens/metatile_attributes.bin");
+
+// Kanto Celadon: the café (FireRed's Restaurant)
+const u16 gMetatiles_KantoCeladonCafe[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cafe/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonCafe[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cafe/metatile_attributes.bin");
+
+// Kanto Celadon: the Pokemon Hotel's lobby (FireRed's Condominiums 1F)
+const u16 gMetatiles_KantoCeladonHotel1f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonHotel1f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/metatile_attributes.bin");
+
+// Kanto Celadon: the Pokemon Hotel's upper floor (FireRed's Condominiums 2F)
+const u16 gMetatiles_KantoCeladonHotel2f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonHotel2f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/metatile_attributes.bin");

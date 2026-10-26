@@ -1245,6 +1245,17 @@
     "KantoSaffronCenterUpstairs",
     "KantoSaffronMart",
     "KantoSaffronDojo",
-    "KantoSaffronSilphLab"
+    "KantoSaffronSilphLab",
+    "KantoCeladonCity",
+    "KantoCeladonPokemonCenter",
+    "KantoCeladonCenterUpstairs",
+    "KantoCeladonMarketServices",
+    "KantoCeladonResidence",
+    "KantoCeladonGameCorner",
+    "KantoCeladonPrizeRoom",
+    "KantoCeladonGardens",
+    "KantoCeladonCafe",
+    "KantoCeladonHotelLobby",
+    "KantoCeladonHotelUpstairs"
   ]
 }
