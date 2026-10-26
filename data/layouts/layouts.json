@@ -9391,7 +9391,7 @@
       "name": "CherrygroveCity_Layout",
       "width": 80,
       "height": 48,
-      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "primary_tileset": "gTileset_CherrygroveTownPrimary",
       "secondary_tileset": "gTileset_Cherrygrove",
       "border_filepath": "data/layouts/CherrygroveCity/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin",

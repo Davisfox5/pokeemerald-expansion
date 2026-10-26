@@ -453,3 +453,5 @@ const u16 gMetatiles_CherrygroveRoute31Primary[] = INCBIN_U16("data/tilesets/pri
 const u16 gMetatileAttributes_CherrygroveRoute31Primary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_route31/metatile_attributes.bin");
 const u16 gMetatiles_Route31Hgss[] = INCBIN_U16("data/tilesets/secondary/route31_hgss/metatiles.bin");
 const u16 gMetatileAttributes_Route31Hgss[] = INCBIN_U16("data/tilesets/secondary/route31_hgss/metatile_attributes.bin");
+const u16 gMetatiles_CherrygroveTownPrimary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_town/metatiles.bin");
+const u16 gMetatileAttributes_CherrygroveTownPrimary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_town/metatile_attributes.bin");
