@@ -1565,9 +1565,10 @@ const struct Tileset gTileset_ProofKantoPallet =
 };
 
 const struct Tileset gTileset_CherrygrovePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygrovePrimary, .palettes = gTilesetPalettes_CherrygrovePrimary, .metatiles = gMetatiles_CherrygrovePrimary, .metatileAttributes = gMetatileAttributes_CherrygrovePrimary, .callback = InitTilesetAnim_CherrygrovePrimary };
-const struct Tileset gTileset_CherrygroveTownPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygroveTownPrimary, .palettes = gTilesetPalettes_CherrygroveTownPrimary, .metatiles = gMetatiles_CherrygroveTownPrimary, .metatileAttributes = gMetatileAttributes_CherrygroveTownPrimary, .callback = InitTilesetAnim_CherrygrovePrimary };
+const struct Tileset gTileset_CherrygroveTownPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygroveTownPrimary, .palettes = gTilesetPalettes_CherrygroveTownPrimary, .metatiles = gMetatiles_CherrygroveTownPrimary, .metatileAttributes = gMetatileAttributes_CherrygroveTownPrimary, .callback = InitTilesetAnim_CherrygroveTownPrimary };
 
 const struct Tileset gTileset_Cherrygrove = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Cherrygrove, .palettes = gTilesetPalettes_Cherrygrove, .metatiles = gMetatiles_Cherrygrove, .metatileAttributes = gMetatileAttributes_Cherrygrove, .callback = NULL };
+const struct Tileset gTileset_CherrygrovePreview = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_CherrygrovePreview, .palettes = gTilesetPalettes_CherrygrovePreview, .metatiles = gMetatiles_CherrygrovePreview, .metatileAttributes = gMetatileAttributes_CherrygrovePreview, .callback = NULL };
 
 const struct Tileset gTileset_SandgemPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_SandgemPrimary, .palettes = gTilesetPalettes_SandgemPrimary, .metatiles = gMetatiles_SandgemPrimary, .metatileAttributes = gMetatileAttributes_SandgemPrimary, .callback = InitTilesetAnim_General };
 

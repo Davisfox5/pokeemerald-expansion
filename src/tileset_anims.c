@@ -643,6 +643,18 @@ static void TilesetAnim_CherrygrovePrimary(u16 timer)
     if (timer % 16 == 1)
         AppendTilesetAnimToBuffer(gTilesetAnims_Cherrygrove_Sea[(timer / 16) % 8], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(1)), 92 * TILE_SIZE_4BPP);
 }
+static void TilesetAnim_CherrygroveTownPrimary(u16 timer);
+void InitTilesetAnim_CherrygroveTownPrimary(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_CherrygroveTownPrimary;
+}
+static void TilesetAnim_CherrygroveTownPrimary(u16 timer)
+{
+    if (timer % 16 == 1)
+        AppendTilesetAnimToBuffer(gTilesetAnims_Cherrygrove_Sea[(timer / 16) % 8], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(1)), 87 * TILE_SIZE_4BPP);
+}
 // End Claude Cherrygrove sea
 
 void InitTilesetAnim_General(void)
