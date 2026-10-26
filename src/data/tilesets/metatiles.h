@@ -449,3 +449,7 @@ const u16 gMetatileAttributes_VioletEntrance[] = INCBIN_U16("data/tilesets/secon
 // Blackthorn City
 const u16 gMetatiles_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city/metatiles.bin");
 const u16 gMetatileAttributes_BlackthornCity[] = INCBIN_U16("data/tilesets/secondary/blackthorn_city/metatile_attributes.bin");
+
+// Route 45 (secondary)
+const u16 gMetatiles_Route45[] = INCBIN_U16("data/tilesets/secondary/route_45/metatiles.bin");
+const u16 gMetatileAttributes_Route45[] = INCBIN_U16("data/tilesets/secondary/route_45/metatile_attributes.bin");

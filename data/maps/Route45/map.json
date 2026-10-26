@@ -1,0 +1,45 @@
+{
+  "id": "MAP_ROUTE45",
+  "name": "Route45",
+  "layout": "LAYOUT_ROUTE45",
+  "music": "MUS_ROUTE101",
+  "region_map_section": "MAPSEC_JOHTO_ROUTE_45",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_BLACKTHORN_CITY",
+      "offset": 0,
+      "direction": "up"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route45_RouteSign"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route45_DarkCaveSign"
+    }
+  ],
+  "build_target": "emerald",
+  "region": "REGION_JOHTO"
+}
