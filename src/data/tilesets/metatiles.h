@@ -457,3 +457,13 @@ const u16 gMetatiles_CherrygroveTownPrimary[] = INCBIN_U16("data/tilesets/primar
 const u16 gMetatileAttributes_CherrygroveTownPrimary[] = INCBIN_U16("data/tilesets/primary/cherrygrove_town/metatile_attributes.bin");
 const u16 gMetatiles_CherrygrovePreview[] = INCBIN_U16("data/tilesets/secondary/cherrygrove_preview/metatiles.bin");
 const u16 gMetatileAttributes_CherrygrovePreview[] = INCBIN_U16("data/tilesets/secondary/cherrygrove_preview/metatile_attributes.bin");
+
+// Violet City and Route 36 (codex/johto-editor-consolidation)
+const u16 gMetatiles_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/violet_city/metatiles.bin");
+const u16 gMetatileAttributes_VioletCityPrimary[] = INCBIN_U16("data/tilesets/primary/violet_city/metatile_attributes.bin");
+const u16 gMetatiles_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatiles.bin");
+const u16 gMetatileAttributes_VioletCity[] = INCBIN_U16("data/tilesets/secondary/violet_city/metatile_attributes.bin");
+const u16 gMetatiles_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatiles.bin");
+const u16 gMetatileAttributes_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatile_attributes.bin");
+const u16 gMetatiles_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatiles.bin");
+const u16 gMetatileAttributes_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatile_attributes.bin");
