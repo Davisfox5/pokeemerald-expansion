@@ -9,6 +9,7 @@ void TransferTilesetAnimsBuffer(void);
 void InitTilesetAnim_General(void);
 void InitTilesetAnim_CherrygrovePrimary(void);
 void InitTilesetAnim_OlivinePrimary(void);
+void InitTilesetAnim_KantoCeladonView(void);
 void InitTilesetAnim_Petalburg(void);
 void InitTilesetAnim_Rustboro(void);
 void InitTilesetAnim_Dewford(void);

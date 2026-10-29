@@ -1,4 +1,5 @@
 #include "global.h"
+#include "celadon_view.h"
 #include "battle_pyramid.h"
 #include "bg.h"
 #include "fieldmap.h"
@@ -753,6 +754,7 @@ bool8 CameraMove(s32 x, s32 y)
     {
         gSaveBlock1Ptr->pos.x += x;
         gSaveBlock1Ptr->pos.y += y;
+        CeladonViewStep();                      // the streamed city: the next screen's palettes
     }
     else
     {

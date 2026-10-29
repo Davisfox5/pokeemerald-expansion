@@ -1,4 +1,5 @@
 #include "global.h"
+#include "celadon_view.h"
 #include "overworld.h"
 #include "battle_pyramid.h"
 #include "battle_setup.h"
@@ -605,7 +606,10 @@ void SetObjEventTemplateMovementType(u8 localId, u8 movementType)
 static void InitMapView(void)
 {
     ResetFieldCamera();
-    CopyMapTilesetsToVram(gMapHeader.mapLayout);
+    // The streamed city uploads its own visible glyph set as it draws (celadon_view.c); a
+    // queued static tile copy landing later would overwrite those slots.
+    if (!CeladonViewActive())
+        CopyMapTilesetsToVram(gMapHeader.mapLayout);
     LoadMapTilesetPalettes(gMapHeader.mapLayout);
     DrawWholeMapView();
     InitTilesetAnimations();
