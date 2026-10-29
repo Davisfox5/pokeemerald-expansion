@@ -27,21 +27,7 @@ KantoCeladonCity_GameCornerSign::
     end
 
 KantoCeladonCity_GameCornerSign_Text:
-    .string "CELADON GAME CORNER\nA fun place for everyone!$"
-
-KantoCeladonCity_TrainerTipsGuardSpec::
-    msgbox KantoCeladonCity_TrainerTipsGuardSpec_Text, MSGBOX_SIGN
-    end
-
-KantoCeladonCity_TrainerTipsGuardSpec_Text:
-    .string "TRAINER TIPS\pGUARD SPEC. protects POKéMON\nfrom status-reduction moves during\lbattle.\pFind it at the CELADON MARKET!$"
-
-KantoCeladonCity_GardensSign::
-    msgbox KantoCeladonCity_GardensSign_Text, MSGBOX_SIGN
-    end
-
-KantoCeladonCity_GardensSign_Text:
-    .string "CELADON BOTANICAL GARDENS\nOpen to everyone. Mind the BELLOSSOM.$"
+    .string "CELADON GAME CORNER\nA fun place for everyone!\pPRIZE COUNTER: take the stairs\nat the back.$"
 
 KantoCeladonCity_CafeSign::
     msgbox KantoCeladonCity_CafeSign_Text, MSGBOX_SIGN

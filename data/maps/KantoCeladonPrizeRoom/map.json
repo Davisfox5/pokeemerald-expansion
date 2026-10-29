@@ -19,22 +19,22 @@
       "x": 3,
       "y": 9,
       "elevation": 3,
-      "dest_map": "MAP_KANTO_CELADON_CITY",
-      "dest_warp_id": "4"
+      "dest_map": "MAP_KANTO_CELADON_GAME_CORNER",
+      "dest_warp_id": "3"
     },
     {
       "x": 4,
       "y": 8,
       "elevation": 3,
-      "dest_map": "MAP_KANTO_CELADON_CITY",
-      "dest_warp_id": "4"
+      "dest_map": "MAP_KANTO_CELADON_GAME_CORNER",
+      "dest_warp_id": "3"
     },
     {
       "x": 5,
       "y": 9,
       "elevation": 3,
-      "dest_map": "MAP_KANTO_CELADON_CITY",
-      "dest_warp_id": "4"
+      "dest_map": "MAP_KANTO_CELADON_GAME_CORNER",
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [],

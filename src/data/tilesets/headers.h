@@ -1605,7 +1605,7 @@ const struct Tileset gTileset_KantoSaffronDojo = { .isCompressed = TRUE, .isSeco
 const struct Tileset gTileset_KantoSaffronSilphLab = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoSaffronSilphLab, .palettes = gTilesetPalettes_KantoSaffronSilphLab, .metatiles = gMetatiles_KantoSaffronSilphLab, .metatileAttributes = gMetatileAttributes_KantoSaffronSilphLab, .callback = NULL };
 
 // Kanto Celadon: HGSS's Celadon as Gen 3 elements, its ground, trees and the first buildings
-const struct Tileset gTileset_KantoCeladonPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_KantoCeladonPrimary, .palettes = gTilesetPalettes_KantoCeladonPrimary, .metatiles = gMetatiles_KantoCeladonPrimary, .metatileAttributes = gMetatileAttributes_KantoCeladonPrimary, .callback = NULL };
+const struct Tileset gTileset_KantoCeladonPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_KantoCeladonPrimary, .palettes = gTilesetPalettes_KantoCeladonPrimary, .metatiles = gMetatiles_KantoCeladonPrimary, .metatileAttributes = gMetatileAttributes_KantoCeladonPrimary, .callback = InitTilesetAnim_KantoCeladonView };
 
 // Kanto Celadon: the rest of its buildings, the Center and the market
 const struct Tileset gTileset_KantoCeladonCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonCity, .palettes = gTilesetPalettes_KantoCeladonCity, .metatiles = gMetatiles_KantoCeladonCity, .metatileAttributes = gMetatileAttributes_KantoCeladonCity, .callback = NULL };

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "celadon_view.h"
 #include "berry.h"
 #include "bike.h"
 #include "field_camera.h"
@@ -104,6 +105,7 @@ static void DrawWholeMapViewInternal(int x, int y, const struct MapLayout *mapLa
     u32 r6;
     u8 temp;
 
+    CeladonViewBegin();
     for (i = 0; i < 32; i += 2)
     {
         temp = sFieldCameraOffset.yTileOffset + i;
@@ -225,6 +227,13 @@ void DrawDoorMetatileAt(int x, int y, u16 *tiles)
 
 static void DrawMetatileAt(const struct MapLayout *mapLayout, u16 offset, int x, int y)
 {
+    u16 streamed[8];
+    s32 streamedLayer;
+    if (CeladonViewMetatile(offset, x, y, streamed, &streamedLayer))
+    {
+        DrawMetatile(streamedLayer, streamed, offset);
+        return;
+    }
     u16 metatileId = MapGridGetMetatileIdAt(x, y);
     const u16 *metatiles;
 
