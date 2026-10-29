@@ -1844,3 +1844,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/BlackthornMart/scripts.inc"
 
 .include "data/maps/Route45/scripts.inc"
+
+.include "data/maps/Route46/scripts.inc"
