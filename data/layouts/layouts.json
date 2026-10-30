@@ -9682,6 +9682,28 @@
       "border_filepath": "data/layouts/KantoCeladonCafe/border.bin",
       "blockdata_filepath": "data/layouts/KantoCeladonCafe/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_ROUTE7",
+      "name": "KantoRoute7_Layout",
+      "width": 33,
+      "height": 32,
+      "primary_tileset": "gTileset_KantoCeladonPrimary",
+      "secondary_tileset": "gTileset_KantoCeladonCity",
+      "border_filepath": "data/layouts/KantoRoute7/border.bin",
+      "blockdata_filepath": "data/layouts/KantoRoute7/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_ROUTE7_GATEHOUSE",
+      "name": "KantoRoute7Gatehouse_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoRoute7Gatehouse",
+      "border_filepath": "data/layouts/KantoRoute7Gatehouse/border.bin",
+      "blockdata_filepath": "data/layouts/KantoRoute7Gatehouse/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

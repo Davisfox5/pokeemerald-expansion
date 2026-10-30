@@ -1,0 +1,73 @@
+{
+  "id": "MAP_KANTO_ROUTE7",
+  "name": "KantoRoute7",
+  "layout": "LAYOUT_KANTO_ROUTE7",
+  "music": "MUS_RG_ROUTE3",
+  "region_map_section": "MAPSEC_ROUTE_7",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_KANTO_CELADON_CITY",
+      "offset": -1,
+      "direction": "left"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 24,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 25,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "KantoRoute7_UndergroundPathSign"
+    }
+  ],
+  "build_target": "emerald",
+  "region": "REGION_KANTO"
+}
