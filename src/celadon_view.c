@@ -1,6 +1,10 @@
-// Celadon City (KantoCeladonCity) only: its art streams by map position, glyphs and
-// palettes both. The map's collision, behaviours and events stay ordinary Porymap data on
-// stand-in metatiles; every other map keeps the static renderer.
+// Celadon City (KantoCeladonCity) and Route 7 (KantoRoute7): their art streams by position in
+// one world, glyphs and palettes both. Celadon is the world's west 64 x 52 cells and Route 7
+// stands beside it at CELADON_ROUTE7_X, CELADON_ROUTE7_Y (its map connection's offset), so
+// either map's view shows the other's real art across the seam, and the glyph cache and the
+// palette banks run on when the player crosses the connection. The maps' collision, behaviours
+// and events stay ordinary Porymap data on stand-in metatiles; every other map keeps the
+// static renderer.
 //
 // Glyphs work as Goldenrod's do (codex/olivine-goldenrod-playbook-20261019,
 // src/goldenrod_view.c): each cell's eight tile entries name glyphs, and a reference-
@@ -40,10 +44,23 @@ EWRAM_DATA u32 gCeladonCacheOverflows = 0;
 EWRAM_DATA u32 gCeladonCacheUploads = 0;
 EWRAM_DATA u32 gCeladonPaletteLoads = 0;
 
+static bool32 OnMap(u16 map)
+{
+    return gSaveBlock1Ptr->location.mapGroup == (map >> 8) && gSaveBlock1Ptr->location.mapNum == (map & 0xFF);
+}
+
 bool32 CeladonViewActive(void)
 {
-    return gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_KANTO_CELADON_CITY)
-        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_KANTO_CELADON_CITY);
+    return OnMap(MAP_KANTO_CELADON_CITY) || OnMap(MAP_KANTO_ROUTE7);
+}
+
+// Where the current map's (0, 0) stands in the world.
+static void Origin(s32 *x, s32 *y)
+{
+    if (OnMap(MAP_KANTO_ROUTE7))
+        *x = CELADON_ROUTE7_X, *y = CELADON_ROUTE7_Y;
+    else
+        *x = 0, *y = 0;
 }
 
 // Called before heap reinitialization; ownership disappears with that heap.
@@ -75,9 +92,12 @@ static void LoadCeladonPalette(u32 palette, bool32 whole)
 // Every palette the screen around this player cell shows, with the step to any neighbour.
 static void LoadCeladonScreen(bool32 whole)
 {
-    s32 x = gSaveBlock1Ptr->pos.x, y = gSaveBlock1Ptr->pos.y;
+    s32 x, y, ox, oy;
     const u8 *w;
     u32 i;
+    Origin(&ox, &oy);
+    x = gSaveBlock1Ptr->pos.x + ox;
+    y = gSaveBlock1Ptr->pos.y + oy;
     if (x < 0) x = 0; else if (x >= CELADON_W) x = CELADON_W - 1;
     if (y < 0) y = 0; else if (y >= CELADON_H) y = CELADON_H - 1;
     w = &sCeladonScreens[(y * CELADON_W + x) * CELADON_SCREEN];
@@ -114,6 +134,17 @@ void CeladonViewStep(void)
 {
     if (CeladonViewActive() && sCache != NULL)
         LoadCeladonScreen(FALSE);
+}
+
+// The player crossed a map connection between the world's maps: the view, the cache and the
+// banks carry on as they are (the same world), so only the screen's palettes are checked.
+// Returns FALSE when the new map is not streamed, so the caller loads its tileset as usual.
+bool32 CeladonViewCrossed(void)
+{
+    if (!CeladonViewActive() || sCache == NULL)
+        return FALSE;
+    LoadCeladonScreen(FALSE);
+    return TRUE;
 }
 
 static u16 Glyph(u16 glyph)
@@ -154,9 +185,10 @@ static void Release(u16 slot)
         sCache->references[slot]--;
 }
 
-// Where an off-map cell's art comes from (stream6.outside): the border forest repeats with
-// its own period (2 across, 4 down) from the north-west corner's pure forest, and the roads
-// to Route 16 and Route 7 and the canal run on off their edges.
+// Where an off-world cell's art comes from (route7/world.outside): the border forest repeats
+// with its own period (2 across, 4 down) from Celadon's north-west corner's pure forest, the
+// woods' lattice phase on both maps; the road to Route 16 and the canal run on off Celadon's
+// west and north edges.
 static void Source(s32 *px, s32 *py)
 {
     s32 x = *px, y = *py;
@@ -164,9 +196,7 @@ static void Source(s32 *px, s32 *py)
         return;
     if (x < 0 && y >= 34 && y < 38)
         x &= 1;
-    else if (x >= CELADON_W && y >= 16 && y < 21)
-        x = CELADON_W - 2 + (x & 1);
-    else if (y < 0 && x >= 0 && x < CELADON_W)
+    else if (y < 0 && x >= 0 && x < CELADON_ROUTE7_X)
         y &= 3;
     else
         x &= 1, y &= 3;
@@ -179,12 +209,14 @@ bool32 CeladonViewMetatile(u16 offset, s32 x, s32 y, u16 *tiles, s32 *layer)
     const u32 *entries;
     u16 *ring;
     u32 i;
+    s32 ox, oy;
 
     if (!CeladonViewActive()) return FALSE;
     if (sCache == NULL) CeladonViewBegin();
     if (sCache == NULL) return FALSE;
-    x -= MAP_OFFSET;
-    y -= MAP_OFFSET;
+    Origin(&ox, &oy);
+    x += ox - MAP_OFFSET;
+    y += oy - MAP_OFFSET;
     Source(&x, &y);
     entries = &sCeladonEntries[(y * CELADON_W + x) * 8];
     *layer = sCeladonLayers[y * CELADON_W + x];

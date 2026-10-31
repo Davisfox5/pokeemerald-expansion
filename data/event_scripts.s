@@ -1888,3 +1888,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/KantoCeladonGardens/scripts.inc"
 
 .include "data/maps/KantoCeladonCafe/scripts.inc"
+
+.include "data/maps/KantoRoute7/scripts.inc"
+
+.include "data/maps/KantoRoute7Gatehouse/scripts.inc"

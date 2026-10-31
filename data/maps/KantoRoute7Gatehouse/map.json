@@ -1,0 +1,37 @@
+{
+  "id": "MAP_KANTO_ROUTE7_GATEHOUSE",
+  "name": "KantoRoute7Gatehouse",
+  "layout": "LAYOUT_KANTO_ROUTE7_GATEHOUSE",
+  "music": "MUS_RG_PEWTER",
+  "region_map_section": "MAPSEC_ROUTE_7",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 1,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_KANTO_ROUTE7",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_KANTO_SAFFRON_CITY",
+      "dest_warp_id": "5"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "build_target": "emerald",
+  "region": "REGION_KANTO"
+}
