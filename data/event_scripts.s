@@ -1840,3 +1840,25 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/JohtoRoute36/scripts.inc"
 
 .include "data/maps/VioletWestGate/scripts.inc"
+
+.include "data/maps/SproutTower1F/scripts.inc"
+
+.include "data/maps/VioletUniversity/scripts.inc"
+
+.include "data/maps/VioletLectureHall/scripts.inc"
+
+.include "data/maps/VioletMart/scripts.inc"
+
+.include "data/maps/VioletPokemonCenter/scripts.inc"
+
+.include "data/maps/VioletCenterUpstairs/scripts.inc"
+
+.include "data/maps/VioletHouse1/scripts.inc"
+
+.include "data/maps/VioletHouse2/scripts.inc"
+
+.include "data/maps/VioletHouse3/scripts.inc"
+
+.include "data/maps/VioletHouse4/scripts.inc"
+
+.include "data/maps/VioletHouse5/scripts.inc"
