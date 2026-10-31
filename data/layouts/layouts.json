@@ -9561,6 +9561,28 @@
       "border_filepath": "data/layouts/Route46/border.bin",
       "blockdata_filepath": "data/layouts/Route46/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_DARK_CAVE_ROUTE45_SIDE",
+      "name": "DarkCaveRoute45Side_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_DarkCavePrimary",
+      "secondary_tileset": "gTileset_DarkCave",
+      "border_filepath": "data/layouts/DarkCaveRoute45Side/border.bin",
+      "blockdata_filepath": "data/layouts/DarkCaveRoute45Side/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_DARK_CAVE_ROUTE31_SIDE",
+      "name": "DarkCaveRoute31Side_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_DarkCavePrimary",
+      "secondary_tileset": "gTileset_DarkCave",
+      "border_filepath": "data/layouts/DarkCaveRoute31Side/border.bin",
+      "blockdata_filepath": "data/layouts/DarkCaveRoute31Side/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

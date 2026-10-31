@@ -1,0 +1,37 @@
+{
+  "id": "MAP_DARK_CAVE_ROUTE45_SIDE",
+  "name": "DarkCaveRoute45Side",
+  "layout": "LAYOUT_DARK_CAVE_ROUTE45_SIDE",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_DARK_CAVE",
+  "requires_flash": true,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 57,
+      "elevation": 0,
+      "dest_map": "MAP_DARK_CAVE_ROUTE31_SIDE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 60,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE45",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "build_target": "emerald",
+  "region": "REGION_JOHTO"
+}

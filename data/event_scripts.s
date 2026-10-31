@@ -1846,3 +1846,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/Route45/scripts.inc"
 
 .include "data/maps/Route46/scripts.inc"
+
+.include "data/maps/DarkCaveRoute45Side/scripts.inc"
+
+.include "data/maps/DarkCaveRoute31Side/scripts.inc"
