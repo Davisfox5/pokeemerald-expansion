@@ -457,3 +457,11 @@ const u16 gMetatileAttributes_Route45[] = INCBIN_U16("data/tilesets/secondary/ro
 // Route 46 (secondary)
 const u16 gMetatiles_Route46[] = INCBIN_U16("data/tilesets/secondary/route_46/metatiles.bin");
 const u16 gMetatileAttributes_Route46[] = INCBIN_U16("data/tilesets/secondary/route_46/metatile_attributes.bin");
+
+// Dark Cave (primary)
+const u16 gMetatiles_DarkCavePrimary[] = INCBIN_U16("data/tilesets/primary/dark_cave/metatiles.bin");
+const u16 gMetatileAttributes_DarkCavePrimary[] = INCBIN_U16("data/tilesets/primary/dark_cave/metatile_attributes.bin");
+
+// Dark Cave (secondary)
+const u16 gMetatiles_DarkCave[] = INCBIN_U16("data/tilesets/secondary/dark_cave/metatiles.bin");
+const u16 gMetatileAttributes_DarkCave[] = INCBIN_U16("data/tilesets/secondary/dark_cave/metatile_attributes.bin");
