@@ -1565,8 +1565,10 @@ const struct Tileset gTileset_ProofKantoPallet =
 };
 
 const struct Tileset gTileset_CherrygrovePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygrovePrimary, .palettes = gTilesetPalettes_CherrygrovePrimary, .metatiles = gMetatiles_CherrygrovePrimary, .metatileAttributes = gMetatileAttributes_CherrygrovePrimary, .callback = InitTilesetAnim_CherrygrovePrimary };
+const struct Tileset gTileset_CherrygroveTownPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygroveTownPrimary, .palettes = gTilesetPalettes_CherrygroveTownPrimary, .metatiles = gMetatiles_CherrygroveTownPrimary, .metatileAttributes = gMetatileAttributes_CherrygroveTownPrimary, .callback = InitTilesetAnim_CherrygroveTownPrimary };
 
 const struct Tileset gTileset_Cherrygrove = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Cherrygrove, .palettes = gTilesetPalettes_Cherrygrove, .metatiles = gMetatiles_Cherrygrove, .metatileAttributes = gMetatileAttributes_Cherrygrove, .callback = NULL };
+const struct Tileset gTileset_CherrygrovePreview = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_CherrygrovePreview, .palettes = gTilesetPalettes_CherrygrovePreview, .metatiles = gMetatiles_CherrygrovePreview, .metatileAttributes = gMetatileAttributes_CherrygrovePreview, .callback = NULL };
 
 const struct Tileset gTileset_SandgemPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_SandgemPrimary, .palettes = gTilesetPalettes_SandgemPrimary, .metatiles = gMetatiles_SandgemPrimary, .metatileAttributes = gMetatileAttributes_SandgemPrimary, .callback = InitTilesetAnim_General };
 
@@ -1582,4 +1584,14 @@ const struct Tileset gTileset_ClaudeRoute30 = { .isCompressed = TRUE, .isSeconda
 const struct Tileset gTileset_NewBark = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_NewBark, .palettes = gTilesetPalettes_NewBark, .metatiles = gMetatiles_NewBark, .metatileAttributes = gMetatileAttributes_NewBark, .callback = NULL };
 const struct Tileset gTileset_Route31 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31, .palettes = gTilesetPalettes_Route31, .metatiles = gMetatiles_Route31, .metatileAttributes = gMetatileAttributes_Route31, .callback = NULL };
 const struct Tileset gTileset_VioletEntrance = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletEntrance, .palettes = gTilesetPalettes_VioletEntrance, .metatiles = gMetatiles_VioletEntrance, .metatileAttributes = gMetatileAttributes_VioletEntrance, .callback = NULL };
+const struct Tileset gTileset_Route30Hgss = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route30Hgss, .palettes = gTilesetPalettes_Route30Hgss, .metatiles = gMetatiles_Route30Hgss, .metatileAttributes = gMetatileAttributes_Route30Hgss, .callback = NULL };
+const struct Tileset gTileset_CherrygroveRoute30Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygroveRoute30Primary, .palettes = gTilesetPalettes_CherrygroveRoute30Primary, .metatiles = gMetatiles_CherrygroveRoute30Primary, .metatileAttributes = gMetatileAttributes_CherrygroveRoute30Primary, .callback = NULL };
+const struct Tileset gTileset_CherrygroveRoute31Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_CherrygroveRoute31Primary, .palettes = gTilesetPalettes_CherrygroveRoute31Primary, .metatiles = gMetatiles_CherrygroveRoute31Primary, .metatileAttributes = gMetatileAttributes_CherrygroveRoute31Primary, .callback = NULL };
+const struct Tileset gTileset_Route31Hgss = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route31Hgss, .palettes = gTilesetPalettes_Route31Hgss, .metatiles = gMetatiles_Route31Hgss, .metatileAttributes = gMetatileAttributes_Route31Hgss, .callback = NULL };
 // End Claude routes
+
+// Violet City and Route 36 (codex/johto-editor-consolidation)
+const struct Tileset gTileset_VioletCityPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_VioletCityPrimary, .palettes = gTilesetPalettes_VioletCityPrimary, .metatiles = gMetatiles_VioletCityPrimary, .metatileAttributes = gMetatileAttributes_VioletCityPrimary, .callback = NULL };
+const struct Tileset gTileset_VioletCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletCity, .palettes = gTilesetPalettes_VioletCity, .metatiles = gMetatiles_VioletCity, .metatileAttributes = gMetatileAttributes_VioletCity, .callback = NULL };
+const struct Tileset gTileset_JohtoRoute36Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoRoute36Primary, .palettes = gTilesetPalettes_JohtoRoute36Primary, .metatiles = gMetatiles_JohtoRoute36Primary, .metatileAttributes = gMetatileAttributes_JohtoRoute36Primary, .callback = NULL };
+const struct Tileset gTileset_JohtoRoute36 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoRoute36, .palettes = gTilesetPalettes_JohtoRoute36, .metatiles = gMetatiles_JohtoRoute36, .metatileAttributes = gMetatileAttributes_JohtoRoute36, .callback = NULL };

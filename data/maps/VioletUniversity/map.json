@@ -1,0 +1,37 @@
+{
+  "id": "MAP_VIOLET_UNIVERSITY",
+  "name": "VioletUniversity",
+  "layout": "LAYOUT_RUSTBORO_CITY_POKEMON_SCHOOL",
+  "music": "MUS_SCHOOL",
+  "region": "REGION_JOHTO",
+  "region_map_section": "MAPSEC_VIOLET_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "build_target": "emerald",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_VIOLET_CITY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_VIOLET_CITY",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

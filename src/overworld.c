@@ -870,8 +870,22 @@ bool8 SetDiveWarpDive(u16 x, u16 y)
     return SetDiveWarp(CONNECTION_DIVE, x, y);
 }
 
+// Apocrypha: set when a connection crossing loaded another primary tileset. The cells already on screen
+// were drawn with the old tilesets' tile numbers, so the camera redraws the whole view once it has moved.
+static bool8 sRedrawViewAfterTransition;
+
+bool8 TakeTransitionRedraw(void)
+{
+    bool8 redraw = sRedrawViewAfterTransition;
+
+    sRedrawViewAfterTransition = FALSE;
+    return redraw;
+}
+
 void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
 {
+    const struct Tileset *prevPrimary = gMapHeader.mapLayout->primaryTileset;
+
     SetWarpDestination(mapGroup, mapNum, WARP_ID_NONE, -1, -1);
 
     // Dont transition map music between BF Outside West/East
@@ -900,6 +914,15 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
     InitMap();
+    // Apocrypha: a map on another primary tileset brings its own primary tiles and palettes.
+    if (gMapHeader.mapLayout->primaryTileset != prevPrimary)
+    {
+        CopyPrimaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
+        LoadPrimaryTilesetPaletteSkipFaded(gMapHeader.mapLayout);
+        ApplyWeatherColorMapToPals(0, GetNumPalsInPrimary(gMapHeader.mapLayout));
+        InitPrimaryTilesetAnimation();
+        sRedrawViewAfterTransition = TRUE;
+    }
     CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
     LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
 

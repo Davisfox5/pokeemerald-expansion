@@ -30,6 +30,7 @@ struct DoorGraphics
     enum DoorSize size:8;
     const void *tiles;
     const void *palettes;
+    bool8 layered; // frames drawn on the top layer, over each cell's own bottom layer (index 0 transparent)
 };
 
 struct DoorAnimFrame
@@ -386,9 +387,9 @@ static const u8 sRestartDoorPal_GoldHouse[20] = {6,6,6,6,6,6,6,11,6,6,6,6,6,6,6,
 static const u8 sRestartDoor_NeighborHouse[] = INCBIN_U8("graphics/door_anims/johto_restart/NeighborHouse.4bpp");
 static const u8 sRestartDoorPal_NeighborHouse[20] = {7,7,7,7,7,7,7,7,6,6,7,6,7,6,7,7,0,0,0,0};
 static const u8 sRestartDoor_Mart[] = INCBIN_U8("graphics/door_anims/johto_restart/Mart.4bpp");
-static const u8 sRestartDoorPal_Mart[20] = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,0,0,0,0};
+static const u8 sRestartDoorPal_Mart[20] = {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0};
 static const u8 sRestartDoor_PokemonCenter[] = INCBIN_U8("graphics/door_anims/johto_restart/PokemonCenter.4bpp");
-static const u8 sRestartDoorPal_PokemonCenter[20] = {8,8,8,8,8,8,7,7,8,8,8,8,8,9,7,0,0,0,0,0};
+static const u8 sRestartDoorPal_PokemonCenter[20] = {8,8,9,9,8,8,8,8,8,8,9,8,8,8,8,8,0,0,0,0};
 static const u8 sRestartDoor_HarborHouse[] = INCBIN_U8("graphics/door_anims/johto_restart/HarborHouse.4bpp");
 static const u8 sRestartDoorPal_HarborHouse[20] = {7,7,7,7,7,7,7,7,6,6,7,6,7,6,7,6,0,0,0,0};
 static const u8 sRestartDoor_GardenHouse[] = INCBIN_U8("graphics/door_anims/johto_restart/GardenHouse.4bpp");
@@ -418,8 +419,48 @@ extern const struct Tileset gTileset_VioletEntrance;
 static const u8 sJohtoSynthesisDoor_VioletCityEntrance_0[] = INCBIN_U8("graphics/door_anims/johto_synthesis/VioletCityEntrance_0.4bpp");
 static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7,7,6,6,6,6,6,6,7,6,0,0,0,0};
 // End Johto synthesis doors
+// Violet City doors (tools/gba/maps/violet_city/doors.py): begin
+extern const struct Tileset gTileset_VioletCityPrimary;
+extern const struct Tileset gTileset_VioletCity;
+static const u8 sVioletDoor_SproutTower[] = INCBIN_U8("graphics/door_anims/violet/SproutTower.4bpp");
+static const u8 sVioletDoorPal_SproutTower[20] = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0};
+static const u8 sVioletDoor_University[] = INCBIN_U8("graphics/door_anims/violet/University.4bpp");
+static const u8 sVioletDoorPal_University[20] = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0};
+static const u8 sVioletDoor_LectureHall[] = INCBIN_U8("graphics/door_anims/violet/LectureHall.4bpp");
+static const u8 sVioletDoorPal_LectureHall[20] = {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,5,0,0,0,0};
+static const u8 sVioletDoor_Mart[] = INCBIN_U8("graphics/door_anims/violet/Mart.4bpp");
+static const u8 sVioletDoorPal_Mart[20] = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,0,0,0,0};
+static const u8 sVioletDoor_PokemonCenter[] = INCBIN_U8("graphics/door_anims/violet/PokemonCenter.4bpp");
+static const u8 sVioletDoorPal_PokemonCenter[20] = {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,0,0,0,0};
+static const u8 sVioletDoor_House1[] = INCBIN_U8("graphics/door_anims/violet/House1.4bpp");
+static const u8 sVioletDoorPal_House1[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoor_House2[] = INCBIN_U8("graphics/door_anims/violet/House2.4bpp");
+static const u8 sVioletDoorPal_House2[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoor_House3[] = INCBIN_U8("graphics/door_anims/violet/House3.4bpp");
+static const u8 sVioletDoorPal_House3[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoor_House4[] = INCBIN_U8("graphics/door_anims/violet/House4.4bpp");
+static const u8 sVioletDoorPal_House4[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoor_House5[] = INCBIN_U8("graphics/door_anims/violet/House5.4bpp");
+static const u8 sVioletDoorPal_House5[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoor_EastGate[] = INCBIN_U8("graphics/door_anims/violet/EastGate.4bpp");
+static const u8 sVioletDoorPal_EastGate[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+// Violet City doors: end
+
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
+    // Violet City door table (doors.py): begin
+    {.metatileNum=82, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_SproutTower, .palettes=sVioletDoorPal_SproutTower, .layered=TRUE},
+    {.metatileNum=524, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_University, .palettes=sVioletDoorPal_University, .layered=TRUE},
+    {.metatileNum=496, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_LectureHall, .palettes=sVioletDoorPal_LectureHall, .layered=TRUE},
+    {.metatileNum=464, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_Mart, .palettes=sVioletDoorPal_Mart, .layered=TRUE},
+    {.metatileNum=633, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_PokemonCenter, .palettes=sVioletDoorPal_PokemonCenter, .layered=TRUE},
+    {.metatileNum=222, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House1, .palettes=sVioletDoorPal_House1, .layered=TRUE},
+    {.metatileNum=410, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House2, .palettes=sVioletDoorPal_House2, .layered=TRUE},
+    {.metatileNum=640, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House3, .palettes=sVioletDoorPal_House3, .layered=TRUE},
+    {.metatileNum=679, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House4, .palettes=sVioletDoorPal_House4, .layered=TRUE},
+    {.metatileNum=686, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House5, .palettes=sVioletDoorPal_House5, .layered=TRUE},
+    {.metatileNum=651, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_EastGate, .palettes=sVioletDoorPal_EastGate, .layered=TRUE},
+    // Violet City door table: end
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
     {.metatileNum=753, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_1, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_1},
     {.metatileNum=767, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_2, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_2},
@@ -1139,6 +1180,24 @@ static void CopyDoorTilesToVram(const struct DoorGraphics *gfx, const struct Doo
         CpuFastCopy(gfx->tiles + frame->offset, (void *)(VRAM + TILE_OFFSET_4BPP(DOOR_TILE_START_SIZE1)), 8 * TILE_SIZE_4BPP);
 }
 
+// A layered door's frame tiles go on the top layer; the bottom layer stays the map's own metatile there
+static void BuildLayeredDoorTiles(u16 *tiles, u16 tileNum, const u8 *paletteNums, s32 x, s32 y)
+{
+    int i;
+    u32 metatileId = MapGridGetMetatileIdAt(x, y);
+    u32 numPrimary = GetNumMetatilesInPrimary(gMapHeader.mapLayout);
+    const u16 *metatile;
+
+    if (metatileId < numPrimary)
+        metatile = &gMapHeader.mapLayout->primaryTileset->metatiles[metatileId * NUM_TILES_PER_METATILE];
+    else
+        metatile = &gMapHeader.mapLayout->secondaryTileset->metatiles[(metatileId - numPrimary) * NUM_TILES_PER_METATILE];
+    for (i = 0; i < 4; i++)
+        tiles[i] = metatile[i];
+    for (i = 0; i < 4; i++)
+        tiles[4 + i] = (paletteNums[i] << 12) | (tileNum + i);
+}
+
 static void BuildDoorTiles(u16 *tiles, u16 tileNum, const u8 *paletteNums)
 {
     int i;
@@ -1167,36 +1226,60 @@ static void DrawCurrentDoorAnimFrame(const struct DoorGraphics *gfx, u32 x, u32 
     {
     case DOOR_SIZE_2x2_LEFT:
         // Top left metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 0, &paletteNums[0]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 0, &paletteNums[0], x, y - 1);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 0, &paletteNums[0]);
         DrawDoorMetatileAt(x, y - 1, &tiles[8]);
 
         // Bottom left metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 4, &paletteNums[4]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 4, &paletteNums[4], x, y);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 4, &paletteNums[4]);
         DrawDoorMetatileAt(x, y, &tiles[8]);
 
         // Top right metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 8, &paletteNums[8]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 8, &paletteNums[8], x + 1, y - 1);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 8, &paletteNums[8]);
         DrawDoorMetatileAt(x + 1, y - 1, &tiles[8]);
 
         // Bottom right metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 12, &paletteNums[12]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 12, &paletteNums[12], x + 1, y);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 12, &paletteNums[12]);
         DrawDoorMetatileAt(x + 1, y, &tiles[8]);
         break;
     case DOOR_SIZE_2x2_RIGHT:
         // Top left metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 0, &paletteNums[0]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 0, &paletteNums[0], x - 1, y - 1);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 0, &paletteNums[0]);
         DrawDoorMetatileAt(x - 1, y - 1, &tiles[8]);
 
         // Bottom left metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 4, &paletteNums[4]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 4, &paletteNums[4], x - 1, y);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 4, &paletteNums[4]);
         DrawDoorMetatileAt(x - 1, y, &tiles[8]);
 
         // Top right metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 8, &paletteNums[8]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 8, &paletteNums[8], x, y - 1);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 8, &paletteNums[8]);
         DrawDoorMetatileAt(x, y - 1, &tiles[8]);
 
         // Bottom right metatile
-        BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 12, &paletteNums[12]);
+        if (gfx->layered)
+            BuildLayeredDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 12, &paletteNums[12], x, y);
+        else
+            BuildDoorTiles(&tiles[8], DOOR_TILE_START_SIZE2 + 12, &paletteNums[12]);
         DrawDoorMetatileAt(x, y, &tiles[8]);
         break;
     case DOOR_SIZE_1x2:
