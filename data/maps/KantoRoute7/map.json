@@ -23,13 +23,6 @@
   "warp_events": [
     {
       "x": 24,
-      "y": 15,
-      "elevation": 0,
-      "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 24,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
@@ -45,6 +38,13 @@
     {
       "x": 24,
       "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_KANTO_ROUTE7_GATEHOUSE",
       "dest_warp_id": "0"
