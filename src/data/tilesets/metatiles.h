@@ -513,3 +513,11 @@ const u16 gMetatileAttributes_KantoCeladonGardens[] = INCBIN_U16("data/tilesets/
 // Kanto Celadon: the cafe (FireRed's Restaurant)
 const u16 gMetatiles_KantoCeladonCafe[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cafe/metatiles.bin");
 const u16 gMetatileAttributes_KantoCeladonCafe[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cafe/metatile_attributes.bin");
+
+// Kanto Celadon: the apartments (HGSS's Condominiums 1F in FireRed's Condominiums pieces)
+const u16 gMetatiles_KantoCeladonApartments[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonApartments[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments/metatile_attributes.bin");
+
+// Kanto Celadon: Cade's house (FireRed's Celadon house)
+const u16 gMetatiles_KantoCeladonCadeHouse[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cade_house/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonCadeHouse[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cade_house/metatile_attributes.bin");

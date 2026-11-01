@@ -49,6 +49,20 @@
       "elevation": 0,
       "dest_map": "MAP_KANTO_CELADON_CAFE",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 28,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_CELADON_APARTMENTS",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 39,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_KANTO_CELADON_CADE_HOUSE",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [],
