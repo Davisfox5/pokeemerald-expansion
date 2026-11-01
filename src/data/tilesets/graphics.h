@@ -3656,6 +3656,27 @@ const u16 gTilesetPalettes_KantoCeladonCafe[][16] = {
     INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/15.pal", ".gbapal"),
 };
 
+// Kanto Celadon: Route 7's gatehouse (FireRed's Route 7 gate room); secondary tileset.
+const u32 gTilesetTiles_KantoRoute7Gatehouse[] = INCGFX_U32("data/tilesets/secondary/kanto_route7_gatehouse/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoRoute7Gatehouse[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/15.pal", ".gbapal"),
+};
+
 // Kanto Celadon: the apartments (HGSS's Condominiums 1F in FireRed's Condominiums pieces); secondary tileset.
 const u32 gTilesetTiles_KantoCeladonApartments[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_KantoCeladonApartments[][16] = {

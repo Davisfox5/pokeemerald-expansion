@@ -514,6 +514,10 @@ const u16 gMetatileAttributes_KantoCeladonGardens[] = INCBIN_U16("data/tilesets/
 const u16 gMetatiles_KantoCeladonCafe[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cafe/metatiles.bin");
 const u16 gMetatileAttributes_KantoCeladonCafe[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cafe/metatile_attributes.bin");
 
+// Kanto Celadon: Route 7's gatehouse (FireRed's Route 7 gate room)
+const u16 gMetatiles_KantoRoute7Gatehouse[] = INCBIN_U16("data/tilesets/secondary/kanto_route7_gatehouse/metatiles.bin");
+const u16 gMetatileAttributes_KantoRoute7Gatehouse[] = INCBIN_U16("data/tilesets/secondary/kanto_route7_gatehouse/metatile_attributes.bin");
+
 // Kanto Celadon: the apartments (HGSS's Condominiums 1F in FireRed's Condominiums pieces)
 const u16 gMetatiles_KantoCeladonApartments[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments/metatiles.bin");
 const u16 gMetatileAttributes_KantoCeladonApartments[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments/metatile_attributes.bin");
