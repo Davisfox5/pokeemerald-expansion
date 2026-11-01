@@ -3676,3 +3676,45 @@ const u16 gTilesetPalettes_KantoRoute7Gatehouse[][16] = {
     INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/14.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/kanto_route7_gatehouse/palettes/15.pal", ".gbapal"),
 };
+
+// Kanto Celadon: the apartments (HGSS's Condominiums 1F in FireRed's Condominiums pieces); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartments[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartments[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: Cade's house (FireRed's Celadon house); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonCadeHouse[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_cade_house/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonCadeHouse[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/15.pal", ".gbapal"),
+};

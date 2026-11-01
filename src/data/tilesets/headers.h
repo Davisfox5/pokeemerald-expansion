@@ -1633,3 +1633,9 @@ const struct Tileset gTileset_KantoCeladonCafe = { .isCompressed = TRUE, .isSeco
 
 // Kanto Celadon: Route 7's gatehouse (FireRed's Route 7 gate room)
 const struct Tileset gTileset_KantoRoute7Gatehouse = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoRoute7Gatehouse, .palettes = gTilesetPalettes_KantoRoute7Gatehouse, .metatiles = gMetatiles_KantoRoute7Gatehouse, .metatileAttributes = gMetatileAttributes_KantoRoute7Gatehouse, .callback = NULL };
+
+// Kanto Celadon: the apartments (HGSS's Condominiums 1F in FireRed's Condominiums pieces)
+const struct Tileset gTileset_KantoCeladonApartments = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments, .palettes = gTilesetPalettes_KantoCeladonApartments, .metatiles = gMetatiles_KantoCeladonApartments, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments, .callback = NULL };
+
+// Kanto Celadon: Cade's house (FireRed's Celadon house)
+const struct Tileset gTileset_KantoCeladonCadeHouse = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonCadeHouse, .palettes = gTilesetPalettes_KantoCeladonCadeHouse, .metatiles = gMetatiles_KantoCeladonCadeHouse, .metatileAttributes = gMetatileAttributes_KantoCeladonCadeHouse, .callback = NULL };

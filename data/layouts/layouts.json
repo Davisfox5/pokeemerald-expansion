@@ -9704,6 +9704,28 @@
       "border_filepath": "data/layouts/KantoRoute7Gatehouse/border.bin",
       "blockdata_filepath": "data/layouts/KantoRoute7Gatehouse/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS",
+      "name": "KantoCeladonApartments_Layout",
+      "width": 15,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartments",
+      "border_filepath": "data/layouts/KantoCeladonApartments/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartments/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_CADE_HOUSE",
+      "name": "KantoCeladonCadeHouse_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonCadeHouse",
+      "border_filepath": "data/layouts/KantoCeladonCadeHouse/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonCadeHouse/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
