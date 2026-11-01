@@ -783,15 +783,12 @@ void Task_DoDoorWarp(u8 taskId)
         }
         break;
     case DOORWARP_HIDE_PLAYER:
+        // Apocrypha: warp and fade as soon as the player reaches the door
+        // tile. The door stays open and the player stays visible under the fade.
         if (IsPlayerStandingStill())
         {
-            // Don't close door on NPC follower.
-            if (!PlayerHasFollowerNPC() || gObjectEvents[followerObjId].invisible)
-                task->tDoorTask = FieldAnimateDoorClose(*x, *y - 1);
-
             ObjectEventClearHeldMovementIfFinished(&gObjectEvents[playerObjId]);
-            SetPlayerVisibility(FALSE);
-            task->tState = DOORWARP_WAIT_DOOR_ANIM_TASK;
+            task->tState = DOORWARP_DO_WARP;
         }
         break;
     case DOORWARP_WAIT_DOOR_ANIM_TASK:
