@@ -423,9 +423,9 @@ static const u8 sJohtoSynthesisDoorPal_VioletCityEntrance_0[20] = {6,6,6,6,6,6,7
 extern const struct Tileset gTileset_VioletCityPrimary;
 extern const struct Tileset gTileset_VioletCity;
 static const u8 sVioletDoor_SproutTower[] = INCBIN_U8("graphics/door_anims/violet/SproutTower.4bpp");
-static const u8 sVioletDoorPal_SproutTower[20] = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0};
+static const u8 sVioletDoorPal_SproutTower[20] = {7,7,10,10,10,10,10,10,7,7,10,10,10,10,10,10,0,0,0,0};
 static const u8 sVioletDoor_University[] = INCBIN_U8("graphics/door_anims/violet/University.4bpp");
-static const u8 sVioletDoorPal_University[20] = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0};
+static const u8 sVioletDoorPal_University[20] = {7,7,10,10,10,10,10,10,7,7,10,10,10,10,10,10,0,0,0,0};
 static const u8 sVioletDoor_LectureHall[] = INCBIN_U8("graphics/door_anims/violet/LectureHall.4bpp");
 static const u8 sVioletDoorPal_LectureHall[20] = {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,5,0,0,0,0};
 static const u8 sVioletDoor_Mart[] = INCBIN_U8("graphics/door_anims/violet/Mart.4bpp");
@@ -433,33 +433,33 @@ static const u8 sVioletDoorPal_Mart[20] = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,0,0,0
 static const u8 sVioletDoor_PokemonCenter[] = INCBIN_U8("graphics/door_anims/violet/PokemonCenter.4bpp");
 static const u8 sVioletDoorPal_PokemonCenter[20] = {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,0,0,0,0};
 static const u8 sVioletDoor_House1[] = INCBIN_U8("graphics/door_anims/violet/House1.4bpp");
-static const u8 sVioletDoorPal_House1[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoorPal_House1[20] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 static const u8 sVioletDoor_House2[] = INCBIN_U8("graphics/door_anims/violet/House2.4bpp");
-static const u8 sVioletDoorPal_House2[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoorPal_House2[20] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 static const u8 sVioletDoor_House3[] = INCBIN_U8("graphics/door_anims/violet/House3.4bpp");
-static const u8 sVioletDoorPal_House3[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoorPal_House3[20] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 static const u8 sVioletDoor_House4[] = INCBIN_U8("graphics/door_anims/violet/House4.4bpp");
-static const u8 sVioletDoorPal_House4[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoorPal_House4[20] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 static const u8 sVioletDoor_House5[] = INCBIN_U8("graphics/door_anims/violet/House5.4bpp");
-static const u8 sVioletDoorPal_House5[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoorPal_House5[20] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 static const u8 sVioletDoor_EastGate[] = INCBIN_U8("graphics/door_anims/violet/EastGate.4bpp");
-static const u8 sVioletDoorPal_EastGate[20] = {0,0,0,0,6,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0};
+static const u8 sVioletDoorPal_EastGate[20] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 // Violet City doors: end
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
     // Violet City door table (doors.py): begin
-    {.metatileNum=82, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_SproutTower, .palettes=sVioletDoorPal_SproutTower, .layered=TRUE},
-    {.metatileNum=524, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_University, .palettes=sVioletDoorPal_University, .layered=TRUE},
-    {.metatileNum=496, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_LectureHall, .palettes=sVioletDoorPal_LectureHall, .layered=TRUE},
-    {.metatileNum=464, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_Mart, .palettes=sVioletDoorPal_Mart, .layered=TRUE},
-    {.metatileNum=633, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_PokemonCenter, .palettes=sVioletDoorPal_PokemonCenter, .layered=TRUE},
-    {.metatileNum=222, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House1, .palettes=sVioletDoorPal_House1, .layered=TRUE},
-    {.metatileNum=410, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House2, .palettes=sVioletDoorPal_House2, .layered=TRUE},
-    {.metatileNum=640, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House3, .palettes=sVioletDoorPal_House3, .layered=TRUE},
-    {.metatileNum=679, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House4, .palettes=sVioletDoorPal_House4, .layered=TRUE},
-    {.metatileNum=686, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House5, .palettes=sVioletDoorPal_House5, .layered=TRUE},
-    {.metatileNum=651, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_EastGate, .palettes=sVioletDoorPal_EastGate, .layered=TRUE},
+    {.metatileNum=78, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_SproutTower, .palettes=sVioletDoorPal_SproutTower, .layered=TRUE},
+    {.metatileNum=516, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_University, .palettes=sVioletDoorPal_University, .layered=TRUE},
+    {.metatileNum=485, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_LectureHall, .palettes=sVioletDoorPal_LectureHall, .layered=TRUE},
+    {.metatileNum=453, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_Mart, .palettes=sVioletDoorPal_Mart, .layered=TRUE},
+    {.metatileNum=626, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_SLIDING, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_PokemonCenter, .palettes=sVioletDoorPal_PokemonCenter, .layered=TRUE},
+    {.metatileNum=202, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House1, .palettes=sVioletDoorPal_House1, .layered=TRUE},
+    {.metatileNum=362, .tileset=&gTileset_VioletCityPrimary, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House2, .palettes=sVioletDoorPal_House2, .layered=TRUE},
+    {.metatileNum=623, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House3, .palettes=sVioletDoorPal_House3, .layered=TRUE},
+    {.metatileNum=666, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House4, .palettes=sVioletDoorPal_House4, .layered=TRUE},
+    {.metatileNum=678, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_House5, .palettes=sVioletDoorPal_House5, .layered=TRUE},
+    {.metatileNum=632, .tileset=&gTileset_VioletCity, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sVioletDoor_EastGate, .palettes=sVioletDoorPal_EastGate, .layered=TRUE},
     // Violet City door table: end
     {.metatileNum=684, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_0, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_0},
     {.metatileNum=753, .tileset=&gTileset_NewBark, .sound=DOOR_SOUND_NORMAL, .size=DOOR_SIZE_2x2_LEFT, .tiles=sJohtoSynthesisDoor_NewBarkTown_1, .palettes=sJohtoSynthesisDoorPal_NewBarkTown_1},

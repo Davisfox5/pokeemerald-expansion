@@ -19,7 +19,7 @@
   "warp_events": [
     {
       "x": 74,
-      "y": 56,
+      "y": 55,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_EAST_GATE",
       "dest_warp_id": "0"
@@ -68,35 +68,35 @@
     },
     {
       "x": 11,
-      "y": 27,
+      "y": 26,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_HOUSE_1",
       "dest_warp_id": "0"
     },
     {
       "x": 10,
-      "y": 38,
+      "y": 37,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_HOUSE_2",
       "dest_warp_id": "0"
     },
     {
       "x": 26,
-      "y": 56,
+      "y": 55,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_HOUSE_3",
       "dest_warp_id": "0"
     },
     {
       "x": 36,
-      "y": 61,
+      "y": 60,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_HOUSE_4",
       "dest_warp_id": "0"
     },
     {
       "x": 56,
-      "y": 64,
+      "y": 63,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_HOUSE_5",
       "dest_warp_id": "0"
