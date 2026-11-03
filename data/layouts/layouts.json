@@ -9583,6 +9583,28 @@
       "border_filepath": "data/layouts/DarkCaveRoute31Side/border.bin",
       "blockdata_filepath": "data/layouts/DarkCaveRoute31Side/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_DARK_CAVE_GROTTO",
+      "name": "DarkCaveGrotto_Layout",
+      "width": 40,
+      "height": 30,
+      "primary_tileset": "gTileset_DarkCavePrimary",
+      "secondary_tileset": "gTileset_DarkCave",
+      "border_filepath": "data/layouts/DarkCaveGrotto/border.bin",
+      "blockdata_filepath": "data/layouts/DarkCaveGrotto/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_DARK_CAVE_UNDERWATER",
+      "name": "DarkCaveUnderwater_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_DarkCavePrimary",
+      "secondary_tileset": "gTileset_DarkCave",
+      "border_filepath": "data/layouts/DarkCaveUnderwater/border.bin",
+      "blockdata_filepath": "data/layouts/DarkCaveUnderwater/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
