@@ -1619,3 +1619,9 @@ const struct Tileset gTileset_Route44 = { .isCompressed = TRUE, .isSecondary = T
 
 // Route 42 (secondary)
 const struct Tileset gTileset_Route42 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route42, .palettes = gTilesetPalettes_Route42, .metatiles = gMetatiles_Route42, .metatileAttributes = gMetatileAttributes_Route42, .callback = NULL };
+
+// Ice Path (primary)
+const struct Tileset gTileset_IcePathPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_IcePathPrimary, .palettes = gTilesetPalettes_IcePathPrimary, .metatiles = gMetatiles_IcePathPrimary, .metatileAttributes = gMetatileAttributes_IcePathPrimary, .callback = NULL };
+
+// Ice Path (secondary)
+const struct Tileset gTileset_IcePath = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_IcePath, .palettes = gTilesetPalettes_IcePath, .metatiles = gMetatiles_IcePath, .metatileAttributes = gMetatileAttributes_IcePath, .callback = NULL };

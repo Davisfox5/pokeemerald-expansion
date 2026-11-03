@@ -1871,3 +1871,11 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/Route44/scripts.inc"
 
 .include "data/maps/Route42/scripts.inc"
+
+.include "data/maps/IcePath_1F/scripts.inc"
+
+.include "data/maps/IcePath_B1F/scripts.inc"
+
+.include "data/maps/IcePath_B2F/scripts.inc"
+
+.include "data/maps/IcePath_B3F/scripts.inc"

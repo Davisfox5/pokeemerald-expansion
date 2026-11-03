@@ -493,3 +493,11 @@ const u16 gMetatileAttributes_Route44[] = INCBIN_U16("data/tilesets/secondary/ro
 // Route 42 (secondary)
 const u16 gMetatiles_Route42[] = INCBIN_U16("data/tilesets/secondary/route_42/metatiles.bin");
 const u16 gMetatileAttributes_Route42[] = INCBIN_U16("data/tilesets/secondary/route_42/metatile_attributes.bin");
+
+// Ice Path (primary)
+const u16 gMetatiles_IcePathPrimary[] = INCBIN_U16("data/tilesets/primary/ice_path/metatiles.bin");
+const u16 gMetatileAttributes_IcePathPrimary[] = INCBIN_U16("data/tilesets/primary/ice_path/metatile_attributes.bin");
+
+// Ice Path (secondary)
+const u16 gMetatiles_IcePath[] = INCBIN_U16("data/tilesets/secondary/ice_path/metatiles.bin");
+const u16 gMetatileAttributes_IcePath[] = INCBIN_U16("data/tilesets/secondary/ice_path/metatile_attributes.bin");

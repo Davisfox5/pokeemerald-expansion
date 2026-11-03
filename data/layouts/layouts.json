@@ -9660,6 +9660,50 @@
       "border_filepath": "data/layouts/Route42/border.bin",
       "blockdata_filepath": "data/layouts/Route42/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ICE_PATH_1F",
+      "name": "IcePath_1F_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_IcePathPrimary",
+      "secondary_tileset": "gTileset_IcePath",
+      "border_filepath": "data/layouts/IcePath_1F/border.bin",
+      "blockdata_filepath": "data/layouts/IcePath_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ICE_PATH_B1F",
+      "name": "IcePath_B1F_Layout",
+      "width": 32,
+      "height": 64,
+      "primary_tileset": "gTileset_IcePathPrimary",
+      "secondary_tileset": "gTileset_IcePath",
+      "border_filepath": "data/layouts/IcePath_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/IcePath_B1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ICE_PATH_B2F",
+      "name": "IcePath_B2F_Layout",
+      "width": 64,
+      "height": 32,
+      "primary_tileset": "gTileset_IcePathPrimary",
+      "secondary_tileset": "gTileset_IcePath",
+      "border_filepath": "data/layouts/IcePath_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/IcePath_B2F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ICE_PATH_B3F",
+      "name": "IcePath_B3F_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_IcePathPrimary",
+      "secondary_tileset": "gTileset_IcePath",
+      "border_filepath": "data/layouts/IcePath_B3F/border.bin",
+      "blockdata_filepath": "data/layouts/IcePath_B3F/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

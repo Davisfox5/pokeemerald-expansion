@@ -1802,6 +1802,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_ICE_PATH",
+      "name": "ICE PATH",
+      "x": 5,
+      "y": 3,
+      "width": 1,
+      "height": 1
     }
   ]
 }
