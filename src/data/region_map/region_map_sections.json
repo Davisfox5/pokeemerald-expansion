@@ -1762,6 +1762,46 @@
       "y": 5,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_MAHOGANY_TOWN",
+      "name": "MAHOGANY TOWN",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_43",
+      "name": "ROUTE 43",
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_LAKE_OF_RAGE",
+      "name": "LAKE OF RAGE",
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_44",
+      "name": "ROUTE 44",
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_42",
+      "name": "ROUTE 42",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1
     }
   ]
 }

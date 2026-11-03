@@ -9605,6 +9605,61 @@
       "border_filepath": "data/layouts/DarkCaveUnderwater/border.bin",
       "blockdata_filepath": "data/layouts/DarkCaveUnderwater/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MAHOGANY_TOWN",
+      "name": "MahoganyTown_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_MahoganyPrimary",
+      "secondary_tileset": "gTileset_MahoganyTown",
+      "border_filepath": "data/layouts/MahoganyTown/border.bin",
+      "blockdata_filepath": "data/layouts/MahoganyTown/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE43",
+      "name": "Route43_Layout",
+      "width": 32,
+      "height": 64,
+      "primary_tileset": "gTileset_Route43Primary",
+      "secondary_tileset": "gTileset_Route43",
+      "border_filepath": "data/layouts/Route43/border.bin",
+      "blockdata_filepath": "data/layouts/Route43/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LAKE_OF_RAGE",
+      "name": "LakeOfRage_Layout",
+      "width": 96,
+      "height": 64,
+      "primary_tileset": "gTileset_Route43Primary",
+      "secondary_tileset": "gTileset_LakeOfRage",
+      "border_filepath": "data/layouts/LakeOfRage/border.bin",
+      "blockdata_filepath": "data/layouts/LakeOfRage/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE44",
+      "name": "Route44_Layout",
+      "width": 96,
+      "height": 32,
+      "primary_tileset": "gTileset_MahoganyPrimary",
+      "secondary_tileset": "gTileset_Route44",
+      "border_filepath": "data/layouts/Route44/border.bin",
+      "blockdata_filepath": "data/layouts/Route44/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE42",
+      "name": "Route42_Layout",
+      "width": 96,
+      "height": 32,
+      "primary_tileset": "gTileset_MahoganyPrimary",
+      "secondary_tileset": "gTileset_Route42",
+      "border_filepath": "data/layouts/Route42/border.bin",
+      "blockdata_filepath": "data/layouts/Route42/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

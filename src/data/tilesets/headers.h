@@ -1598,3 +1598,24 @@ const struct Tileset gTileset_DarkCavePrimary = { .isCompressed = TRUE, .isSecon
 
 // Dark Cave (secondary)
 const struct Tileset gTileset_DarkCave = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_DarkCave, .palettes = gTilesetPalettes_DarkCave, .metatiles = gMetatiles_DarkCave, .metatileAttributes = gMetatileAttributes_DarkCave, .callback = NULL };
+
+// Mahogany Town (primary)
+const struct Tileset gTileset_MahoganyPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_MahoganyPrimary, .palettes = gTilesetPalettes_MahoganyPrimary, .metatiles = gMetatiles_MahoganyPrimary, .metatileAttributes = gMetatileAttributes_MahoganyPrimary, .callback = NULL };
+
+// Mahogany Town (secondary)
+const struct Tileset gTileset_MahoganyTown = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_MahoganyTown, .palettes = gTilesetPalettes_MahoganyTown, .metatiles = gMetatiles_MahoganyTown, .metatileAttributes = gMetatileAttributes_MahoganyTown, .callback = NULL };
+
+// Route 43 (primary)
+const struct Tileset gTileset_Route43Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route43Primary, .palettes = gTilesetPalettes_Route43Primary, .metatiles = gMetatiles_Route43Primary, .metatileAttributes = gMetatileAttributes_Route43Primary, .callback = NULL };
+
+// Route 43 (secondary)
+const struct Tileset gTileset_Route43 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route43, .palettes = gTilesetPalettes_Route43, .metatiles = gMetatiles_Route43, .metatileAttributes = gMetatileAttributes_Route43, .callback = NULL };
+
+// Lake of Rage (secondary)
+const struct Tileset gTileset_LakeOfRage = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_LakeOfRage, .palettes = gTilesetPalettes_LakeOfRage, .metatiles = gMetatiles_LakeOfRage, .metatileAttributes = gMetatileAttributes_LakeOfRage, .callback = NULL };
+
+// Route 44 (secondary)
+const struct Tileset gTileset_Route44 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route44, .palettes = gTilesetPalettes_Route44, .metatiles = gMetatiles_Route44, .metatileAttributes = gMetatileAttributes_Route44, .callback = NULL };
+
+// Route 42 (secondary)
+const struct Tileset gTileset_Route42 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route42, .palettes = gTilesetPalettes_Route42, .metatiles = gMetatiles_Route42, .metatileAttributes = gMetatileAttributes_Route42, .callback = NULL };
