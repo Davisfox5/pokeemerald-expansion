@@ -1592,3 +1592,9 @@ const struct Tileset gTileset_Route45 = { .isCompressed = TRUE, .isSecondary = T
 
 // Route 46 (secondary)
 const struct Tileset gTileset_Route46 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route46, .palettes = gTilesetPalettes_Route46, .metatiles = gMetatiles_Route46, .metatileAttributes = gMetatileAttributes_Route46, .callback = NULL };
+
+// Dark Cave (primary)
+const struct Tileset gTileset_DarkCavePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_DarkCavePrimary, .palettes = gTilesetPalettes_DarkCavePrimary, .metatiles = gMetatiles_DarkCavePrimary, .metatileAttributes = gMetatileAttributes_DarkCavePrimary, .callback = NULL };
+
+// Dark Cave (secondary)
+const struct Tileset gTileset_DarkCave = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_DarkCave, .palettes = gTilesetPalettes_DarkCave, .metatiles = gMetatiles_DarkCave, .metatileAttributes = gMetatileAttributes_DarkCave, .callback = NULL };
