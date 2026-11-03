@@ -1842,6 +1842,8 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/VioletWestGate/scripts.inc"
 
 .include "data/maps/SproutTower1F/scripts.inc"
+.include "data/maps/SproutTower3F/scripts.inc"
+.include "data/maps/SproutTower2F/scripts.inc"
 
 .include "data/maps/VioletUniversity/scripts.inc"
 

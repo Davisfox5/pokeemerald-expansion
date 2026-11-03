@@ -1,7 +1,7 @@
 {
   "id": "MAP_VIOLET_UNIVERSITY",
   "name": "VioletUniversity",
-  "layout": "LAYOUT_RUSTBORO_CITY_POKEMON_SCHOOL",
+  "layout": "LAYOUT_VIOLET_UNIVERSITY",
   "music": "MUS_SCHOOL",
   "region": "REGION_JOHTO",
   "region_map_section": "MAPSEC_VIOLET_CITY",
@@ -18,15 +18,8 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 5,
-      "y": 10,
-      "elevation": 0,
-      "dest_map": "MAP_VIOLET_CITY",
-      "dest_warp_id": "3"
-    },
-    {
-      "x": 6,
-      "y": 10,
+      "x": 15,
+      "y": 11,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_CITY",
       "dest_warp_id": "3"
