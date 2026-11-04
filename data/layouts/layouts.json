@@ -9564,6 +9564,116 @@
       "build_target": "emerald"
     },
     {
+      "id": "LAYOUT_VIOLET_UNIVERSITY",
+      "name": "VioletUniversity_Layout",
+      "width": 26,
+      "height": 13,
+      "primary_tileset": "gTileset_VioletUniversityPrimary",
+      "secondary_tileset": "gTileset_VioletUniversity",
+      "border_filepath": "data/layouts/VioletUniversity/border.bin",
+      "blockdata_filepath": "data/layouts/VioletUniversity/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_VIOLET_LECTURE_HALL",
+      "name": "VioletLectureHall_Layout",
+      "width": 17,
+      "height": 30,
+      "primary_tileset": "gTileset_VioletLectureHallPrimary",
+      "secondary_tileset": "gTileset_VioletLectureHall",
+      "border_filepath": "data/layouts/VioletLectureHall/border.bin",
+      "blockdata_filepath": "data/layouts/VioletLectureHall/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_VIOLET_HOUSE_1",
+      "name": "VioletHouse1_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_VioletSageHousePrimary",
+      "secondary_tileset": "gTileset_VioletSageHouse",
+      "border_filepath": "data/layouts/VioletHouse1/border.bin",
+      "blockdata_filepath": "data/layouts/VioletHouse1/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_VIOLET_HOUSE_2",
+      "name": "VioletHouse2_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_VioletHousesPrimary",
+      "secondary_tileset": "gTileset_VioletHouses",
+      "border_filepath": "data/layouts/VioletHouse2/border.bin",
+      "blockdata_filepath": "data/layouts/VioletHouse2/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_VIOLET_HOUSE_3",
+      "name": "VioletHouse3_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_VioletHousesPrimary",
+      "secondary_tileset": "gTileset_VioletHouses",
+      "border_filepath": "data/layouts/VioletHouse3/border.bin",
+      "blockdata_filepath": "data/layouts/VioletHouse3/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_VIOLET_HOUSE_4",
+      "name": "VioletHouse4_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_VioletHousesPrimary",
+      "secondary_tileset": "gTileset_VioletHouses",
+      "border_filepath": "data/layouts/VioletHouse4/border.bin",
+      "blockdata_filepath": "data/layouts/VioletHouse4/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_VIOLET_HOUSE_5",
+      "name": "VioletHouse5_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_VioletHousesPrimary",
+      "secondary_tileset": "gTileset_VioletHouses",
+      "border_filepath": "data/layouts/VioletHouse5/border.bin",
+      "blockdata_filepath": "data/layouts/VioletHouse5/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SPROUT_TOWER_1F",
+      "name": "SproutTower1F_Layout",
+      "width": 23,
+      "height": 26,
+      "primary_tileset": "gTileset_VioletSproutTowerPrimary",
+      "secondary_tileset": "gTileset_VioletSproutTower",
+      "border_filepath": "data/layouts/SproutTower1F/border.bin",
+      "blockdata_filepath": "data/layouts/SproutTower1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SPROUT_TOWER_2F",
+      "name": "SproutTower2F_Layout",
+      "width": 23,
+      "height": 26,
+      "primary_tileset": "gTileset_VioletSproutTowerPrimary",
+      "secondary_tileset": "gTileset_VioletSproutTower",
+      "border_filepath": "data/layouts/SproutTower2F/border.bin",
+      "blockdata_filepath": "data/layouts/SproutTower2F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SPROUT_TOWER_3F",
+      "name": "SproutTower3F_Layout",
+      "width": 23,
+      "height": 26,
+      "primary_tileset": "gTileset_VioletSproutTowerPrimary",
+      "secondary_tileset": "gTileset_VioletSproutTower",
+      "border_filepath": "data/layouts/SproutTower3F/border.bin",
+      "blockdata_filepath": "data/layouts/SproutTower3F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
       "id": "LAYOUT_JOHTO_ROUTE32",
       "name": "JohtoRoute32_Layout",
       "width": 32,

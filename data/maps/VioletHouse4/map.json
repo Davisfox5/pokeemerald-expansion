@@ -1,7 +1,7 @@
 {
   "id": "MAP_VIOLET_HOUSE_4",
   "name": "VioletHouse4",
-  "layout": "LAYOUT_HOUSE4",
+  "layout": "LAYOUT_VIOLET_HOUSE_4",
   "music": "MUS_LITTLEROOT",
   "region": "REGION_JOHTO",
   "region_map_section": "MAPSEC_VIOLET_CITY",
@@ -17,13 +17,6 @@
   "connections": null,
   "object_events": [],
   "warp_events": [
-    {
-      "x": 3,
-      "y": 8,
-      "elevation": 0,
-      "dest_map": "MAP_VIOLET_CITY",
-      "dest_warp_id": "10"
-    },
     {
       "x": 4,
       "y": 8,
