@@ -1862,3 +1862,9 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/VioletHouse4/scripts.inc"
 
 .include "data/maps/VioletHouse5/scripts.inc"
+
+.include "data/maps/JohtoRoute32/scripts.inc"
+
+.include "data/maps/Route32PokemonCenter/scripts.inc"
+
+.include "data/maps/Route32CenterUpstairs/scripts.inc"

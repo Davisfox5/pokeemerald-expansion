@@ -467,3 +467,7 @@ const u16 gMetatiles_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/j
 const u16 gMetatileAttributes_JohtoRoute36Primary[] = INCBIN_U16("data/tilesets/primary/johto_route36/metatile_attributes.bin");
 const u16 gMetatiles_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatiles.bin");
 const u16 gMetatileAttributes_JohtoRoute36[] = INCBIN_U16("data/tilesets/secondary/johto_route36/metatile_attributes.bin");
+const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
+const u16 gMetatiles_Route32Hgss[] = INCBIN_U16("data/tilesets/secondary/route32_hgss/metatiles.bin");
+const u16 gMetatileAttributes_Route32Hgss[] = INCBIN_U16("data/tilesets/secondary/route32_hgss/metatile_attributes.bin");

@@ -9562,6 +9562,16 @@
       "blockdata_filepath": "data/layouts/Route110_SeasideCyclingRoadEntrance/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ROUTE32",
+      "name": "JohtoRoute32_Layout",
+      "width": 32,
+      "height": 166,
+      "primary_tileset": "gTileset_Route32Primary",
+      "secondary_tileset": "gTileset_Route32Hgss",
+      "border_filepath": "data/layouts/JohtoRoute32/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute32/map.bin"
     }
   ]
 }
