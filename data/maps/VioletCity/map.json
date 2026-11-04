@@ -14,7 +14,13 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "build_target": "emerald",
-  "connections": null,
+  "connections": [
+    {
+      "map": "MAP_JOHTO_ROUTE32",
+      "direction": "down",
+      "offset": 4
+    }
+  ],
   "object_events": [],
   "warp_events": [
     {

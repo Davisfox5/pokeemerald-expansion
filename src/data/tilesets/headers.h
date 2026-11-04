@@ -1605,3 +1605,11 @@ const struct Tileset gTileset_VioletCityPrimary = { .isCompressed = TRUE, .isSec
 const struct Tileset gTileset_VioletCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_VioletCity, .palettes = gTilesetPalettes_VioletCity, .metatiles = gMetatiles_VioletCity, .metatileAttributes = gMetatileAttributes_VioletCity, .callback = NULL };
 const struct Tileset gTileset_JohtoRoute36Primary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoRoute36Primary, .palettes = gTilesetPalettes_JohtoRoute36Primary, .metatiles = gMetatiles_JohtoRoute36Primary, .metatileAttributes = gMetatileAttributes_JohtoRoute36Primary, .callback = NULL };
 const struct Tileset gTileset_JohtoRoute36 = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoRoute36, .palettes = gTilesetPalettes_JohtoRoute36, .metatiles = gMetatiles_JohtoRoute36, .metatileAttributes = gMetatileAttributes_JohtoRoute36, .callback = NULL };
+
+const struct Tileset gTileset_Route32NorthPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route32NorthPrimary, .palettes = gTilesetPalettes_Route32NorthPrimary, .metatiles = gMetatiles_Route32NorthPrimary, .metatileAttributes = gMetatileAttributes_Route32NorthPrimary, .callback = NULL };
+
+const struct Tileset gTileset_Route32North = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route32North, .palettes = gTilesetPalettes_Route32North, .metatiles = gMetatiles_Route32North, .metatileAttributes = gMetatileAttributes_Route32North, .callback = NULL };
+
+const struct Tileset gTileset_Route32SouthPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_Route32SouthPrimary, .palettes = gTilesetPalettes_Route32SouthPrimary, .metatiles = gMetatiles_Route32SouthPrimary, .metatileAttributes = gMetatileAttributes_Route32SouthPrimary, .callback = NULL };
+
+const struct Tileset gTileset_Route32South = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Route32South, .palettes = gTilesetPalettes_Route32South, .metatiles = gMetatiles_Route32South, .metatileAttributes = gMetatileAttributes_Route32South, .callback = NULL };
