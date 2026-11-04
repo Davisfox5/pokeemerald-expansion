@@ -19,7 +19,7 @@
   "warp_events": [
     {
       "x": 11,
-      "y": 24,
+      "y": 22,
       "elevation": 0,
       "dest_map": "MAP_SPROUT_TOWER_2F",
       "dest_warp_id": "3"
