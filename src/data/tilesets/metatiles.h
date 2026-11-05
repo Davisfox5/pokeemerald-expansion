@@ -465,3 +465,39 @@ const u16 gMetatileAttributes_DarkCavePrimary[] = INCBIN_U16("data/tilesets/prim
 // Dark Cave (secondary)
 const u16 gMetatiles_DarkCave[] = INCBIN_U16("data/tilesets/secondary/dark_cave/metatiles.bin");
 const u16 gMetatileAttributes_DarkCave[] = INCBIN_U16("data/tilesets/secondary/dark_cave/metatile_attributes.bin");
+
+// Mahogany Town (primary)
+const u16 gMetatiles_MahoganyPrimary[] = INCBIN_U16("data/tilesets/primary/mahogany/metatiles.bin");
+const u16 gMetatileAttributes_MahoganyPrimary[] = INCBIN_U16("data/tilesets/primary/mahogany/metatile_attributes.bin");
+
+// Mahogany Town (secondary)
+const u16 gMetatiles_MahoganyTown[] = INCBIN_U16("data/tilesets/secondary/mahogany_town/metatiles.bin");
+const u16 gMetatileAttributes_MahoganyTown[] = INCBIN_U16("data/tilesets/secondary/mahogany_town/metatile_attributes.bin");
+
+// Route 43 (primary)
+const u16 gMetatiles_Route43Primary[] = INCBIN_U16("data/tilesets/primary/route43/metatiles.bin");
+const u16 gMetatileAttributes_Route43Primary[] = INCBIN_U16("data/tilesets/primary/route43/metatile_attributes.bin");
+
+// Route 43 (secondary)
+const u16 gMetatiles_Route43[] = INCBIN_U16("data/tilesets/secondary/route_43/metatiles.bin");
+const u16 gMetatileAttributes_Route43[] = INCBIN_U16("data/tilesets/secondary/route_43/metatile_attributes.bin");
+
+// Lake of Rage (secondary)
+const u16 gMetatiles_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/lake_of_rage/metatiles.bin");
+const u16 gMetatileAttributes_LakeOfRage[] = INCBIN_U16("data/tilesets/secondary/lake_of_rage/metatile_attributes.bin");
+
+// Route 44 (secondary)
+const u16 gMetatiles_Route44[] = INCBIN_U16("data/tilesets/secondary/route_44/metatiles.bin");
+const u16 gMetatileAttributes_Route44[] = INCBIN_U16("data/tilesets/secondary/route_44/metatile_attributes.bin");
+
+// Route 42 (secondary)
+const u16 gMetatiles_Route42[] = INCBIN_U16("data/tilesets/secondary/route_42/metatiles.bin");
+const u16 gMetatileAttributes_Route42[] = INCBIN_U16("data/tilesets/secondary/route_42/metatile_attributes.bin");
+
+// Ice Path (primary)
+const u16 gMetatiles_IcePathPrimary[] = INCBIN_U16("data/tilesets/primary/ice_path/metatiles.bin");
+const u16 gMetatileAttributes_IcePathPrimary[] = INCBIN_U16("data/tilesets/primary/ice_path/metatile_attributes.bin");
+
+// Ice Path (secondary)
+const u16 gMetatiles_IcePath[] = INCBIN_U16("data/tilesets/secondary/ice_path/metatiles.bin");
+const u16 gMetatileAttributes_IcePath[] = INCBIN_U16("data/tilesets/secondary/ice_path/metatile_attributes.bin");
