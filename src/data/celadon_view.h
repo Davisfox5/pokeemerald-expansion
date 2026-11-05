@@ -2,7 +2,7 @@
 // stream6.py's tables in the hub (tools/gba/maps/celadon_elements); do not edit by hand.
 #define CELADON_W 64
 #define CELADON_H 52
-#define CELADON_STATIC 3086
+#define CELADON_STATIC 3072
 #define CELADON_PINNED 51
 #define CELADON_PALETTES 27
 #define CELADON_SCREEN 14
