@@ -3592,3 +3592,45 @@ const u16 gTilesetPalettes_IcePath[][16] = {
     INCGFX_U16("data/tilesets/secondary/ice_path/palettes/14.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/ice_path/palettes/15.pal", ".gbapal"),
 };
+
+// Mt. Mortar (primary).
+const u32 gTilesetTiles_MtMortarPrimary[] = INCGFX_U32("data/tilesets/primary/mt_mortar/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_MtMortarPrimary[][16] = {
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/mt_mortar/palettes/15.pal", ".gbapal"),
+};
+
+// Mt. Mortar (secondary).
+const u32 gTilesetTiles_MtMortar[] = INCGFX_U32("data/tilesets/secondary/mt_mortar/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_MtMortar[][16] = {
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/15.pal", ".gbapal"),
+};

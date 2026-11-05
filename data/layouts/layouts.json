@@ -9704,6 +9704,50 @@
       "border_filepath": "data/layouts/IcePath_B3F/border.bin",
       "blockdata_filepath": "data/layouts/IcePath_B3F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MT_MORTAR_1F_ENTRANCE",
+      "name": "MtMortar_1F_Entrance_Layout",
+      "width": 96,
+      "height": 64,
+      "primary_tileset": "gTileset_MtMortarPrimary",
+      "secondary_tileset": "gTileset_MtMortar",
+      "border_filepath": "data/layouts/MtMortar_1F_Entrance/border.bin",
+      "blockdata_filepath": "data/layouts/MtMortar_1F_Entrance/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MT_MORTAR_1F_BACK",
+      "name": "MtMortar_1F_Back_Layout",
+      "width": 75,
+      "height": 88,
+      "primary_tileset": "gTileset_MtMortarPrimary",
+      "secondary_tileset": "gTileset_MtMortar",
+      "border_filepath": "data/layouts/MtMortar_1F_Back/border.bin",
+      "blockdata_filepath": "data/layouts/MtMortar_1F_Back/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MT_MORTAR_2F",
+      "name": "MtMortar_2F_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_MtMortarPrimary",
+      "secondary_tileset": "gTileset_MtMortar",
+      "border_filepath": "data/layouts/MtMortar_2F/border.bin",
+      "blockdata_filepath": "data/layouts/MtMortar_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MT_MORTAR_B1F",
+      "name": "MtMortar_B1F_Layout",
+      "width": 64,
+      "height": 96,
+      "primary_tileset": "gTileset_MtMortarPrimary",
+      "secondary_tileset": "gTileset_MtMortar",
+      "border_filepath": "data/layouts/MtMortar_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/MtMortar_B1F/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
