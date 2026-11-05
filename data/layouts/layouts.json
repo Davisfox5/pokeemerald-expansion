@@ -9672,6 +9672,16 @@
       "border_filepath": "data/layouts/SproutTower3F/border.bin",
       "blockdata_filepath": "data/layouts/SproutTower3F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ROUTE32",
+      "name": "JohtoRoute32_Layout",
+      "width": 32,
+      "height": 166,
+      "primary_tileset": "gTileset_Route32Primary",
+      "secondary_tileset": "gTileset_Route32Hgss",
+      "border_filepath": "data/layouts/JohtoRoute32/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute32/map.bin"
     }
   ]
 }

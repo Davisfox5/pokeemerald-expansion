@@ -487,3 +487,7 @@ const u16 gMetatiles_VioletSageHousePrimary[] = INCBIN_U16("data/tilesets/primar
 const u16 gMetatileAttributes_VioletSageHousePrimary[] = INCBIN_U16("data/tilesets/primary/violet_sage_house/metatile_attributes.bin");
 const u16 gMetatiles_VioletSageHouse[] = INCBIN_U16("data/tilesets/secondary/violet_sage_house/metatiles.bin");
 const u16 gMetatileAttributes_VioletSageHouse[] = INCBIN_U16("data/tilesets/secondary/violet_sage_house/metatile_attributes.bin");
+const u16 gMetatiles_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatiles.bin");
+const u16 gMetatileAttributes_Route32Primary[] = INCBIN_U16("data/tilesets/primary/route32/metatile_attributes.bin");
+const u16 gMetatiles_Route32Hgss[] = INCBIN_U16("data/tilesets/secondary/route32_hgss/metatiles.bin");
+const u16 gMetatileAttributes_Route32Hgss[] = INCBIN_U16("data/tilesets/secondary/route32_hgss/metatile_attributes.bin");
