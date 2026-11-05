@@ -16,7 +16,13 @@ void MapProof_Boot(void) { SetMainCallback2(CB2_NewGame); }
 void MapProof_Enter(u32 region)
 {
     u16 map = sMapProofMaps[(region & 255) % ARRAY_COUNT(sMapProofMaps)];
-    SetWarpDestination(MAP_GROUP(map), MAP_NUM(map), WARP_ID_NONE, (region >> 8) & 255, (region >> 16) & 255);
+    // Through the dynamic warp, whose coordinates are 16-bit: SetWarpDestination's are s8, and Route 32 is 166 rows.
+    gSaveBlock1Ptr->dynamicWarp.mapGroup = MAP_GROUP(map);
+    gSaveBlock1Ptr->dynamicWarp.mapNum = MAP_NUM(map);
+    gSaveBlock1Ptr->dynamicWarp.warpId = WARP_ID_NONE;
+    gSaveBlock1Ptr->dynamicWarp.x = (region >> 8) & 255;
+    gSaveBlock1Ptr->dynamicWarp.y = (region >> 16) & 255;
+    SetWarpDestinationToDynamicWarp(0);
     DoWarp();
 }
 void MapProof_ReadState(void)
