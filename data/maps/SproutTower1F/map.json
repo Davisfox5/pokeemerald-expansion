@@ -19,16 +19,44 @@
   "warp_events": [
     {
       "x": 11,
-      "y": 23,
+      "y": 24,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_CITY",
       "dest_warp_id": "2"
     },
     {
       "x": 12,
-      "y": 23,
+      "y": 24,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_CITY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_SPROUT_TOWER_2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SPROUT_TOWER_2F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_SPROUT_TOWER_2F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_SPROUT_TOWER_2F",
       "dest_warp_id": "2"
     },
     {
@@ -41,34 +69,6 @@
     {
       "x": 20,
       "y": 4,
-      "elevation": 0,
-      "dest_map": "MAP_SPROUT_TOWER_2F",
-      "dest_warp_id": "1"
-    },
-    {
-      "x": 2,
-      "y": 11,
-      "elevation": 0,
-      "dest_map": "MAP_SPROUT_TOWER_2F",
-      "dest_warp_id": "2"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "elevation": 0,
-      "dest_map": "MAP_SPROUT_TOWER_2F",
-      "dest_warp_id": "2"
-    },
-    {
-      "x": 6,
-      "y": 9,
-      "elevation": 0,
-      "dest_map": "MAP_SPROUT_TOWER_2F",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 20,
-      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_SPROUT_TOWER_2F",
       "dest_warp_id": "1"
