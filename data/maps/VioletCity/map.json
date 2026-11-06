@@ -18,7 +18,7 @@
     {
       "map": "MAP_JOHTO_ROUTE32",
       "direction": "down",
-      "offset": 4
+      "offset": -1
     }
   ],
   "object_events": [],

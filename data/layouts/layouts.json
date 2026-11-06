@@ -9676,7 +9676,7 @@
     {
       "id": "LAYOUT_JOHTO_ROUTE32",
       "name": "JohtoRoute32_Layout",
-      "width": 32,
+      "width": 41,
       "height": 166,
       "primary_tileset": "gTileset_Route32Primary",
       "secondary_tileset": "gTileset_Route32Hgss",
