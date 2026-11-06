@@ -1810,6 +1810,14 @@
       "y": 3,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_MT_MORTAR",
+      "name": "MT. MORTAR",
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1
     }
   ]
 }

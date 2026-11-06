@@ -501,3 +501,11 @@ const u16 gMetatileAttributes_IcePathPrimary[] = INCBIN_U16("data/tilesets/prima
 // Ice Path (secondary)
 const u16 gMetatiles_IcePath[] = INCBIN_U16("data/tilesets/secondary/ice_path/metatiles.bin");
 const u16 gMetatileAttributes_IcePath[] = INCBIN_U16("data/tilesets/secondary/ice_path/metatile_attributes.bin");
+
+// Mt. Mortar (primary)
+const u16 gMetatiles_MtMortarPrimary[] = INCBIN_U16("data/tilesets/primary/mt_mortar/metatiles.bin");
+const u16 gMetatileAttributes_MtMortarPrimary[] = INCBIN_U16("data/tilesets/primary/mt_mortar/metatile_attributes.bin");
+
+// Mt. Mortar (secondary)
+const u16 gMetatiles_MtMortar[] = INCBIN_U16("data/tilesets/secondary/mt_mortar/metatiles.bin");
+const u16 gMetatileAttributes_MtMortar[] = INCBIN_U16("data/tilesets/secondary/mt_mortar/metatile_attributes.bin");

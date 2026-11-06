@@ -1879,3 +1879,11 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/IcePath_B2F/scripts.inc"
 
 .include "data/maps/IcePath_B3F/scripts.inc"
+
+.include "data/maps/MtMortar_1F_Entrance/scripts.inc"
+
+.include "data/maps/MtMortar_1F_Back/scripts.inc"
+
+.include "data/maps/MtMortar_2F/scripts.inc"
+
+.include "data/maps/MtMortar_B1F/scripts.inc"

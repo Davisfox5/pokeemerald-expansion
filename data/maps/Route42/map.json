@@ -20,7 +20,36 @@
     }
   ],
   "object_events": [],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 20,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_MT_MORTAR_1F_ENTRANCE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 48,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_MT_MORTAR_1F_ENTRANCE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 50,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_MT_MORTAR_1F_ENTRANCE",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 77,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_MT_MORTAR_1F_ENTRANCE",
+      "dest_warp_id": "3"
+    }
+  ],
   "coord_events": [],
   "bg_events": [
     {
