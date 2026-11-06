@@ -1456,3 +1456,28 @@ void InitTilesetAnim_CeladonGym(void)
     sSecondaryTilesetAnimCallback = TilesetAnim_CeladonGym;
 }
 
+
+// Mt. Mortar (tools/gba/maps/mt_mortar/install.py): the falls, Emerald's waterfall in cave water
+const u16 gTilesetAnims_MtMortar_Waterfall_Frame0[] = INCGFX_U16("data/tilesets/primary/mt_mortar/anim/waterfall/0.png", ".4bpp");
+const u16 gTilesetAnims_MtMortar_Waterfall_Frame1[] = INCGFX_U16("data/tilesets/primary/mt_mortar/anim/waterfall/1.png", ".4bpp");
+const u16 gTilesetAnims_MtMortar_Waterfall_Frame2[] = INCGFX_U16("data/tilesets/primary/mt_mortar/anim/waterfall/2.png", ".4bpp");
+const u16 gTilesetAnims_MtMortar_Waterfall_Frame3[] = INCGFX_U16("data/tilesets/primary/mt_mortar/anim/waterfall/3.png", ".4bpp");
+const u16 *const gTilesetAnims_MtMortar_Waterfall[] = {
+    gTilesetAnims_MtMortar_Waterfall_Frame0,
+    gTilesetAnims_MtMortar_Waterfall_Frame1,
+    gTilesetAnims_MtMortar_Waterfall_Frame2,
+    gTilesetAnims_MtMortar_Waterfall_Frame3,
+};
+
+static void TilesetAnim_MtMortar(u16 timer)
+{
+    if (timer % 16 == 2)
+        AppendTilesetAnimToBuffer(gTilesetAnims_MtMortar_Waterfall[(timer >> 4) % ARRAY_COUNT(gTilesetAnims_MtMortar_Waterfall)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(506)), 6 * TILE_SIZE_4BPP);
+}
+
+void InitTilesetAnim_MtMortar(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_MtMortar;
+}
