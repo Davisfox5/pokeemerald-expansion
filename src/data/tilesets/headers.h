@@ -1636,3 +1636,21 @@ const struct Tileset gTileset_KantoCeladonApartments = { .isCompressed = TRUE, .
 
 // Kanto Celadon: Cade's house (FireRed's Celadon house)
 const struct Tileset gTileset_KantoCeladonCadeHouse = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonCadeHouse, .palettes = gTilesetPalettes_KantoCeladonCadeHouse, .metatiles = gMetatiles_KantoCeladonCadeHouse, .metatileAttributes = gMetatileAttributes_KantoCeladonCadeHouse, .callback = NULL };
+
+// Kanto Celadon: the apartments' 2F: a studio and a two-bedroom
+const struct Tileset gTileset_KantoCeladonApartments2f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments2f, .palettes = gTilesetPalettes_KantoCeladonApartments2f, .metatiles = gMetatiles_KantoCeladonApartments2f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments2f, .callback = NULL };
+
+// Kanto Celadon: the apartments' 3F
+const struct Tileset gTileset_KantoCeladonApartments3f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments3f, .palettes = gTilesetPalettes_KantoCeladonApartments3f, .metatiles = gMetatiles_KantoCeladonApartments3f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments3f, .callback = NULL };
+
+// Kanto Celadon: the apartments' 4F
+const struct Tileset gTileset_KantoCeladonApartments4f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments4f, .palettes = gTilesetPalettes_KantoCeladonApartments4f, .metatiles = gMetatiles_KantoCeladonApartments4f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments4f, .callback = NULL };
+
+// Kanto Celadon: the apartments' 5F
+const struct Tileset gTileset_KantoCeladonApartments5f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments5f, .palettes = gTilesetPalettes_KantoCeladonApartments5f, .metatiles = gMetatiles_KantoCeladonApartments5f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments5f, .callback = NULL };
+
+// Kanto Celadon: the apartments' penthouse
+const struct Tileset gTileset_KantoCeladonApartments6f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments6f, .palettes = gTilesetPalettes_KantoCeladonApartments6f, .metatiles = gMetatiles_KantoCeladonApartments6f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments6f, .callback = NULL };
+
+// Kanto Celadon: the apartments' roof terrace (Lilycove Dept Store's rooftop)
+const struct Tileset gTileset_KantoCeladonApartmentsRoof = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartmentsRoof, .palettes = gTilesetPalettes_KantoCeladonApartmentsRoof, .metatiles = gMetatiles_KantoCeladonApartmentsRoof, .metatileAttributes = gMetatileAttributes_KantoCeladonApartmentsRoof, .callback = NULL };

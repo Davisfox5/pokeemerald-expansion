@@ -521,3 +521,27 @@ const u16 gMetatileAttributes_KantoCeladonApartments[] = INCBIN_U16("data/tilese
 // Kanto Celadon: Cade's house (FireRed's Celadon house)
 const u16 gMetatiles_KantoCeladonCadeHouse[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cade_house/metatiles.bin");
 const u16 gMetatileAttributes_KantoCeladonCadeHouse[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_cade_house/metatile_attributes.bin");
+
+// Kanto Celadon: the apartments' 2F: a studio and a two-bedroom
+const u16 gMetatiles_KantoCeladonApartments2f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonApartments2f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/metatile_attributes.bin");
+
+// Kanto Celadon: the apartments' 3F
+const u16 gMetatiles_KantoCeladonApartments3f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonApartments3f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/metatile_attributes.bin");
+
+// Kanto Celadon: the apartments' 4F
+const u16 gMetatiles_KantoCeladonApartments4f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonApartments4f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/metatile_attributes.bin");
+
+// Kanto Celadon: the apartments' 5F
+const u16 gMetatiles_KantoCeladonApartments5f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonApartments5f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/metatile_attributes.bin");
+
+// Kanto Celadon: the apartments' penthouse
+const u16 gMetatiles_KantoCeladonApartments6f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonApartments6f[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/metatile_attributes.bin");
+
+// Kanto Celadon: the apartments' roof terrace (Lilycove Dept Store's rooftop)
+const u16 gMetatiles_KantoCeladonApartmentsRoof[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/metatiles.bin");
+const u16 gMetatileAttributes_KantoCeladonApartmentsRoof[] = INCBIN_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/metatile_attributes.bin");

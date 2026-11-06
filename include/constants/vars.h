@@ -326,6 +326,8 @@
 
 #define VAR_TEMP_TRANSFERRED_SPECIES  VAR_TEMP_1
 
+#define VAR_APOC_CELADON_LIFT_FLOOR VAR_UNUSED_0x4083 // Apocrypha: the Celadon apartments' elevator, the floor the player is on (1-6)
+
 #if TESTING
 #define TESTING_VARS_START                  0x9000
 #define TESTING_VAR_DIFFICULTY              (TESTING_VARS_START + 0x0)

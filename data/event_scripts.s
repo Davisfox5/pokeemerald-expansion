@@ -1892,3 +1892,17 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/KantoCeladonApartments/scripts.inc"
 
 .include "data/maps/KantoCeladonCadeHouse/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor2/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor3/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor4/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor5/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor6/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsRoof/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsLift/scripts.inc"

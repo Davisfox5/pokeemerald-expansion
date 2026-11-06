@@ -16,25 +16,39 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 5,
-      "y": 13,
+      "x": 16,
+      "y": 14,
       "elevation": 3,
       "dest_map": "MAP_KANTO_CELADON_CITY",
       "dest_warp_id": "5"
     },
     {
-      "x": 6,
-      "y": 12,
+      "x": 17,
+      "y": 14,
       "elevation": 3,
       "dest_map": "MAP_KANTO_CELADON_CITY",
       "dest_warp_id": "5"
     },
     {
-      "x": 7,
-      "y": 13,
+      "x": 12,
+      "y": 1,
       "elevation": 3,
-      "dest_map": "MAP_KANTO_CELADON_CITY",
-      "dest_warp_id": "5"
+      "dest_map": "MAP_KANTO_CELADON_APARTMENTS_FLOOR2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_KANTO_CELADON_APARTMENTS_LIFT",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_KANTO_CELADON_APARTMENTS_LIFT",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],
