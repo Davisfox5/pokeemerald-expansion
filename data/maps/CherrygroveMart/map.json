@@ -1,7 +1,7 @@
 {
   "id": "MAP_CHERRYGROVE_MART",
   "name": "CherrygroveMart",
-  "layout": "LAYOUT_MART",
+  "layout": "LAYOUT_JOHTO_MART",
   "music": "MUS_LITTLEROOT",
   "region": "REGION_JOHTO",
   "region_map_section": "MAPSEC_CHERRYGROVE_CITY",
@@ -19,8 +19,8 @@
     {
       "local_id": "LOCALID_CLERK",
       "graphics_id": "OBJ_EVENT_GFX_JOHTO_CLERK",
-      "x": 1,
-      "y": 3,
+      "x": 2,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -29,20 +29,27 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CherrygroveMart_Clerk",
       "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_CLERK_2",
+      "graphics_id": "OBJ_EVENT_GFX_JOHTO_CLERK",
+      "x": 15,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CherrygroveMart_DiscountClerk",
+      "flag": "0"
     }
   ],
   "warp_events": [
     {
-      "x": 3,
-      "y": 7,
-      "elevation": 0,
-      "dest_map": "MAP_CHERRYGROVE_CITY",
-      "dest_warp_id": "4"
-    },
-    {
       "x": 4,
-      "y": 7,
-      "elevation": 0,
+      "y": 11,
+      "elevation": 3,
       "dest_map": "MAP_CHERRYGROVE_CITY",
       "dest_warp_id": "4"
     }

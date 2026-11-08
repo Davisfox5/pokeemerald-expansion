@@ -38,6 +38,7 @@
 #include "constants/decorations.h"
 #include "constants/event_objects.h"
 #include "constants/items.h"
+#include "event_data.h"
 #include "constants/metatile_behaviors.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
@@ -116,6 +117,7 @@ static EWRAM_DATA u8 sPurchaseHistoryId = 0;
 EWRAM_DATA struct ItemSlot gMartPurchaseHistory[SMARTSHOPPER_NUM_ITEMS] = {0};
 
 static void Task_ShopMenu(u8 taskId);
+static u32 ShopItemPrice(u16 itemId);
 static void Task_HandleShopMenuQuit(u8 taskId);
 static void CB2_InitBuyMenu(void);
 static void Task_GoToBuyOrSellMenu(u8 taskId);
@@ -644,7 +646,7 @@ static void BuyMenuPrintPriceInList(u8 windowId, u32 itemId, u8 y)
         {
             ConvertIntToDecimalStringN(
                 gStringVar1,
-                GetItemPrice(itemId) >> IsPokeNewsActive(POKENEWS_SLATEPORT),
+                ShopItemPrice(itemId),
                 STR_CONV_MODE_LEFT_ALIGN,
                 6);
         }
@@ -1017,7 +1019,7 @@ static void Task_BuyMenu(u8 taskId)
             BuyMenuPrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
 
             if (sMartInfo.martType == MART_TYPE_NORMAL)
-                sShopData->totalCost = (GetItemPrice(itemId) >> IsPokeNewsActive(POKENEWS_SLATEPORT));
+                sShopData->totalCost = (ShopItemPrice(itemId));
             else
                 sShopData->totalCost = gDecorations[itemId].price;
 
@@ -1037,7 +1039,7 @@ static void Task_BuyMenu(u8 taskId)
                         ConvertIntToDecimalStringN(gStringVar2, sShopData->totalCost, STR_CONV_MODE_LEFT_ALIGN, 6);
                         StringExpandPlaceholders(gStringVar4, gText_YouWantedVar1ThatllBeVar2);
                         tItemCount = 1;
-                        sShopData->totalCost = (GetItemPrice(tItemId) >> IsPokeNewsActive(POKENEWS_SLATEPORT)) * tItemCount;
+                        sShopData->totalCost = (ShopItemPrice(tItemId)) * tItemCount;
                         BuyMenuDisplayMessage(taskId, gStringVar4, BuyMenuConfirmPurchase);
                     }
                     else if (GetItemPocket(itemId) == POCKET_TM_HM)
@@ -1104,7 +1106,7 @@ static void Task_BuyHowManyDialogueHandleInput(u8 taskId)
 
     if (AdjustQuantityAccordingToDPadInput(&tItemCount, sShopData->maxQuantity) == TRUE)
     {
-        sShopData->totalCost = (GetItemPrice(tItemId) >> IsPokeNewsActive(POKENEWS_SLATEPORT)) * tItemCount;
+        sShopData->totalCost = (ShopItemPrice(tItemId)) * tItemCount;
         BuyMenuPrintItemQuantityAndPrice(taskId);
     }
     else
@@ -1331,4 +1333,14 @@ void CreateDecorationShop2Menu(const u16 *itemsForSale)
     CreateShopMenu(MART_TYPE_DECOR2);
     SetShopItemsForSale(itemsForSale);
     SetShopMenuCallback(ScriptContext_Enable);
+}
+
+// Apocrypha: a Mart's Discount Corner sells at three quarters of the price. Its clerk's script sets
+// FLAG_SHOP_DISCOUNT around pokemart (a temporary flag, cleared on leaving the map in any case).
+static u32 ShopItemPrice(u16 itemId)
+{
+    u32 price = GetItemPrice(itemId) >> IsPokeNewsActive(POKENEWS_SLATEPORT);
+    if (FlagGet(FLAG_SHOP_DISCOUNT))
+        price = price * 3 / 4;
+    return price;
 }

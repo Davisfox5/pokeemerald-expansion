@@ -9672,6 +9672,61 @@
       "border_filepath": "data/layouts/SproutTower3F/border.bin",
       "blockdata_filepath": "data/layouts/SproutTower3F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_POKEMON_CENTER_1F",
+      "name": "JohtoPokemonCenter1F_Layout",
+      "width": 17,
+      "height": 21,
+      "primary_tileset": "gTileset_JohtoCenterPrimary",
+      "secondary_tileset": "gTileset_JohtoCenter",
+      "border_filepath": "data/layouts/JohtoPokemonCenter1F/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoPokemonCenter1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_POKEMON_CENTER_B1F",
+      "name": "JohtoPokemonCenterB1F_Layout",
+      "width": 17,
+      "height": 14,
+      "primary_tileset": "gTileset_JohtoCenterB1Primary",
+      "secondary_tileset": "gTileset_JohtoCenterB1",
+      "border_filepath": "data/layouts/JohtoPokemonCenterB1F/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoPokemonCenterB1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SINNOH_POKEMON_CENTER_1F",
+      "name": "SinnohPokemonCenter1F_Layout",
+      "width": 17,
+      "height": 14,
+      "primary_tileset": "gTileset_SinnohCenterPrimary",
+      "secondary_tileset": "gTileset_SinnohCenter",
+      "border_filepath": "data/layouts/SinnohPokemonCenter1F/border.bin",
+      "blockdata_filepath": "data/layouts/SinnohPokemonCenter1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SINNOH_POKEMON_CENTER_2F",
+      "name": "SinnohPokemonCenter2F_Layout",
+      "width": 17,
+      "height": 14,
+      "primary_tileset": "gTileset_SinnohCenter2FPrimary",
+      "secondary_tileset": "gTileset_SinnohCenter2F",
+      "border_filepath": "data/layouts/SinnohPokemonCenter2F/border.bin",
+      "blockdata_filepath": "data/layouts/SinnohPokemonCenter2F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_MART",
+      "name": "JohtoMart_Layout",
+      "width": 18,
+      "height": 13,
+      "primary_tileset": "gTileset_JohtoMartPrimary",
+      "secondary_tileset": "gTileset_JohtoMart",
+      "border_filepath": "data/layouts/JohtoMart/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoMart/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
