@@ -1603,3 +1603,54 @@ const struct Tileset gTileset_KantoSaffronDojo = { .isCompressed = TRUE, .isSeco
 
 // Kanto Saffron: Silph's research lab (FireRed's Cinnabar Lab experiment room)
 const struct Tileset gTileset_KantoSaffronSilphLab = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoSaffronSilphLab, .palettes = gTilesetPalettes_KantoSaffronSilphLab, .metatiles = gMetatiles_KantoSaffronSilphLab, .metatileAttributes = gMetatileAttributes_KantoSaffronSilphLab, .callback = NULL };
+
+// Kanto Celadon: HGSS's Celadon as Gen 3 elements, its ground, trees and the first buildings
+const struct Tileset gTileset_KantoCeladonPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_KantoCeladonPrimary, .palettes = gTilesetPalettes_KantoCeladonPrimary, .metatiles = gMetatiles_KantoCeladonPrimary, .metatileAttributes = gMetatileAttributes_KantoCeladonPrimary, .callback = InitTilesetAnim_KantoCeladonView };
+
+// Kanto Celadon: the rest of its buildings, the Center and the market
+const struct Tileset gTileset_KantoCeladonCity = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonCity, .palettes = gTilesetPalettes_KantoCeladonCity, .metatiles = gMetatiles_KantoCeladonCity, .metatileAttributes = gMetatileAttributes_KantoCeladonCity, .callback = NULL };
+
+// Kanto Celadon: the market's services (FireRed's Dept Store 1F)
+const struct Tileset gTileset_KantoCeladonServices = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonServices, .palettes = gTilesetPalettes_KantoCeladonServices, .metatiles = gMetatiles_KantoCeladonServices, .metatileAttributes = gMetatileAttributes_KantoCeladonServices, .callback = NULL };
+
+// Kanto Celadon: the Pokemon Hotel's lobby (FireRed's Condominiums 1F)
+const struct Tileset gTileset_KantoCeladonHotel1f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonHotel1f, .palettes = gTilesetPalettes_KantoCeladonHotel1f, .metatiles = gMetatiles_KantoCeladonHotel1f, .metatileAttributes = gMetatileAttributes_KantoCeladonHotel1f, .callback = NULL };
+
+// Kanto Celadon: the Pokemon Hotel's upper floor (FireRed's Condominiums 2F)
+const struct Tileset gTileset_KantoCeladonHotel2f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonHotel2f, .palettes = gTilesetPalettes_KantoCeladonHotel2f, .metatiles = gMetatiles_KantoCeladonHotel2f, .metatileAttributes = gMetatileAttributes_KantoCeladonHotel2f, .callback = NULL };
+
+// Kanto Celadon: the Game Corner (FireRed's)
+const struct Tileset gTileset_KantoCeladonGameCorner = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonGameCorner, .palettes = gTilesetPalettes_KantoCeladonGameCorner, .metatiles = gMetatiles_KantoCeladonGameCorner, .metatileAttributes = gMetatileAttributes_KantoCeladonGameCorner, .callback = NULL };
+
+// Kanto Celadon: the Game Corner's prize room (FireRed's)
+const struct Tileset gTileset_KantoCeladonPrizeRoom = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonPrizeRoom, .palettes = gTilesetPalettes_KantoCeladonPrizeRoom, .metatiles = gMetatiles_KantoCeladonPrizeRoom, .metatileAttributes = gMetatileAttributes_KantoCeladonPrizeRoom, .callback = NULL };
+
+// Kanto Celadon: the Botanical Gardens (FireRed's Celadon Gym)
+const struct Tileset gTileset_KantoCeladonGardens = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonGardens, .palettes = gTilesetPalettes_KantoCeladonGardens, .metatiles = gMetatiles_KantoCeladonGardens, .metatileAttributes = gMetatileAttributes_KantoCeladonGardens, .callback = NULL };
+
+// Kanto Celadon: the cafe (FireRed's Restaurant)
+const struct Tileset gTileset_KantoCeladonCafe = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonCafe, .palettes = gTilesetPalettes_KantoCeladonCafe, .metatiles = gMetatiles_KantoCeladonCafe, .metatileAttributes = gMetatileAttributes_KantoCeladonCafe, .callback = NULL };
+
+// Kanto Celadon: the apartments (HGSS's Condominiums 1F in FireRed's Condominiums pieces)
+const struct Tileset gTileset_KantoCeladonApartments = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments, .palettes = gTilesetPalettes_KantoCeladonApartments, .metatiles = gMetatiles_KantoCeladonApartments, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments, .callback = NULL };
+
+// Kanto Celadon: Cade's house (FireRed's Celadon house)
+const struct Tileset gTileset_KantoCeladonCadeHouse = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonCadeHouse, .palettes = gTilesetPalettes_KantoCeladonCadeHouse, .metatiles = gMetatiles_KantoCeladonCadeHouse, .metatileAttributes = gMetatileAttributes_KantoCeladonCadeHouse, .callback = NULL };
+
+// Kanto Celadon: the apartments' 2F: a studio and a two-bedroom
+const struct Tileset gTileset_KantoCeladonApartments2f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments2f, .palettes = gTilesetPalettes_KantoCeladonApartments2f, .metatiles = gMetatiles_KantoCeladonApartments2f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments2f, .callback = NULL };
+
+// Kanto Celadon: the apartments' 3F
+const struct Tileset gTileset_KantoCeladonApartments3f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments3f, .palettes = gTilesetPalettes_KantoCeladonApartments3f, .metatiles = gMetatiles_KantoCeladonApartments3f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments3f, .callback = NULL };
+
+// Kanto Celadon: the apartments' 4F
+const struct Tileset gTileset_KantoCeladonApartments4f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments4f, .palettes = gTilesetPalettes_KantoCeladonApartments4f, .metatiles = gMetatiles_KantoCeladonApartments4f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments4f, .callback = NULL };
+
+// Kanto Celadon: the apartments' 5F
+const struct Tileset gTileset_KantoCeladonApartments5f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments5f, .palettes = gTilesetPalettes_KantoCeladonApartments5f, .metatiles = gMetatiles_KantoCeladonApartments5f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments5f, .callback = NULL };
+
+// Kanto Celadon: the apartments' penthouse
+const struct Tileset gTileset_KantoCeladonApartments6f = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartments6f, .palettes = gTilesetPalettes_KantoCeladonApartments6f, .metatiles = gMetatiles_KantoCeladonApartments6f, .metatileAttributes = gMetatileAttributes_KantoCeladonApartments6f, .callback = NULL };
+
+// Kanto Celadon: the apartments' roof terrace (Lilycove Dept Store's rooftop)
+const struct Tileset gTileset_KantoCeladonApartmentsRoof = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_KantoCeladonApartmentsRoof, .palettes = gTilesetPalettes_KantoCeladonApartmentsRoof, .metatiles = gMetatiles_KantoCeladonApartmentsRoof, .metatileAttributes = gMetatileAttributes_KantoCeladonApartmentsRoof, .callback = NULL };

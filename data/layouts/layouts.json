@@ -9594,6 +9594,182 @@
       "border_filepath": "data/layouts/KantoSaffronSilphLab/border.bin",
       "blockdata_filepath": "data/layouts/KantoSaffronSilphLab/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_CITY",
+      "name": "KantoCeladonCity_Layout",
+      "width": 64,
+      "height": 52,
+      "primary_tileset": "gTileset_KantoCeladonPrimary",
+      "secondary_tileset": "gTileset_KantoCeladonCity",
+      "border_filepath": "data/layouts/KantoCeladonCity/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonCity/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_MARKET_SERVICES",
+      "name": "KantoCeladonMarketServices_Layout",
+      "width": 13,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonServices",
+      "border_filepath": "data/layouts/KantoCeladonMarketServices/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonMarketServices/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_HOTEL_LOBBY",
+      "name": "KantoCeladonHotelLobby_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonHotel1f",
+      "border_filepath": "data/layouts/KantoCeladonHotelLobby/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonHotelLobby/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_HOTEL_UPSTAIRS",
+      "name": "KantoCeladonHotelUpstairs_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonHotel2f",
+      "border_filepath": "data/layouts/KantoCeladonHotelUpstairs/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonHotelUpstairs/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_GAME_CORNER",
+      "name": "KantoCeladonGameCorner_Layout",
+      "width": 18,
+      "height": 15,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonGameCorner",
+      "border_filepath": "data/layouts/KantoCeladonGameCorner/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonGameCorner/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_PRIZE_ROOM",
+      "name": "KantoCeladonPrizeRoom_Layout",
+      "width": 9,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonPrizeRoom",
+      "border_filepath": "data/layouts/KantoCeladonPrizeRoom/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonPrizeRoom/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_GARDENS",
+      "name": "KantoCeladonGardens_Layout",
+      "width": 13,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonGardens",
+      "border_filepath": "data/layouts/KantoCeladonGardens/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonGardens/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_CAFE",
+      "name": "KantoCeladonCafe_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonCafe",
+      "border_filepath": "data/layouts/KantoCeladonCafe/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonCafe/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS",
+      "name": "KantoCeladonApartments_Layout",
+      "width": 36,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartments",
+      "border_filepath": "data/layouts/KantoCeladonApartments/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartments/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_CADE_HOUSE",
+      "name": "KantoCeladonCadeHouse_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonCadeHouse",
+      "border_filepath": "data/layouts/KantoCeladonCadeHouse/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonCadeHouse/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS_FLOOR2",
+      "name": "KantoCeladonApartmentsFloor2_Layout",
+      "width": 36,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartments2f",
+      "border_filepath": "data/layouts/KantoCeladonApartmentsFloor2/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartmentsFloor2/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS_FLOOR3",
+      "name": "KantoCeladonApartmentsFloor3_Layout",
+      "width": 36,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartments3f",
+      "border_filepath": "data/layouts/KantoCeladonApartmentsFloor3/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartmentsFloor3/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS_FLOOR4",
+      "name": "KantoCeladonApartmentsFloor4_Layout",
+      "width": 36,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartments4f",
+      "border_filepath": "data/layouts/KantoCeladonApartmentsFloor4/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartmentsFloor4/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS_FLOOR5",
+      "name": "KantoCeladonApartmentsFloor5_Layout",
+      "width": 36,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartments5f",
+      "border_filepath": "data/layouts/KantoCeladonApartmentsFloor5/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartmentsFloor5/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS_FLOOR6",
+      "name": "KantoCeladonApartmentsFloor6_Layout",
+      "width": 36,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartments6f",
+      "border_filepath": "data/layouts/KantoCeladonApartmentsFloor6/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartmentsFloor6/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_CELADON_APARTMENTS_ROOF",
+      "name": "KantoCeladonApartmentsRoof_Layout",
+      "width": 36,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_KantoCeladonApartmentsRoof",
+      "border_filepath": "data/layouts/KantoCeladonApartmentsRoof/border.bin",
+      "blockdata_filepath": "data/layouts/KantoCeladonApartmentsRoof/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

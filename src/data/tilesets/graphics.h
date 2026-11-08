@@ -3466,3 +3466,360 @@ const u16 gTilesetPalettes_KantoSaffronSilphLab[][16] = {
     INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/14.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/kanto_saffron_silph_lab/palettes/15.pal", ".gbapal"),
 };
+
+// Kanto Celadon: HGSS's Celadon as Gen 3 elements, its ground, trees and the first buildings; primary tileset.
+const u32 gTilesetTiles_KantoCeladonPrimary[] = INCGFX_U32("data/tilesets/primary/kanto_celadon/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonPrimary[][16] = {
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/kanto_celadon/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the rest of its buildings, the Center and the market; secondary tileset.
+const u32 gTilesetTiles_KantoCeladonCity[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_city/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonCity[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_city/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the market's services (FireRed's Dept Store 1F); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonServices[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_services/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonServices[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_services/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the Pokemon Hotel's lobby (FireRed's Condominiums 1F); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonHotel1f[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_hotel_1f/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonHotel1f[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_1f/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the Pokemon Hotel's upper floor (FireRed's Condominiums 2F); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonHotel2f[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_hotel_2f/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonHotel2f[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_hotel_2f/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the Game Corner (FireRed's); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonGameCorner[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_game_corner/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonGameCorner[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_game_corner/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the Game Corner's prize room (FireRed's); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonPrizeRoom[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_prize_room/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonPrizeRoom[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_prize_room/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the Botanical Gardens (FireRed's Celadon Gym); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonGardens[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_gardens/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonGardens[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_gardens/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the cafe (FireRed's Restaurant); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonCafe[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_cafe/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonCafe[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cafe/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the apartments (HGSS's Condominiums 1F in FireRed's Condominiums pieces); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartments[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartments[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: Cade's house (FireRed's Celadon house); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonCadeHouse[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_cade_house/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonCadeHouse[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_cade_house/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the apartments' 2F: a studio and a two-bedroom; secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartments2f[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments_2f/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartments2f[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_2f/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the apartments' 3F; secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartments3f[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments_3f/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartments3f[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_3f/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the apartments' 4F; secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartments4f[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments_4f/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartments4f[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_4f/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the apartments' 5F; secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartments5f[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments_5f/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartments5f[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_5f/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the apartments' penthouse; secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartments6f[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments_6f/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartments6f[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_6f/palettes/15.pal", ".gbapal"),
+};
+
+// Kanto Celadon: the apartments' roof terrace (Lilycove Dept Store's rooftop); secondary tileset.
+const u32 gTilesetTiles_KantoCeladonApartmentsRoof[] = INCGFX_U32("data/tilesets/secondary/kanto_celadon_apartments_roof/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoCeladonApartmentsRoof[][16] = {
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/kanto_celadon_apartments_roof/palettes/15.pal", ".gbapal"),
+};

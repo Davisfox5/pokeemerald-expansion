@@ -6,6 +6,7 @@
 #include "task.h"
 #include "battle_transition.h"
 #include "fieldmap.h"
+#include "celadon_view.h"
 
 static EWRAM_DATA struct {
     const u16 *src;
@@ -653,6 +654,24 @@ static void TilesetAnim_OlivinePrimary(u16 timer)
         AppendTilesetAnimToBuffer(gTilesetAnims_Cherrygrove_Sea[(timer / 16) % 8], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(1)), 16 * TILE_SIZE_4BPP);
 }
 // End Claude Olivine sea
+
+// Claude Celadon fountains: the streamed city's pinned glyph slots, four frames (celadon_view.c)
+static void TilesetAnim_KantoCeladonView(u16 timer);
+void InitTilesetAnim_KantoCeladonView(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 240;
+    sPrimaryTilesetAnimCallback = TilesetAnim_KantoCeladonView;
+}
+static void TilesetAnim_KantoCeladonView(u16 timer)
+{
+    u16 slot;
+    u32 size;
+    const u32 *src = CeladonViewAnimFrame(timer, &slot, &size);
+    if (size && timer % 10 == 0)                         // 10 frames a fountain frame (concept.py's fountains.gif: 160 ms)
+        AppendTilesetAnimToBuffer((const u16 *)src, (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(slot)), size);
+}
+// End Claude Celadon fountains
 
 void InitTilesetAnim_General(void)
 {

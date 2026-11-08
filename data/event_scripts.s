@@ -1868,3 +1868,41 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/KantoSaffronDojo/scripts.inc"
 
 .include "data/maps/KantoSaffronSilphLab/scripts.inc"
+
+.include "data/maps/KantoCeladonCity/scripts.inc"
+
+.include "data/maps/KantoCeladonPokemonCenter/scripts.inc"
+
+.include "data/maps/KantoCeladonCenterUpstairs/scripts.inc"
+
+.include "data/maps/KantoCeladonMarketServices/scripts.inc"
+
+.include "data/maps/KantoCeladonHotelLobby/scripts.inc"
+
+.include "data/maps/KantoCeladonHotelUpstairs/scripts.inc"
+
+.include "data/maps/KantoCeladonGameCorner/scripts.inc"
+
+.include "data/maps/KantoCeladonPrizeRoom/scripts.inc"
+
+.include "data/maps/KantoCeladonGardens/scripts.inc"
+
+.include "data/maps/KantoCeladonCafe/scripts.inc"
+
+.include "data/maps/KantoCeladonApartments/scripts.inc"
+
+.include "data/maps/KantoCeladonCadeHouse/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor2/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor3/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor4/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor5/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsFloor6/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsRoof/scripts.inc"
+
+.include "data/maps/KantoCeladonApartmentsLift/scripts.inc"
