@@ -18,11 +18,11 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 14,
+      "x": 15,
       "y": 10,
       "elevation": 3,
       "dest_map": "MAP_VIOLET_POKEMON_CENTER",
-      "dest_warp_id": "1"
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [],

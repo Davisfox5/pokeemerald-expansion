@@ -19,7 +19,7 @@
     {
       "local_id": "LOCALID_CLERK",
       "graphics_id": "OBJ_EVENT_GFX_JOHTO_CLERK",
-      "x": 2,
+      "x": 1,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -33,7 +33,7 @@
     {
       "local_id": "LOCALID_CLERK_2",
       "graphics_id": "OBJ_EVENT_GFX_JOHTO_CLERK",
-      "x": 15,
+      "x": 16,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -48,6 +48,13 @@
   "warp_events": [
     {
       "x": 4,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_CHERRYGROVE_CITY",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 5,
       "y": 11,
       "elevation": 3,
       "dest_map": "MAP_CHERRYGROVE_CITY",

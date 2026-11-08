@@ -40,7 +40,14 @@
       "dest_warp_id": "6"
     },
     {
-      "x": 14,
+      "x": 9,
+      "y": 19,
+      "elevation": 3,
+      "dest_map": "MAP_VIOLET_CITY",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 15,
       "y": 17,
       "elevation": 3,
       "dest_map": "MAP_VIOLET_CENTER_UPSTAIRS",
