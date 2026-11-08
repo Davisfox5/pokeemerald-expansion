@@ -1625,3 +1625,9 @@ const struct Tileset gTileset_IcePathPrimary = { .isCompressed = TRUE, .isSecond
 
 // Ice Path (secondary)
 const struct Tileset gTileset_IcePath = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_IcePath, .palettes = gTilesetPalettes_IcePath, .metatiles = gMetatiles_IcePath, .metatileAttributes = gMetatileAttributes_IcePath, .callback = NULL };
+
+// Mt. Mortar (primary)
+const struct Tileset gTileset_MtMortarPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_MtMortarPrimary, .palettes = gTilesetPalettes_MtMortarPrimary, .metatiles = gMetatiles_MtMortarPrimary, .metatileAttributes = gMetatileAttributes_MtMortarPrimary, .callback = InitTilesetAnim_MtMortar };
+
+// Mt. Mortar (secondary)
+const struct Tileset gTileset_MtMortar = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_MtMortar, .palettes = gTilesetPalettes_MtMortar, .metatiles = gMetatiles_MtMortar, .metatileAttributes = gMetatileAttributes_MtMortar, .callback = NULL };
