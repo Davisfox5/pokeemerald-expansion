@@ -9727,6 +9727,18 @@
       "border_filepath": "data/layouts/SinnohPokemonCenter2F/border.bin",
       "blockdata_filepath": "data/layouts/SinnohPokemonCenter2F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_CANALAVE_CITY",
+      "name": "CanalaveCity_Layout",
+      "width": 46,
+      "height": 78,
+      "primary_tileset": "gTileset_CanalaveCityPrimary",
+      "secondary_tileset": "gTileset_CanalaveCity",
+      "border_filepath": "data/layouts/CanalaveCity/border.bin",
+      "blockdata_filepath": "data/layouts/CanalaveCity/map.bin",
+      "build_target": "emerald",
+      "layout_version": "emerald"
     }
   ]
 }
