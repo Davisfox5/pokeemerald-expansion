@@ -657,6 +657,21 @@ static void TilesetAnim_CherrygroveTownPrimary(u16 timer)
 }
 // End Claude Cherrygrove sea
 
+// Begin Canalave City
+// Emerald's deep-water pair (General water strip tiles 22-23) animated at primary tiles 1-2.
+static void TilesetAnim_CanalaveCityPrimary(u16 timer);
+void InitTilesetAnim_CanalaveCityPrimary(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_CanalaveCityPrimary;
+}
+static void TilesetAnim_CanalaveCityPrimary(u16 timer)
+{
+    if (timer % 16 == 1)
+        AppendTilesetAnimToBuffer(gTilesetAnims_General_Water[(timer / 16) % 8] + 22 * TILE_SIZE_4BPP / 2, (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(1)), 2 * TILE_SIZE_4BPP);
+}
+// End Canalave City
 void InitTilesetAnim_General(void)
 {
     sPrimaryTilesetAnimCounter = 0;
