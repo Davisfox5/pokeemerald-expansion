@@ -497,3 +497,11 @@ const u16 gMetatileAttributes_AzaleaPrimary[] = INCBIN_U16("data/tilesets/primar
 // Azalea native exterior
 const u16 gMetatiles_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatiles.bin");
 const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatile_attributes.bin");
+
+// Slowpoke Well (primary)
+const u16 gMetatiles_SlowpokeWellPrimary[] = INCBIN_U16("data/tilesets/primary/slowpoke_well/metatiles.bin");
+const u16 gMetatileAttributes_SlowpokeWellPrimary[] = INCBIN_U16("data/tilesets/primary/slowpoke_well/metatile_attributes.bin");
+
+// Slowpoke Well (secondary)
+const u16 gMetatiles_SlowpokeWell[] = INCBIN_U16("data/tilesets/secondary/slowpoke_well/metatiles.bin");
+const u16 gMetatileAttributes_SlowpokeWell[] = INCBIN_U16("data/tilesets/secondary/slowpoke_well/metatile_attributes.bin");

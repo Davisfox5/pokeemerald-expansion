@@ -1623,3 +1623,9 @@ const struct Tileset gTileset_AzaleaPrimary = { .isCompressed = TRUE, .isSeconda
 
 // Azalea native exterior
 const struct Tileset gTileset_Azalea = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Azalea, .palettes = gTilesetPalettes_Azalea, .metatiles = gMetatiles_Azalea, .metatileAttributes = gMetatileAttributes_Azalea, .callback = NULL };
+
+// Slowpoke Well (primary)
+const struct Tileset gTileset_SlowpokeWellPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_SlowpokeWellPrimary, .palettes = gTilesetPalettes_SlowpokeWellPrimary, .metatiles = gMetatiles_SlowpokeWellPrimary, .metatileAttributes = gMetatileAttributes_SlowpokeWellPrimary, .callback = NULL };
+
+// Slowpoke Well (secondary)
+const struct Tileset gTileset_SlowpokeWell = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_SlowpokeWell, .palettes = gTilesetPalettes_SlowpokeWell, .metatiles = gMetatiles_SlowpokeWell, .metatileAttributes = gMetatileAttributes_SlowpokeWell, .callback = NULL };
