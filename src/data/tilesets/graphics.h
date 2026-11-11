@@ -3634,3 +3634,45 @@ const u16 gTilesetPalettes_MtMortar[][16] = {
     INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/14.pal", ".gbapal"),
     INCGFX_U16("data/tilesets/secondary/mt_mortar/palettes/15.pal", ".gbapal"),
 };
+
+// Dragon's Den (primary).
+const u32 gTilesetTiles_DragonsDenPrimary[] = INCGFX_U32("data/tilesets/primary/dragons_den/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_DragonsDenPrimary[][16] = {
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/dragons_den/palettes/15.pal", ".gbapal"),
+};
+
+// Dragon's Den (secondary).
+const u32 gTilesetTiles_DragonsDen[] = INCGFX_U32("data/tilesets/secondary/dragons_den/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_DragonsDen[][16] = {
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/dragons_den/palettes/15.pal", ".gbapal"),
+};

@@ -1818,6 +1818,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_DRAGONS_DEN",
+      "name": "DRAGON'S DEN",
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
     }
   ]
 }

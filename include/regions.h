@@ -30,6 +30,7 @@ static inline enum Region GetRegionForSectionId(u32 sectionId)
     case MAPSEC_VIOLET_CITY: return REGION_JOHTO;
     case MAPSEC_PROOF_HOENN: return REGION_HOENN;
     case MAPSEC_PROOF_JOHTO: return REGION_JOHTO;
+    case MAPSEC_DRAGONS_DEN: return REGION_JOHTO;
     case MAPSEC_PROOF_KANTO: return REGION_KANTO;
     case MAPSEC_PROOF_SINNOH: return REGION_SINNOH;
     case MAPSEC_PROOF_UNOVA: return REGION_UNOVA;

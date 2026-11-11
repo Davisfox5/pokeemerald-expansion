@@ -1631,3 +1631,9 @@ const struct Tileset gTileset_MtMortarPrimary = { .isCompressed = TRUE, .isSecon
 
 // Mt. Mortar (secondary)
 const struct Tileset gTileset_MtMortar = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_MtMortar, .palettes = gTilesetPalettes_MtMortar, .metatiles = gMetatiles_MtMortar, .metatileAttributes = gMetatileAttributes_MtMortar, .callback = NULL };
+
+// Dragon's Den (primary)
+const struct Tileset gTileset_DragonsDenPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_DragonsDenPrimary, .palettes = gTilesetPalettes_DragonsDenPrimary, .metatiles = gMetatiles_DragonsDenPrimary, .metatileAttributes = gMetatileAttributes_DragonsDenPrimary, .callback = NULL };
+
+// Dragon's Den (secondary)
+const struct Tileset gTileset_DragonsDen = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_DragonsDen, .palettes = gTilesetPalettes_DragonsDen, .metatiles = gMetatiles_DragonsDen, .metatileAttributes = gMetatileAttributes_DragonsDen, .callback = NULL };
