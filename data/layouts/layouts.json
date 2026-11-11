@@ -9606,6 +9606,39 @@
       "blockdata_filepath": "data/layouts/JohtoAzaleaTown/map.bin",
       "layout_version": "emerald",
       "build_target": "emerald"
+    },
+    {
+      "id": "LAYOUT_SLOWPOKE_WELL_ENTRANCE",
+      "name": "SlowpokeWell_Entrance_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_SlowpokeWellPrimary",
+      "secondary_tileset": "gTileset_SlowpokeWell",
+      "border_filepath": "data/layouts/SlowpokeWell_Entrance/border.bin",
+      "blockdata_filepath": "data/layouts/SlowpokeWell_Entrance/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SLOWPOKE_WELL_B1F",
+      "name": "SlowpokeWell_B1F_Layout",
+      "width": 64,
+      "height": 32,
+      "primary_tileset": "gTileset_SlowpokeWellPrimary",
+      "secondary_tileset": "gTileset_SlowpokeWell",
+      "border_filepath": "data/layouts/SlowpokeWell_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/SlowpokeWell_B1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SLOWPOKE_WELL_B2F",
+      "name": "SlowpokeWell_B2F_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_SlowpokeWellPrimary",
+      "secondary_tileset": "gTileset_SlowpokeWell",
+      "border_filepath": "data/layouts/SlowpokeWell_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/SlowpokeWell_B2F/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

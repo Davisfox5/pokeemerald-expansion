@@ -1233,6 +1233,9 @@
     "UnionCaveB1F",
     "UnionCaveB2F",
     "JohtoRoute33",
-    "JohtoAzaleaTown"
+    "JohtoAzaleaTown",
+    "SlowpokeWell_Entrance",
+    "SlowpokeWell_B1F",
+    "SlowpokeWell_B2F"
   ]
 }
