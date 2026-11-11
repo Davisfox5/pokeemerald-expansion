@@ -509,3 +509,11 @@ const u16 gMetatileAttributes_MtMortarPrimary[] = INCBIN_U16("data/tilesets/prim
 // Mt. Mortar (secondary)
 const u16 gMetatiles_MtMortar[] = INCBIN_U16("data/tilesets/secondary/mt_mortar/metatiles.bin");
 const u16 gMetatileAttributes_MtMortar[] = INCBIN_U16("data/tilesets/secondary/mt_mortar/metatile_attributes.bin");
+
+// Dragon's Den (primary)
+const u16 gMetatiles_DragonsDenPrimary[] = INCBIN_U16("data/tilesets/primary/dragons_den/metatiles.bin");
+const u16 gMetatileAttributes_DragonsDenPrimary[] = INCBIN_U16("data/tilesets/primary/dragons_den/metatile_attributes.bin");
+
+// Dragon's Den (secondary)
+const u16 gMetatiles_DragonsDen[] = INCBIN_U16("data/tilesets/secondary/dragons_den/metatiles.bin");
+const u16 gMetatileAttributes_DragonsDen[] = INCBIN_U16("data/tilesets/secondary/dragons_den/metatile_attributes.bin");

@@ -1,0 +1,37 @@
+{
+  "id": "MAP_DRAGONS_DEN",
+  "name": "DragonsDen",
+  "layout": "LAYOUT_DRAGONS_DEN",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_DRAGONS_DEN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 28,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_DRAGONS_DEN_ENTRANCE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 28,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_DRAGONS_DEN_ENTRANCE",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "build_target": "emerald",
+  "region": "REGION_JOHTO"
+}

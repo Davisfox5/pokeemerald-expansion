@@ -9748,6 +9748,28 @@
       "border_filepath": "data/layouts/MtMortar_B1F/border.bin",
       "blockdata_filepath": "data/layouts/MtMortar_B1F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_DRAGONS_DEN_ENTRANCE",
+      "name": "DragonsDen_Entrance_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_DragonsDenPrimary",
+      "secondary_tileset": "gTileset_DragonsDen",
+      "border_filepath": "data/layouts/DragonsDen_Entrance/border.bin",
+      "blockdata_filepath": "data/layouts/DragonsDen_Entrance/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_DRAGONS_DEN",
+      "name": "DragonsDen_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_DragonsDenPrimary",
+      "secondary_tileset": "gTileset_DragonsDen",
+      "border_filepath": "data/layouts/DragonsDen/border.bin",
+      "blockdata_filepath": "data/layouts/DragonsDen/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

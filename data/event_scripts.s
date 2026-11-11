@@ -1887,3 +1887,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/MtMortar_2F/scripts.inc"
 
 .include "data/maps/MtMortar_B1F/scripts.inc"
+
+.include "data/maps/DragonsDen_Entrance/scripts.inc"
+
+.include "data/maps/DragonsDen/scripts.inc"
