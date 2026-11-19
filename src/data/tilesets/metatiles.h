@@ -507,3 +507,9 @@ const u16 gMetatiles_SinnohCenter2FPrimary[] = INCBIN_U16("data/tilesets/primary
 const u16 gMetatileAttributes_SinnohCenter2FPrimary[] = INCBIN_U16("data/tilesets/primary/sinnoh_center_2f/metatile_attributes.bin");
 const u16 gMetatiles_SinnohCenter2F[] = INCBIN_U16("data/tilesets/secondary/sinnoh_center_2f/metatiles.bin");
 const u16 gMetatileAttributes_SinnohCenter2F[] = INCBIN_U16("data/tilesets/secondary/sinnoh_center_2f/metatile_attributes.bin");
+// Begin Canalave City
+const u16 gMetatiles_CanalaveCityPrimary[] = INCBIN_U16("data/tilesets/primary/canalave_city/metatiles.bin");
+const u16 gMetatileAttributes_CanalaveCityPrimary[] = INCBIN_U16("data/tilesets/primary/canalave_city/metatile_attributes.bin");
+const u16 gMetatiles_CanalaveCity[] = INCBIN_U16("data/tilesets/secondary/canalave_city/metatiles.bin");
+const u16 gMetatileAttributes_CanalaveCity[] = INCBIN_U16("data/tilesets/secondary/canalave_city/metatile_attributes.bin");
+// End Canalave City

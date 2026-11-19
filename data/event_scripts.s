@@ -1788,6 +1788,16 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/SandgemHouseSouth/scripts.inc"
 
 .include "data/maps/SandgemCenterUpstairs/scripts.inc"
+.include "data/maps/CanalaveCity/scripts.inc"
+.include "data/maps/CanalaveGym/scripts.inc"
+.include "data/maps/CanalavePokemonCenter/scripts.inc"
+.include "data/maps/CanalaveMart/scripts.inc"
+.include "data/maps/CanalaveLibrary/scripts.inc"
+.include "data/maps/CanalaveSoutheastHouse/scripts.inc"
+.include "data/maps/CanalaveSailorEldritchHouse/scripts.inc"
+.include "data/maps/CanalaveEastHouse/scripts.inc"
+.include "data/maps/CanalaveWestHouse/scripts.inc"
+.include "data/maps/CanalaveCenterUpstairs/scripts.inc"
 
 .include "data/maps/FloccesyTown/scripts.inc"
 
