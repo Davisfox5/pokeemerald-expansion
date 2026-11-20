@@ -73,6 +73,14 @@
               9
             ]
           }
+        },
+        {
+          "type": "hidden_mons",
+          "encounter_rates": [
+            60,
+            30,
+            10
+          ]
         }
       ],
       "encounters": [
@@ -36645,6 +36653,26 @@
                 "species": "SPECIES_RATTATA"
               }
             ]
+          },
+          "hidden_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_SENTRET"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_PIDGEY"
+              },
+              {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_RATTATA"
+              }
+            ]
           }
         },
         {
@@ -36710,6 +36738,26 @@
               },
               {
                 "min_level": 6,
+                "max_level": 6,
+                "species": "SPECIES_BELLSPROUT"
+              }
+            ]
+          },
+          "hidden_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 4,
+                "max_level": 6,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 4,
+                "max_level": 6,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 5,
                 "max_level": 6,
                 "species": "SPECIES_BELLSPROUT"
               }
