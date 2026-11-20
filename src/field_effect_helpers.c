@@ -1,4 +1,5 @@
 #include "global.h"
+#include "apoc_grass_rustle.h"
 #include "event_object_movement.h"
 #include "field_camera.h"
 #include "field_effect.h"
@@ -1038,38 +1039,16 @@ void UpdateHotSpringsWaterFieldEffect(struct Sprite *sprite)
 #undef sPrevX
 #undef sPrevY
 
+// Apocrypha: hidden Pokemon rustle the grass they hide in, using that square's own art
+// (src/apoc_grass_rustle.c) instead of Emerald's fixed grass sprites.
 u32 FldEff_ShakingGrass(void)
 {
-    u8 spriteId;
-
-    SetSpritePosToOffsetMapCoords((s16 *)&gFieldEffectArguments[0], (s16 *)&gFieldEffectArguments[1], 8, 8);
-    spriteId = CreateSpriteAtEndUnchecked(gFieldEffectObjectTemplatePointers[FLDEFFOBJ_UNUSED_GRASS], gFieldEffectArguments[0], gFieldEffectArguments[1], gFieldEffectArguments[2]);
-    if (spriteId != MAX_SPRITES)
-    {
-        struct Sprite *sprite = &gSprites[spriteId];
-        sprite->coordOffsetEnabled = TRUE;
-        sprite->oam.priority = gFieldEffectArguments[3];
-        sprite->sWaitFldEff = FLDEFF_SHAKING_GRASS;
-    }
-
-    return spriteId;
+    return ApocGrassRustle_Start();
 }
 
 u32 FldEff_ShakingGrass2(void)
 {
-    u8 spriteId;
-
-    SetSpritePosToOffsetMapCoords((s16 *)&gFieldEffectArguments[0], (s16 *)&gFieldEffectArguments[1], 8, 8);
-    spriteId = CreateSpriteAtEndUnchecked(gFieldEffectObjectTemplatePointers[FLDEFFOBJ_UNUSED_GRASS_2], gFieldEffectArguments[0], gFieldEffectArguments[1], gFieldEffectArguments[2]);
-    if (spriteId != MAX_SPRITES)
-    {
-        struct Sprite *sprite = &gSprites[spriteId];
-        sprite->coordOffsetEnabled = TRUE;
-        sprite->oam.priority = gFieldEffectArguments[3];
-        sprite->sWaitFldEff = FLDEFF_SHAKING_LONG_GRASS;
-    }
-
-    return spriteId;
+    return ApocGrassRustle_Start();
 }
 
 u32 FldEff_UnusedSand(void)

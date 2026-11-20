@@ -2455,4 +2455,9 @@
 
 #define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Apocrypha: Route 29 lookout Potion (design bible: the route's one hidden item)
 #define FLAG_HIDDEN_ITEM_APOC_ROUTE29_POTION FLAG_UNUSED_0x264 // Existing Route 29 hidden Potion
+// Apocrypha: the Silph handheld (Pokegear in Johto) and its DexNav app.
+// Stable save IDs; do not reuse. Getting the handheld also turns on hidden-Pokemon detection.
+#define FLAG_APOC_POKEGEAR          FLAG_UNUSED_0x020
+#define FLAG_APOC_DEXNAV_SEARCHING  FLAG_UNUSED_0x021
+
 #endif // GUARD_CONSTANTS_FLAGS_H

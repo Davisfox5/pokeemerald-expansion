@@ -236,6 +236,9 @@ void NewGameInitData(void)
     ResetItemFlags();
     ResetDexNav();
     ClearFollowerNPCData();
+    // Apocrypha: the player owns the Silph handheld (Pokegear in Johto) from the start.
+    // A later opening scene can move this into the scripted handoff.
+    FlagSet(FLAG_APOC_POKEGEAR);
 }
 
 static void ResetMiniGamesRecords(void)

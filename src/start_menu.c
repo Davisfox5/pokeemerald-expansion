@@ -46,6 +46,7 @@
 #include "window.h"
 #include "union_room.h"
 #include "dexnav.h"
+#include "apoc_pokegear.h"
 #include "wild_encounter.h"
 #include "constants/battle_frontier.h"
 #include "constants/rgb.h"
@@ -69,6 +70,7 @@ enum
     MENU_ACTION_PYRAMID_BAG,
     MENU_ACTION_DEBUG,
     MENU_ACTION_DEXNAV,
+    MENU_ACTION_POKEGEAR,
 };
 
 // Save status
@@ -111,6 +113,7 @@ static bool8 StartMenuBattlePyramidRetireCallback(void);
 static bool8 StartMenuBattlePyramidBagCallback(void);
 static bool8 StartMenuDebugCallback(void);
 static bool8 StartMenuDexNavCallback(void);
+static bool8 StartMenuPokegearCallback(void);
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);
@@ -206,6 +209,7 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_PYRAMID_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBattlePyramidBagCallback}},
     [MENU_ACTION_DEBUG]           = {sText_MenuDebug,   {.u8_void = StartMenuDebugCallback}},
     [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
+    [MENU_ACTION_POKEGEAR]        = {COMPOUND_STRING("POKéGEAR"), {.u8_void = StartMenuPokegearCallback}},
 };
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -337,6 +341,10 @@ static void BuildNormalStartMenu(void)
 
     if (FlagGet(FLAG_SYS_POKENAV_GET) == TRUE)
         AddStartMenuAction(MENU_ACTION_POKENAV);
+
+    // Apocrypha: the Silph handheld (Pokegear in Johto); DexNav is one of its apps.
+    if (FlagGet(FLAG_APOC_POKEGEAR))
+        AddStartMenuAction(MENU_ACTION_POKEGEAR);
 
     AddStartMenuAction(MENU_ACTION_PLAYER);
     AddStartMenuAction(MENU_ACTION_SAVE);
@@ -699,6 +707,20 @@ static bool8 StartMenuPokemonCallback(void)
         CleanupOverworldWindowsAndTilemaps();
         SetMainCallback2(CB2_PartyMenuFromStartMenu); // Display party menu
 
+        return TRUE;
+    }
+
+    return FALSE;
+}
+
+static bool8 StartMenuPokegearCallback(void)
+{
+    if (!gPaletteFade.active)
+    {
+        PlayRainStoppingSoundEffect();
+        RemoveExtraStartMenuWindows();
+        CleanupOverworldWindowsAndTilemaps();
+        ApocPokegear_Open();
         return TRUE;
     }
 

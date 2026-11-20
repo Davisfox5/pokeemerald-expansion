@@ -2,6 +2,7 @@
 #define GUARD_DEXNAV_H
 
 #include "config/dexnav.h"
+#include "main.h"
 
 // GUI Info
 enum RowGUIInfo
@@ -71,6 +72,7 @@ enum EncounterType
 
 void EndDexNavSearch(void);
 void Task_OpenDexNavFromStartMenu(u8 taskId);
+void DexNav_OpenFromPokegear(MainCallback callback);
 bool32 TryStartDexNavSearch(void);
 void TryIncrementSpeciesSearchLevel(void);
 void ResetDexNavSearch(void);
