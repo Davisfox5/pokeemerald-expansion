@@ -5140,10 +5140,11 @@ void ItemUseCB_AbilityPatch(u8 taskId, TaskFunc task)
     tState = 0;
     tMonId = gPartyMenu.slotId;
     tSpecies = GetMonData(&gParties[B_TRAINER_PLAYER][tMonId], MON_DATA_SPECIES);
+    // Apocrypha: one-way. A Hidden Ability can't be patched back to a regular one,
+    // so a Pokemon that already has it gets "It won't have any effect."
+    tAbilityNum = 2;
     if (GetMonData(&gParties[B_TRAINER_PLAYER][tMonId], MON_DATA_ABILITY_NUM) == 2)
-        tAbilityNum = 0;
-    else
-        tAbilityNum = 2;
+        tSpecies = SPECIES_NONE;
     SetWordTaskArg(taskId, tOldFunc, (uintptr_t)(gTasks[taskId].func));
     gTasks[taskId].func = Task_AbilityPatch;
 }
