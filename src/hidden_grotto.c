@@ -75,15 +75,21 @@ static const struct HiddenGrottoSlot *GetFilledSlot(u32 id)
 
 void UpdateHiddenGrottoStepCounter(void)
 {
-    u32 id;
+    u32 id, inside = GROTTO_NONE;
 
     if (++gSaveBlock3Ptr->hiddenGrottoSteps != 0)
         return;
 
+    // The grotto the player is standing in doesn't refill until they leave: its content
+    // object is only shown on map entry.
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_HIDDEN_GROTTO)
+     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_HIDDEN_GROTTO))
+        inside = GetCurrentHiddenGrottoId();
+
     for (id = 0; id < HIDDEN_GROTTO_COUNT; id++)
     {
         u8 *state = GetStateByte(id);
-        if (*state == GROTTO_STATE_EMPTY && gHiddenGrottoes[id].slotCount != 0
+        if (id != inside && *state == GROTTO_STATE_EMPTY && gHiddenGrottoes[id].slotCount != 0
          && (Random() % 100) < HIDDEN_GROTTO_REFILL_PERCENT)
             *state = RollSlot(id);
     }
