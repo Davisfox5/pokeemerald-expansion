@@ -2303,6 +2303,12 @@ static void DexNavGuiInit(MainCallback callback)
     SetMainCallback2(DexNav_RunSetup);
 }
 
+// Apocrypha: opened from the DexNav app on the Pokegear; returns to `callback` on B.
+void DexNav_OpenFromPokegear(MainCallback callback)
+{
+    DexNavGuiInit(callback);
+}
+
 void Task_OpenDexNavFromStartMenu(u8 taskId)
 {
     if (!gPaletteFade.active)
@@ -2470,8 +2476,10 @@ bool32 TryFindHiddenPokemon(void)
 {
     u16 *stepPtr = GetVarPointer(DN_VAR_STEP_COUNTER);
 
+    // Apocrypha fix: upstream tested `== NULL` here, which is always true outside a search,
+    // so hidden Pokemon could never appear. Skip only while a search is already running.
     if (DEXNAV_ENABLED == 0
-            || sDexNavSearchDataPtr == NULL
+            || sDexNavSearchDataPtr != NULL
             || !FlagGet(DN_FLAG_DETECTOR_MODE)
             || FlagGet(DN_FLAG_SEARCHING)
             || GetFlashLevel() > 0)
