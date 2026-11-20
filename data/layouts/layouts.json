@@ -9674,16 +9674,6 @@
       "layout_version": "emerald"
     },
     {
-      "id": "LAYOUT_JOHTO_ROUTE32",
-      "name": "JohtoRoute32_Layout",
-      "width": 41,
-      "height": 166,
-      "primary_tileset": "gTileset_Route32Primary",
-      "secondary_tileset": "gTileset_Route32Hgss",
-      "border_filepath": "data/layouts/JohtoRoute32/border.bin",
-      "blockdata_filepath": "data/layouts/JohtoRoute32/map.bin"
-    },
-    {
       "id": "LAYOUT_JOHTO_POKEMON_CENTER_1F",
       "name": "JohtoPokemonCenter1F_Layout",
       "width": 17,
@@ -9737,6 +9727,16 @@
       "border_filepath": "data/layouts/SinnohPokemonCenter2F/border.bin",
       "blockdata_filepath": "data/layouts/SinnohPokemonCenter2F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_JOHTO_ROUTE32",
+      "name": "JohtoRoute32_Layout",
+      "width": 41,
+      "height": 166,
+      "primary_tileset": "gTileset_Route32Primary",
+      "secondary_tileset": "gTileset_Route32Hgss",
+      "border_filepath": "data/layouts/JohtoRoute32/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute32/map.bin"
     }
   ]
 }

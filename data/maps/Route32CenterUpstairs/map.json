@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE32_CENTER_UPSTAIRS",
   "name": "Route32CenterUpstairs",
-  "layout": "LAYOUT_POKEMON_CENTER_2F",
+  "layout": "LAYOUT_JOHTO_POKEMON_CENTER_B1F",
   "music": "MUS_POKE_CENTER",
   "region": "REGION_JOHTO",
   "region_map_section": "MAPSEC_JOHTO_ROUTE_32",
@@ -18,9 +18,9 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 1,
-      "y": 6,
-      "elevation": 4,
+      "x": 15,
+      "y": 11,
+      "elevation": 3,
       "dest_map": "MAP_ROUTE32_POKEMON_CENTER",
       "dest_warp_id": "2"
     }
