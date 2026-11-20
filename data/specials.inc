@@ -568,6 +568,12 @@ gSpecials::
 	def_special CanTeachMoveBoxMon
 	def_special ObjectEventInteractionGetApricornTreeData
 	def_special ObjectEventInteractionPickApricornTree
+	def_special HiddenGrotto_OnTransition
+	def_special HiddenGrotto_GetContent
+	def_special HiddenGrotto_CreateWildMon
+	def_special HiddenGrotto_Clear
+	def_special HiddenGrotto_Exit
+	def_special HiddenGrotto_RefillAll
 	def_special GetFrlgPokedexCount
 	def_special HasAllMons
 	def_special GetProfOaksRatingMessage
