@@ -3735,6 +3735,7 @@ INCGFX_U16("data/tilesets/secondary/route32_hgss/palettes/12.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/route32_hgss/palettes/13.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/route32_hgss/palettes/14.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/route32_hgss/palettes/15.pal", ".gbapal"),
+};
 const u32 gTilesetTiles_JohtoCenterPrimary[] = INCGFX_U32("data/tilesets/primary/johto_center/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_JohtoCenterPrimary[][16] = {
 INCGFX_U16("data/tilesets/primary/johto_center/palettes/00.pal", ".gbapal"),
