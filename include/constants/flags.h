@@ -43,6 +43,7 @@
 #define FLAG_TEMP_1E     (TEMP_FLAGS_START + 0x1E)
 #define FLAG_TEMP_1F     (TEMP_FLAGS_START + 0x1F)
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
+#define FLAG_SHOP_DISCOUNT FLAG_TEMP_1F    // Apocrypha: set by a Discount Corner clerk around pokemart (src/shop.c)
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
 #if IS_FRLG

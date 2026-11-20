@@ -271,6 +271,7 @@ static bool8 RockClimb_StopRockClimbInit(struct Task *task, struct ObjectEvent *
 // Static RAM declarations
 
 static u8 sActiveList[32];
+static bool8 sEscalatorWestward;   // Apocrypha: the escalator being ridden in is left to the west
 
 // External declarations
 extern u8 *gFieldEffectScriptPointers[];
@@ -1957,8 +1958,10 @@ static bool8 EscalatorWarpIn_Init(struct Task *task)
     CameraObjectFreeze();
     objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
     objectEvent->noShadow = TRUE;
-    ObjectEventSetHeldMovement(objectEvent, GetFaceDirectionMovementAction(DIR_EAST));
     PlayerGetDestCoords(&x, &y);
+    // Apocrypha: an escalator whose east side is solid (HGSS's Pokemon Centers) is left to the west
+    sEscalatorWestward = MapGridGetCollisionAt(x + 1, y) && !MapGridGetCollisionAt(x - 1, y);
+    ObjectEventSetHeldMovement(objectEvent, GetFaceDirectionMovementAction(sEscalatorWestward ? DIR_WEST : DIR_EAST));
     behavior = MapGridGetMetatileBehaviorAt(x, y);
     EscalatorMoveFollowerNPCFinish();
     task->tState++;
@@ -1983,7 +1986,7 @@ static bool8 EscalatorWarpIn_Down_Init(struct Task *task)
 {
     struct Sprite *sprite;
     sprite = &gSprites[gPlayerAvatar.spriteId];
-    sprite->x2 = Cos(0x84, task->data[1]);
+    sprite->x2 = sEscalatorWestward ? -Cos(0x84, task->data[1]) : Cos(0x84, task->data[1]);
     sprite->y2 = Sin(0x94, task->data[1]);
     task->tState++;
     return FALSE;
@@ -1993,7 +1996,7 @@ static bool8 EscalatorWarpIn_Down_Ride(struct Task *task)
 {
     struct Sprite *sprite;
     sprite = &gSprites[gPlayerAvatar.spriteId];
-    sprite->x2 = Cos(0x84, task->data[1]);
+    sprite->x2 = sEscalatorWestward ? -Cos(0x84, task->data[1]) : Cos(0x84, task->data[1]);
     sprite->y2 = Sin(0x94, task->data[1]);
     task->data[2]++;
     if (task->data[2] & 1)
@@ -2013,7 +2016,7 @@ static bool8 EscalatorWarpIn_Up_Init(struct Task *task)
 {
     struct Sprite *sprite;
     sprite = &gSprites[gPlayerAvatar.spriteId];
-    sprite->x2 = Cos(0x7c, task->data[1]);
+    sprite->x2 = sEscalatorWestward ? -Cos(0x7c, task->data[1]) : Cos(0x7c, task->data[1]);
     sprite->y2 = Sin(0x76, task->data[1]);
     task->tState++;
     return FALSE;
@@ -2023,7 +2026,7 @@ static bool8 EscalatorWarpIn_Up_Ride(struct Task *task)
 {
     struct Sprite *sprite;
     sprite = &gSprites[gPlayerAvatar.spriteId];
-    sprite->x2 = Cos(0x7c, task->data[1]);
+    sprite->x2 = sEscalatorWestward ? -Cos(0x7c, task->data[1]) : Cos(0x7c, task->data[1]);
     sprite->y2 = Sin(0x76, task->data[1]);
     task->data[2]++;
     if (task->data[2] & 1)
@@ -2059,7 +2062,7 @@ static bool8 EscalatorWarpIn_End(struct Task *task)
     {
         CameraObjectReset();
         UnlockPlayerFieldControls();
-        ObjectEventSetHeldMovement(objectEvent, GetWalkNormalMovementAction(DIR_EAST));
+        ObjectEventSetHeldMovement(objectEvent, GetWalkNormalMovementAction(sEscalatorWestward ? DIR_WEST : DIR_EAST));
         DestroyTask(FindTaskIdByFunc(Task_EscalatorWarpIn));
     }
     return FALSE;

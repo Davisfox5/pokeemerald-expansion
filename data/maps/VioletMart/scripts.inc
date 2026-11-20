@@ -11,6 +11,18 @@ VioletMart_Clerk::
     release
     end
 
+VioletMart_SpecialClerk::
+    lock
+    faceplayer
+    msgbox VioletMart_Text_Special, MSGBOX_DEFAULT
+    pokemart VioletMart_SecondStock
+    msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+    release
+    end
+
+VioletMart_Text_Special:
+    .string "This counter carries items you\nwon't find at the regular counter.$"
+
     .align 2
 VioletMart_Stock:
     .2byte ITEM_POKE_BALL
@@ -20,4 +32,10 @@ VioletMart_Stock:
     .2byte ITEM_AWAKENING
     .2byte ITEM_ESCAPE_ROPE
     .2byte ITEM_REPEL
+    pokemartlistend
+
+    .align 2
+VioletMart_SecondStock:
+    .2byte ITEM_HEAL_BALL
+    .2byte ITEM_NET_BALL
     pokemartlistend
