@@ -3690,7 +3690,7 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, enum BattlerId battler, enum
                 }
                 break;
             case ABILITY_SPEED_BOOST:
-                if (CompareStat(battler, STAT_SPEED, MAX_STAT_STAGE, CMP_LESS_THAN, gLastUsedAbility) && !BattlerJustSwitchedIn(battler))
+                if (CompareStat(battler, STAT_SPEED, DEFAULT_STAT_STAGE + B_SPEED_BOOST_MAX_STAGE, CMP_LESS_THAN, gLastUsedAbility) && !BattlerJustSwitchedIn(battler))
                 {
                     gEffectBattler = gBattlerAbility = battler;
                     SetStatChange(battler, STAT_SPEED, 1);
