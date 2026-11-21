@@ -80,7 +80,8 @@
     "gMapGroup_ProofKanto",
     "gMapGroup_ProofSinnoh",
     "gMapGroup_ProofUnova",
-    "gMapGroup_Cherrygrove"
+    "gMapGroup_Cherrygrove",
+    "gMapGroup_HiddenGrotto"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1226,5 +1227,11 @@
     "NewBarkResidence4",
     "CherrygroveRegionalPreview29",
     "CherrygroveRegionalPreview30"
+  ],
+  "gMapGroup_HiddenGrotto": [
+    "HiddenGrotto",
+    "HiddenGrottoBlossom",
+    "HiddenGrottoWinding",
+    "HiddenGrottoTestWoods"
   ]
 }

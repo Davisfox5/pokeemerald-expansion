@@ -9528,6 +9528,54 @@
       "blockdata_filepath": "data/layouts/CherrygroveRegionalPreview30/map.bin",
       "build_target": "emerald",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_HIDDEN_GROTTO",
+      "name": "HiddenGrotto_Layout",
+      "width": 32,
+      "height": 26,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_HiddenGrotto",
+      "border_filepath": "data/layouts/HiddenGrotto/border.bin",
+      "blockdata_filepath": "data/layouts/HiddenGrotto/map.bin",
+      "build_target": "emerald",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_HIDDEN_GROTTO_BLOSSOM",
+      "name": "HiddenGrottoBlossom_Layout",
+      "width": 32,
+      "height": 26,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_HiddenGrotto",
+      "border_filepath": "data/layouts/HiddenGrottoBlossom/border.bin",
+      "blockdata_filepath": "data/layouts/HiddenGrottoBlossom/map.bin",
+      "build_target": "emerald",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_HIDDEN_GROTTO_WINDING",
+      "name": "HiddenGrottoWinding_Layout",
+      "width": 32,
+      "height": 26,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_HiddenGrotto",
+      "border_filepath": "data/layouts/HiddenGrottoWinding/border.bin",
+      "blockdata_filepath": "data/layouts/HiddenGrottoWinding/map.bin",
+      "build_target": "emerald",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_HIDDEN_GROTTO_TEST_WOODS",
+      "name": "HiddenGrottoTestWoods_Layout",
+      "width": 31,
+      "height": 17,
+      "primary_tileset": "gTileset_CherrygrovePrimary",
+      "secondary_tileset": "gTileset_HiddenGrotto",
+      "border_filepath": "data/layouts/HiddenGrottoTestWoods/border.bin",
+      "blockdata_filepath": "data/layouts/HiddenGrottoTestWoods/map.bin",
+      "build_target": "emerald",
+      "layout_version": "emerald"
     }
   ]
 }

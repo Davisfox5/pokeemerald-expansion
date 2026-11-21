@@ -16,6 +16,7 @@
 #include "constants/species.h"
 #include "constants/pokedex.h"
 #include "constants/apricorn_tree.h"
+#include "constants/hidden_grotto.h"
 #include "constants/berry.h"
 #include "constants/maps.h"
 #include "constants/mass_outbreak.h"
@@ -275,6 +276,8 @@ struct SaveBlock3
     u8 apricornTrees[NUM_APRICORN_TREE_BYTES];
 #endif
     struct ApocGearState apocGear; // Apocrypha Pokegear: contacts, notes, call history
+    u8 hiddenGrottoes[HIDDEN_GROTTO_CAPACITY]; // see constants/hidden_grotto.h
+    u8 hiddenGrottoSteps;
 }; /* max size 1624 bytes */
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;

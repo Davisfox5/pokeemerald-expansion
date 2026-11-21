@@ -3121,6 +3121,26 @@ INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/14.pal", ".gbapal"),
 INCGFX_U16("data/tilesets/secondary/cherrygrove/palettes/15.pal", ".gbapal"),
 };
 
+const u32 gTilesetTiles_HiddenGrotto[] = INCGFX_U32("data/tilesets/secondary/hidden_grotto/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_HiddenGrotto[][16] = {
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/hidden_grotto/palettes/15.pal", ".gbapal"),
+};
+
 const u32 gTilesetTiles_SandgemPrimary[] = INCGFX_U32("data/tilesets/primary/sandgem/tiles.png", ".4bpp.fastSmol");
 const u16 gTilesetPalettes_SandgemPrimary[][16] = {
 INCGFX_U16("data/tilesets/primary/sandgem/palettes/00.pal", ".gbapal"),

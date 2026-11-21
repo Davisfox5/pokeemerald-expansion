@@ -20,6 +20,7 @@
 #include "field_poison.h"
 #include "field_screen_effect.h"
 #include "field_specials.h"
+#include "hidden_grotto.h"
 #include "fldeff_misc.h"
 #include "follower_npc.h"
 #include "item_menu.h"
@@ -766,6 +767,7 @@ static bool8 TryStartStepCountScript(u16 metatileBehavior)
     UpdateFriendshipStepCounter();
     UpdateFarawayIslandStepCounter();
     UpdateFollowerStepCounter();
+    UpdateHiddenGrottoStepCounter();
 
     if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_FORCED_MOVE) && !MetatileBehavior_IsForcedMovementTile(metatileBehavior))
     {
