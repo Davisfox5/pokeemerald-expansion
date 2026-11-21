@@ -1229,6 +1229,9 @@
     "CherrygroveRegionalPreview30"
   ],
   "gMapGroup_HiddenGrotto": [
-    "HiddenGrotto"
+    "HiddenGrotto",
+    "HiddenGrottoBlossom",
+    "HiddenGrottoWinding",
+    "HiddenGrottoTestWoods"
   ]
 }

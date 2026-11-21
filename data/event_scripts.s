@@ -1838,3 +1838,6 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/maps/CherrygroveRegionalPreview30/scripts.inc"
 
 .include "data/maps/HiddenGrotto/scripts.inc"
+.include "data/maps/HiddenGrottoBlossom/scripts.inc"
+.include "data/maps/HiddenGrottoWinding/scripts.inc"
+.include "data/maps/HiddenGrottoTestWoods/scripts.inc"

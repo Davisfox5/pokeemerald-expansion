@@ -1568,6 +1568,8 @@ const struct Tileset gTileset_CherrygrovePrimary = { .isCompressed = TRUE, .isSe
 
 const struct Tileset gTileset_Cherrygrove = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Cherrygrove, .palettes = gTilesetPalettes_Cherrygrove, .metatiles = gMetatiles_Cherrygrove, .metatileAttributes = gMetatileAttributes_Cherrygrove, .callback = NULL };
 
+const struct Tileset gTileset_HiddenGrotto = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_HiddenGrotto, .palettes = gTilesetPalettes_HiddenGrotto, .metatiles = gMetatiles_HiddenGrotto, .metatileAttributes = gMetatileAttributes_HiddenGrotto, .callback = NULL };
+
 const struct Tileset gTileset_SandgemPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_SandgemPrimary, .palettes = gTilesetPalettes_SandgemPrimary, .metatiles = gMetatiles_SandgemPrimary, .metatileAttributes = gMetatileAttributes_SandgemPrimary, .callback = InitTilesetAnim_General };
 
 const struct Tileset gTileset_Sandgem = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_Sandgem, .palettes = gTilesetPalettes_Sandgem, .metatiles = gMetatiles_Sandgem, .metatileAttributes = gMetatileAttributes_Sandgem, .callback = NULL };

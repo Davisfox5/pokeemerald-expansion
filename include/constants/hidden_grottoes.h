@@ -3,8 +3,10 @@
 #ifndef GUARD_CONSTANTS_HIDDEN_GROTTOES_H
 #define GUARD_CONSTANTS_HIDDEN_GROTTOES_H
 
-#define GROTTO_MAP_PROOF_JOHTO                   0  // Test grotto on the Johto map-proof field
+#define GROTTO_TEST_WOODS_HOLLOW                 0  // Test grotto: round hollow
+#define GROTTO_TEST_WOODS_BLOSSOM                1  // Test grotto: blossom ring
+#define GROTTO_TEST_WOODS_WINDING                2  // Test grotto: winding path
 
-#define HIDDEN_GROTTO_COUNT 1
+#define HIDDEN_GROTTO_COUNT 3
 
 #endif // GUARD_CONSTANTS_HIDDEN_GROTTOES_H

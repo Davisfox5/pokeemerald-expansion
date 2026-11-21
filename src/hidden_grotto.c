@@ -1,9 +1,10 @@
 // Hidden Grottoes (B2W2 style).
 //
-// A grotto entrance is an ordinary warp on a route that leads to MAP_HIDDEN_GROTTO. The grotto
-// map's own warp points to MAP_DYNAMIC, so entering sets the dynamic warp back to the entrance;
-// the grotto is identified from that dynamic warp (source map + the entrance warp's tile). One
-// shared interior therefore serves every grotto, and the exit always returns to the right route.
+// A grotto entrance is an ordinary warp on a route that leads to one of the interior maps
+// (sGrottoInteriors). Each interior's own warp points to MAP_DYNAMIC, so entering sets the dynamic
+// warp back to the entrance; the grotto is identified from that dynamic warp (source map + the
+// entrance warp's tile). Any number of grottoes can share an interior, and the exit always returns
+// to the right route.
 //
 // Each grotto holds one thing at a time: a Pokémon with its Hidden Ability, or an item. Taking it
 // (or encountering the Pokémon, win or lose) empties the grotto. Every 256 steps each empty
@@ -24,6 +25,26 @@
 #include "constants/maps.h"
 #include "constants/species.h"
 #include "data/hidden_grottoes.h"
+
+// Interior layouts a grotto entrance can lead to (gba/grottoes/grottoes.json "interior").
+static const u16 sGrottoInteriors[] =
+{
+    MAP_HIDDEN_GROTTO,
+    MAP_HIDDEN_GROTTO_BLOSSOM,
+    MAP_HIDDEN_GROTTO_WINDING,
+};
+
+static bool32 IsInGrottoInterior(void)
+{
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(sGrottoInteriors); i++)
+    {
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(sGrottoInteriors[i])
+         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(sGrottoInteriors[i]))
+            return TRUE;
+    }
+    return FALSE;
+}
 
 static u8 *GetStateByte(u32 id)
 {
@@ -82,8 +103,7 @@ void UpdateHiddenGrottoStepCounter(void)
 
     // The grotto the player is standing in doesn't refill until they leave: its content
     // object is only shown on map entry.
-    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_HIDDEN_GROTTO)
-     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_HIDDEN_GROTTO))
+    if (IsInGrottoInterior())
         inside = GetCurrentHiddenGrottoId();
 
     for (id = 0; id < HIDDEN_GROTTO_COUNT; id++)
@@ -129,7 +149,7 @@ static u16 GetSlotGraphicsId(const struct HiddenGrottoSlot *slot)
     return slot->species + OBJ_EVENT_MON;
 }
 
-// ON_TRANSITION and ON_RESUME of MAP_HIDDEN_GROTTO. The grotto borrows the route's map section
+// ON_TRANSITION and ON_RESUME of every grotto interior. The grotto borrows the route's map section
 // (name popup, region, met location), battle scene and music, then shows or hides its content.
 void HiddenGrotto_OnTransition(void)
 {

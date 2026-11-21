@@ -18,8 +18,8 @@
     {
       "local_id": "LOCALID_HIDDEN_GROTTO_CONTENT",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 7,
-      "y": 7,
+      "x": 15,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -32,8 +32,8 @@
   ],
   "warp_events": [
     {
-      "x": 7,
-      "y": 15,
+      "x": 15,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "WARP_ID_DYNAMIC"
@@ -42,8 +42,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 6,
-      "y": 16,
+      "x": 15,
+      "y": 19,
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "0",
@@ -51,26 +51,8 @@
     },
     {
       "type": "trigger",
-      "x": 7,
-      "y": 16,
-      "elevation": 3,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "HiddenGrotto_EventScript_Exit"
-    },
-    {
-      "type": "trigger",
-      "x": 8,
-      "y": 16,
-      "elevation": 3,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "HiddenGrotto_EventScript_Exit"
-    },
-    {
-      "type": "trigger",
-      "x": 9,
-      "y": 16,
+      "x": 16,
+      "y": 19,
       "elevation": 3,
       "var": "VAR_TEMP_0",
       "var_value": "0",
