@@ -9483,6 +9483,18 @@
       "layout_version": "emerald"
     },
     {
+      "id": "LAYOUT_VIOLET_EAST_GATE",
+      "name": "VioletEastGate_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoGatePrimary",
+      "secondary_tileset": "gTileset_JohtoGate",
+      "border_filepath": "data/layouts/JohtoGate/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoGate/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
+    },
+    {
       "id": "LAYOUT_DARK_CAVE_ENTRANCE",
       "name": "DarkCaveEntrance_Layout",
       "width": 14,
@@ -9538,6 +9550,18 @@
       "secondary_tileset": "gTileset_JohtoRoute36",
       "border_filepath": "data/layouts/JohtoRoute36/border.bin",
       "blockdata_filepath": "data/layouts/JohtoRoute36/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_WEST_GATE",
+      "name": "VioletWestGate_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoGatePrimary",
+      "secondary_tileset": "gTileset_JohtoGate",
+      "border_filepath": "data/layouts/JohtoGate/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoGate/map.bin",
+      "layout_version": "emerald",
+      "build_target": "emerald"
     },
     {
       "id": "LAYOUT_VIOLET_UNIVERSITY",
@@ -9650,6 +9674,16 @@
       "layout_version": "emerald"
     },
     {
+      "id": "LAYOUT_JOHTO_ROUTE32",
+      "name": "JohtoRoute32_Layout",
+      "width": 41,
+      "height": 166,
+      "primary_tileset": "gTileset_Route32Primary",
+      "secondary_tileset": "gTileset_Route32Hgss",
+      "border_filepath": "data/layouts/JohtoRoute32/border.bin",
+      "blockdata_filepath": "data/layouts/JohtoRoute32/map.bin"
+    },
+    {
       "id": "LAYOUT_JOHTO_POKEMON_CENTER_1F",
       "name": "JohtoPokemonCenter1F_Layout",
       "width": 17,
@@ -9703,38 +9737,6 @@
       "border_filepath": "data/layouts/SinnohPokemonCenter2F/border.bin",
       "blockdata_filepath": "data/layouts/SinnohPokemonCenter2F/map.bin",
       "layout_version": "emerald"
-    },
-    {
-      "id": "LAYOUT_VIOLET_EAST_GATE",
-      "name": "VioletEastGate_Layout",
-      "width": 13,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoGatePrimary",
-      "secondary_tileset": "gTileset_JohtoGate",
-      "border_filepath": "data/layouts/JohtoGate/border.bin",
-      "blockdata_filepath": "data/layouts/JohtoGate/map.bin",
-      "layout_version": "emerald"
-    },
-    {
-      "id": "LAYOUT_VIOLET_WEST_GATE",
-      "name": "VioletWestGate_Layout",
-      "width": 13,
-      "height": 9,
-      "primary_tileset": "gTileset_JohtoGatePrimary",
-      "secondary_tileset": "gTileset_JohtoGate",
-      "border_filepath": "data/layouts/JohtoGate/border.bin",
-      "blockdata_filepath": "data/layouts/JohtoGate/map.bin",
-      "layout_version": "emerald"
-    },
-    {
-      "id": "LAYOUT_JOHTO_ROUTE32",
-      "name": "JohtoRoute32_Layout",
-      "width": 41,
-      "height": 166,
-      "primary_tileset": "gTileset_Route32Primary",
-      "secondary_tileset": "gTileset_Route32Hgss",
-      "border_filepath": "data/layouts/JohtoRoute32/border.bin",
-      "blockdata_filepath": "data/layouts/JohtoRoute32/map.bin"
     }
   ]
 }
