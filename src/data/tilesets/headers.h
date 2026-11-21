@@ -1608,6 +1608,8 @@ const struct Tileset gTileset_SinnohCenterPrimary = { .isCompressed = TRUE, .isS
 const struct Tileset gTileset_SinnohCenter = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_SinnohCenter, .palettes = gTilesetPalettes_SinnohCenter, .metatiles = gMetatiles_SinnohCenter, .metatileAttributes = gMetatileAttributes_SinnohCenter, .callback = NULL };
 const struct Tileset gTileset_SinnohCenter2FPrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_SinnohCenter2FPrimary, .palettes = gTilesetPalettes_SinnohCenter2FPrimary, .metatiles = gMetatiles_SinnohCenter2FPrimary, .metatileAttributes = gMetatileAttributes_SinnohCenter2FPrimary, .callback = NULL };
 const struct Tileset gTileset_SinnohCenter2F = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_SinnohCenter2F, .palettes = gTilesetPalettes_SinnohCenter2F, .metatiles = gMetatiles_SinnohCenter2F, .metatileAttributes = gMetatileAttributes_SinnohCenter2F, .callback = NULL };
+const struct Tileset gTileset_JohtoGatePrimary = { .isCompressed = TRUE, .isSecondary = FALSE, .tiles = gTilesetTiles_JohtoGatePrimary, .palettes = gTilesetPalettes_JohtoGatePrimary, .metatiles = gMetatiles_JohtoGatePrimary, .metatileAttributes = gMetatileAttributes_JohtoGatePrimary, .callback = NULL };
+const struct Tileset gTileset_JohtoGate = { .isCompressed = TRUE, .isSecondary = TRUE, .tiles = gTilesetTiles_JohtoGate, .palettes = gTilesetPalettes_JohtoGate, .metatiles = gMetatiles_JohtoGate, .metatileAttributes = gMetatileAttributes_JohtoGate, .callback = NULL };
 // End Claude routes
 
 // Violet City and Route 36 (codex/johto-editor-consolidation)
