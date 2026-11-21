@@ -125,6 +125,7 @@ extern const struct SpriteFrameImage gPicTable_PechaBerryTree[];
 
 extern const struct SpritePalette gSpritePalette_GeneralFieldEffect0;
 extern const struct SpritePalette gSpritePalette_GeneralFieldEffect1;
+extern const struct SpritePalette gSpritePalette_JohtoTallGrass;
 
 extern const enum Direction gStandardDirections[];
 
