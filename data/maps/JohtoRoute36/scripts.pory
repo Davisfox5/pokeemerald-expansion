@@ -1,0 +1,23 @@
+raw `JohtoRoute36_MapScripts::
+    .byte 0
+`
+
+script JohtoRoute36_North {
+    msgbox("ROUTE 37\nNorth toward ECRUTEAK CITY.", MSGBOX_SIGN)
+    end
+}
+
+script JohtoRoute36_Park {
+    msgbox("NATIONAL PARK\nWest through the gate.", MSGBOX_SIGN)
+    end
+}
+
+script JohtoRoute36_Violet {
+    msgbox("ROUTE 36\nEast: VIOLET CITY", MSGBOX_SIGN)
+    end
+}
+
+script JohtoRoute36_Alph {
+    msgbox("RUINS OF ALPH\nSouth through the gate.", MSGBOX_SIGN)
+    end
+}

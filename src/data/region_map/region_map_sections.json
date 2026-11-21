@@ -1738,6 +1738,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_JOHTO_ROUTE_36",
+      "name": "ROUTE 36",
+      "x": 1,
+      "y": 4,
+      "width": 1,
+      "height": 1
     }
   ]
 }

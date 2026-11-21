@@ -3,11 +3,13 @@
 
 void InitTilesetAnimations(void);
 void InitSecondaryTilesetAnimation(void);
+void InitPrimaryTilesetAnimation(void);
 void UpdateTilesetAnimations(void);
 void TransferTilesetAnimsBuffer(void);
 
 void InitTilesetAnim_General(void);
 void InitTilesetAnim_CherrygrovePrimary(void);
+void InitTilesetAnim_CherrygroveTownPrimary(void);
 void InitTilesetAnim_Petalburg(void);
 void InitTilesetAnim_Rustboro(void);
 void InitTilesetAnim_Dewford(void);
