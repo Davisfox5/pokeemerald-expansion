@@ -7492,7 +7492,7 @@ static void Cmd_switchoutabilities(void)
         break;
     case ABILITY_REGENERATOR:
     {
-        u32 regenerate = GetNonDynamaxMaxHP(battler) / 3;
+        u32 regenerate = GetNonDynamaxMaxHP(battler) / B_REGENERATOR_HEAL_DIVISOR;
         regenerate += gBattleMons[battler].hp;
         if (regenerate > gBattleMons[battler].maxHP)
             regenerate = gBattleMons[battler].maxHP;

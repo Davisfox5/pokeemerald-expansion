@@ -107,7 +107,7 @@ gFieldEffectScript_Shadow::
 	field_eff_end
 
 gFieldEffectScript_TallGrass::
-	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEffect1, FldEff_TallGrass
+	field_eff_loadfadedpal_callnative gSpritePalette_JohtoTallGrass, FldEff_TallGrass
 	field_eff_end
 
 gFieldEffectScript_Ripple::

@@ -189,6 +189,8 @@
 #define B_STANCE_CHANGE_FAIL            GEN_LATEST // In Gen7+, Stance Change fails if the Pokémon is unable to use a move due to confusion, paralysis, etc.
 #define B_SHADOW_TAG_ESCAPE             GEN_LATEST // In Gen4+, if both sides have a Pokémon with Shadow Tag, all battlers can escape. Previously, neither side could escape this situation.
 #define B_MOODY_ACC_EVASION             GEN_8      // In Gen8+, Moody can no longer raise accuracy and evasion.
+#define B_SPEED_BOOST_MAX_STAGE         3          // Apocrypha (owner, 2026-11-20): Speed Boost stops raising Speed once it is at +3 or higher. Official games: +6 (MAX_STAT_STAGE - DEFAULT_STAT_STAGE).
+#define B_REGENERATOR_HEAL_DIVISOR      4          // Apocrypha (owner, 2026-11-20): Regenerator heals 1/4 of max HP on switching out. Official games: 3.
 #define B_FLASH_FIRE_FROZEN             GEN_LATEST // In Gen5+, Flash Fire activates even when frozen.
 #define B_SYNCHRONIZE_TOXIC             GEN_LATEST // In Gen5+, if a Pokémon with Synchronize is badly poisoned, the opponent will also become badly poisoned. Previously, the opponent would be inflicted with regular poison.
 #define B_UPDATED_INTIMIDATE            GEN_LATEST // In Gen8+, Intimidate no longer works on opponents with the Inner Focus, Scrappy, Own Tempo or Oblivious Abilities. It also activates Rattled.

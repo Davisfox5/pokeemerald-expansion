@@ -1138,7 +1138,7 @@ static bool32 CanMonSurviveHazardSwitchin(struct SwitchAiContext *switchContext)
     enum Move aiMove;
 
     if (ability == ABILITY_REGENERATOR)
-        battlerHp = (battlerHp * 133) / 100; // Account for Regenerator healing
+        battlerHp = (battlerHp * (100 + 100 / B_REGENERATOR_HEAL_DIVISOR)) / 100; // Account for Regenerator healing
 
     hazardDamage = GetSwitchinHazardsDamage(switchContext->battler);
 
