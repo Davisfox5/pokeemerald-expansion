@@ -724,6 +724,10 @@ void Task_WarpAndLoadMap(u8 taskId)
 }
 
 #define tDoorTask   data[1]
+#define tWalkFrames data[4]
+
+// Frames into the step onto a door tile (16 frames) when the warp fade starts.
+#define DOOR_FADE_START 8
 
 enum
 {
@@ -783,15 +787,22 @@ void Task_DoDoorWarp(u8 taskId)
         }
         break;
     case DOORWARP_HIDE_PLAYER:
-        if (IsPlayerStandingStill())
+        // Apocrypha: the fade starts halfway through the step onto the door
+        // tile, so the screen is already darkening as the player arrives and
+        // the warp follows the moment they stop. The door stays open and the
+        // player stays visible under the fade.
+        if (task->tWalkFrames == DOOR_FADE_START)
         {
-            // Don't close door on NPC follower.
-            if (!PlayerHasFollowerNPC() || gObjectEvents[followerObjId].invisible)
-                task->tDoorTask = FieldAnimateDoorClose(*x, *y - 1);
-
+            TryFadeOutOldMapMusic();
+            WarpFadeOutScreen();
+            PlayRainStoppingSoundEffect();
+        }
+        if (task->tWalkFrames <= DOOR_FADE_START)
+            task->tWalkFrames++;
+        else if (IsPlayerStandingStill())
+        {
             ObjectEventClearHeldMovementIfFinished(&gObjectEvents[playerObjId]);
-            SetPlayerVisibility(FALSE);
-            task->tState = DOORWARP_WAIT_DOOR_ANIM_TASK;
+            task->tState = DOORWARP_DO_WARP;
         }
         break;
     case DOORWARP_WAIT_DOOR_ANIM_TASK:
@@ -805,14 +816,20 @@ void Task_DoDoorWarp(u8 taskId)
             ObjectEventSetHeldMovement(&gObjectEvents[followerObjId], MOVEMENT_ACTION_WALK_NORMAL_UP);
         }
 
-        TryFadeOutOldMapMusic();
-        WarpFadeOutScreen();
-        PlayRainStoppingSoundEffect();
+        // The fade already started during the step onto the door tile.
+        if (task->tWalkFrames == 0)
+        {
+            TryFadeOutOldMapMusic();
+            WarpFadeOutScreen();
+            PlayRainStoppingSoundEffect();
+        }
         task->tState = 0;
         task->func = Task_WarpAndLoadMap;
         break;
     }
 }
+
+#undef tWalkFrames
 
 static void Task_DoContestHallWarp(u8 taskId)
 {
