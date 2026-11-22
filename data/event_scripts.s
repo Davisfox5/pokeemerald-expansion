@@ -1751,6 +1751,8 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 .include "data/maps/CherrygroveCity/scripts.inc"
 
+.include "data/maps/KantoFuchsiaCity/scripts.inc"
+
 .include "data/maps/CherrygrovePlayerHouse/scripts.inc"
 
 .include "data/maps/CherrygroveGoldHouse/scripts.inc"
