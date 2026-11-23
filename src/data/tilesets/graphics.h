@@ -3298,3 +3298,43 @@ INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/14.pal", ".gbapal")
 INCGFX_U16("data/tilesets/secondary/violet_entrance/palettes/15.pal", ".gbapal"),
 };
 // End Claude routes
+
+const u32 gTilesetTiles_KantoFuchsia[] = INCGFX_U32("data/tilesets/primary/kanto_fuchsia/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoFuchsia[][16] = {
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/primary/kanto_fuchsia/palettes/15.pal", ".gbapal"),
+};
+
+const u32 gTilesetTiles_KantoFuchsiaCity[] = INCGFX_U32("data/tilesets/secondary/fuchsia_city_kanto/tiles.png", ".4bpp.fastSmol");
+const u16 gTilesetPalettes_KantoFuchsiaCity[][16] = {
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/00.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/01.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/02.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/03.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/04.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/05.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/06.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/07.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/08.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/09.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/10.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/11.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/12.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/13.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/14.pal", ".gbapal"),
+INCGFX_U16("data/tilesets/secondary/fuchsia_city_kanto/palettes/15.pal", ".gbapal"),
+};

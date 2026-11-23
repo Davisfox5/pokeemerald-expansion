@@ -9528,6 +9528,18 @@
       "blockdata_filepath": "data/layouts/CherrygroveRegionalPreview30/map.bin",
       "build_target": "emerald",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_KANTO_FUCHSIA_CITY",
+      "name": "KantoFuchsiaCity_Layout",
+      "width": 64,
+      "height": 64,
+      "primary_tileset": "gTileset_KantoFuchsia",
+      "secondary_tileset": "gTileset_KantoFuchsiaCity",
+      "border_filepath": "data/layouts/KantoFuchsiaCity/border.bin",
+      "blockdata_filepath": "data/layouts/KantoFuchsiaCity/map.bin",
+      "build_target": "emerald",
+      "layout_version": "emerald"
     }
   ]
 }
