@@ -16,9 +16,10 @@ struct HiddenGrottoSlot
 struct HiddenGrotto
 {
     u16 map;       // the map the entrance is on (MAP_* constant)
-    u8 x;          // entrance warp tile on that map
+    u8 x;          // leftmost entrance warp tile on that map
     u8 y;
     u8 slotCount;
+    u8 width;      // entrance warp tiles side by side from x (the two cells where two trees meet)
     const struct HiddenGrottoSlot *slots;
 };
 

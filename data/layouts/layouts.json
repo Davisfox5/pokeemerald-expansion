@@ -9568,7 +9568,7 @@
     {
       "id": "LAYOUT_HIDDEN_GROTTO_TEST_WOODS",
       "name": "HiddenGrottoTestWoods_Layout",
-      "width": 31,
+      "width": 30,
       "height": 17,
       "primary_tileset": "gTileset_CherrygrovePrimary",
       "secondary_tileset": "gTileset_HiddenGrotto",

@@ -17,22 +17,43 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 4,
-      "y": 9,
+      "x": 5,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_HIDDEN_GROTTO",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 11,
       "elevation": 0,
       "dest_map": "MAP_HIDDEN_GROTTO",
       "dest_warp_id": "0"
     },
     {
       "x": 15,
-      "y": 9,
+      "y": 11,
       "elevation": 0,
       "dest_map": "MAP_HIDDEN_GROTTO_BLOSSOM",
       "dest_warp_id": "0"
     },
     {
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_HIDDEN_GROTTO_BLOSSOM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_HIDDEN_GROTTO_WINDING",
+      "dest_warp_id": "0"
+    },
+    {
       "x": 26,
-      "y": 9,
+      "y": 11,
       "elevation": 0,
       "dest_map": "MAP_HIDDEN_GROTTO_WINDING",
       "dest_warp_id": "0"

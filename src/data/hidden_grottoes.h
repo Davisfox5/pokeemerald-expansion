@@ -26,25 +26,28 @@ const struct HiddenGrotto gHiddenGrottoes[HIDDEN_GROTTO_COUNT + 1] =
     [GROTTO_TEST_WOODS_HOLLOW] =
     {
         .map = MAP_HIDDEN_GROTTO_TEST_WOODS,
-        .x = 4,
-        .y = 9,
+        .x = 5,
+        .y = 11,
         .slotCount = ARRAY_COUNT(sGrottoTestWoodsHollowSlots),
+        .width = 2,
         .slots = sGrottoTestWoodsHollowSlots,
     },
     [GROTTO_TEST_WOODS_BLOSSOM] =
     {
         .map = MAP_HIDDEN_GROTTO_TEST_WOODS,
         .x = 15,
-        .y = 9,
+        .y = 11,
         .slotCount = ARRAY_COUNT(sGrottoTestWoodsBlossomSlots),
+        .width = 2,
         .slots = sGrottoTestWoodsBlossomSlots,
     },
     [GROTTO_TEST_WOODS_WINDING] =
     {
         .map = MAP_HIDDEN_GROTTO_TEST_WOODS,
-        .x = 26,
-        .y = 9,
+        .x = 25,
+        .y = 11,
         .slotCount = ARRAY_COUNT(sGrottoTestWoodsWindingSlots),
+        .width = 2,
         .slots = sGrottoTestWoodsWindingSlots,
     },
 };

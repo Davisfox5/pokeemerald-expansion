@@ -134,7 +134,8 @@ u32 GetCurrentHiddenGrottoId(void)
     map = (exit->mapGroup << 8) | exit->mapNum;
     for (id = 0; id < HIDDEN_GROTTO_COUNT; id++)
     {
-        if (gHiddenGrottoes[id].map == map && gHiddenGrottoes[id].x == warp->x && gHiddenGrottoes[id].y == warp->y)
+        if (gHiddenGrottoes[id].map == map && gHiddenGrottoes[id].y == warp->y
+         && warp->x >= gHiddenGrottoes[id].x && warp->x < gHiddenGrottoes[id].x + gHiddenGrottoes[id].width)
             return id;
     }
     return GROTTO_NONE;
