@@ -1,7 +1,7 @@
 {
   "id": "MAP_SANDGEM_POKEMON_CENTER",
   "name": "SandgemPokemonCenter",
-  "layout": "LAYOUT_POKEMON_CENTER_1F",
+  "layout": "LAYOUT_SINNOH_POKEMON_CENTER_1F",
   "music": "MUS_POKE_CENTER",
   "region": "REGION_SINNOH",
   "region_map_section": "MAPSEC_SANDGEM_TOWN",
@@ -19,7 +19,7 @@
     {
       "local_id": "LOCALID_NURSE",
       "graphics_id": "OBJ_EVENT_GFX_NURSE",
-      "x": 7,
+      "x": 8,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -33,23 +33,23 @@
   ],
   "warp_events": [
     {
-      "x": 7,
-      "y": 8,
+      "x": 8,
+      "y": 10,
       "elevation": 3,
       "dest_map": "MAP_SANDGEM_TOWN",
       "dest_warp_id": "1"
     },
     {
-      "x": 6,
-      "y": 8,
+      "x": 9,
+      "y": 10,
       "elevation": 3,
       "dest_map": "MAP_SANDGEM_TOWN",
       "dest_warp_id": "1"
     },
     {
       "x": 1,
-      "y": 6,
-      "elevation": 4,
+      "y": 8,
+      "elevation": 3,
       "dest_map": "MAP_SANDGEM_CENTER_UPSTAIRS",
       "dest_warp_id": "0"
     }
