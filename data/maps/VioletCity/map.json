@@ -120,6 +120,13 @@
       "elevation": 0,
       "dest_map": "MAP_VIOLET_WEST_GATE",
       "dest_warp_id": "2"
+    },
+    {
+      "x": 70,
+      "y": 42,
+      "elevation": 0,
+      "dest_map": "MAP_VIOLET_HOUSE_6",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

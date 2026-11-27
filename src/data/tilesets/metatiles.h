@@ -511,3 +511,7 @@ const u16 gMetatiles_SinnohCenter2FPrimary[] = INCBIN_U16("data/tilesets/primary
 const u16 gMetatileAttributes_SinnohCenter2FPrimary[] = INCBIN_U16("data/tilesets/primary/sinnoh_center_2f/metatile_attributes.bin");
 const u16 gMetatiles_SinnohCenter2F[] = INCBIN_U16("data/tilesets/secondary/sinnoh_center_2f/metatiles.bin");
 const u16 gMetatileAttributes_SinnohCenter2F[] = INCBIN_U16("data/tilesets/secondary/sinnoh_center_2f/metatile_attributes.bin");
+const u16 gMetatiles_JohtoGatePrimary[] = INCBIN_U16("data/tilesets/primary/johto_gate/metatiles.bin");
+const u16 gMetatileAttributes_JohtoGatePrimary[] = INCBIN_U16("data/tilesets/primary/johto_gate/metatile_attributes.bin");
+const u16 gMetatiles_JohtoGate[] = INCBIN_U16("data/tilesets/secondary/johto_gate/metatiles.bin");
+const u16 gMetatileAttributes_JohtoGate[] = INCBIN_U16("data/tilesets/secondary/johto_gate/metatile_attributes.bin");
